@@ -1,0 +1,68 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "urban",
+      "contemplative",
+      "solitary",
+      "wistful"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "urban-gritty"
+    ],
+    "objects": [
+      "buildings",
+      "person",
+      "graffiti",
+      "sidewalk",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "anxious",
+      "hurried",
+      "desperate",
+      "uneasy"
+    ],
+    "style": [
+      "urban",
+      "gritty",
+      "neutral"
+    ],
+    "objects": [
+      "person",
+      "sidewalk",
+      "buildings",
+      "street",
+      "graffiti"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "urban",
+      "solitary",
+      "bleak",
+      "gritty",
+      "somber"
+    ],
+    "style": [
+      "urban",
+      "gritty",
+      "moody"
+    ],
+    "objects": [
+      "graffiti",
+      "sidewalk",
+      "building",
+      "tree",
+      "person"
+    ]
+  }
+}

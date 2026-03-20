@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "intimidating",
+      "destructive",
+      "chaotic",
+      "tense"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "dynamic"
+    ],
+    "objects": [
+      "monster",
+      "cobblestone",
+      "fruit",
+      "vegetables",
+      "wooden planks"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "animated",
+      "dynamic",
+      "colorful"
+    ],
+    "objects": [
+      "vegetables",
+      "creature",
+      "cobblestone",
+      "crates"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "mischievous",
+      "chaotic",
+      "destructive",
+      "energetic"
+    ],
+    "style": [
+      "animated",
+      "warm-lit",
+      "medieval"
+    ],
+    "objects": [
+      "black cat",
+      "fruits",
+      "wooden stalls",
+      "cobblestone street"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "official",
+      "inquisitive",
+      "formal",
+      "guarded"
+    ],
+    "style": [
+      "realistic",
+      "staged",
+      "cluttered"
+    ],
+    "objects": [
+      "police officer",
+      "desk",
+      "filing cabinet",
+      "american flag"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "focused",
+      "professional",
+      "subdued"
+    ],
+    "style": [
+      "cinematic",
+      "low-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "desk",
+      "american flag",
+      "filing cabinet",
+      "papers",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "focused",
+      "professional",
+      "tense",
+      "investigative"
+    ],
+    "style": [
+      "dimly-lit",
+      "cluttered",
+      "official"
+    ],
+    "objects": [
+      "desk",
+      "computer",
+      "flag",
+      "papers",
+      "chair"
+    ]
+  }
+}

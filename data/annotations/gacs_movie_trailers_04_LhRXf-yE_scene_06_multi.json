@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "peaceful",
+      "reflective",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "silhouetted"
+    ],
+    "objects": [
+      "temple",
+      "person",
+      "courtyard",
+      "pillars",
+      "pagoda"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "watchful",
+      "calm",
+      "focused",
+      "contemplative"
+    ],
+    "style": [
+      "symmetrical",
+      "muted",
+      "framed"
+    ],
+    "objects": [
+      "building",
+      "people",
+      "gate",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "contemplative",
+      "tranquil",
+      "traditional",
+      "nostalgic"
+    ],
+    "style": [
+      "symmetrical",
+      "atmospheric",
+      "muted"
+    ],
+    "objects": [
+      "people",
+      "garden",
+      "building",
+      "trees"
+    ]
+  }
+}

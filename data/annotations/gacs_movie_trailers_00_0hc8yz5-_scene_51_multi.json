@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "focused",
+      "reverent",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "person",
+      "organ",
+      "keyboard",
+      "pipes"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "reverent",
+      "somber",
+      "dignified",
+      "melancholic"
+    ],
+    "style": [
+      "low-key",
+      "vintage",
+      "theatrical"
+    ],
+    "objects": [
+      "woman",
+      "organ",
+      "church interior"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "focused",
+      "reverent",
+      "timeless",
+      "solemn"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "organ",
+      "person",
+      "keyboard",
+      "windows"
+    ]
+  }
+}

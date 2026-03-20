@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serious",
+      "tense",
+      "somber",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "airplane windows",
+      "man",
+      "aircraft interior"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "tense",
+      "serious",
+      "urgent",
+      "worried"
+    ],
+    "style": [
+      "realistic",
+      "tense",
+      "interior"
+    ],
+    "objects": [
+      "airplane window",
+      "man",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "confrontational",
+      "dramatic",
+      "serious",
+      "emotional"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "intense"
+    ],
+    "objects": [
+      "person",
+      "plane window"
+    ]
+  }
+}

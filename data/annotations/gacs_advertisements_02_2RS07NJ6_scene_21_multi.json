@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "concentrated",
+      "serious"
+    ],
+    "style": [
+      "dynamic",
+      "intense",
+      "close-up"
+    ],
+    "objects": [
+      "helmet",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "claustrophobic",
+      "disoriented",
+      "uneasy",
+      "dark",
+      "mysterious"
+    ],
+    "style": [
+      "low-key",
+      "blurry",
+      "handheld"
+    ],
+    "objects": [
+      "hand",
+      "wallet"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "intense",
+      "ominous",
+      "brooding"
+    ],
+    "style": [
+      "blurry",
+      "dark",
+      "motion-blur"
+    ],
+    "objects": [
+      "person",
+      "car interior",
+      "steering wheel",
+      "dashboard"
+    ]
+  }
+}

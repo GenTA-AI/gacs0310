@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sinister",
+      "menacing",
+      "unsettling",
+      "ominous",
+      "threatening"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "framed"
+    ],
+    "objects": [
+      "man",
+      "window",
+      "priest collar",
+      "brick wall"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "eerie",
+      "unsettling",
+      "watchful",
+      "intense"
+    ],
+    "style": [
+      "eerie",
+      "claustrophobic",
+      "dramatic"
+    ],
+    "objects": [
+      "window",
+      "man",
+      "brick wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "focused",
+      "curious",
+      "introspective"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "focused"
+    ],
+    "objects": [
+      "priest",
+      "window",
+      "bricks"
+    ]
+  }
+}

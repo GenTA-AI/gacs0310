@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "perplexed",
+      "curious",
+      "observant",
+      "neutral",
+      "calm"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "muted"
+    ],
+    "objects": [
+      "dog",
+      "ceiling fan",
+      "television"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "surprised",
+      "neutral",
+      "calm",
+      "reserved"
+    ],
+    "style": [
+      "cartoon",
+      "minimalist",
+      "muted-colors"
+    ],
+    "objects": [
+      "dog",
+      "ceiling fan",
+      "window",
+      "tv"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surprised",
+      "confused",
+      "concerned",
+      "bewildered",
+      "anxious"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon-style"
+    ],
+    "objects": [
+      "dog",
+      "ceiling fan",
+      "television",
+      "room"
+    ]
+  }
+}

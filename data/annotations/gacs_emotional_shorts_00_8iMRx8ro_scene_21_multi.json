@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "relieved",
+      "optimistic",
+      "cheerful",
+      "positive"
+    ],
+    "style": [
+      "low-resolution",
+      "medium-shot",
+      "news-style"
+    ],
+    "objects": [
+      "man",
+      "painting",
+      "news graphic"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "relieved",
+      "hopeful",
+      "reporting",
+      "serious"
+    ],
+    "style": [
+      "news-style",
+      "candid",
+      "informal"
+    ],
+    "objects": [
+      "man",
+      "calendar",
+      "wood paneling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relieved",
+      "grateful",
+      "hopeful",
+      "concerned",
+      "thankful"
+    ],
+    "style": [
+      "broadcast",
+      "amateur",
+      "handheld"
+    ],
+    "objects": [
+      "man",
+      "news graphics",
+      "wall",
+      "pictures"
+    ]
+  }
+}

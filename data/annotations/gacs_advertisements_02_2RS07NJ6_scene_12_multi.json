@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "shadowy",
+      "mysterious",
+      "obscured",
+      "tense",
+      "uncertain"
+    ],
+    "style": [
+      "low-key",
+      "shadowy",
+      "claustrophobic"
+    ],
+    "objects": [
+      "window",
+      "blinds"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "intense",
+      "moody",
+      "dramatic"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "silhouetted"
+    ],
+    "objects": [
+      "microphone",
+      "person",
+      "shadow"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ominous",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "moody",
+      "atmospheric",
+      "shadowy"
+    ],
+    "objects": [
+      "person",
+      "knife",
+      "clothing",
+      "hand"
+    ]
+  }
+}

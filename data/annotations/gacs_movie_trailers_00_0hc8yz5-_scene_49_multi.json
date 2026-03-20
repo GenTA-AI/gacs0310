@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "cold",
+      "eerie",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "monochromatic"
+    ],
+    "objects": [
+      "door",
+      "walls",
+      "steps",
+      "corridor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "somber",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "mysterious"
+    ],
+    "objects": [
+      "mausoleum",
+      "stairs",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "somber",
+      "cold",
+      "bleak",
+      "mysterious"
+    ],
+    "style": [
+      "gloomy",
+      "muted",
+      "symmetrical"
+    ],
+    "objects": [
+      "monument",
+      "stairs",
+      "inscription"
+    ]
+  }
+}

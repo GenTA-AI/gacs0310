@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "intense",
+      "determined",
+      "focused",
+      "contemplative"
+    ],
+    "style": [
+      "gritty",
+      "dark",
+      "neon-lit"
+    ],
+    "objects": [
+      "eminem",
+      "writings"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "reflective",
+      "futuristic"
+    ],
+    "style": [
+      "cinematic",
+      "intense",
+      "reflective"
+    ],
+    "objects": [
+      "person",
+      "glass",
+      "handwriting"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "serious",
+      "concentrated"
+    ],
+    "style": [
+      "cinematic",
+      "neon-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "gun",
+      "muzzle flash",
+      "text overlay"
+    ]
+  }
+}

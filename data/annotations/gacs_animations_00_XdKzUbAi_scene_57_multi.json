@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "nostalgic",
+      "inviting",
+      "cozy",
+      "whimsical"
+    ],
+    "style": [
+      "warm-toned",
+      "textured",
+      "dark"
+    ],
+    "objects": [
+      "red creature",
+      "person",
+      "shelves",
+      "teapot"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "intense",
+      "overwhelming",
+      "confused",
+      "destructive"
+    ],
+    "style": [
+      "saturated",
+      "cartoonish",
+      "reddish"
+    ],
+    "objects": [
+      "red panda",
+      "doorway",
+      "shelf"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "ominous",
+      "mysterious",
+      "threatening"
+    ],
+    "style": [
+      "dramatic",
+      "red-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "red fur creature",
+      "mirror",
+      "room interior",
+      "figure reflection"
+    ]
+  }
+}

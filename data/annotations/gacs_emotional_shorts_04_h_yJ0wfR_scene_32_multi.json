@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "kind",
+      "thoughtful",
+      "gentle",
+      "wise",
+      "calm"
+    ],
+    "style": [
+      "shallow-focus",
+      "naturalistic",
+      "documentary"
+    ],
+    "objects": [
+      "man",
+      "road",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "contemplative",
+      "gentle",
+      "serene",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "elderly man",
+      "road",
+      "trees",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "wise",
+      "contemplative",
+      "serene",
+      "gentle"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "elderly woman",
+      "white clothing",
+      "subtitles",
+      "blurred background"
+    ]
+  }
+}

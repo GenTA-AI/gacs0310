@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "mischievous",
+      "lively",
+      "adventurous",
+      "theatrical"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "tavern-setting"
+    ],
+    "objects": [
+      "puss in boots",
+      "people",
+      "tables",
+      "chairs"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "lively",
+      "adventurous",
+      "bustling",
+      "spirited"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "cat",
+      "tavern",
+      "people",
+      "tables",
+      "chairs"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "adventurous",
+      "lively",
+      "energetic",
+      "upbeat"
+    ],
+    "style": [
+      "animated",
+      "warm",
+      "crowded"
+    ],
+    "objects": [
+      "cat",
+      "hat",
+      "tables",
+      "chairs",
+      "people"
+    ]
+  }
+}

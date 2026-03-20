@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "perilous",
+      "thrilling",
+      "dangerous"
+    ],
+    "style": [
+      "aerial",
+      "cinematic",
+      "urban"
+    ],
+    "objects": [
+      "helicopter",
+      "buildings",
+      "rooftop",
+      "streets"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "destructive",
+      "urgent",
+      "tense",
+      "alarming"
+    ],
+    "style": [
+      "realistic",
+      "high-angle",
+      "desaturated"
+    ],
+    "objects": [
+      "buildings",
+      "street",
+      "vehicles",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "bustling",
+      "urban",
+      "dynamic",
+      "energetic"
+    ],
+    "style": [
+      "cinematic",
+      "wide-angle",
+      "urban"
+    ],
+    "objects": [
+      "intersection",
+      "trucks",
+      "cars",
+      "building"
+    ]
+  }
+}

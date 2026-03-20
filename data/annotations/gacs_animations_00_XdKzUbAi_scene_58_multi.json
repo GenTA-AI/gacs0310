@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frantic",
+      "stressed",
+      "panicked",
+      "desperate",
+      "strained"
+    ],
+    "style": [
+      "cartoonish",
+      "vibrant",
+      "expressive"
+    ],
+    "objects": [
+      "woman",
+      "fan",
+      "red panda"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "energetic",
+      "excited",
+      "playful"
+    ],
+    "style": [
+      "surreal",
+      "red-tinted",
+      "dreamlike"
+    ],
+    "objects": [
+      "person",
+      "fan",
+      "red lighting",
+      "green clothing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprised",
+      "intense",
+      "worried",
+      "chaotic",
+      "determined"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "dynamic"
+    ],
+    "objects": [
+      "person",
+      "fan",
+      "fur"
+    ]
+  }
+}

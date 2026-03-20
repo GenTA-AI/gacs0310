@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "somber",
+      "determined",
+      "concerned",
+      "contemplative"
+    ],
+    "style": [
+      "naturalistic",
+      "somber",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "police uniform",
+      "hat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "somber",
+      "introspective",
+      "reflective"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "naturalistic"
+    ],
+    "objects": [
+      "police hat",
+      "badge",
+      "uniform",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "authoritative",
+      "somber",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "natural-lighting"
+    ],
+    "objects": [
+      "police officer",
+      "hat",
+      "uniform",
+      "trees"
+    ]
+  }
+}

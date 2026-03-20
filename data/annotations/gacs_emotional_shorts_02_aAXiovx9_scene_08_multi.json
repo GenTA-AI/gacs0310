@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "calm",
+      "contemplative",
+      "ethereal"
+    ],
+    "style": [
+      "dreamlike",
+      "hazy",
+      "layered"
+    ],
+    "objects": [
+      "flowers",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "peaceful",
+      "gentle",
+      "harmonious"
+    ],
+    "style": [
+      "textured",
+      "overlay",
+      "soft"
+    ],
+    "objects": [
+      "hand",
+      "flowers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "eerie",
+      "haunting",
+      "melancholic",
+      "surreal",
+      "unsettling"
+    ],
+    "style": [
+      "surreal",
+      "dreamlike",
+      "double-exposed"
+    ],
+    "objects": [
+      "hand",
+      "flowers",
+      "water",
+      "leaves"
+    ]
+  }
+}

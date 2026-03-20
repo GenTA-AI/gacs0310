@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "formal",
+      "watchful",
+      "observant"
+    ],
+    "style": [
+      "candid",
+      "urban",
+      "muted"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "sunglasses",
+      "cane"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "determined",
+      "assertive",
+      "focused",
+      "bold"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "blurred"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "sunglasses",
+      "cane"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "dynamic",
+      "casual",
+      "spontaneous",
+      "playful"
+    ],
+    "style": [
+      "handheld",
+      "motion-blur",
+      "documentary"
+    ],
+    "objects": [
+      "person",
+      "stairs",
+      "railing",
+      "building"
+    ]
+  }
+}

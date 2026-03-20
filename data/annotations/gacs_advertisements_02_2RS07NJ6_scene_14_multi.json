@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fast",
+      "competitive",
+      "urgent",
+      "focused",
+      "determined"
+    ],
+    "style": [
+      "pov",
+      "fast",
+      "desaturated"
+    ],
+    "objects": [
+      "race track",
+      "barrier",
+      "bridge"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "speedy",
+      "exhilarating",
+      "intense",
+      "dynamic",
+      "anticipatory"
+    ],
+    "style": [
+      "motion-blur",
+      "high-contrast",
+      "dynamic"
+    ],
+    "objects": [
+      "race track",
+      "road",
+      "fence",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "fast",
+      "exhilarating",
+      "dynamic",
+      "intense",
+      "thrilling"
+    ],
+    "style": [
+      "motion-blur",
+      "wide-angle",
+      "racing"
+    ],
+    "objects": [
+      "race track",
+      "barriers",
+      "grandstand",
+      "asphalt",
+      "sky"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clinical",
+      "futuristic",
+      "sterile",
+      "uniform",
+      "detached"
+    ],
+    "style": [
+      "high-key",
+      "futuristic",
+      "minimalist"
+    ],
+    "objects": [
+      "people",
+      "floor",
+      "lights",
+      "track lines"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "minimalist",
+      "pristine",
+      "ethereal"
+    ],
+    "style": [
+      "minimalist",
+      "monochromatic",
+      "high-fashion"
+    ],
+    "objects": [
+      "runway",
+      "models",
+      "lights",
+      "clothing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "robotic",
+      "minimalist",
+      "clinical",
+      "orderly"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "monochromatic"
+    ],
+    "objects": [
+      "fashion models",
+      "runway",
+      "lights",
+      "ropes"
+    ]
+  }
+}

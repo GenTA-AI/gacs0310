@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dynamic",
+      "focused",
+      "energetic",
+      "competitive"
+    ],
+    "style": [
+      "futuristic",
+      "dynamic",
+      "colorful"
+    ],
+    "objects": [
+      "people",
+      "glass",
+      "writing",
+      "computers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "energetic",
+      "creative",
+      "futuristic",
+      "competitive"
+    ],
+    "style": [
+      "neon-lit",
+      "edgy",
+      "dark"
+    ],
+    "objects": [
+      "man",
+      "text",
+      "monitor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "dynamic",
+      "futuristic",
+      "energetic",
+      "confrontational"
+    ],
+    "style": [
+      "futuristic",
+      "holographic",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "holographic display",
+      "computer terminal",
+      "digital interface"
+    ]
+  }
+}

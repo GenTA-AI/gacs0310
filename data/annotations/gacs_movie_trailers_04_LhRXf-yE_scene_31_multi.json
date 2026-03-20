@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "competitive",
+      "focused",
+      "physical",
+      "determined"
+    ],
+    "style": [
+      "documentary",
+      "handheld",
+      "fluorescent-lit"
+    ],
+    "objects": [
+      "people",
+      "logo",
+      "wall",
+      "floor",
+      "lighting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "aggressive",
+      "intense",
+      "competitive",
+      "determined"
+    ],
+    "style": [
+      "dynamic",
+      "action-oriented",
+      "neutral"
+    ],
+    "objects": [
+      "people",
+      "wall",
+      "mirror"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dynamic",
+      "energetic",
+      "confrontational",
+      "focused"
+    ],
+    "style": [
+      "action-packed",
+      "dynamic",
+      "realistic"
+    ],
+    "objects": [
+      "people",
+      "uniforms",
+      "wall sign",
+      "benches",
+      "mirror"
+    ]
+  }
+}

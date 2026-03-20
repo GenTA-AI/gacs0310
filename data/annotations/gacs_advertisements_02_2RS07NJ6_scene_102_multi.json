@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "excited",
+      "friendly",
+      "triumphant"
+    ],
+    "style": [
+      "candid",
+      "dynamic",
+      "soft-focus"
+    ],
+    "objects": [
+      "people",
+      "handshake",
+      "porsche logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "camaraderie",
+      "victorious",
+      "proud",
+      "friendly"
+    ],
+    "style": [
+      "bright",
+      "clean",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "suit",
+      "handshake"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "joyful",
+      "warm",
+      "loving"
+    ],
+    "style": [
+      "cinematic",
+      "soft-lit",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "uniform",
+      "face",
+      "clothing",
+      "shadow"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "determined",
+      "focused",
+      "powerful",
+      "glowing"
+    ],
+    "style": [
+      "animated",
+      "close-up",
+      "intense"
+    ],
+    "objects": [
+      "face",
+      "eyes",
+      "eyebrows",
+      "hair"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "menacing",
+      "supernatural",
+      "threatening",
+      "ominous"
+    ],
+    "style": [
+      "dramatic",
+      "cyberpunk",
+      "close-up"
+    ],
+    "objects": [
+      "face",
+      "eyes",
+      "eyebrows",
+      "forehead"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "determined",
+      "powerful",
+      "focused",
+      "dramatic"
+    ],
+    "style": [
+      "animated",
+      "intense",
+      "glowing"
+    ],
+    "objects": [
+      "eyes",
+      "eyebrows",
+      "hair",
+      "skin"
+    ]
+  }
+}

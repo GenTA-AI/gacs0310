@@ -1,0 +1,59 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "grand",
+      "mysterious",
+      "adventurous",
+      "exciting"
+    ],
+    "style": [
+      "golden",
+      "simple",
+      "elegant"
+    ],
+    "objects": [
+      "puss in boots",
+      "number 3"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "exciting",
+      "magical",
+      "playful",
+      "whimsical"
+    ],
+    "style": [
+      "golden",
+      "bold",
+      "classic"
+    ],
+    "objects": [
+      "puss in boots 3"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "cinematic",
+      "anticipatory",
+      "enchanting"
+    ],
+    "style": [
+      "golden",
+      "cinematic",
+      "fantasy-inspired"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "title"
+    ]
+  }
+}

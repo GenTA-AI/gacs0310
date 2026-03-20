@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "ceremonial",
+      "respectful",
+      "formal",
+      "dignified"
+    ],
+    "style": [
+      "cinematic",
+      "motion-blur",
+      "ceremonial"
+    ],
+    "objects": [
+      "honor guard",
+      "rifles",
+      "uniforms",
+      "ceremony"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "respectful",
+      "formal",
+      "disciplined",
+      "somber"
+    ],
+    "style": [
+      "patriotic",
+      "formal",
+      "controlled"
+    ],
+    "objects": [
+      "soldiers",
+      "rifles",
+      "uniforms"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "formal",
+      "solemn",
+      "disciplined",
+      "respectful",
+      "serious"
+    ],
+    "style": [
+      "dramatic",
+      "uniformed",
+      "formal"
+    ],
+    "objects": [
+      "soldiers",
+      "rifles",
+      "uniforms",
+      "gloves"
+    ]
+  }
+}

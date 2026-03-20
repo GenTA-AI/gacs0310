@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "cinematic",
+      "powerful",
+      "epic",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "atmospheric"
+    ],
+    "objects": [
+      "marvel logo",
+      "studios text",
+      "city skyline",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "imposing",
+      "grand",
+      "powerful",
+      "ominous"
+    ],
+    "style": [
+      "desaturated",
+      "cityscape",
+      "corporate"
+    ],
+    "objects": [
+      "buildings",
+      "marvel studios logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "epic",
+      "heroic",
+      "dramatic",
+      "adventurous",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "urban"
+    ],
+    "objects": [
+      "marvel studios logo",
+      "buildings",
+      "cityscape"
+    ]
+  }
+}

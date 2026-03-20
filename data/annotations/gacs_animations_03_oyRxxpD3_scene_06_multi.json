@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "majestic",
+      "wondrous",
+      "reverent",
+      "celebratory"
+    ],
+    "style": [
+      "stylized",
+      "bright",
+      "cool-toned"
+    ],
+    "objects": [
+      "man",
+      "crowd",
+      "stage",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "triumphant",
+      "spiritual",
+      "uplifting",
+      "reverent",
+      "celebratory"
+    ],
+    "style": [
+      "dramatic",
+      "ethereal",
+      "backlit"
+    ],
+    "objects": [
+      "figure",
+      "crowd",
+      "columns",
+      "light",
+      "stage"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "triumphant",
+      "celebratory",
+      "vibrant",
+      "magical",
+      "uplifting"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "mystical"
+    ],
+    "objects": [
+      "crowd",
+      "stage",
+      "person",
+      "arches"
+    ]
+  }
+}

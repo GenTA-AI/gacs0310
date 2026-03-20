@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "urgent",
+      "dark",
+      "mysterious",
+      "tense"
+    ],
+    "style": [
+      "stylized",
+      "nocturnal",
+      "animated"
+    ],
+    "objects": [
+      "fox",
+      "building",
+      "cobblestone",
+      "fire pit"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "atmospheric",
+      "nocturnal",
+      "enchanting",
+      "contemplative"
+    ],
+    "style": [
+      "atmospheric",
+      "medieval",
+      "top-down"
+    ],
+    "objects": [
+      "cobblestone street",
+      "character",
+      "stairs",
+      "archway",
+      "lantern"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "shadowed"
+    ],
+    "objects": [
+      "cat",
+      "shadow",
+      "people",
+      "buildings",
+      "cobblestone path"
+    ]
+  }
+}

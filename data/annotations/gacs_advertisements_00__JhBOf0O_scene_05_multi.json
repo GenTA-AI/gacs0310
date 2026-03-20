@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bright",
+      "luxurious",
+      "vibrant",
+      "modern",
+      "sophisticated"
+    ],
+    "style": [
+      "commercial",
+      "bright",
+      "vivid"
+    ],
+    "objects": [
+      "billboard",
+      "buildings",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "elegant",
+      "luxurious",
+      "tranquil",
+      "sophisticated",
+      "serene"
+    ],
+    "style": [
+      "vibrant",
+      "modern",
+      "sleek"
+    ],
+    "objects": [
+      "billboard",
+      "buildings",
+      "sky",
+      "advertisement"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "luxurious",
+      "elegant",
+      "serene",
+      "sophisticated",
+      "captivating"
+    ],
+    "style": [
+      "futuristic",
+      "neon-lit",
+      "commercial"
+    ],
+    "objects": [
+      "building",
+      "screen",
+      "advertisement",
+      "city",
+      "skyscrapers"
+    ]
+  }
+}

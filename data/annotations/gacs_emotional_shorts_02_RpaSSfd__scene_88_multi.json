@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspicious",
+      "tense",
+      "confrontational",
+      "doubtful",
+      "uneasy"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "table",
+      "text",
+      "cup",
+      "appliances"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "accusatory",
+      "tense",
+      "anxious",
+      "concerned"
+    ],
+    "style": [
+      "high-key",
+      "medium-shot",
+      "dialogue-driven"
+    ],
+    "objects": [
+      "man",
+      "refrigerator"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confrontational",
+      "suspicious",
+      "hurt",
+      "accusatory",
+      "betrayed"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "cabinets",
+      "subtitles"
+    ]
+  }
+}

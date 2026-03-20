@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "contemplative",
+      "majestic",
+      "tranquil"
+    ],
+    "style": [
+      "atmospheric",
+      "golden-hour",
+      "wide-angle"
+    ],
+    "objects": [
+      "pagoda",
+      "water",
+      "city skyline",
+      "buildings",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "majestic",
+      "historic",
+      "muted",
+      "calm"
+    ],
+    "style": [
+      "hazy",
+      "muted",
+      "panoramic"
+    ],
+    "objects": [
+      "building",
+      "river",
+      "city",
+      "bridge"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "historical",
+      "majestic",
+      "tranquil",
+      "contemplative"
+    ],
+    "style": [
+      "serene",
+      "atmospheric",
+      "architectural"
+    ],
+    "objects": [
+      "pagoda",
+      "river",
+      "skyline",
+      "trees"
+    ]
+  }
+}

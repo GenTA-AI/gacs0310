@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "classy",
+      "sophisticated",
+      "elegant",
+      "understated",
+      "luxurious"
+    ],
+    "style": [
+      "muted",
+      "shallow-depth",
+      "high-contrast"
+    ],
+    "objects": [
+      "duffel bag",
+      "tag",
+      "coat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sophisticated",
+      "elegant",
+      "professional",
+      "understated",
+      "stylish"
+    ],
+    "style": [
+      "modern",
+      "sleek",
+      "muted"
+    ],
+    "objects": [
+      "bag",
+      "person",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "professional",
+      "sophisticated",
+      "minimalist",
+      "elegant"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "naturalistic"
+    ],
+    "objects": [
+      "bag",
+      "person",
+      "grass",
+      "zipper"
+    ]
+  }
+}

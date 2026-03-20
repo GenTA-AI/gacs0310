@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bustling",
+      "lively",
+      "warm",
+      "rustic",
+      "animated"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "stylized"
+    ],
+    "objects": [
+      "fruit",
+      "carts",
+      "people",
+      "market stall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bustling",
+      "vibrant",
+      "lively",
+      "warm",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "fruit carts",
+      "market stalls",
+      "people",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "bustling",
+      "inviting",
+      "peaceful",
+      "nostalgic"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "fruit carts",
+      "marketplace",
+      "buildings",
+      "people",
+      "bread"
+    ]
+  }
+}

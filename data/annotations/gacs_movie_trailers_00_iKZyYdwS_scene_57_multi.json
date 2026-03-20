@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "vulnerable",
+      "tender",
+      "melancholic",
+      "dreamy"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "water",
+      "person",
+      "glass",
+      "hair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "disturbing",
+      "anxious",
+      "trapped",
+      "desperate",
+      "unsettling"
+    ],
+    "style": [
+      "underwater",
+      "ethereal",
+      "muted"
+    ],
+    "objects": [
+      "water",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "playful",
+      "carefree",
+      "vibrant",
+      "intimate"
+    ],
+    "style": [
+      "dreamy",
+      "underwater",
+      "intimate"
+    ],
+    "objects": [
+      "people",
+      "water",
+      "bubbles"
+    ]
+  }
+}

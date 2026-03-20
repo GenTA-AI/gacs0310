@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uneasy",
+      "concerned",
+      "watchful",
+      "expectant",
+      "awkward"
+    ],
+    "style": [
+      "stylized",
+      "animated",
+      "indoor"
+    ],
+    "objects": [
+      "child",
+      "man",
+      "ladder",
+      "tray"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "domestic",
+      "warm",
+      "peaceful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "soft-lit"
+    ],
+    "objects": [
+      "kids",
+      "man",
+      "tray",
+      "playground equipment",
+      "window"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "innocent",
+      "cheerful",
+      "nostalgic",
+      "whimsical"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "stylized"
+    ],
+    "objects": [
+      "children",
+      "teacher",
+      "classroom",
+      "bunk beds",
+      "castle"
+    ]
+  }
+}

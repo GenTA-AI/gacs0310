@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "tense",
+      "guarded",
+      "uncomfortable",
+      "wary"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "indoor"
+    ],
+    "objects": [
+      "man",
+      "text",
+      "robe"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "brooding",
+      "contemplative",
+      "intimate",
+      "serious"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "text",
+      "face"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "frustrated",
+      "intense",
+      "annoyed",
+      "confrontational",
+      "serious"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "text",
+      "robe"
+    ]
+  }
+}

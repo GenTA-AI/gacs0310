@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "affectionate",
+      "comforting",
+      "warm",
+      "tender",
+      "embracing"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "colorful"
+    ],
+    "objects": [
+      "girl",
+      "hair",
+      "red panda"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "affectionate",
+      "comforting",
+      "happy",
+      "loving"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "vibrant"
+    ],
+    "objects": [
+      "girl",
+      "creature",
+      "bracelet",
+      "hair",
+      "shirt"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "vibrant",
+      "intense",
+      "dynamic",
+      "euphoric"
+    ],
+    "style": [
+      "vibrant",
+      "atmospheric",
+      "color-saturated"
+    ],
+    "objects": [
+      "person",
+      "headband",
+      "wall",
+      "hand"
+    ]
+  }
+}

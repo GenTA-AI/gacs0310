@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "intimate",
+      "vulnerable",
+      "pensive"
+    ],
+    "style": [
+      "moody",
+      "intimate",
+      "warm-lighting"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "face",
+      "hair",
+      "clothing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intimate",
+      "tender",
+      "vulnerable",
+      "melancholic",
+      "hopeful"
+    ],
+    "style": [
+      "intimate",
+      "low-key",
+      "emotional"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tender",
+      "emotional",
+      "intimate",
+      "soft",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "intimate",
+      "warm"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "sweater",
+      "wood",
+      "netflix logo"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "enigmatic",
+      "ominous"
+    ],
+    "style": [
+      "minimalistic",
+      "monochromatic",
+      "shadowed"
+    ],
+    "objects": [
+      "shadows",
+      "table",
+      "wall",
+      "bag"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "melancholic",
+      "contemplative",
+      "moody",
+      "introspective"
+    ],
+    "style": [
+      "monochromatic",
+      "atmospheric",
+      "silhouetted"
+    ],
+    "objects": [
+      "person",
+      "laptop",
+      "floor",
+      "wall"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "moody",
+      "sleek",
+      "obscured"
+    ],
+    "style": [
+      "high-contrast",
+      "minimalist",
+      "dramatic"
+    ],
+    "objects": [
+      "wall",
+      "table",
+      "object"
+    ]
+  }
+}

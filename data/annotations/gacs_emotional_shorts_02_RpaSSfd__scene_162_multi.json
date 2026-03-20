@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gloomy",
+      "somber",
+      "contemplative",
+      "still",
+      "overcast"
+    ],
+    "style": [
+      "atmospheric",
+      "overcast",
+      "panoramic"
+    ],
+    "objects": [
+      "river",
+      "clouds",
+      "city",
+      "bridge"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "overcast",
+      "reflective",
+      "peaceful"
+    ],
+    "style": [
+      "moody",
+      "overcast",
+      "architectural"
+    ],
+    "objects": [
+      "bridge",
+      "river",
+      "buildings",
+      "spire",
+      "clouds"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "contemplative",
+      "atmospheric",
+      "tranquil"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "overcast"
+    ],
+    "objects": [
+      "bridge",
+      "buildings",
+      "water",
+      "clouds",
+      "church spires"
+    ]
+  }
+}

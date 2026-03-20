@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bright",
+      "hopeful",
+      "energetic",
+      "dynamic",
+      "uplifting"
+    ],
+    "style": [
+      "backlit",
+      "overexposed",
+      "silhouette"
+    ],
+    "objects": [
+      "people",
+      "fence",
+      "sunlight"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bright",
+      "hopeful",
+      "energetic",
+      "optimistic",
+      "motivational"
+    ],
+    "style": [
+      "bright",
+      "hazy",
+      "overexposed"
+    ],
+    "objects": [
+      "people",
+      "metal bars",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "bright",
+      "dreamy",
+      "ethereal",
+      "romantic",
+      "intimate"
+    ],
+    "style": [
+      "lens-flare",
+      "overexposed",
+      "dreamy"
+    ],
+    "objects": [
+      "people",
+      "airplane interior",
+      "seats",
+      "sunlight"
+    ]
+  }
+}

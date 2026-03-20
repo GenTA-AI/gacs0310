@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "apprehensive",
+      "thoughtful",
+      "concerned",
+      "intense"
+    ],
+    "style": [
+      "close-up",
+      "shallow-focus",
+      "moody"
+    ],
+    "objects": [
+      "eye",
+      "eyebrow",
+      "face"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "thoughtful",
+      "serious",
+      "introspective"
+    ],
+    "style": [
+      "close-up",
+      "soft-focus",
+      "natural-light"
+    ],
+    "objects": [
+      "eyes",
+      "eyebrow"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "melancholic",
+      "contemplative",
+      "vulnerable",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "face",
+      "eye",
+      "eyebrow",
+      "skin",
+      "logo"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "peaceful",
+      "serene",
+      "tranquil",
+      "picturesque"
+    ],
+    "style": [
+      "realistic",
+      "warm-toned",
+      "serene"
+    ],
+    "objects": [
+      "sunset",
+      "fishing village",
+      "boats",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "calm",
+      "tranquil",
+      "warm"
+    ],
+    "style": [
+      "warm",
+      "picturesque",
+      "serene"
+    ],
+    "objects": [
+      "boats",
+      "building",
+      "sunset",
+      "water"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "warm",
+      "nostalgic",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "fishing boats",
+      "sunset",
+      "village buildings",
+      "water",
+      "clouds"
+    ]
+  }
+}

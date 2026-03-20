@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "collaborative",
+      "determined",
+      "united",
+      "hopeful",
+      "teamwork"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "hands",
+      "watch",
+      "map",
+      "notebook"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "united",
+      "hopeful",
+      "collaborative",
+      "focused"
+    ],
+    "style": [
+      "high-angle",
+      "gritty",
+      "vintage"
+    ],
+    "objects": [
+      "hands",
+      "map",
+      "bench"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "collaborative",
+      "adventurous",
+      "nostalgic",
+      "determined",
+      "focused"
+    ],
+    "style": [
+      "vintage",
+      "adventurous",
+      "collaborative"
+    ],
+    "objects": [
+      "map",
+      "hands",
+      "table",
+      "backpack"
+    ]
+  }
+}

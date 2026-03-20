@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "dynamic",
+      "powerful",
+      "determined",
+      "triumphant"
+    ],
+    "style": [
+      "cinematic",
+      "dynamic",
+      "heroic"
+    ],
+    "objects": [
+      "captain america",
+      "shield",
+      "wings",
+      "water",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "heroic",
+      "adventurous",
+      "hopeful",
+      "powerful"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "action-oriented"
+    ],
+    "objects": [
+      "superhero",
+      "shield",
+      "wings",
+      "water"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "intense",
+      "dynamic",
+      "action-packed",
+      "powerful"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "dramatic"
+    ],
+    "objects": [
+      "flying superhero",
+      "shield",
+      "wings",
+      "water",
+      "sky"
+    ]
+  }
+}

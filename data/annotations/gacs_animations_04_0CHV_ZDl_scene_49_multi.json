@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "focused"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "simplistic"
+    ],
+    "objects": [
+      "dog",
+      "strap",
+      "sign"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "suspicious",
+      "uneasy",
+      "dark",
+      "muted"
+    ],
+    "style": [
+      "flat",
+      "dark",
+      "cartoonish"
+    ],
+    "objects": [
+      "dog",
+      "sign",
+      "ferris wheel"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "eerie",
+      "somber",
+      "lonely",
+      "unsettling"
+    ],
+    "style": [
+      "animated",
+      "blue-toned",
+      "cartoon-style"
+    ],
+    "objects": [
+      "dog",
+      "train",
+      "building",
+      "railroad tracks"
+    ]
+  }
+}

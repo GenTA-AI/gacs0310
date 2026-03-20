@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "rugged",
+      "focused",
+      "outdoorsy",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "earthy",
+      "outdoorsy"
+    ],
+    "objects": [
+      "person",
+      "horse",
+      "trees",
+      "gloves",
+      "cap"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "calm",
+      "observational",
+      "rural",
+      "pensive"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "outdoors"
+    ],
+    "objects": [
+      "man",
+      "trees",
+      "hat",
+      "gloves"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "somber",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "guitar",
+      "trees",
+      "branches"
+    ]
+  }
+}

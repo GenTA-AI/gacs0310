@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "lonely",
+      "pensive",
+      "wistful"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "naturalistic"
+    ],
+    "objects": [
+      "woman",
+      "window",
+      "curtains",
+      "balcony",
+      "cake"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "nostalgic",
+      "serene",
+      "contemplative",
+      "intimate"
+    ],
+    "style": [
+      "moody",
+      "intimate",
+      "natural"
+    ],
+    "objects": [
+      "woman",
+      "window",
+      "photo",
+      "plants",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "nostalgic",
+      "pensive",
+      "wistful",
+      "subdued"
+    ],
+    "style": [
+      "muted",
+      "naturalistic",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "window",
+      "photograph",
+      "plant"
+    ]
+  }
+}

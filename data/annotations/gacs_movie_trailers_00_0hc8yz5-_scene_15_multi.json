@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "serious",
+      "contemplative",
+      "ominous",
+      "spiritual"
+    ],
+    "style": [
+      "framed",
+      "desaturated",
+      "interior"
+    ],
+    "objects": [
+      "church",
+      "cross",
+      "people",
+      "chandelier"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "solemn",
+      "reverent",
+      "tranquil",
+      "contemplative",
+      "subdued"
+    ],
+    "style": [
+      "architectural",
+      "symmetrical",
+      "moody"
+    ],
+    "objects": [
+      "church interior",
+      "altar",
+      "cross",
+      "chandelier",
+      "pews"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "reverent",
+      "peaceful",
+      "sacred",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "church interior",
+      "altar",
+      "cross",
+      "pews",
+      "chandelier"
+    ]
+  }
+}

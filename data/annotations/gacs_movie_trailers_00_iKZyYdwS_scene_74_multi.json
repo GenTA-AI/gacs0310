@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "mysterious",
+      "dark",
+      "foreboding",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "silhouetted"
+    ],
+    "objects": [
+      "figure",
+      "water",
+      "reflection",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "ominous",
+      "unsettling",
+      "mysterious",
+      "foreboding"
+    ],
+    "style": [
+      "eerie",
+      "shadowy",
+      "surreal"
+    ],
+    "objects": [
+      "figure",
+      "pools",
+      "interior",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "eerie",
+      "unsettling",
+      "suspenseful"
+    ],
+    "style": [
+      "shadowed",
+      "eerie",
+      "abstract"
+    ],
+    "objects": [
+      "shadow",
+      "water",
+      "reflection"
+    ]
+  }
+}

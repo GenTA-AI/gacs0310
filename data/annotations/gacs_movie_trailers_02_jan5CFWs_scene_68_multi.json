@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "weary",
+      "determined",
+      "gritty",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "tree",
+      "foliage"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "inquisitive",
+      "wary",
+      "uncertain",
+      "observant",
+      "pensive"
+    ],
+    "style": [
+      "naturalistic",
+      "cinematic",
+      "lush"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "tree",
+      "leaves"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "contemplative",
+      "focused",
+      "somber",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "naturalistic"
+    ],
+    "objects": [
+      "man",
+      "tree",
+      "glasses",
+      "forest"
+    ]
+  }
+}

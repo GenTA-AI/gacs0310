@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "focused",
+      "energetic",
+      "precise",
+      "advanced"
+    ],
+    "style": [
+      "blurry",
+      "dynamic",
+      "modern"
+    ],
+    "objects": [
+      "speedometer",
+      "gauges"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "technological",
+      "controlled",
+      "modern",
+      "neutral"
+    ],
+    "style": [
+      "shallow-focus",
+      "dark",
+      "digital"
+    ],
+    "objects": [
+      "dashboard",
+      "speedometer",
+      "digital display"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "tense",
+      "mechanical",
+      "focused"
+    ],
+    "style": [
+      "dark",
+      "blurred",
+      "automotive"
+    ],
+    "objects": [
+      "speedometer",
+      "dashboard",
+      "gauges",
+      "warning lights"
+    ]
+  }
+}

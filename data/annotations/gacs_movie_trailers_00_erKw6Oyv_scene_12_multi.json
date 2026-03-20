@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "tense",
+      "ominous",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "cinematic"
+    ],
+    "objects": [
+      "car interior",
+      "steering wheel",
+      "person",
+      "dashboard"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gloomy",
+      "mysterious",
+      "unsettling",
+      "suspenseful",
+      "dark"
+    ],
+    "style": [
+      "dark",
+      "muted",
+      "low-key"
+    ],
+    "objects": [
+      "person",
+      "objects"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dim",
+      "eerie",
+      "mysterious",
+      "tense",
+      "shadowy"
+    ],
+    "style": [
+      "dark",
+      "mysterious",
+      "low-key"
+    ],
+    "objects": [
+      "person",
+      "book",
+      "table"
+    ]
+  }
+}

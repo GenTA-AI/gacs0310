@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dreary",
+      "bleak",
+      "anticipation",
+      "observant",
+      "industrial"
+    ],
+    "style": [
+      "desaturated",
+      "shallow-focus",
+      "overcast"
+    ],
+    "objects": [
+      "anemometer",
+      "road",
+      "fence"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "focused",
+      "industrial",
+      "precise"
+    ],
+    "style": [
+      "shallow-focus",
+      "dynamic",
+      "industrial"
+    ],
+    "objects": [
+      "anemometer",
+      "fence",
+      "road",
+      "barrier"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surveillance",
+      "watchful",
+      "monitoring",
+      "observational",
+      "vigilant"
+    ],
+    "style": [
+      "shallow-focus",
+      "cinematic",
+      "moody"
+    ],
+    "objects": [
+      "dashcam",
+      "windshield",
+      "road",
+      "guardrail"
+    ]
+  }
+}

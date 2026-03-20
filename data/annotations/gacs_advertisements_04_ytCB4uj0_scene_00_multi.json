@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "friendly",
+      "informative",
+      "welcoming",
+      "engaging",
+      "approachable"
+    ],
+    "style": [
+      "bright",
+      "direct",
+      "straightforward"
+    ],
+    "objects": [
+      "man",
+      "blinds",
+      "wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "friendly",
+      "engaging",
+      "expressive",
+      "confident",
+      "informative"
+    ],
+    "style": [
+      "casual",
+      "straightforward",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "shirt",
+      "window",
+      "blinds"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "enthusiastic",
+      "friendly",
+      "animated",
+      "positive"
+    ],
+    "style": [
+      "casual",
+      "bright-lit",
+      "conversational"
+    ],
+    "objects": [
+      "person",
+      "hands",
+      "polo shirt",
+      "window",
+      "blinds"
+    ]
+  }
+}

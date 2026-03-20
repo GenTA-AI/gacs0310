@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "informative",
+      "serious",
+      "calm",
+      "somber"
+    ],
+    "style": [
+      "news report",
+      "naturalistic",
+      "medium shot"
+    ],
+    "objects": [
+      "men",
+      "bridge",
+      "river",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "casual",
+      "relaxed",
+      "informal",
+      "friendly",
+      "conversational"
+    ],
+    "style": [
+      "realistic",
+      "natural-light",
+      "casual"
+    ],
+    "objects": [
+      "two men",
+      "bridge",
+      "trees",
+      "path"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "friendly",
+      "relaxed",
+      "conversational",
+      "pleasant"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "outdoor"
+    ],
+    "objects": [
+      "two men",
+      "bridge",
+      "river",
+      "trees"
+    ]
+  }
+}

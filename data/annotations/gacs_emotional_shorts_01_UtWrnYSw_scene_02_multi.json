@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "cheerful",
+      "lively",
+      "appreciative"
+    ],
+    "style": [
+      "news-style",
+      "colorful",
+      "outdoor"
+    ],
+    "objects": [
+      "police cars",
+      "people",
+      "trees",
+      "houses",
+      "street"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "patriotic",
+      "celebratory",
+      "heartwarming",
+      "respectful",
+      "joyful"
+    ],
+    "style": [
+      "bright",
+      "documentary",
+      "saturated"
+    ],
+    "objects": [
+      "police car",
+      "road",
+      "building",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "heartwarming",
+      "festive",
+      "uplifting"
+    ],
+    "style": [
+      "news-broadcast",
+      "handheld-camera",
+      "documentary-style"
+    ],
+    "objects": [
+      "police cars",
+      "houses",
+      "trees",
+      "street"
+    ]
+  }
+}

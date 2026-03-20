@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "messy",
+      "awkward",
+      "comedic",
+      "lighthearted",
+      "casual"
+    ],
+    "style": [
+      "low contrast",
+      "soft",
+      "casual"
+    ],
+    "objects": [
+      "arm",
+      "plate",
+      "pillow"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "messy",
+      "amusing",
+      "casual",
+      "clumsy",
+      "lighthearted"
+    ],
+    "style": [
+      "dimly-lit",
+      "casual",
+      "candid"
+    ],
+    "objects": [
+      "plate",
+      "food",
+      "jeans",
+      "chair"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "cozy",
+      "relaxed",
+      "comfortable",
+      "peaceful"
+    ],
+    "style": [
+      "intimate",
+      "warm-toned",
+      "soft-focus"
+    ],
+    "objects": [
+      "bathtub",
+      "water",
+      "toys",
+      "bowl"
+    ]
+  }
+}

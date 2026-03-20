@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "thoughtful",
+      "calm",
+      "introspective",
+      "focused"
+    ],
+    "style": [
+      "muted",
+      "professional",
+      "close-up"
+    ],
+    "objects": [
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "somber",
+      "thoughtful",
+      "concerned",
+      "journalistic"
+    ],
+    "style": [
+      "news",
+      "medium-shot",
+      "neutral"
+    ],
+    "objects": [
+      "man",
+      "cbs news logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "concerned",
+      "subdued",
+      "reflective"
+    ],
+    "style": [
+      "news-style",
+      "close-up",
+      "soft-lighting"
+    ],
+    "objects": [
+      "man",
+      "face",
+      "cbs news logo",
+      "background"
+    ]
+  }
+}

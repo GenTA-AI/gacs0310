@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "peaceful",
+      "tranquil",
+      "picturesque"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "picturesque"
+    ],
+    "objects": [
+      "horse",
+      "fence",
+      "field",
+      "mountains"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "peaceful",
+      "nostalgic",
+      "rural",
+      "free"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "dynamic"
+    ],
+    "objects": [
+      "horse",
+      "mountains",
+      "field",
+      "fence"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "nostalgic",
+      "contemplative",
+      "tranquil"
+    ],
+    "style": [
+      "overcast",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "airplane wing",
+      "runway",
+      "mountains",
+      "sky"
+    ]
+  }
+}

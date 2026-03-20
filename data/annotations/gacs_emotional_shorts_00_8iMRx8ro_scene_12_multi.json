@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "serious",
+      "tense",
+      "informative",
+      "urgent"
+    ],
+    "style": [
+      "news-like",
+      "candid",
+      "descriptive"
+    ],
+    "objects": [
+      "person",
+      "calendar",
+      "wall",
+      "map"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "serious",
+      "urgent",
+      "empathetic",
+      "intense"
+    ],
+    "style": [
+      "news",
+      "direct",
+      "bright"
+    ],
+    "objects": [
+      "man",
+      "calendar",
+      "wood paneling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "worried",
+      "anxious",
+      "serious",
+      "distressed"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "calendar",
+      "wood paneling",
+      "news graphics"
+    ]
+  }
+}

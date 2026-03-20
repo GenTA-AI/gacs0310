@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "futuristic",
+      "focused",
+      "intense",
+      "moody"
+    ],
+    "style": [
+      "futuristic",
+      "moody",
+      "dynamic"
+    ],
+    "objects": [
+      "man",
+      "holographic text",
+      "room",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "mysterious",
+      "contemplative",
+      "enigmatic",
+      "surreal"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "neon"
+    ],
+    "objects": [
+      "man",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "noir",
+      "atmospheric",
+      "introspective"
+    ],
+    "style": [
+      "cyberpunk",
+      "neon-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "neon signs",
+      "city lights",
+      "buildings"
+    ]
+  }
+}

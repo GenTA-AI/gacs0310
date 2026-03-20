@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "destructive",
+      "alarming",
+      "disoriented",
+      "dangerous"
+    ],
+    "style": [
+      "chaotic",
+      "high-contrast",
+      "low-angle"
+    ],
+    "objects": [
+      "person",
+      "debris"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "chaotic",
+      "tense",
+      "unsettling",
+      "dramatic"
+    ],
+    "style": [
+      "surreal",
+      "chaotic",
+      "dark-toned"
+    ],
+    "objects": [
+      "person",
+      "debris",
+      "light",
+      "prime video logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "chaotic",
+      "destructive",
+      "dramatic",
+      "overwhelming",
+      "catastrophic"
+    ],
+    "style": [
+      "dramatic",
+      "low-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "wooden beams",
+      "person",
+      "debris",
+      "ceiling",
+      "scattered papers"
+    ]
+  }
+}

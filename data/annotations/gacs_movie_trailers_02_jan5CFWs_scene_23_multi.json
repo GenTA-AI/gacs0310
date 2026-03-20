@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "contemplative",
+      "majestic",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "silhouetted"
+    ],
+    "objects": [
+      "mountains",
+      "trees",
+      "sun",
+      "valley",
+      "landscape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "peaceful",
+      "calm",
+      "tranquil",
+      "warm"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "silhouettes"
+    ],
+    "objects": [
+      "sunset",
+      "mountains",
+      "valley"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "majestic",
+      "awe",
+      "atmospheric",
+      "remote"
+    ],
+    "style": [
+      "golden",
+      "scenic",
+      "dramatic"
+    ],
+    "objects": [
+      "mountains",
+      "sun",
+      "sky"
+    ]
+  }
+}

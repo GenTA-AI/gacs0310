@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "peaceful",
+      "relaxed",
+      "thoughtful",
+      "serene"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "person",
+      "wooden wall",
+      "white shirt",
+      "shadow"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "exhausted",
+      "stressed",
+      "frustrated",
+      "pained",
+      "uncomfortable"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "desaturated"
+    ],
+    "objects": [
+      "person",
+      "wooden surface",
+      "shirt"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "reflective",
+      "subdued",
+      "contemplative",
+      "relaxed"
+    ],
+    "style": [
+      "natural-light",
+      "candid",
+      "sunlit"
+    ],
+    "objects": [
+      "person",
+      "wooden planks",
+      "t-shirt"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calm",
+      "refreshing"
+    ],
+    "style": [
+      "natural",
+      "bright",
+      "wide-angle"
+    ],
+    "objects": [
+      "trees",
+      "road",
+      "fence"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "tranquil",
+      "beautiful",
+      "admiring"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "tree-lined"
+    ],
+    "objects": [
+      "trees",
+      "road",
+      "fence",
+      "buildings"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calm",
+      "inviting"
+    ],
+    "style": [
+      "serene",
+      "sunlit",
+      "natural"
+    ],
+    "objects": [
+      "road",
+      "trees",
+      "fence",
+      "streetlights"
+    ]
+  }
+}

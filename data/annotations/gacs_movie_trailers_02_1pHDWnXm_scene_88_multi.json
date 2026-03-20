@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "chaotic",
+      "intense",
+      "dangerous",
+      "explosive",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "explosive",
+      "dramatic"
+    ],
+    "objects": [
+      "car",
+      "fire",
+      "person",
+      "road",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "destructive",
+      "chaotic",
+      "violent",
+      "alarming",
+      "intense"
+    ],
+    "style": [
+      "action-packed",
+      "bright",
+      "chaotic"
+    ],
+    "objects": [
+      "hulk",
+      "car",
+      "fire"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "chaotic",
+      "threatening",
+      "explosive",
+      "urgent"
+    ],
+    "style": [
+      "dramatic",
+      "action-packed",
+      "intense"
+    ],
+    "objects": [
+      "burning car",
+      "person",
+      "trees",
+      "road"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "inspiring",
+      "powerful",
+      "dramatic",
+      "empowering"
+    ],
+    "style": [
+      "dramatic",
+      "bold",
+      "metallic"
+    ],
+    "objects": [
+      "text",
+      "black background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "dramatic",
+      "grand",
+      "serious",
+      "determined"
+    ],
+    "style": [
+      "glowing",
+      "dark",
+      "stylized"
+    ],
+    "objects": [
+      "text",
+      "title"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "inspiring",
+      "dramatic",
+      "triumphant",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "golden",
+      "dramatic"
+    ],
+    "objects": [
+      "text",
+      "glow effect"
+    ]
+  }
+}

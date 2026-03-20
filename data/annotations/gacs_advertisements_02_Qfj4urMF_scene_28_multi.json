@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "luxurious",
+      "calm",
+      "modern",
+      "sleek",
+      "understated"
+    ],
+    "style": [
+      "sleek",
+      "dimly-lit",
+      "modern"
+    ],
+    "objects": [
+      "cup",
+      "seat"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "quiet",
+      "lonely",
+      "anticipation",
+      "somber"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "shallow-depth"
+    ],
+    "objects": [
+      "car seat",
+      "coffee cup"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "relaxed",
+      "intimate",
+      "comfortable",
+      "serene"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "low-light"
+    ],
+    "objects": [
+      "coffee cup",
+      "airplane seats",
+      "armrest"
+    ]
+  }
+}

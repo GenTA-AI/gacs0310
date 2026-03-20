@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "cheerful",
+      "whimsical",
+      "colorful",
+      "lighthearted"
+    ],
+    "style": [
+      "vibrant",
+      "close-up",
+      "casual"
+    ],
+    "objects": [
+      "shoe",
+      "sock",
+      "pavement"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "neutral",
+      "casual",
+      "gentle",
+      "peaceful"
+    ],
+    "style": [
+      "soft",
+      "pastel",
+      "stylized"
+    ],
+    "objects": [
+      "shoe",
+      "sock",
+      "leg"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "youthful",
+      "casual",
+      "energetic",
+      "carefree"
+    ],
+    "style": [
+      "soft-focus",
+      "pastel-toned",
+      "close-up"
+    ],
+    "objects": [
+      "sneaker",
+      "sock",
+      "pavement",
+      "ankle"
+    ]
+  }
+}

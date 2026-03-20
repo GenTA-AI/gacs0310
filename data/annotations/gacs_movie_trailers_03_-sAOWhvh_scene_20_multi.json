@@ -1,0 +1,68 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "threatening",
+      "aggressive",
+      "confrontational",
+      "dangerous"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "wide-angle"
+    ],
+    "objects": [
+      "man",
+      "motorcycle",
+      "gun",
+      "road",
+      "desert"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dangerous",
+      "tense",
+      "determined",
+      "isolated",
+      "confrontational"
+    ],
+    "style": [
+      "widescreen",
+      "desaturated",
+      "arid"
+    ],
+    "objects": [
+      "man",
+      "gun",
+      "motorcycle",
+      "road",
+      "desert"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "defiant",
+      "action-packed",
+      "gritty",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "desolate",
+      "dynamic"
+    ],
+    "objects": [
+      "motorcycle",
+      "road",
+      "gun",
+      "man",
+      "mountains"
+    ]
+  }
+}

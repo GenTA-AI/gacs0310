@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "bold",
+      "glamorous",
+      "assertive",
+      "empowered"
+    ],
+    "style": [
+      "high-contrast",
+      "shallow-depth",
+      "nighttime"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses",
+      "jewelry",
+      "car",
+      "street lights"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "glamorous",
+      "bold",
+      "empowered",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic-lighting",
+      "luxurious"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses",
+      "necklaces",
+      "car",
+      "street lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "powerful",
+      "glamorous",
+      "bold",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "night-time",
+      "stylish"
+    ],
+    "objects": [
+      "sunglasses",
+      "necklaces",
+      "car",
+      "person",
+      "lights"
+    ]
+  }
+}

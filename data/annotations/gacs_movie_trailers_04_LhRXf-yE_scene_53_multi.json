@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "nostalgic",
+      "curious",
+      "reflective",
+      "intrigued"
+    ],
+    "style": [
+      "cinematic",
+      "documentary",
+      "realistic"
+    ],
+    "objects": [
+      "person",
+      "posters",
+      "wall",
+      "magazines"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "investigative",
+      "urban",
+      "vibrant",
+      "focused"
+    ],
+    "style": [
+      "urban",
+      "textured",
+      "vibrant"
+    ],
+    "objects": [
+      "person",
+      "posters",
+      "wall",
+      "backpack"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intrigued",
+      "curious",
+      "absorbed",
+      "thoughtful",
+      "observant"
+    ],
+    "style": [
+      "urban",
+      "grungy",
+      "saturated"
+    ],
+    "objects": [
+      "posters",
+      "wall",
+      "person"
+    ]
+  }
+}

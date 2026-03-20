@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "hopeful",
+      "nervous",
+      "vulnerable",
+      "uncertain"
+    ],
+    "style": [
+      "candid",
+      "shallow-focus",
+      "warm-toned"
+    ],
+    "objects": [
+      "man",
+      "bottle",
+      "bowtie"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "hopeful",
+      "intrigued",
+      "casual",
+      "inviting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "bar counter",
+      "bottles",
+      "lemon"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "anxious",
+      "hopeful",
+      "vulnerable",
+      "tentative",
+      "nervous"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "apron",
+      "counter",
+      "bottles"
+    ]
+  }
+}

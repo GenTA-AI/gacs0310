@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspenseful",
+      "ominous",
+      "tense",
+      "watchful",
+      "unsettling"
+    ],
+    "style": [
+      "cool",
+      "dark",
+      "mysterious"
+    ],
+    "objects": [
+      "car",
+      "side mirror",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "shadowy",
+      "enigmatic",
+      "unclear"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "reflective"
+    ],
+    "objects": [
+      "car",
+      "side mirror",
+      "reflection",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "moody",
+      "contemplative",
+      "cinematic",
+      "introspective",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "shallow-focus"
+    ],
+    "objects": [
+      "car mirror",
+      "vehicle",
+      "reflection",
+      "road"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "anxious",
+      "apprehensive",
+      "tense",
+      "worried"
+    ],
+    "style": [
+      "animated",
+      "detailed",
+      "moody"
+    ],
+    "objects": [
+      "two people",
+      "crown",
+      "cabinets",
+      "potion bottles"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "concerned",
+      "curious",
+      "expectant",
+      "uncertain"
+    ],
+    "style": [
+      "animated",
+      "cool-toned",
+      "detailed"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "laboratory equipment"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "melancholic",
+      "contemplative",
+      "wistful",
+      "serene"
+    ],
+    "style": [
+      "animated",
+      "blue-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "boat",
+      "water",
+      "buildings"
+    ]
+  }
+}

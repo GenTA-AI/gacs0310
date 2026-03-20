@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "bold",
+      "sassy",
+      "glamorous",
+      "determined"
+    ],
+    "style": [
+      "glamorous",
+      "vibrant",
+      "focused"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "jewelry"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "glamorous",
+      "bold",
+      "fierce",
+      "stylish"
+    ],
+    "style": [
+      "colorful",
+      "glamorous",
+      "retro"
+    ],
+    "objects": [
+      "person",
+      "necklace",
+      "earrings",
+      "coat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "glamorous",
+      "bold",
+      "empowered",
+      "fierce"
+    ],
+    "style": [
+      "glamorous",
+      "saturated",
+      "luxurious"
+    ],
+    "objects": [
+      "woman",
+      "necklace",
+      "earrings",
+      "fur coat"
+    ]
+  }
+}

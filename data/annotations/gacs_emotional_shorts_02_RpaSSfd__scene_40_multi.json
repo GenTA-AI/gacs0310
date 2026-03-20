@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprised",
+      "emotional",
+      "intense",
+      "dramatic",
+      "confused"
+    ],
+    "style": [
+      "dramatic",
+      "blurred",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "painting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "worried",
+      "anxious",
+      "frustrated",
+      "upset"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "close-up"
+    ],
+    "objects": [
+      "woman",
+      "artwork"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "disappointed",
+      "frustrated",
+      "serious",
+      "troubled"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "wall",
+      "artwork",
+      "mirror"
+    ]
+  }
+}

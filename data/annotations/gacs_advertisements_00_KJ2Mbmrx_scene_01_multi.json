@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "industrial",
+      "mechanical",
+      "precise",
+      "focused",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "metal component",
+      "machinery part",
+      "industrial equipment",
+      "threaded connector"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "intense",
+      "suspenseful",
+      "enigmatic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "metallic"
+    ],
+    "objects": [
+      "chess piece",
+      "board"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strategic",
+      "focused",
+      "serious",
+      "competitive",
+      "calculating"
+    ],
+    "style": [
+      "dramatic",
+      "low-key",
+      "shallow-focus"
+    ],
+    "objects": [
+      "chess piece",
+      "table top"
+    ]
+  }
+}

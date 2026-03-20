@@ -1,0 +1,123 @@
+[
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0000",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 0,
+    "start_frame": 0,
+    "end_frame": 734,
+    "start_time": 0.0,
+    "end_time": 24.466666666666665,
+    "duration": 24.466666666666665,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_00.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0001",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 1,
+    "start_frame": 734,
+    "end_frame": 1020,
+    "start_time": 24.466666666666665,
+    "end_time": 34.0,
+    "duration": 9.533333333333335,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_01.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0002",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 2,
+    "start_frame": 1020,
+    "end_frame": 1291,
+    "start_time": 34.0,
+    "end_time": 43.03333333333333,
+    "duration": 9.033333333333331,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_02.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0003",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 3,
+    "start_frame": 1291,
+    "end_frame": 1552,
+    "start_time": 43.03333333333333,
+    "end_time": 51.733333333333334,
+    "duration": 8.700000000000003,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_03.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0004",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 4,
+    "start_frame": 1552,
+    "end_frame": 1797,
+    "start_time": 51.733333333333334,
+    "end_time": 59.9,
+    "duration": 8.166666666666664,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_04.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0005",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 5,
+    "start_frame": 1797,
+    "end_frame": 2137,
+    "start_time": 59.9,
+    "end_time": 71.23333333333333,
+    "duration": 11.333333333333336,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_05.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0006",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 6,
+    "start_frame": 2137,
+    "end_frame": 2561,
+    "start_time": 71.23333333333333,
+    "end_time": 85.36666666666666,
+    "duration": 14.133333333333326,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_06.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0007",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 7,
+    "start_frame": 2561,
+    "end_frame": 2842,
+    "start_time": 85.36666666666666,
+    "end_time": 94.73333333333333,
+    "duration": 9.366666666666674,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_07.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0008",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 8,
+    "start_frame": 2842,
+    "end_frame": 3193,
+    "start_time": 94.73333333333333,
+    "end_time": 106.43333333333334,
+    "duration": 11.700000000000003,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_08.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0009",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 9,
+    "start_frame": 3193,
+    "end_frame": 3529,
+    "start_time": 106.43333333333334,
+    "end_time": 117.63333333333334,
+    "duration": 11.200000000000003,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_09.jpg"
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_00_2bgavN7H_s0010",
+    "video_id": "gacs_emotional_shorts_00_2bgavN7H",
+    "scene_index": 10,
+    "start_frame": 3529,
+    "end_frame": 3889,
+    "start_time": 117.63333333333334,
+    "end_time": 129.63333333333333,
+    "duration": 11.999999999999986,
+    "keyframe_path": "gacs_0202/data/scenes/gacs_emotional_shorts_00_2bgavN7H_scene_10.jpg"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "nostalgic",
+      "lively",
+      "cheerful",
+      "relaxed"
+    ],
+    "style": [
+      "news-broadcast",
+      "split-screen",
+      "live-reporting"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "houses",
+      "tree"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "neutral",
+      "contemporary",
+      "factual",
+      "straightforward"
+    ],
+    "style": [
+      "news broadcast",
+      "split-screen",
+      "bright"
+    ],
+    "objects": [
+      "car",
+      "man",
+      "woman",
+      "news operations center"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "professional",
+      "cheerful",
+      "informative",
+      "casual",
+      "upbeat"
+    ],
+    "style": [
+      "broadcast",
+      "split-screen",
+      "professional"
+    ],
+    "objects": [
+      "classic car",
+      "news anchors",
+      "building",
+      "street"
+    ]
+  }
+}

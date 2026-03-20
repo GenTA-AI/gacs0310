@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "concerned",
+      "brooding"
+    ],
+    "style": [
+      "cinematic",
+      "low-key",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "face",
+      "hair",
+      "clothing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "focused",
+      "contemplative",
+      "somber"
+    ],
+    "style": [
+      "low-key",
+      "moody",
+      "focused"
+    ],
+    "objects": [
+      "woman",
+      "earrings",
+      "jacket"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "focused",
+      "questioning"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "contemplative"
+    ],
+    "objects": [
+      "person"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dark",
+      "foreboding",
+      "mysterious",
+      "dramatic"
+    ],
+    "style": [
+      "dark",
+      "gold",
+      "3d"
+    ],
+    "objects": [
+      "text",
+      "black background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "foreboding",
+      "mysterious",
+      "ominous",
+      "tense"
+    ],
+    "style": [
+      "dark",
+      "metallic",
+      "dramatic"
+    ],
+    "objects": [
+      "death",
+      "shadows"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "mysterious",
+      "foreboding",
+      "sinister"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "gothic"
+    ],
+    "objects": [
+      "text",
+      "title",
+      "shadows"
+    ]
+  }
+}

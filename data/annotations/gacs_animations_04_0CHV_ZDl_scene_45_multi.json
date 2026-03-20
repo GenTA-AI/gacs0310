@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anxious",
+      "trapped",
+      "hopeful",
+      "concerned",
+      "isolated"
+    ],
+    "style": [
+      "animated",
+      "muted-colors",
+      "cartoonish"
+    ],
+    "objects": [
+      "dog",
+      "fence",
+      "chain",
+      "sign",
+      "collar"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "trapped",
+      "anxious",
+      "melancholic",
+      "bleak",
+      "hopeless"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "desaturated"
+    ],
+    "objects": [
+      "dog",
+      "fence",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "trapped",
+      "desperate",
+      "sorrowful",
+      "confined",
+      "pleading"
+    ],
+    "style": [
+      "animated",
+      "flat-shaded",
+      "cartoon"
+    ],
+    "objects": [
+      "fence",
+      "monkey",
+      "building",
+      "sign"
+    ]
+  }
+}

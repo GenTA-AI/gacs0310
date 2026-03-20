@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "spirited",
+      "lively",
+      "free",
+      "dynamic"
+    ],
+    "style": [
+      "dynamic",
+      "natural",
+      "vibrant"
+    ],
+    "objects": [
+      "horse",
+      "fence",
+      "truck",
+      "grass",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "powerful",
+      "free",
+      "determined",
+      "spirited"
+    ],
+    "style": [
+      "naturalistic",
+      "motion-blurred",
+      "bright"
+    ],
+    "objects": [
+      "horse",
+      "truck",
+      "fence",
+      "grass"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "free",
+      "dynamic",
+      "spirited",
+      "exhilarating"
+    ],
+    "style": [
+      "motion-blur",
+      "candid",
+      "documentary-style"
+    ],
+    "objects": [
+      "horse",
+      "truck",
+      "fence",
+      "grass"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "institutional",
+      "formal",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "moody"
+    ],
+    "objects": [
+      "men",
+      "hallway",
+      "doors",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "serious",
+      "determined",
+      "tense",
+      "hurried"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "tense"
+    ],
+    "objects": [
+      "person",
+      "hallway"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "secretive",
+      "tense",
+      "authoritative",
+      "focused"
+    ],
+    "style": [
+      "dramatic",
+      "muted",
+      "high-contrast"
+    ],
+    "objects": [
+      "men",
+      "suits",
+      "door",
+      "hallway",
+      "light"
+    ]
+  }
+}

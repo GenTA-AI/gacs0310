@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "determined",
+      "anticipation",
+      "serious",
+      "professional"
+    ],
+    "style": [
+      "muted",
+      "professional",
+      "modern"
+    ],
+    "objects": [
+      "helmet",
+      "steering wheel",
+      "car interior"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "anticipatory",
+      "determined",
+      "professional",
+      "excited"
+    ],
+    "style": [
+      "dynamic",
+      "modern",
+      "sleek"
+    ],
+    "objects": [
+      "car",
+      "driver",
+      "steering wheel",
+      "dashboard"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "intense",
+      "professional",
+      "controlled",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "high-contrast",
+      "dynamic"
+    ],
+    "objects": [
+      "driver",
+      "steering wheel",
+      "dashboard",
+      "racetrack",
+      "safety barriers"
+    ]
+  }
+}

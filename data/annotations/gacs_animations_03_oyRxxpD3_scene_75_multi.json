@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "manic",
+      "intense",
+      "crazed",
+      "disturbed",
+      "desperate"
+    ],
+    "style": [
+      "animated",
+      "blue-toned",
+      "expressive"
+    ],
+    "objects": [
+      "man",
+      "cloak",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "aggressive",
+      "excited",
+      "menacing",
+      "determined"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "dynamic"
+    ],
+    "objects": [
+      "character",
+      "sword",
+      "forest",
+      "night"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "menacing",
+      "sinister",
+      "threatening",
+      "villainous",
+      "malevolent"
+    ],
+    "style": [
+      "3d-animated",
+      "atmospheric",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "character",
+      "forest",
+      "trees",
+      "night sky"
+    ]
+  }
+}

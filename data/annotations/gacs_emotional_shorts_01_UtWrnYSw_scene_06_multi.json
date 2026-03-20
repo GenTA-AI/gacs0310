@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "cheerful",
+      "optimistic",
+      "heartwarming"
+    ],
+    "style": [
+      "bright",
+      "medium-shot",
+      "broadcast"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "trees",
+      "hat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "lively",
+      "cheerful",
+      "optimistic"
+    ],
+    "style": [
+      "news-style",
+      "candid",
+      "bright"
+    ],
+    "objects": [
+      "person",
+      "cap",
+      "plants",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "triumphant",
+      "exuberant",
+      "elated"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "hat",
+      "plants",
+      "building",
+      "news broadcast"
+    ]
+  }
+}

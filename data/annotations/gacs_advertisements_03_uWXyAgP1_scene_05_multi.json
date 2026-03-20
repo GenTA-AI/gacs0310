@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "bold",
+      "futuristic"
+    ],
+    "style": [
+      "sleek",
+      "modern",
+      "reflective"
+    ],
+    "objects": [
+      "car",
+      "headlight"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "clean",
+      "futuristic"
+    ],
+    "style": [
+      "clean",
+      "bright",
+      "modern"
+    ],
+    "objects": [
+      "car",
+      "headlight"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "dynamic",
+      "futuristic"
+    ],
+    "style": [
+      "sleek",
+      "automotive",
+      "high-tech"
+    ],
+    "objects": [
+      "car headlight",
+      "vehicle body",
+      "led lights",
+      "chrome trim"
+    ]
+  }
+}

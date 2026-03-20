@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "surreal",
+      "floating",
+      "contemplative",
+      "isolated"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "surreal"
+    ],
+    "objects": [
+      "person",
+      "glasses",
+      "suit",
+      "stars"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "surreal",
+      "detached",
+      "disoriented",
+      "serene"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "surreal"
+    ],
+    "objects": [
+      "person",
+      "stars",
+      "background"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "contemplative",
+      "dreamy",
+      "weightless"
+    ],
+    "style": [
+      "cinematic",
+      "ethereal",
+      "atmospheric"
+    ],
+    "objects": [
+      "space",
+      "astronaut",
+      "stars",
+      "hands",
+      "helmet"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "confident",
+      "focused",
+      "neutral",
+      "formal"
+    ],
+    "style": [
+      "clean",
+      "neutral",
+      "focused"
+    ],
+    "objects": [
+      "man",
+      "jacket",
+      "button",
+      "collar"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "stylish",
+      "poised",
+      "composed",
+      "cool"
+    ],
+    "style": [
+      "muted",
+      "minimalist",
+      "textured"
+    ],
+    "objects": [
+      "jacket",
+      "collar",
+      "button",
+      "shirt"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "stoic",
+      "contemplative",
+      "serious",
+      "introspective",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "jacket",
+      "button",
+      "collar"
+    ]
+  }
+}

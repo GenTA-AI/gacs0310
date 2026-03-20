@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "sleek",
+      "futuristic",
+      "cold",
+      "clinical"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "geometric"
+    ],
+    "objects": [
+      "text",
+      "ceiling",
+      "lights"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "technological",
+      "modern",
+      "illuminated"
+    ],
+    "style": [
+      "futuristic",
+      "neon-lit",
+      "minimalist"
+    ],
+    "objects": [
+      "led display",
+      "escalator",
+      "handrails",
+      "steps"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "minimalist",
+      "technological",
+      "modern"
+    ],
+    "style": [
+      "futuristic",
+      "minimalistic",
+      "sleek"
+    ],
+    "objects": [
+      "led display",
+      "text",
+      "stripes"
+    ]
+  }
+}

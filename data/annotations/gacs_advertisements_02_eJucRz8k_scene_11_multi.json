@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "vulnerable",
+      "unsettling",
+      "curious",
+      "mysterious"
+    ],
+    "style": [
+      "gritty",
+      "low-lit",
+      "intense"
+    ],
+    "objects": [
+      "person",
+      "hay",
+      "horse"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vulnerable",
+      "uneasy",
+      "ominous",
+      "disturbing",
+      "uncertain"
+    ],
+    "style": [
+      "gritty",
+      "low-key",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "hay",
+      "animal"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "tense",
+      "dramatic",
+      "unsettling"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "low-key"
+    ],
+    "objects": [
+      "hand",
+      "tool",
+      "wood shavings",
+      "chisel"
+    ]
+  }
+}

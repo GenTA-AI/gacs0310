@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "dramatic",
+      "intense",
+      "heroic",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "retro",
+      "dramatic"
+    ],
+    "objects": [
+      "faces",
+      "person",
+      "logo",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "nostalgic",
+      "inspiring",
+      "intense",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "nostalgic",
+      "vibrant"
+    ],
+    "objects": [
+      "karate kid legends poster",
+      "three people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "nostalgic",
+      "focused",
+      "confident",
+      "serious"
+    ],
+    "style": [
+      "dramatic",
+      "warm",
+      "posterized"
+    ],
+    "objects": [
+      "people",
+      "movie poster"
+    ]
+  }
+}

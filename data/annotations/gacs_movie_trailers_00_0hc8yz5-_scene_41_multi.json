@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "nostalgic",
+      "elegant",
+      "serene",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "pastoral",
+      "vintage"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "house",
+      "car",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "serious",
+      "unsettling",
+      "foreboding",
+      "mysterious"
+    ],
+    "style": [
+      "naturalistic",
+      "overcast",
+      "rural"
+    ],
+    "objects": [
+      "building",
+      "people",
+      "truck",
+      "tree"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "pastoral",
+      "serene",
+      "relaxed",
+      "sunny"
+    ],
+    "style": [
+      "rustic",
+      "natural",
+      "soft-lit"
+    ],
+    "objects": [
+      "house",
+      "trees",
+      "woman",
+      "man",
+      "truck"
+    ]
+  }
+}

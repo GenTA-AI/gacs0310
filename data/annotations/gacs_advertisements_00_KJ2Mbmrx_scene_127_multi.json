@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "anticipation",
+      "bold",
+      "energetic",
+      "commercial"
+    ],
+    "style": [
+      "bold",
+      "graphic",
+      "modern"
+    ],
+    "objects": [
+      "super bowl logo",
+      "pepsi logo",
+      "halftime show text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "energetic",
+      "festive",
+      "celebratory",
+      "dramatic"
+    ],
+    "style": [
+      "bold",
+      "branded",
+      "minimalistic"
+    ],
+    "objects": [
+      "super bowl logo",
+      "pepsi logo",
+      "halftime show text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "exciting",
+      "anticipatory",
+      "grand",
+      "celebratory",
+      "energetic"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "corporate"
+    ],
+    "objects": [
+      "super bowl logo",
+      "pepsi logo",
+      "text",
+      "football"
+    ]
+  }
+}

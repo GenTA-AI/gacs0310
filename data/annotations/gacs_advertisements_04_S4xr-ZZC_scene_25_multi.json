@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "minimalistic",
+      "stylish",
+      "enigmatic"
+    ],
+    "style": [
+      "minimalistic",
+      "monochromatic",
+      "modern"
+    ],
+    "objects": [
+      "moncler genius logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "minimalist",
+      "modern",
+      "stark",
+      "bold",
+      "mysterious"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "geometric"
+    ],
+    "objects": [
+      "logo",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "minimal",
+      "sophisticated",
+      "clean",
+      "corporate",
+      "elegant"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "geometric"
+    ],
+    "objects": [
+      "logo",
+      "text",
+      "squares",
+      "building"
+    ]
+  }
+}

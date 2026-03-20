@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "comforting",
+      "familial",
+      "warm",
+      "content",
+      "pleasant"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "domestic"
+    ],
+    "objects": [
+      "table",
+      "person",
+      "bowl",
+      "kitchen"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "cheerful",
+      "lively",
+      "content",
+      "domestic"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "family-oriented"
+    ],
+    "objects": [
+      "table",
+      "chairs",
+      "bowls",
+      "stove",
+      "microwave"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "joyful",
+      "domestic",
+      "cheerful",
+      "loving"
+    ],
+    "style": [
+      "3d-animated",
+      "warm-lighting",
+      "domestic"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "kitchen",
+      "table",
+      "chairs"
+    ]
+  }
+}

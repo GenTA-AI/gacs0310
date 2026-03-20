@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dim",
+      "secretive",
+      "intimate",
+      "enigmatic"
+    ],
+    "style": [
+      "dark",
+      "intimate",
+      "moody"
+    ],
+    "objects": [
+      "hand",
+      "smartphone",
+      "table",
+      "bowl",
+      "plate"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intimate",
+      "focused",
+      "modern",
+      "dim",
+      "calm"
+    ],
+    "style": [
+      "low-key",
+      "warm",
+      "modern"
+    ],
+    "objects": [
+      "smartphone",
+      "hand",
+      "finger",
+      "rings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "cozy",
+      "warm",
+      "relaxed",
+      "contemplative"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "low-light"
+    ],
+    "objects": [
+      "phone",
+      "hands",
+      "ring",
+      "table"
+    ]
+  }
+}

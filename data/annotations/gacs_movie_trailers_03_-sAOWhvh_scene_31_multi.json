@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "ominous",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "aerial",
+      "cinematic"
+    ],
+    "objects": [
+      "cars",
+      "parking lot",
+      "lights",
+      "pavement"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dark",
+      "unsettling",
+      "mysterious",
+      "tense"
+    ],
+    "style": [
+      "dark",
+      "muted",
+      "high-angle"
+    ],
+    "objects": [
+      "vehicles",
+      "people",
+      "structure",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "dark",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "high-contrast"
+    ],
+    "objects": [
+      "vehicles",
+      "lights",
+      "people",
+      "building"
+    ]
+  }
+}

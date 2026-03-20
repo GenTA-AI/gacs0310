@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "charming",
+      "sophisticated",
+      "relaxed",
+      "suave"
+    ],
+    "style": [
+      "cinematic",
+      "period-drama",
+      "natural-lighting"
+    ],
+    "objects": [
+      "man",
+      "stone archway",
+      "wall",
+      "jacket"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "expectant",
+      "curious",
+      "calm",
+      "enigmatic"
+    ],
+    "style": [
+      "naturalistic",
+      "overcast",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "wall",
+      "doorway"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "inviting",
+      "curious",
+      "welcoming",
+      "serene"
+    ],
+    "style": [
+      "naturalistic",
+      "stone-texture",
+      "subdued"
+    ],
+    "objects": [
+      "person",
+      "stone wall",
+      "archway",
+      "satchel",
+      "cup"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "relaxed",
+      "serene",
+      "peaceful",
+      "soothing"
+    ],
+    "style": [
+      "moody",
+      "soft",
+      "natural"
+    ],
+    "objects": [
+      "phone",
+      "dog",
+      "notifications",
+      "ocean"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "expectant",
+      "domestic",
+      "modern",
+      "connected"
+    ],
+    "style": [
+      "clinical",
+      "overcast",
+      "shallow-depth"
+    ],
+    "objects": [
+      "smartphone",
+      "bed",
+      "notifications"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "contemplative",
+      "tranquil",
+      "calm"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "smartphone",
+      "floor",
+      "screen",
+      "wood"
+    ]
+  }
+}

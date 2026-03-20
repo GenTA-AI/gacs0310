@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "tender",
+      "warm",
+      "loving",
+      "peaceful"
+    ],
+    "style": [
+      "candid",
+      "nostalgic",
+      "informal"
+    ],
+    "objects": [
+      "photograph",
+      "grass",
+      "child",
+      "adult",
+      "toys"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "bittersweet",
+      "poignant",
+      "reflective",
+      "melancholic"
+    ],
+    "style": [
+      "documentary",
+      "medium-shot",
+      "naturalistic"
+    ],
+    "objects": [
+      "photograph",
+      "grass",
+      "man",
+      "boy"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "sentimental",
+      "melancholic",
+      "bittersweet",
+      "reflective"
+    ],
+    "style": [
+      "surveillance",
+      "grainy",
+      "handheld"
+    ],
+    "objects": [
+      "grass",
+      "photograph",
+      "ground",
+      "dirt"
+    ]
+  }
+}

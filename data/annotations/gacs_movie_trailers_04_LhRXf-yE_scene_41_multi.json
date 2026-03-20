@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "contemplative",
+      "subdued",
+      "observant",
+      "introspective"
+    ],
+    "style": [
+      "naturalistic",
+      "muted-colors",
+      "documentary-style"
+    ],
+    "objects": [
+      "person",
+      "subway train",
+      "poster",
+      "window",
+      "jacket"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uneasy",
+      "observant",
+      "concerned",
+      "pensive",
+      "alert"
+    ],
+    "style": [
+      "realistic",
+      "muted",
+      "grainy"
+    ],
+    "objects": [
+      "man",
+      "poster",
+      "train",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "unimpressed",
+      "tired",
+      "bored",
+      "indifferent",
+      "casual"
+    ],
+    "style": [
+      "dimly-lit",
+      "naturalistic",
+      "muted"
+    ],
+    "objects": [
+      "person",
+      "subway",
+      "poster",
+      "jacket"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "engaging",
+      "playful",
+      "interactive",
+      "inviting"
+    ],
+    "style": [
+      "bold",
+      "minimalistic",
+      "branded"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "inviting",
+      "playful",
+      "engaging",
+      "participatory"
+    ],
+    "style": [
+      "text-based",
+      "red",
+      "clean"
+    ],
+    "objects": [
+      "text",
+      "rain"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "engaging",
+      "promotional",
+      "interactive",
+      "festive"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "textured"
+    ],
+    "objects": [
+      "text",
+      "red background",
+      "commercial advertisement",
+      "social media post"
+    ]
+  }
+}

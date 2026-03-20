@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "dramatic",
+      "cinematic",
+      "bold",
+      "confident"
+    ],
+    "style": [
+      "blue-tinted",
+      "industrial",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "text",
+      "stage",
+      "microphone",
+      "lighting"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "artistic",
+      "focused",
+      "dramatic",
+      "energetic"
+    ],
+    "style": [
+      "monochromatic",
+      "dynamic",
+      "text-overlay"
+    ],
+    "objects": [
+      "eminem",
+      "man",
+      "text",
+      "studio",
+      "chair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "focused",
+      "serious",
+      "creative",
+      "confident"
+    ],
+    "style": [
+      "blue-toned",
+      "stylized",
+      "graphic"
+    ],
+    "objects": [
+      "eminem",
+      "writing",
+      "studio",
+      "chair"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "bold",
+      "striking",
+      "otherworldly",
+      "confident"
+    ],
+    "style": [
+      "vibrant",
+      "saturated",
+      "otherworldly"
+    ],
+    "objects": [
+      "model",
+      "coat",
+      "sunglasses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bold",
+      "futuristic",
+      "stylish",
+      "edgy",
+      "dramatic"
+    ],
+    "style": [
+      "futuristic",
+      "vibrant",
+      "oversized"
+    ],
+    "objects": [
+      "model",
+      "coat",
+      "sunglasses",
+      "jacket",
+      "pink background"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "bold",
+      "futuristic",
+      "confident"
+    ],
+    "style": [
+      "dramatic",
+      "pink-saturated",
+      "fashion-forward"
+    ],
+    "objects": [
+      "models",
+      "runway",
+      "fashion show",
+      "coats",
+      "sunglasses"
+    ]
+  }
+}

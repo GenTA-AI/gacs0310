@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "grand",
+      "awe-inspiring",
+      "majestic",
+      "hopeful",
+      "fairytale"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "fantastical"
+    ],
+    "objects": [
+      "castle",
+      "sky",
+      "walls"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "majestic",
+      "hopeful",
+      "grand",
+      "serene",
+      "inspiring"
+    ],
+    "style": [
+      "animated",
+      "fantasy",
+      "ethereal"
+    ],
+    "objects": [
+      "castle",
+      "clouds",
+      "sky",
+      "towers"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "grand",
+      "serene",
+      "enchanting",
+      "whimsical"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "whimsical"
+    ],
+    "objects": [
+      "castle",
+      "sky",
+      "clouds"
+    ]
+  }
+}

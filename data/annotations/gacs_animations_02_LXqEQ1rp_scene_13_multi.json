@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "mysterious",
+      "dangerous",
+      "foreboding",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "mysterious",
+      "metallic"
+    ],
+    "objects": [
+      "blades",
+      "ground"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ominous",
+      "eerie",
+      "suspenseful"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "metallic"
+    ],
+    "objects": [
+      "blades",
+      "forest",
+      "night"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ancient",
+      "dramatic",
+      "ethereal",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "atmospheric"
+    ],
+    "objects": [
+      "mammoth tusks",
+      "ice",
+      "snow",
+      "darkness"
+    ]
+  }
+}

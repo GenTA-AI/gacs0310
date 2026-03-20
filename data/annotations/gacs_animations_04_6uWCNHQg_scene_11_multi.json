@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frightened",
+      "desperate",
+      "urgent",
+      "chaotic",
+      "disoriented"
+    ],
+    "style": [
+      "animated",
+      "dynamic",
+      "distressed"
+    ],
+    "objects": [
+      "woman",
+      "steering wheel",
+      "windshield"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "chaotic",
+      "dramatic",
+      "alarming",
+      "urgent"
+    ],
+    "style": [
+      "animated",
+      "dynamic",
+      "dramatic"
+    ],
+    "objects": [
+      "driver",
+      "car",
+      "steering wheel",
+      "shattered glass"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "urgent",
+      "focused",
+      "determined",
+      "action-packed"
+    ],
+    "style": [
+      "animated",
+      "dramatic",
+      "stylized"
+    ],
+    "objects": [
+      "woman",
+      "car",
+      "steering wheel",
+      "windshield"
+    ]
+  }
+}

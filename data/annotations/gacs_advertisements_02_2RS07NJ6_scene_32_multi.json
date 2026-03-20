@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dynamic",
+      "fast",
+      "intense",
+      "exciting",
+      "powerful"
+    ],
+    "style": [
+      "blurred",
+      "dynamic",
+      "close-up"
+    ],
+    "objects": [
+      "wheel",
+      "brake caliper",
+      "tire"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "intense",
+      "powerful",
+      "energetic",
+      "mechanical"
+    ],
+    "style": [
+      "dynamic",
+      "high-contrast",
+      "detailed"
+    ],
+    "objects": [
+      "wheel",
+      "tire",
+      "brake",
+      "rim"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "sleek",
+      "powerful",
+      "mechanical",
+      "intense"
+    ],
+    "style": [
+      "dynamic",
+      "close-up",
+      "motion-blur"
+    ],
+    "objects": [
+      "wheel",
+      "brake caliper",
+      "spokes",
+      "rim"
+    ]
+  }
+}

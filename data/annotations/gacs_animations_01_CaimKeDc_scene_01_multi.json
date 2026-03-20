@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "festive",
+      "warm",
+      "celebratory",
+      "inviting"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "people",
+      "staircase",
+      "plants",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "expectant",
+      "respectful",
+      "attentive",
+      "subdued"
+    ],
+    "style": [
+      "warm-toned",
+      "animated",
+      "theatrical"
+    ],
+    "objects": [
+      "crowd",
+      "person",
+      "stairs"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "festive",
+      "celebratory",
+      "joyful",
+      "enchanting",
+      "magical"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "crowd-scene"
+    ],
+    "objects": [
+      "crowd",
+      "staircase",
+      "performer",
+      "audience",
+      "stage"
+    ]
+  }
+}

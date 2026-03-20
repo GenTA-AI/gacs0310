@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "focused",
+      "serious",
+      "technological",
+      "concentrated"
+    ],
+    "style": [
+      "cinematic",
+      "dark-toned",
+      "high-tech"
+    ],
+    "objects": [
+      "monitors",
+      "people",
+      "chairs",
+      "screens"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "focused",
+      "tense",
+      "urgent",
+      "strategic"
+    ],
+    "style": [
+      "dark",
+      "split-screen",
+      "tense"
+    ],
+    "objects": [
+      "people",
+      "display screen",
+      "uniform"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "serious",
+      "intense",
+      "focused",
+      "strategic"
+    ],
+    "style": [
+      "cinematic",
+      "dimly-lit",
+      "split-screen"
+    ],
+    "objects": [
+      "control room",
+      "map",
+      "chairs",
+      "people"
+    ]
+  }
+}

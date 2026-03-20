@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "threatening",
+      "intense",
+      "dangerous",
+      "primal",
+      "menacing"
+    ],
+    "style": [
+      "cinematic",
+      "lush-green",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "dinosaur",
+      "trees",
+      "vegetation",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frightening",
+      "tense",
+      "dangerous",
+      "anxious",
+      "alarming"
+    ],
+    "style": [
+      "dramatic",
+      "naturalistic",
+      "bright"
+    ],
+    "objects": [
+      "t-rex",
+      "person",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "frightening",
+      "suspenseful",
+      "alarming",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "dinosaur",
+      "person",
+      "foliage"
+    ]
+  }
+}

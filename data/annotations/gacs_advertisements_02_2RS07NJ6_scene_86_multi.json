@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "intense",
+      "competitive",
+      "thrilling",
+      "determined"
+    ],
+    "style": [
+      "dynamic",
+      "desaturated",
+      "confined"
+    ],
+    "objects": [
+      "roll cage",
+      "driver",
+      "dashboard",
+      "racetrack"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "thrilling",
+      "adrenaline-fueled",
+      "intense",
+      "focused"
+    ],
+    "style": [
+      "dynamic",
+      "immersive",
+      "vibrant"
+    ],
+    "objects": [
+      "roll cage",
+      "helmet",
+      "racing seat",
+      "dashboard"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "adrenaline-fueled",
+      "competitive",
+      "determined"
+    ],
+    "style": [
+      "dramatic",
+      "high-contrast",
+      "moody"
+    ],
+    "objects": [
+      "roll cage",
+      "steering wheel",
+      "car interior",
+      "dashboard",
+      "windshield"
+    ]
+  }
+}

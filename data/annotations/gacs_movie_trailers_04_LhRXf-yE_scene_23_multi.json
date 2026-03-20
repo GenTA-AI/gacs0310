@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "contemplative",
+      "intimate",
+      "calm",
+      "concentrated"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "chopsticks",
+      "hoodie",
+      "food"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "introspective",
+      "calm",
+      "melancholic",
+      "focused"
+    ],
+    "style": [
+      "realistic",
+      "warm-toned",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "chopsticks",
+      "food"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "reflective",
+      "cozy",
+      "content",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "chopsticks",
+      "rice",
+      "person",
+      "red hoodie"
+    ]
+  }
+}

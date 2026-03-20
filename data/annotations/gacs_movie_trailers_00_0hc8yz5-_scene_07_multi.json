@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "reflective",
+      "concerned",
+      "uneasy",
+      "sincere"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "soft lighting"
+    ],
+    "objects": [
+      "man",
+      "tree",
+      "building",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "affectionate",
+      "intimate",
+      "tender",
+      "celebratory"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "trees",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "friendly",
+      "supportive",
+      "comforting",
+      "peaceful"
+    ],
+    "style": [
+      "bright",
+      "natural",
+      "detailed"
+    ],
+    "objects": [
+      "two men",
+      "child",
+      "trees",
+      "building"
+    ]
+  }
+}

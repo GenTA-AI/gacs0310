@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "focused",
+      "energetic",
+      "determined",
+      "edgy"
+    ],
+    "style": [
+      "dark",
+      "neon",
+      "gritty"
+    ],
+    "objects": [
+      "man",
+      "city lights",
+      "stage lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "cinematic",
+      "intense",
+      "technological",
+      "immersive"
+    ],
+    "style": [
+      "futuristic",
+      "moody",
+      "digital"
+    ],
+    "objects": [
+      "person",
+      "holographic text",
+      "equipment",
+      "cables"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "electrifying",
+      "dynamic",
+      "energetic",
+      "dramatic"
+    ],
+    "style": [
+      "cyberpunk",
+      "neon-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "holographic displays",
+      "desk",
+      "room",
+      "technology"
+    ]
+  }
+}

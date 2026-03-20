@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "professional",
+      "clean",
+      "modern",
+      "neutral",
+      "corporate"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "high-contrast"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "typography",
+      "title card"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bold",
+      "stark",
+      "cinematic",
+      "simple",
+      "dramatic"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "studios"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "clean",
+      "professional",
+      "minimal",
+      "bold",
+      "modern"
+    ],
+    "style": [
+      "bold",
+      "monochrome",
+      "minimalist"
+    ],
+    "objects": [
+      "studios"
+    ]
+  }
+}

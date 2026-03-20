@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "aggressive",
+      "angry",
+      "confrontational",
+      "hostile"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "close-up"
+    ],
+    "objects": [
+      "men",
+      "faces",
+      "hair",
+      "clothing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "desperate",
+      "frantic",
+      "aggressive",
+      "intense"
+    ],
+    "style": [
+      "intense",
+      "gritty",
+      "desaturated"
+    ],
+    "objects": [
+      "man",
+      "faces"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "aggressive",
+      "alarmed",
+      "urgent",
+      "fierce"
+    ],
+    "style": [
+      "dramatic",
+      "intense",
+      "close-up"
+    ],
+    "objects": [
+      "two people"
+    ]
+  }
+}

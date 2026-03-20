@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clinical",
+      "focused",
+      "deliberate",
+      "sterile",
+      "meticulous"
+    ],
+    "style": [
+      "clean",
+      "shallow-focus",
+      "muted"
+    ],
+    "objects": [
+      "glass",
+      "countertop",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "focused",
+      "routine",
+      "precise",
+      "professional"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "hand",
+      "drink",
+      "glass",
+      "counter"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "contemplative",
+      "intimate",
+      "relaxed",
+      "methodical"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "laptop",
+      "hand",
+      "bottle",
+      "glass"
+    ]
+  }
+}

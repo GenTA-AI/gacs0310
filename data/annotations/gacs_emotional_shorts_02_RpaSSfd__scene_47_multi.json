@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "romantic",
+      "affectionate",
+      "intimate",
+      "sincere",
+      "reassuring"
+    ],
+    "style": [
+      "intimate",
+      "warm-toned",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "text",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "intense",
+      "intimate",
+      "earnest",
+      "sincere"
+    ],
+    "style": [
+      "naturalistic",
+      "intimate",
+      "slightly-desaturated"
+    ],
+    "objects": [
+      "man",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "romantic",
+      "affectionate",
+      "loving"
+    ],
+    "style": [
+      "cinematic",
+      "intimate",
+      "soft-focus"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "face",
+      "hair"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "empathetic",
+      "sincere",
+      "caring",
+      "hopeful",
+      "compassionate"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "bright"
+    ],
+    "objects": [
+      "woman",
+      "foliage",
+      "sweatshirt"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "compassionate",
+      "earnest",
+      "caring",
+      "sincere"
+    ],
+    "style": [
+      "natural",
+      "candid",
+      "interview"
+    ],
+    "objects": [
+      "person",
+      "plants",
+      "hoodie",
+      "microphone"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "compassionate",
+      "peaceful",
+      "gentle",
+      "nurturing"
+    ],
+    "style": [
+      "natural-lighting",
+      "documentary-style",
+      "outdoor-setting"
+    ],
+    "objects": [
+      "woman",
+      "foliage",
+      "text",
+      "hoodie"
+    ]
+  }
+}

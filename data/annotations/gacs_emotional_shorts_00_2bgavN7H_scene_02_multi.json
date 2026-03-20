@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "innocent",
+      "hopeful",
+      "poignant",
+      "bittersweet"
+    ],
+    "style": [
+      "painterly",
+      "warm-toned",
+      "nostalgic"
+    ],
+    "objects": [
+      "boy",
+      "crayon",
+      "drawing"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "sinister",
+      "unsettling",
+      "foreboding",
+      "menacing"
+    ],
+    "style": [
+      "warm-toned",
+      "nostalgic",
+      "intimate"
+    ],
+    "objects": [
+      "child",
+      "crayon",
+      "table",
+      "shirt"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "warm",
+      "nostalgic",
+      "innocent",
+      "bittersweet"
+    ],
+    "style": [
+      "warm-toned",
+      "painterly",
+      "nostalgic"
+    ],
+    "objects": [
+      "child",
+      "crayon",
+      "paper"
+    ]
+  }
+}

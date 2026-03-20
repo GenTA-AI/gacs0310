@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "proud",
+      "celebratory",
+      "respectful",
+      "joyful",
+      "honoring"
+    ],
+    "style": [
+      "news-style",
+      "vibrant",
+      "documentary"
+    ],
+    "objects": [
+      "flags",
+      "person",
+      "house",
+      "marquee",
+      "grass"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "patriotic",
+      "celebratory",
+      "respectful",
+      "sentimental",
+      "hopeful"
+    ],
+    "style": [
+      "bright",
+      "patriotic",
+      "television"
+    ],
+    "objects": [
+      "flags",
+      "building",
+      "man"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "joyful",
+      "heartwarming",
+      "uplifting"
+    ],
+    "style": [
+      "broadcast",
+      "sunny",
+      "patriotic"
+    ],
+    "objects": [
+      "american flags",
+      "military personnel",
+      "house",
+      "news graphics"
+    ]
+  }
+}

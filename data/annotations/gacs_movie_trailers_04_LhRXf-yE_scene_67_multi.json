@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "peaceful",
+      "rustic",
+      "vintage",
+      "serene"
+    ],
+    "style": [
+      "vintage",
+      "warm-toned",
+      "nostalgic"
+    ],
+    "objects": [
+      "cars",
+      "house",
+      "trees",
+      "driveway"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "serene",
+      "quaint",
+      "peaceful",
+      "retro"
+    ],
+    "style": [
+      "vintage",
+      "nostalgic",
+      "rustic"
+    ],
+    "objects": [
+      "cars",
+      "house",
+      "plants",
+      "fence"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "quaint",
+      "nostalgic",
+      "retro",
+      "curious",
+      "calm"
+    ],
+    "style": [
+      "daytime",
+      "vintage",
+      "suburban"
+    ],
+    "objects": [
+      "cars",
+      "house"
+    ]
+  }
+}

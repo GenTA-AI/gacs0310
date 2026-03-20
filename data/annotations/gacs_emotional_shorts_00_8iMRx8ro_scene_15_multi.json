@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "hopeful",
+      "relieved",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "documentary",
+      "bright",
+      "outdoor"
+    ],
+    "objects": [
+      "people",
+      "car",
+      "trees",
+      "tent"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "collaborative",
+      "hopeful",
+      "focused",
+      "relieved",
+      "organized"
+    ],
+    "style": [
+      "news-style",
+      "informative",
+      "candid"
+    ],
+    "objects": [
+      "people",
+      "rescue vehicle",
+      "tent",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "concerned",
+      "focused",
+      "serious",
+      "collaborative"
+    ],
+    "style": [
+      "documentary",
+      "bright-daylight",
+      "news-footage"
+    ],
+    "objects": [
+      "rescuers",
+      "orange vehicle",
+      "tent",
+      "trees"
+    ]
+  }
+}

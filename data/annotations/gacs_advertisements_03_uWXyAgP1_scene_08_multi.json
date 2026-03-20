@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "clinical",
+      "cool",
+      "sophisticated"
+    ],
+    "style": [
+      "clean",
+      "cool-toned",
+      "sleek"
+    ],
+    "objects": [
+      "car",
+      "door handle",
+      "window"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "sophisticated",
+      "modern",
+      "elegant",
+      "aspirational"
+    ],
+    "style": [
+      "sleek",
+      "automotive",
+      "motion-blur"
+    ],
+    "objects": [
+      "car",
+      "window",
+      "door handle",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "sophisticated",
+      "dynamic",
+      "modern"
+    ],
+    "style": [
+      "sleek",
+      "modern",
+      "polished"
+    ],
+    "objects": [
+      "car",
+      "door handle",
+      "window"
+    ]
+  }
+}

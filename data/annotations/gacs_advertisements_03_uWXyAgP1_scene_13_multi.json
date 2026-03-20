@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "cool",
+      "sophisticated",
+      "intriguing"
+    ],
+    "style": [
+      "cool",
+      "reflective",
+      "minimalist"
+    ],
+    "objects": [
+      "car",
+      "window",
+      "side mirror"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "technological",
+      "precise",
+      "sophisticated"
+    ],
+    "style": [
+      "sleek",
+      "monochromatic",
+      "aerodynamic"
+    ],
+    "objects": [
+      "aircraft",
+      "cockpit",
+      "pilot",
+      "canopy"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "futuristic",
+      "elegant",
+      "dynamic"
+    ],
+    "style": [
+      "sleek",
+      "reflective",
+      "modern"
+    ],
+    "objects": [
+      "car",
+      "mirror"
+    ]
+  }
+}

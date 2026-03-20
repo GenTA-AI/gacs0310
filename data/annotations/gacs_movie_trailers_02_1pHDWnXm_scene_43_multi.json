@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "explosive",
+      "intense",
+      "dramatic",
+      "powerful",
+      "overwhelming"
+    ],
+    "style": [
+      "cinematic",
+      "explosive",
+      "dramatic"
+    ],
+    "objects": [
+      "explosion",
+      "ocean",
+      "sky",
+      "coastline"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "violent",
+      "intense",
+      "powerful",
+      "destructive",
+      "alarming"
+    ],
+    "style": [
+      "dramatic",
+      "high-contrast",
+      "cinematic"
+    ],
+    "objects": [
+      "ocean",
+      "explosion",
+      "island"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "explosive",
+      "intense",
+      "dramatic",
+      "chaotic",
+      "powerful"
+    ],
+    "style": [
+      "dramatic",
+      "high-energy",
+      "intense"
+    ],
+    "objects": [
+      "ocean",
+      "explosion",
+      "ship"
+    ]
+  }
+}

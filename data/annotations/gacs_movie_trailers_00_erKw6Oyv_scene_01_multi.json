@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "serene",
+      "peaceful",
+      "ethereal",
+      "tranquil"
+    ],
+    "style": [
+      "silhouette",
+      "underwater",
+      "atmospheric"
+    ],
+    "objects": [
+      "diver",
+      "water",
+      "light",
+      "silhouette"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "isolated",
+      "serene",
+      "vulnerable",
+      "unknown",
+      "weightless"
+    ],
+    "style": [
+      "silhouette",
+      "surreal",
+      "blue-toned"
+    ],
+    "objects": [
+      "water",
+      "diver",
+      "light"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tranquil",
+      "isolated",
+      "serene",
+      "ethereal"
+    ],
+    "style": [
+      "silhouette",
+      "ethereal",
+      "aquatic"
+    ],
+    "objects": [
+      "silhouette",
+      "water",
+      "rope"
+    ]
+  }
+}

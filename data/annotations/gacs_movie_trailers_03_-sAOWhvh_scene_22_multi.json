@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "intimate",
+      "focused",
+      "subdued",
+      "melancholic"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "shallow-focus"
+    ],
+    "objects": [
+      "phone",
+      "hand",
+      "screen",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "reflective",
+      "concerned",
+      "disturbed",
+      "pensive"
+    ],
+    "style": [
+      "muted",
+      "realistic",
+      "handheld"
+    ],
+    "objects": [
+      "smartphone",
+      "hand",
+      "news article"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "reflective",
+      "serious",
+      "introspective",
+      "subdued"
+    ],
+    "style": [
+      "dark",
+      "introspective",
+      "somber"
+    ],
+    "objects": [
+      "phone",
+      "hand",
+      "text",
+      "pants"
+    ]
+  }
+}

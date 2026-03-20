@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "respectful",
+      "contemplative",
+      "traditional",
+      "reverent"
+    ],
+    "style": [
+      "traditional",
+      "warm-lit",
+      "intimate"
+    ],
+    "objects": [
+      "portrait",
+      "calligraphy",
+      "frames",
+      "wall",
+      "fan"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "respectful",
+      "serene",
+      "contemplative",
+      "traditional"
+    ],
+    "style": [
+      "traditional",
+      "warm-toned",
+      "framed"
+    ],
+    "objects": [
+      "calligraphy",
+      "photograph",
+      "wooden comb",
+      "brush"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "respectful",
+      "somber",
+      "traditional",
+      "nostalgic",
+      "honorable"
+    ],
+    "style": [
+      "nostalgic",
+      "framed",
+      "traditional"
+    ],
+    "objects": [
+      "calligraphy",
+      "portrait",
+      "gavel"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "dark",
+      "mysterious",
+      "foreboding",
+      "dramatic"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "red-toned"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dark",
+      "intense",
+      "foreboding",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "ominous",
+      "smoky"
+    ],
+    "objects": [
+      "text",
+      "smoke",
+      "fog"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "ominous",
+      "dark",
+      "mysterious",
+      "foreboding",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "red-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "begins",
+      "red background"
+    ]
+  }
+}

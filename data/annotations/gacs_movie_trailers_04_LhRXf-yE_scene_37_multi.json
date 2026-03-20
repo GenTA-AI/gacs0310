@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "warm",
+      "contemplative",
+      "melancholic",
+      "nostalgic"
+    ],
+    "style": [
+      "moody",
+      "warm-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "window",
+      "chair",
+      "room",
+      "bottles"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "gritty",
+      "restless"
+    ],
+    "style": [
+      "gritty",
+      "low-key",
+      "claustrophobic"
+    ],
+    "objects": [
+      "punching bag",
+      "person",
+      "desk",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "dynamic",
+      "energetic",
+      "determined"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "gritty"
+    ],
+    "objects": [
+      "punching bag",
+      "person",
+      "gloves",
+      "desk",
+      "chair"
+    ]
+  }
+}

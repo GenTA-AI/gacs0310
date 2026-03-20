@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "intriguing",
+      "curious",
+      "sleek",
+      "stylish"
+    ],
+    "style": [
+      "modern",
+      "surreal",
+      "minimalistic"
+    ],
+    "objects": [
+      "car",
+      "bicycle",
+      "trees",
+      "building",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "intriguing",
+      "innovative",
+      "calm",
+      "understated"
+    ],
+    "style": [
+      "staged",
+      "stylized",
+      "futuristic"
+    ],
+    "objects": [
+      "car",
+      "building",
+      "bicycle"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "luxurious",
+      "sophisticated",
+      "dramatic",
+      "stylish",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "urban"
+    ],
+    "objects": [
+      "car",
+      "building",
+      "person",
+      "trees"
+    ]
+  }
+}

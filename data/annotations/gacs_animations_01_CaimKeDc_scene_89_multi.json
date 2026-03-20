@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dark",
+      "mysterious",
+      "intense",
+      "dramatic"
+    ],
+    "style": [
+      "textured",
+      "dark",
+      "indistinct"
+    ],
+    "objects": [
+      "clouds",
+      "mountains"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "eerie",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "moody",
+      "textured",
+      "dramatic"
+    ],
+    "objects": [
+      "mountains"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "mysterious",
+      "foreboding",
+      "atmospheric"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "clouds",
+      "sky",
+      "lightning",
+      "storm"
+    ]
+  }
+}

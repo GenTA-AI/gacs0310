@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "joyful",
+      "energetic",
+      "carefree",
+      "lighthearted"
+    ],
+    "style": [
+      "handheld",
+      "documentary",
+      "natural-lighting"
+    ],
+    "objects": [
+      "person",
+      "ground",
+      "shadow",
+      "pavement"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "intense",
+      "aggressive",
+      "dynamic",
+      "confrontational"
+    ],
+    "style": [
+      "dynamic",
+      "action-packed",
+      "bright"
+    ],
+    "objects": [
+      "person",
+      "pants",
+      "shoes",
+      "pavement"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "violent",
+      "desperate",
+      "chaotic",
+      "stressful",
+      "fearful"
+    ],
+    "style": [
+      "high-key",
+      "action-oriented",
+      "realistic"
+    ],
+    "objects": [
+      "people",
+      "ground",
+      "chairs"
+    ]
+  }
+}

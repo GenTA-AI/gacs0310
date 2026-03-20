@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "calm",
+      "relaxed",
+      "neutral",
+      "whimsical"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "clean"
+    ],
+    "objects": [
+      "dog",
+      "can",
+      "machine"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "relaxed",
+      "mundane",
+      "playful",
+      "whimsical"
+    ],
+    "style": [
+      "cartoonish",
+      "quirky",
+      "minimalistic"
+    ],
+    "objects": [
+      "dog",
+      "vacuum",
+      "soda can",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tired",
+      "exhausted",
+      "weary",
+      "drained",
+      "fatigued"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon-style"
+    ],
+    "objects": [
+      "person",
+      "laptop",
+      "drink",
+      "straw"
+    ]
+  }
+}

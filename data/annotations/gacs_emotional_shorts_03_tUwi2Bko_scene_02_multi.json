@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "calm",
+      "neutral",
+      "reserved",
+      "thoughtful"
+    ],
+    "style": [
+      "natural",
+      "indoor",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "couch"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "comfortable",
+      "casual",
+      "content",
+      "intimate"
+    ],
+    "style": [
+      "casual",
+      "natural-lighting",
+      "documentary-style"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "couch",
+      "glasses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "somber",
+      "pensive",
+      "subdued"
+    ],
+    "style": [
+      "casual",
+      "candid",
+      "natural"
+    ],
+    "objects": [
+      "couch",
+      "woman",
+      "man"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "futuristic",
+      "sleek",
+      "enigmatic",
+      "dramatic"
+    ],
+    "style": [
+      "sleek",
+      "futuristic",
+      "minimalist"
+    ],
+    "objects": [
+      "tower",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "minimalistic",
+      "futuristic",
+      "sleek",
+      "modern",
+      "mysterious"
+    ],
+    "style": [
+      "minimalist",
+      "futuristic",
+      "high-contrast"
+    ],
+    "objects": [
+      "floor lamp",
+      "blue light"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "elegant",
+      "minimalist",
+      "contemplative",
+      "serene"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "futuristic"
+    ],
+    "objects": [
+      "tower",
+      "building",
+      "lights"
+    ]
+  }
+}

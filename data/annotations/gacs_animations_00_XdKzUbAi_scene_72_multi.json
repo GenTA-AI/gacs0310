@@ -1,0 +1,58 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bold",
+      "empowering",
+      "urgent",
+      "dramatic",
+      "intense"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "bold"
+    ],
+    "objects": [
+      "text",
+      "unleash"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bold",
+      "empowering",
+      "motivational",
+      "assertive",
+      "challenging"
+    ],
+    "style": [
+      "minimalistic",
+      "bold",
+      "monochrome"
+    ],
+    "objects": [
+      "unleash"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "bold",
+      "motivational",
+      "empowering"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "bold-typography"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  }
+}

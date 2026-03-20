@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "subdued",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "shirt",
+      "screen",
+      "room"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "reflective",
+      "serene",
+      "peaceful",
+      "thoughtful"
+    ],
+    "style": [
+      "warm-toned",
+      "soft-focus",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "wall",
+      "shirt"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "contemplative",
+      "serene",
+      "calm",
+      "reflective"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "shoji screen",
+      "shirt"
+    ]
+  }
+}

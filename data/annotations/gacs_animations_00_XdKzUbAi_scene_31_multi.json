@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "abstract",
+      "dynamic",
+      "tense",
+      "energetic",
+      "dramatic"
+    ],
+    "style": [
+      "abstract",
+      "monochromatic",
+      "dynamic"
+    ],
+    "objects": [
+      "red lines",
+      "black lines",
+      "white shapes"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fractured",
+      "intense",
+      "chaotic",
+      "broken",
+      "strained"
+    ],
+    "style": [
+      "abstract",
+      "high-contrast",
+      "dynamic"
+    ],
+    "objects": [
+      "veins",
+      "abstract pattern",
+      "cracks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "chaotic",
+      "destructive",
+      "intense",
+      "menacing"
+    ],
+    "style": [
+      "ethereal",
+      "cracked",
+      "luminous"
+    ],
+    "objects": [
+      "cracked glass",
+      "red liquid",
+      "white surface"
+    ]
+  }
+}

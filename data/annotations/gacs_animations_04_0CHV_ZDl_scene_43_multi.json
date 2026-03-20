@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "empathetic",
+      "intimate",
+      "caring",
+      "gentle"
+    ],
+    "style": [
+      "animated",
+      "minimalist",
+      "somber"
+    ],
+    "objects": [
+      "dog",
+      "fish",
+      "beach",
+      "cliffs"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "thoughtful",
+      "pensive",
+      "somber",
+      "subdued"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "muted"
+    ],
+    "objects": [
+      "dog",
+      "sunset",
+      "cliff",
+      "beach"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "eerie",
+      "threatening",
+      "dark",
+      "menacing"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "muted-colors"
+    ],
+    "objects": [
+      "face",
+      "eyes",
+      "hair",
+      "collar"
+    ]
+  }
+}

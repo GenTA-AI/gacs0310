@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "intense",
+      "dramatic",
+      "ominous"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "dramatic"
+    ],
+    "objects": [
+      "hand",
+      "painting",
+      "person",
+      "dragon"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "obscured",
+      "uneasy",
+      "ominous",
+      "tense"
+    ],
+    "style": [
+      "blurry",
+      "warm-toned",
+      "low-contrast"
+    ],
+    "objects": [
+      "person",
+      "artwork"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "chaotic",
+      "intense",
+      "turbulent",
+      "menacing"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "animated character",
+      "smoke",
+      "flames",
+      "clouds"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "tranquil",
+      "serene",
+      "peaceful",
+      "wistful"
+    ],
+    "style": [
+      "animated",
+      "detailed",
+      "muted"
+    ],
+    "objects": [
+      "ferris wheel",
+      "roller coaster",
+      "arcade",
+      "beach",
+      "lifeguard chair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "peaceful",
+      "nostalgic",
+      "melancholic",
+      "serene"
+    ],
+    "style": [
+      "flat",
+      "muted",
+      "stylized"
+    ],
+    "objects": [
+      "ferris wheel",
+      "pier",
+      "beach"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "serene",
+      "contemplative",
+      "wistful"
+    ],
+    "style": [
+      "pixel-art",
+      "sepia-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "ferris wheel",
+      "boardwalk",
+      "beach",
+      "ocean",
+      "buildings"
+    ]
+  }
+}

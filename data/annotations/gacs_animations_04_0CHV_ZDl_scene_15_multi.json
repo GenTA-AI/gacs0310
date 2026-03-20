@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "sterile",
+      "claustrophobic",
+      "stark",
+      "uneasy"
+    ],
+    "style": [
+      "cartoonish",
+      "flat",
+      "angular"
+    ],
+    "objects": [
+      "toilet paper rolls",
+      "floor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "mundane",
+      "simple",
+      "neutral",
+      "routine"
+    ],
+    "style": [
+      "animated",
+      "flat",
+      "simplified"
+    ],
+    "objects": [
+      "toilet paper",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "peaceful",
+      "neutral",
+      "subdued",
+      "gentle"
+    ],
+    "style": [
+      "cartoon",
+      "flat-shaded",
+      "minimalist"
+    ],
+    "objects": [
+      "elephant",
+      "wooden floor",
+      "tail"
+    ]
+  }
+}

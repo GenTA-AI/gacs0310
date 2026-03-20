@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "focused",
+      "clinical",
+      "intense",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "syringe",
+      "man",
+      "glasses",
+      "glove"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "concerned",
+      "uneasy",
+      "apprehensive",
+      "serious"
+    ],
+    "style": [
+      "high-contrast",
+      "suspenseful",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "syringe",
+      "glasses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "suspenseful",
+      "ominous",
+      "cautious"
+    ],
+    "style": [
+      "dramatic",
+      "dark",
+      "focused"
+    ],
+    "objects": [
+      "syringe",
+      "glasses",
+      "glove",
+      "face"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urban",
+      "lively",
+      "casual",
+      "social",
+      "trendy"
+    ],
+    "style": [
+      "urban",
+      "cool-toned",
+      "contemporary"
+    ],
+    "objects": [
+      "women",
+      "building",
+      "food stand",
+      "drink"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "lively",
+      "social",
+      "upbeat",
+      "casual",
+      "cheerful"
+    ],
+    "style": [
+      "nighttime",
+      "urban",
+      "vibrant"
+    ],
+    "objects": [
+      "women",
+      "coat",
+      "drink",
+      "building",
+      "vending truck"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "friendly",
+      "social",
+      "content"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "urban-nighttime"
+    ],
+    "objects": [
+      "women",
+      "pepsi can",
+      "jackets",
+      "storefront"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "focused",
+      "intense",
+      "futuristic",
+      "analytical"
+    ],
+    "style": [
+      "futuristic",
+      "moody",
+      "high-contrast"
+    ],
+    "objects": [
+      "person",
+      "neon text",
+      "office",
+      "windows"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "introspective",
+      "surreal",
+      "enigmatic",
+      "melancholic",
+      "contemplative"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "stylized"
+    ],
+    "objects": [
+      "person",
+      "handwriting",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "immersive",
+      "technological",
+      "cyberpunk",
+      "atmospheric"
+    ],
+    "style": [
+      "futuristic",
+      "holographic",
+      "cyberpunk"
+    ],
+    "objects": [
+      "person",
+      "text",
+      "lights",
+      "interior space"
+    ]
+  }
+}

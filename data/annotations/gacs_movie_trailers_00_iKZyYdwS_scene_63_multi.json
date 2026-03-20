@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "distressed",
+      "anguished",
+      "vulnerable",
+      "melancholic",
+      "tormented"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "hair",
+      "clothing",
+      "background lighting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sad",
+      "distressed",
+      "emotional",
+      "vulnerable",
+      "heartbroken"
+    ],
+    "style": [
+      "moody",
+      "desaturated",
+      "close-up"
+    ],
+    "objects": [
+      "woman",
+      "dispenser"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "distressed",
+      "sorrowful",
+      "anxious",
+      "intense",
+      "gloomy"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "emotional"
+    ],
+    "objects": [
+      "person",
+      "soap dispenser",
+      "wall"
+    ]
+  }
+}

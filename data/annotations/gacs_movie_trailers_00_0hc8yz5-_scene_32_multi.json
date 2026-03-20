@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "concerned",
+      "serious",
+      "troubled",
+      "apprehensive"
+    ],
+    "style": [
+      "dramatic",
+      "low-key",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "face",
+      "dark clothing",
+      "interior"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "concerned",
+      "intense",
+      "thoughtful",
+      "uneasy"
+    ],
+    "style": [
+      "realistic",
+      "dimly-lit",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "serious",
+      "focused",
+      "intense",
+      "concerned"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "intense"
+    ],
+    "objects": [
+      "man",
+      "door",
+      "wall"
+    ]
+  }
+}

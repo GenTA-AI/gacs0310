@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "modern",
+      "vibrant",
+      "electric"
+    ],
+    "style": [
+      "neon",
+      "streaked",
+      "high-contrast"
+    ],
+    "objects": [
+      "letter n",
+      "red lights",
+      "blue lights",
+      "diagonal lines"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "sleek",
+      "digital",
+      "bold",
+      "energetic"
+    ],
+    "style": [
+      "abstract",
+      "vibrant",
+      "minimalist"
+    ],
+    "objects": [
+      "letter n",
+      "logo",
+      "stripes"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "vibrant",
+      "dynamic",
+      "colorful",
+      "energetic",
+      "bold"
+    ],
+    "style": [
+      "sleek",
+      "vibrant",
+      "modern"
+    ],
+    "objects": [
+      "netflix logo"
+    ]
+  }
+}

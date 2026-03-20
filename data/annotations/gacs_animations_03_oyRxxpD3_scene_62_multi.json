@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anticipatory",
+      "festive",
+      "exciting",
+      "dramatic",
+      "intriguing"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "bold"
+    ],
+    "objects": [
+      "thanksgiving text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dramatic",
+      "intriguing",
+      "solemn",
+      "expectant",
+      "cinematic"
+    ],
+    "style": [
+      "dark",
+      "stylized",
+      "futuristic"
+    ],
+    "objects": [
+      "text",
+      "beams"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "festive",
+      "warm",
+      "celebratory",
+      "anticipatory",
+      "grateful"
+    ],
+    "style": [
+      "dramatic",
+      "ethereal",
+      "gradient-lit"
+    ],
+    "objects": [
+      "text",
+      "background",
+      "lights",
+      "gradient"
+    ]
+  }
+}

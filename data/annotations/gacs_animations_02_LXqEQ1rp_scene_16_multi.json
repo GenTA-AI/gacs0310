@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "melancholic",
+      "broken",
+      "still",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "detailed"
+    ],
+    "objects": [
+      "pocket watch",
+      "rocks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ominous",
+      "melancholic",
+      "haunting"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "moody"
+    ],
+    "objects": [
+      "pocket watch",
+      "chain",
+      "rocks",
+      "ground"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "broken",
+      "mysterious",
+      "eerie",
+      "aged",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "mysterious",
+      "vintage"
+    ],
+    "objects": [
+      "pocket watch",
+      "rocks"
+    ]
+  }
+}

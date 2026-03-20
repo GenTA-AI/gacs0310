@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "bold",
+      "vibrant",
+      "avant-garde",
+      "dramatic"
+    ],
+    "style": [
+      "futuristic",
+      "vibrant",
+      "geometric"
+    ],
+    "objects": [
+      "model",
+      "dress",
+      "sunglasses",
+      "gloves",
+      "bag"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "bizarre",
+      "detached",
+      "surreal",
+      "bold"
+    ],
+    "style": [
+      "stark",
+      "futuristic",
+      "vibrant"
+    ],
+    "objects": [
+      "models",
+      "wigs",
+      "sunglasses",
+      "dresses"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "vibrant",
+      "confident",
+      "avant-garde",
+      "theatrical",
+      "bold"
+    ],
+    "style": [
+      "futuristic",
+      "high-fashion",
+      "avant-garde"
+    ],
+    "objects": [
+      "model",
+      "runway",
+      "ceiling",
+      "sunglasses",
+      "dress"
+    ]
+  }
+}

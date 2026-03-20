@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "mysterious",
+      "concentrated",
+      "intriguing"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "reflective"
+    ],
+    "objects": [
+      "person",
+      "glass",
+      "writing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "analytical",
+      "serious",
+      "intense",
+      "thoughtful"
+    ],
+    "style": [
+      "muted",
+      "blurry",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "writing",
+      "glass"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "analytical",
+      "contemplative",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "glass",
+      "reflections",
+      "text",
+      "lights"
+    ]
+  }
+}

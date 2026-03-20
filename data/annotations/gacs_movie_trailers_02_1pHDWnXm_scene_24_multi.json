@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "authoritative",
+      "formal",
+      "subdued",
+      "official"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "corporate"
+    ],
+    "objects": [
+      "conference table",
+      "american flag",
+      "chairs",
+      "person",
+      "ceiling lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "somber",
+      "urgent",
+      "formal",
+      "concerned"
+    ],
+    "style": [
+      "dark",
+      "formal",
+      "symmetrical"
+    ],
+    "objects": [
+      "us flag",
+      "people",
+      "conference table",
+      "presidential seal"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "official",
+      "tense",
+      "authoritative",
+      "formal"
+    ],
+    "style": [
+      "symmetrical",
+      "corporate",
+      "dramatic"
+    ],
+    "objects": [
+      "conference room",
+      "flags",
+      "seal",
+      "chairs",
+      "table"
+    ]
+  }
+}

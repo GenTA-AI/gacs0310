@@ -1,0 +1,2197 @@
+{
+  "total_unique_words": 553,
+  "total_tokens": 5493,
+  "mapped_before": 336,
+  "unmapped_before": {
+    "count": 217,
+    "words": [
+      {
+        "word": "concerned",
+        "frequency": 82
+      },
+      {
+        "word": "dramatic",
+        "frequency": 67
+      },
+      {
+        "word": "urgent",
+        "frequency": 45
+      },
+      {
+        "word": "powerful",
+        "frequency": 44
+      },
+      {
+        "word": "surprised",
+        "frequency": 37
+      },
+      {
+        "word": "distressed",
+        "frequency": 32
+      },
+      {
+        "word": "engaging",
+        "frequency": 26
+      },
+      {
+        "word": "conversational",
+        "frequency": 26
+      },
+      {
+        "word": "vast",
+        "frequency": 22
+      },
+      {
+        "word": "candid",
+        "frequency": 19
+      },
+      {
+        "word": "innocent",
+        "frequency": 15
+      },
+      {
+        "word": "comforting",
+        "frequency": 15
+      },
+      {
+        "word": "expansive",
+        "frequency": 13
+      },
+      {
+        "word": "worried",
+        "frequency": 11
+      },
+      {
+        "word": "confident",
+        "frequency": 8
+      },
+      {
+        "word": "enthusiastic",
+        "frequency": 8
+      },
+      {
+        "word": "respectful",
+        "frequency": 7
+      },
+      {
+        "word": "confined",
+        "frequency": 6
+      },
+      {
+        "word": "humble",
+        "frequency": 6
+      },
+      {
+        "word": "helpful",
+        "frequency": 6
+      },
+      {
+        "word": "fresh",
+        "frequency": 5
+      },
+      {
+        "word": "confused",
+        "frequency": 5
+      },
+      {
+        "word": "delicate",
+        "frequency": 5
+      },
+      {
+        "word": "charming",
+        "frequency": 5
+      },
+      {
+        "word": "startled",
+        "frequency": 5
+      },
+      {
+        "word": "communicative",
+        "frequency": 4
+      },
+      {
+        "word": "strenuous",
+        "frequency": 4
+      },
+      {
+        "word": "animated",
+        "frequency": 4
+      },
+      {
+        "word": "observational",
+        "frequency": 4
+      },
+      {
+        "word": "nocturnal",
+        "frequency": 4
+      },
+      {
+        "word": "competitive",
+        "frequency": 4
+      },
+      {
+        "word": "earnest",
+        "frequency": 4
+      },
+      {
+        "word": "hazy",
+        "frequency": 4
+      },
+      {
+        "word": "surprising",
+        "frequency": 4
+      },
+      {
+        "word": "private",
+        "frequency": 4
+      },
+      {
+        "word": "frustrated",
+        "frequency": 4
+      },
+      {
+        "word": "innovative",
+        "frequency": 4
+      },
+      {
+        "word": "clean",
+        "frequency": 4
+      },
+      {
+        "word": "imaginative",
+        "frequency": 3
+      },
+      {
+        "word": "musical",
+        "frequency": 3
+      },
+      {
+        "word": "medical",
+        "frequency": 3
+      },
+      {
+        "word": "action-packed",
+        "frequency": 3
+      },
+      {
+        "word": "precarious",
+        "frequency": 3
+      },
+      {
+        "word": "chilly",
+        "frequency": 3
+      },
+      {
+        "word": "fiery",
+        "frequency": 3
+      },
+      {
+        "word": "alien",
+        "frequency": 3
+      },
+      {
+        "word": "bewildered",
+        "frequency": 3
+      },
+      {
+        "word": "industrious",
+        "frequency": 3
+      },
+      {
+        "word": "cool",
+        "frequency": 3
+      },
+      {
+        "word": "reunited",
+        "frequency": 3
+      },
+      {
+        "word": "heroic",
+        "frequency": 3
+      },
+      {
+        "word": "distorted",
+        "frequency": 3
+      },
+      {
+        "word": "creative",
+        "frequency": 3
+      },
+      {
+        "word": "laborious",
+        "frequency": 3
+      },
+      {
+        "word": "perplexed",
+        "frequency": 2
+      },
+      {
+        "word": "impersonal",
+        "frequency": 2
+      },
+      {
+        "word": "prepared",
+        "frequency": 2
+      },
+      {
+        "word": "rugged",
+        "frequency": 2
+      },
+      {
+        "word": "awkward",
+        "frequency": 2
+      },
+      {
+        "word": "sterile",
+        "frequency": 2
+      },
+      {
+        "word": "displeased",
+        "frequency": 2
+      },
+      {
+        "word": "effortful",
+        "frequency": 2
+      },
+      {
+        "word": "promotional",
+        "frequency": 2
+      },
+      {
+        "word": "deep",
+        "frequency": 2
+      },
+      {
+        "word": "challenging",
+        "frequency": 2
+      },
+      {
+        "word": "concerning",
+        "frequency": 2
+      },
+      {
+        "word": "alarmed",
+        "frequency": 2
+      },
+      {
+        "word": "conceptual",
+        "frequency": 2
+      },
+      {
+        "word": "spiritual",
+        "frequency": 2
+      },
+      {
+        "word": "critical",
+        "frequency": 2
+      },
+      {
+        "word": "peculiar",
+        "frequency": 2
+      },
+      {
+        "word": "shocking",
+        "frequency": 2
+      },
+      {
+        "word": "reverent",
+        "frequency": 2
+      },
+      {
+        "word": "eccentric",
+        "frequency": 2
+      },
+      {
+        "word": "ambient",
+        "frequency": 2
+      },
+      {
+        "word": "cluttered",
+        "frequency": 2
+      },
+      {
+        "word": "dusty",
+        "frequency": 2
+      },
+      {
+        "word": "genuine",
+        "frequency": 2
+      },
+      {
+        "word": "overcast",
+        "frequency": 2
+      },
+      {
+        "word": "sympathetic",
+        "frequency": 2
+      },
+      {
+        "word": "immersive",
+        "frequency": 2
+      },
+      {
+        "word": "light",
+        "frequency": 2
+      },
+      {
+        "word": "intricate",
+        "frequency": 2
+      },
+      {
+        "word": "arduous",
+        "frequency": 2
+      },
+      {
+        "word": "personal",
+        "frequency": 2
+      },
+      {
+        "word": "sunny",
+        "frequency": 2
+      },
+      {
+        "word": "contrasting",
+        "frequency": 2
+      },
+      {
+        "word": "commemorative",
+        "frequency": 2
+      },
+      {
+        "word": "protective",
+        "frequency": 2
+      },
+      {
+        "word": "blurry",
+        "frequency": 2
+      },
+      {
+        "word": "dim",
+        "frequency": 2
+      },
+      {
+        "word": "technological",
+        "frequency": 2
+      },
+      {
+        "word": "atmospheric",
+        "frequency": 2
+      },
+      {
+        "word": "clear",
+        "frequency": 2
+      },
+      {
+        "word": "considerate",
+        "frequency": 2
+      },
+      {
+        "word": "artistic",
+        "frequency": 2
+      },
+      {
+        "word": "prohibited",
+        "frequency": 1
+      },
+      {
+        "word": "solicitous",
+        "frequency": 1
+      },
+      {
+        "word": "visceral",
+        "frequency": 1
+      },
+      {
+        "word": "shocked",
+        "frequency": 1
+      },
+      {
+        "word": "disoriented",
+        "frequency": 1
+      },
+      {
+        "word": "open",
+        "frequency": 1
+      },
+      {
+        "word": "structured",
+        "frequency": 1
+      },
+      {
+        "word": "unenthusiastic",
+        "frequency": 1
+      },
+      {
+        "word": "anachronistic",
+        "frequency": 1
+      },
+      {
+        "word": "transformative",
+        "frequency": 1
+      },
+      {
+        "word": "exasperated",
+        "frequency": 1
+      },
+      {
+        "word": "ignored",
+        "frequency": 1
+      },
+      {
+        "word": "rural",
+        "frequency": 1
+      },
+      {
+        "word": "activist",
+        "frequency": 1
+      },
+      {
+        "word": "ironic",
+        "frequency": 1
+      },
+      {
+        "word": "agonizing",
+        "frequency": 1
+      },
+      {
+        "word": "dirty",
+        "frequency": 1
+      },
+      {
+        "word": "vivid",
+        "frequency": 1
+      },
+      {
+        "word": "unusual",
+        "frequency": 1
+      },
+      {
+        "word": "precious",
+        "frequency": 1
+      },
+      {
+        "word": "blurred",
+        "frequency": 1
+      },
+      {
+        "word": "unengaged",
+        "frequency": 1
+      },
+      {
+        "word": "suggestive",
+        "frequency": 1
+      },
+      {
+        "word": "leisurely",
+        "frequency": 1
+      },
+      {
+        "word": "suave",
+        "frequency": 1
+      },
+      {
+        "word": "preparatory",
+        "frequency": 1
+      },
+      {
+        "word": "freeing",
+        "frequency": 1
+      },
+      {
+        "word": "anticipating",
+        "frequency": 1
+      },
+      {
+        "word": "disorienting",
+        "frequency": 1
+      },
+      {
+        "word": "heated",
+        "frequency": 1
+      },
+      {
+        "word": "predatory",
+        "frequency": 1
+      },
+      {
+        "word": "slightly tense",
+        "frequency": 1
+      },
+      {
+        "word": "luminous",
+        "frequency": 1
+      },
+      {
+        "word": "anonymous",
+        "frequency": 1
+      },
+      {
+        "word": "global",
+        "frequency": 1
+      },
+      {
+        "word": "performative",
+        "frequency": 1
+      },
+      {
+        "word": "appetizing",
+        "frequency": 1
+      },
+      {
+        "word": "childish",
+        "frequency": 1
+      },
+      {
+        "word": "minimalistic",
+        "frequency": 1
+      },
+      {
+        "word": "reunion",
+        "frequency": 1
+      },
+      {
+        "word": "complex",
+        "frequency": 1
+      },
+      {
+        "word": "shy",
+        "frequency": 1
+      },
+      {
+        "word": "scholarly",
+        "frequency": 1
+      },
+      {
+        "word": "transient",
+        "frequency": 1
+      },
+      {
+        "word": "revelatory",
+        "frequency": 1
+      },
+      {
+        "word": "messy",
+        "frequency": 1
+      },
+      {
+        "word": "damp",
+        "frequency": 1
+      },
+      {
+        "word": "deprived",
+        "frequency": 1
+      },
+      {
+        "word": "stressful",
+        "frequency": 1
+      },
+      {
+        "word": "wholesome",
+        "frequency": 1
+      },
+      {
+        "word": "uniform",
+        "frequency": 1
+      },
+      {
+        "word": "embarrassed",
+        "frequency": 1
+      },
+      {
+        "word": "waiting",
+        "frequency": 1
+      },
+      {
+        "word": "wintery",
+        "frequency": 1
+      },
+      {
+        "word": "disgusted",
+        "frequency": 1
+      },
+      {
+        "word": "spontaneous",
+        "frequency": 1
+      },
+      {
+        "word": "informal",
+        "frequency": 1
+      },
+      {
+        "word": "dazed",
+        "frequency": 1
+      },
+      {
+        "word": "advisory",
+        "frequency": 1
+      },
+      {
+        "word": "symbolic",
+        "frequency": 1
+      },
+      {
+        "word": "rehabilitative",
+        "frequency": 1
+      },
+      {
+        "word": "minimal",
+        "frequency": 1
+      },
+      {
+        "word": "spacious",
+        "frequency": 1
+      },
+      {
+        "word": "strained",
+        "frequency": 1
+      },
+      {
+        "word": "decadent",
+        "frequency": 1
+      },
+      {
+        "word": "difficult",
+        "frequency": 1
+      },
+      {
+        "word": "annoyed",
+        "frequency": 1
+      },
+      {
+        "word": "fleeing",
+        "frequency": 1
+      },
+      {
+        "word": "significant",
+        "frequency": 1
+      },
+      {
+        "word": "cunning",
+        "frequency": 1
+      },
+      {
+        "word": "thought-provoking",
+        "frequency": 1
+      },
+      {
+        "word": "vigilant",
+        "frequency": 1
+      },
+      {
+        "word": "quizzical",
+        "frequency": 1
+      },
+      {
+        "word": "biological",
+        "frequency": 1
+      },
+      {
+        "word": "sick",
+        "frequency": 1
+      },
+      {
+        "word": "growing",
+        "frequency": 1
+      },
+      {
+        "word": "orderly",
+        "frequency": 1
+      },
+      {
+        "word": "obscure",
+        "frequency": 1
+      },
+      {
+        "word": "ready",
+        "frequency": 1
+      },
+      {
+        "word": "companionate",
+        "frequency": 1
+      },
+      {
+        "word": "gross",
+        "frequency": 1
+      },
+      {
+        "word": "devastated",
+        "frequency": 1
+      },
+      {
+        "word": "productive",
+        "frequency": 1
+      },
+      {
+        "word": "sly",
+        "frequency": 1
+      },
+      {
+        "word": "entangled",
+        "frequency": 1
+      },
+      {
+        "word": "sullen",
+        "frequency": 1
+      },
+      {
+        "word": "afraid",
+        "frequency": 1
+      },
+      {
+        "word": "unhygienic",
+        "frequency": 1
+      },
+      {
+        "word": "golden",
+        "frequency": 1
+      },
+      {
+        "word": "reportorial",
+        "frequency": 1
+      },
+      {
+        "word": "savage",
+        "frequency": 1
+      },
+      {
+        "word": "submerged",
+        "frequency": 1
+      },
+      {
+        "word": "puzzling",
+        "frequency": 1
+      },
+      {
+        "word": "moody",
+        "frequency": 1
+      },
+      {
+        "word": "distressing",
+        "frequency": 1
+      },
+      {
+        "word": "speculative",
+        "frequency": 1
+      },
+      {
+        "word": "generous",
+        "frequency": 1
+      },
+      {
+        "word": "authentic",
+        "frequency": 1
+      },
+      {
+        "word": "reuniting",
+        "frequency": 1
+      },
+      {
+        "word": "antiquated",
+        "frequency": 1
+      },
+      {
+        "word": "disciplined",
+        "frequency": 1
+      },
+      {
+        "word": "panicked",
+        "frequency": 1
+      },
+      {
+        "word": "patriotic",
+        "frequency": 1
+      },
+      {
+        "word": "trippy",
+        "frequency": 1
+      },
+      {
+        "word": "contained",
+        "frequency": 1
+      },
+      {
+        "word": "disruptive",
+        "frequency": 1
+      },
+      {
+        "word": "didactic",
+        "frequency": 1
+      },
+      {
+        "word": "unassuming",
+        "frequency": 1
+      },
+      {
+        "word": "scheming",
+        "frequency": 1
+      },
+      {
+        "word": "evolving",
+        "frequency": 1
+      },
+      {
+        "word": "affluent",
+        "frequency": 1
+      },
+      {
+        "word": "enclosed",
+        "frequency": 1
+      },
+      {
+        "word": "austere",
+        "frequency": 1
+      },
+      {
+        "word": "real",
+        "frequency": 1
+      },
+      {
+        "word": "artificial",
+        "frequency": 1
+      },
+      {
+        "word": "grimy",
+        "frequency": 1
+      },
+      {
+        "word": "refreshing",
+        "frequency": 1
+      },
+      {
+        "word": "primal",
+        "frequency": 1
+      },
+      {
+        "word": "minimalist",
+        "frequency": 1
+      },
+      {
+        "word": "public",
+        "frequency": 1
+      },
+      {
+        "word": "satirical",
+        "frequency": 1
+      }
+    ]
+  },
+  "mapped_after": 546,
+  "still_unmapped": {
+    "count": 7,
+    "words": [
+      "austere",
+      "didactic",
+      "ignored",
+      "overcast",
+      "prohibited",
+      "ready",
+      "solicitous"
+    ]
+  },
+  "new_assignments": [
+    {
+      "word": "concerned",
+      "category": "calm",
+      "similarity": 0.498,
+      "frequency": 82
+    },
+    {
+      "word": "dramatic",
+      "category": "excitement",
+      "similarity": 0.483,
+      "frequency": 67
+    },
+    {
+      "word": "urgent",
+      "category": "seriousness",
+      "similarity": 0.4069,
+      "frequency": 45
+    },
+    {
+      "word": "powerful",
+      "category": "elegance",
+      "similarity": 0.4092,
+      "frequency": 44
+    },
+    {
+      "word": "surprised",
+      "category": "wonder",
+      "similarity": 0.4625,
+      "frequency": 37
+    },
+    {
+      "word": "distressed",
+      "category": "tension",
+      "similarity": 0.4938,
+      "frequency": 32
+    },
+    {
+      "word": "engaging",
+      "category": "amusement",
+      "similarity": 0.5151,
+      "frequency": 26
+    },
+    {
+      "word": "conversational",
+      "category": "romance",
+      "similarity": 0.4058,
+      "frequency": 26
+    },
+    {
+      "word": "vast",
+      "category": "informative",
+      "similarity": 0.3478,
+      "frequency": 22
+    },
+    {
+      "word": "candid",
+      "category": "mystery",
+      "similarity": 0.3639,
+      "frequency": 19
+    },
+    {
+      "word": "innocent",
+      "category": "amusement",
+      "similarity": 0.403,
+      "frequency": 15
+    },
+    {
+      "word": "comforting",
+      "category": "sadness",
+      "similarity": 0.5633,
+      "frequency": 15
+    },
+    {
+      "word": "expansive",
+      "category": "elegance",
+      "similarity": 0.4299,
+      "frequency": 13
+    },
+    {
+      "word": "worried",
+      "category": "calm",
+      "similarity": 0.5043,
+      "frequency": 11
+    },
+    {
+      "word": "confident",
+      "category": "fear",
+      "similarity": 0.448,
+      "frequency": 8
+    },
+    {
+      "word": "enthusiastic",
+      "category": "excitement",
+      "similarity": 0.6619,
+      "frequency": 8
+    },
+    {
+      "word": "respectful",
+      "category": "gratitude",
+      "similarity": 0.4889,
+      "frequency": 7
+    },
+    {
+      "word": "confined",
+      "category": "nature",
+      "similarity": 0.3672,
+      "frequency": 6
+    },
+    {
+      "word": "humble",
+      "category": "gratitude",
+      "similarity": 0.4639,
+      "frequency": 6
+    },
+    {
+      "word": "helpful",
+      "category": "gratitude",
+      "similarity": 0.441,
+      "frequency": 6
+    },
+    {
+      "word": "fresh",
+      "category": "calm",
+      "similarity": 0.4067,
+      "frequency": 5
+    },
+    {
+      "word": "confused",
+      "category": "mystery",
+      "similarity": 0.5439,
+      "frequency": 5
+    },
+    {
+      "word": "delicate",
+      "category": "elegance",
+      "similarity": 0.4986,
+      "frequency": 5
+    },
+    {
+      "word": "charming",
+      "category": "elegance",
+      "similarity": 0.4665,
+      "frequency": 5
+    },
+    {
+      "word": "startled",
+      "category": "excitement",
+      "similarity": 0.5038,
+      "frequency": 5
+    },
+    {
+      "word": "communicative",
+      "category": "contentment",
+      "similarity": 0.4138,
+      "frequency": 4
+    },
+    {
+      "word": "strenuous",
+      "category": "poignance",
+      "similarity": 0.4719,
+      "frequency": 4
+    },
+    {
+      "word": "animated",
+      "category": "excitement",
+      "similarity": 0.5227,
+      "frequency": 4
+    },
+    {
+      "word": "observational",
+      "category": "informative",
+      "similarity": 0.4066,
+      "frequency": 4
+    },
+    {
+      "word": "nocturnal",
+      "category": "darkness",
+      "similarity": 0.565,
+      "frequency": 4
+    },
+    {
+      "word": "competitive",
+      "category": "excitement",
+      "similarity": 0.4205,
+      "frequency": 4
+    },
+    {
+      "word": "earnest",
+      "category": "anger",
+      "similarity": 0.3508,
+      "frequency": 4
+    },
+    {
+      "word": "hazy",
+      "category": "calm",
+      "similarity": 0.4827,
+      "frequency": 4
+    },
+    {
+      "word": "surprising",
+      "category": "wonder",
+      "similarity": 0.4723,
+      "frequency": 4
+    },
+    {
+      "word": "private",
+      "category": "loneliness",
+      "similarity": 0.3447,
+      "frequency": 4
+    },
+    {
+      "word": "frustrated",
+      "category": "anger",
+      "similarity": 0.5756,
+      "frequency": 4
+    },
+    {
+      "word": "innovative",
+      "category": "elegance",
+      "similarity": 0.5089,
+      "frequency": 4
+    },
+    {
+      "word": "clean",
+      "category": "calm",
+      "similarity": 0.4523,
+      "frequency": 4
+    },
+    {
+      "word": "imaginative",
+      "category": "amusement",
+      "similarity": 0.4676,
+      "frequency": 3
+    },
+    {
+      "word": "musical",
+      "category": "adventure",
+      "similarity": 0.3905,
+      "frequency": 3
+    },
+    {
+      "word": "medical",
+      "category": "mystery",
+      "similarity": 0.3786,
+      "frequency": 3
+    },
+    {
+      "word": "action-packed",
+      "category": "excitement",
+      "similarity": 0.3837,
+      "frequency": 3
+    },
+    {
+      "word": "precarious",
+      "category": "amusement",
+      "similarity": 0.4043,
+      "frequency": 3
+    },
+    {
+      "word": "chilly",
+      "category": "warmth",
+      "similarity": 0.6965,
+      "frequency": 3
+    },
+    {
+      "word": "fiery",
+      "category": "warmth",
+      "similarity": 0.5097,
+      "frequency": 3
+    },
+    {
+      "word": "alien",
+      "category": "nature",
+      "similarity": 0.4502,
+      "frequency": 3
+    },
+    {
+      "word": "bewildered",
+      "category": "mystery",
+      "similarity": 0.4801,
+      "frequency": 3
+    },
+    {
+      "word": "industrious",
+      "category": "domesticity",
+      "similarity": 0.3585,
+      "frequency": 3
+    },
+    {
+      "word": "cool",
+      "category": "calm",
+      "similarity": 0.3283,
+      "frequency": 3
+    },
+    {
+      "word": "reunited",
+      "category": "nostalgia",
+      "similarity": 0.3784,
+      "frequency": 3
+    },
+    {
+      "word": "heroic",
+      "category": "adventure",
+      "similarity": 0.4046,
+      "frequency": 3
+    },
+    {
+      "word": "distorted",
+      "category": "chaos",
+      "similarity": 0.4186,
+      "frequency": 3
+    },
+    {
+      "word": "creative",
+      "category": "amusement",
+      "similarity": 0.4924,
+      "frequency": 3
+    },
+    {
+      "word": "laborious",
+      "category": "weariness",
+      "similarity": 0.426,
+      "frequency": 3
+    },
+    {
+      "word": "perplexed",
+      "category": "mystery",
+      "similarity": 0.342,
+      "frequency": 2
+    },
+    {
+      "word": "impersonal",
+      "category": "mystery",
+      "similarity": 0.3307,
+      "frequency": 2
+    },
+    {
+      "word": "prepared",
+      "category": "contemplation",
+      "similarity": 0.4494,
+      "frequency": 2
+    },
+    {
+      "word": "rugged",
+      "category": "warmth",
+      "similarity": 0.4442,
+      "frequency": 2
+    },
+    {
+      "word": "awkward",
+      "category": "sadness",
+      "similarity": 0.4132,
+      "frequency": 2
+    },
+    {
+      "word": "sterile",
+      "category": "vulnerability",
+      "similarity": 0.3281,
+      "frequency": 2
+    },
+    {
+      "word": "displeased",
+      "category": "wonder",
+      "similarity": 0.3104,
+      "frequency": 2
+    },
+    {
+      "word": "effortful",
+      "category": "gratitude",
+      "similarity": 0.4551,
+      "frequency": 2
+    },
+    {
+      "word": "promotional",
+      "category": "excitement",
+      "similarity": 0.4941,
+      "frequency": 2
+    },
+    {
+      "word": "deep",
+      "category": "darkness",
+      "similarity": 0.4152,
+      "frequency": 2
+    },
+    {
+      "word": "challenging",
+      "category": "tension",
+      "similarity": 0.5252,
+      "frequency": 2
+    },
+    {
+      "word": "concerning",
+      "category": "mystery",
+      "similarity": 0.4102,
+      "frequency": 2
+    },
+    {
+      "word": "alarmed",
+      "category": "fear",
+      "similarity": 0.5474,
+      "frequency": 2
+    },
+    {
+      "word": "conceptual",
+      "category": "nature",
+      "similarity": 0.3432,
+      "frequency": 2
+    },
+    {
+      "word": "spiritual",
+      "category": "nature",
+      "similarity": 0.456,
+      "frequency": 2
+    },
+    {
+      "word": "critical",
+      "category": "seriousness",
+      "similarity": 0.4907,
+      "frequency": 2
+    },
+    {
+      "word": "peculiar",
+      "category": "mystery",
+      "similarity": 0.633,
+      "frequency": 2
+    },
+    {
+      "word": "shocking",
+      "category": "sadness",
+      "similarity": 0.4362,
+      "frequency": 2
+    },
+    {
+      "word": "reverent",
+      "category": "poignance",
+      "similarity": 0.3889,
+      "frequency": 2
+    },
+    {
+      "word": "eccentric",
+      "category": "elegance",
+      "similarity": 0.3591,
+      "frequency": 2
+    },
+    {
+      "word": "ambient",
+      "category": "weariness",
+      "similarity": 0.4428,
+      "frequency": 2
+    },
+    {
+      "word": "cluttered",
+      "category": "focus",
+      "similarity": 0.4249,
+      "frequency": 2
+    },
+    {
+      "word": "dusty",
+      "category": "calm",
+      "similarity": 0.3541,
+      "frequency": 2
+    },
+    {
+      "word": "genuine",
+      "category": "neutral",
+      "similarity": 0.4005,
+      "frequency": 2
+    },
+    {
+      "word": "sympathetic",
+      "category": "tension",
+      "similarity": 0.4309,
+      "frequency": 2
+    },
+    {
+      "word": "immersive",
+      "category": "amusement",
+      "similarity": 0.4442,
+      "frequency": 2
+    },
+    {
+      "word": "light",
+      "category": "darkness",
+      "similarity": 0.6468,
+      "frequency": 2
+    },
+    {
+      "word": "intricate",
+      "category": "elegance",
+      "similarity": 0.5276,
+      "frequency": 2
+    },
+    {
+      "word": "arduous",
+      "category": "anger",
+      "similarity": 0.3621,
+      "frequency": 2
+    },
+    {
+      "word": "personal",
+      "category": "domesticity",
+      "similarity": 0.4428,
+      "frequency": 2
+    },
+    {
+      "word": "sunny",
+      "category": "warmth",
+      "similarity": 0.4865,
+      "frequency": 2
+    },
+    {
+      "word": "contrasting",
+      "category": "darkness",
+      "similarity": 0.3805,
+      "frequency": 2
+    },
+    {
+      "word": "commemorative",
+      "category": "celebration",
+      "similarity": 0.5498,
+      "frequency": 2
+    },
+    {
+      "word": "protective",
+      "category": "fear",
+      "similarity": 0.4862,
+      "frequency": 2
+    },
+    {
+      "word": "blurry",
+      "category": "focus",
+      "similarity": 0.5721,
+      "frequency": 2
+    },
+    {
+      "word": "dim",
+      "category": "darkness",
+      "similarity": 0.3769,
+      "frequency": 2
+    },
+    {
+      "word": "technological",
+      "category": "informative",
+      "similarity": 0.4616,
+      "frequency": 2
+    },
+    {
+      "word": "atmospheric",
+      "category": "nature",
+      "similarity": 0.4423,
+      "frequency": 2
+    },
+    {
+      "word": "clear",
+      "category": "calm",
+      "similarity": 0.55,
+      "frequency": 2
+    },
+    {
+      "word": "considerate",
+      "category": "contemplation",
+      "similarity": 0.4276,
+      "frequency": 2
+    },
+    {
+      "word": "artistic",
+      "category": "elegance",
+      "similarity": 0.5567,
+      "frequency": 2
+    },
+    {
+      "word": "visceral",
+      "category": "contentment",
+      "similarity": 0.3177,
+      "frequency": 1
+    },
+    {
+      "word": "shocked",
+      "category": "neutral",
+      "similarity": 0.3939,
+      "frequency": 1
+    },
+    {
+      "word": "disoriented",
+      "category": "chaos",
+      "similarity": 0.446,
+      "frequency": 1
+    },
+    {
+      "word": "open",
+      "category": "nature",
+      "similarity": 0.3155,
+      "frequency": 1
+    },
+    {
+      "word": "structured",
+      "category": "contentment",
+      "similarity": 0.4944,
+      "frequency": 1
+    },
+    {
+      "word": "unenthusiastic",
+      "category": "anger",
+      "similarity": 0.3535,
+      "frequency": 1
+    },
+    {
+      "word": "anachronistic",
+      "category": "contemplation",
+      "similarity": 0.3237,
+      "frequency": 1
+    },
+    {
+      "word": "transformative",
+      "category": "informative",
+      "similarity": 0.4948,
+      "frequency": 1
+    },
+    {
+      "word": "exasperated",
+      "category": "anger",
+      "similarity": 0.5665,
+      "frequency": 1
+    },
+    {
+      "word": "rural",
+      "category": "urban",
+      "similarity": 0.4975,
+      "frequency": 1
+    },
+    {
+      "word": "activist",
+      "category": "anger",
+      "similarity": 0.3267,
+      "frequency": 1
+    },
+    {
+      "word": "ironic",
+      "category": "sadness",
+      "similarity": 0.4505,
+      "frequency": 1
+    },
+    {
+      "word": "agonizing",
+      "category": "focus",
+      "similarity": 0.4986,
+      "frequency": 1
+    },
+    {
+      "word": "dirty",
+      "category": "calm",
+      "similarity": 0.4292,
+      "frequency": 1
+    },
+    {
+      "word": "vivid",
+      "category": "elegance",
+      "similarity": 0.4005,
+      "frequency": 1
+    },
+    {
+      "word": "unusual",
+      "category": "mystery",
+      "similarity": 0.6155,
+      "frequency": 1
+    },
+    {
+      "word": "precious",
+      "category": "gratitude",
+      "similarity": 0.4055,
+      "frequency": 1
+    },
+    {
+      "word": "blurred",
+      "category": "focus",
+      "similarity": 0.5828,
+      "frequency": 1
+    },
+    {
+      "word": "unengaged",
+      "category": "neutral",
+      "similarity": 0.3599,
+      "frequency": 1
+    },
+    {
+      "word": "suggestive",
+      "category": "informative",
+      "similarity": 0.4824,
+      "frequency": 1
+    },
+    {
+      "word": "leisurely",
+      "category": "adventure",
+      "similarity": 0.5149,
+      "frequency": 1
+    },
+    {
+      "word": "suave",
+      "category": "wonder",
+      "similarity": 0.3395,
+      "frequency": 1
+    },
+    {
+      "word": "preparatory",
+      "category": "elegance",
+      "similarity": 0.3575,
+      "frequency": 1
+    },
+    {
+      "word": "freeing",
+      "category": "adventure",
+      "similarity": 0.3446,
+      "frequency": 1
+    },
+    {
+      "word": "anticipating",
+      "category": "excitement",
+      "similarity": 0.463,
+      "frequency": 1
+    },
+    {
+      "word": "disorienting",
+      "category": "amusement",
+      "similarity": 0.4618,
+      "frequency": 1
+    },
+    {
+      "word": "heated",
+      "category": "warmth",
+      "similarity": 0.706,
+      "frequency": 1
+    },
+    {
+      "word": "predatory",
+      "category": "fear",
+      "similarity": 0.4209,
+      "frequency": 1
+    },
+    {
+      "word": "slightly tense",
+      "category": "calm",
+      "similarity": 0.3899,
+      "frequency": 1
+    },
+    {
+      "word": "luminous",
+      "category": "darkness",
+      "similarity": 0.5024,
+      "frequency": 1
+    },
+    {
+      "word": "anonymous",
+      "category": "mystery",
+      "similarity": 0.3988,
+      "frequency": 1
+    },
+    {
+      "word": "global",
+      "category": "urban",
+      "similarity": 0.3973,
+      "frequency": 1
+    },
+    {
+      "word": "performative",
+      "category": "informative",
+      "similarity": 0.4251,
+      "frequency": 1
+    },
+    {
+      "word": "appetizing",
+      "category": "contemplation",
+      "similarity": 0.4318,
+      "frequency": 1
+    },
+    {
+      "word": "childish",
+      "category": "urban",
+      "similarity": 0.397,
+      "frequency": 1
+    },
+    {
+      "word": "minimalistic",
+      "category": "nature",
+      "similarity": 0.4177,
+      "frequency": 1
+    },
+    {
+      "word": "reunion",
+      "category": "nostalgia",
+      "similarity": 0.4938,
+      "frequency": 1
+    },
+    {
+      "word": "complex",
+      "category": "mystery",
+      "similarity": 0.3594,
+      "frequency": 1
+    },
+    {
+      "word": "shy",
+      "category": "loneliness",
+      "similarity": 0.4579,
+      "frequency": 1
+    },
+    {
+      "word": "scholarly",
+      "category": "informative",
+      "similarity": 0.3785,
+      "frequency": 1
+    },
+    {
+      "word": "transient",
+      "category": "vulnerability",
+      "similarity": 0.3522,
+      "frequency": 1
+    },
+    {
+      "word": "revelatory",
+      "category": "contemplation",
+      "similarity": 0.4563,
+      "frequency": 1
+    },
+    {
+      "word": "messy",
+      "category": "chaos",
+      "similarity": 0.4441,
+      "frequency": 1
+    },
+    {
+      "word": "damp",
+      "category": "chaos",
+      "similarity": 0.4033,
+      "frequency": 1
+    },
+    {
+      "word": "deprived",
+      "category": "loneliness",
+      "similarity": 0.4295,
+      "frequency": 1
+    },
+    {
+      "word": "stressful",
+      "category": "tension",
+      "similarity": 0.5936,
+      "frequency": 1
+    },
+    {
+      "word": "wholesome",
+      "category": "romance",
+      "similarity": 0.4696,
+      "frequency": 1
+    },
+    {
+      "word": "uniform",
+      "category": "warmth",
+      "similarity": 0.4418,
+      "frequency": 1
+    },
+    {
+      "word": "embarrassed",
+      "category": "celebration",
+      "similarity": 0.4338,
+      "frequency": 1
+    },
+    {
+      "word": "waiting",
+      "category": "hope",
+      "similarity": 0.4078,
+      "frequency": 1
+    },
+    {
+      "word": "wintery",
+      "category": "warmth",
+      "similarity": 0.5679,
+      "frequency": 1
+    },
+    {
+      "word": "disgusted",
+      "category": "sadness",
+      "similarity": 0.5183,
+      "frequency": 1
+    },
+    {
+      "word": "spontaneous",
+      "category": "mystery",
+      "similarity": 0.4754,
+      "frequency": 1
+    },
+    {
+      "word": "informal",
+      "category": "domesticity",
+      "similarity": 0.354,
+      "frequency": 1
+    },
+    {
+      "word": "dazed",
+      "category": "adventure",
+      "similarity": 0.3881,
+      "frequency": 1
+    },
+    {
+      "word": "advisory",
+      "category": "calm",
+      "similarity": 0.3287,
+      "frequency": 1
+    },
+    {
+      "word": "symbolic",
+      "category": "nature",
+      "similarity": 0.3313,
+      "frequency": 1
+    },
+    {
+      "word": "rehabilitative",
+      "category": "adventure",
+      "similarity": 0.3315,
+      "frequency": 1
+    },
+    {
+      "word": "minimal",
+      "category": "tension",
+      "similarity": 0.3598,
+      "frequency": 1
+    },
+    {
+      "word": "spacious",
+      "category": "elegance",
+      "similarity": 0.4452,
+      "frequency": 1
+    },
+    {
+      "word": "strained",
+      "category": "tension",
+      "similarity": 0.4597,
+      "frequency": 1
+    },
+    {
+      "word": "decadent",
+      "category": "nostalgia",
+      "similarity": 0.3327,
+      "frequency": 1
+    },
+    {
+      "word": "difficult",
+      "category": "tension",
+      "similarity": 0.4577,
+      "frequency": 1
+    },
+    {
+      "word": "annoyed",
+      "category": "anger",
+      "similarity": 0.5746,
+      "frequency": 1
+    },
+    {
+      "word": "fleeing",
+      "category": "fear",
+      "similarity": 0.401,
+      "frequency": 1
+    },
+    {
+      "word": "significant",
+      "category": "romance",
+      "similarity": 0.3423,
+      "frequency": 1
+    },
+    {
+      "word": "cunning",
+      "category": "elegance",
+      "similarity": 0.4614,
+      "frequency": 1
+    },
+    {
+      "word": "thought-provoking",
+      "category": "wonder",
+      "similarity": 0.3893,
+      "frequency": 1
+    },
+    {
+      "word": "vigilant",
+      "category": "calm",
+      "similarity": 0.4331,
+      "frequency": 1
+    },
+    {
+      "word": "quizzical",
+      "category": "neutral",
+      "similarity": 0.3682,
+      "frequency": 1
+    },
+    {
+      "word": "biological",
+      "category": "nature",
+      "similarity": 0.5687,
+      "frequency": 1
+    },
+    {
+      "word": "sick",
+      "category": "sadness",
+      "similarity": 0.4561,
+      "frequency": 1
+    },
+    {
+      "word": "growing",
+      "category": "nature",
+      "similarity": 0.4002,
+      "frequency": 1
+    },
+    {
+      "word": "orderly",
+      "category": "chaos",
+      "similarity": 0.4547,
+      "frequency": 1
+    },
+    {
+      "word": "obscure",
+      "category": "mystery",
+      "similarity": 0.4891,
+      "frequency": 1
+    },
+    {
+      "word": "companionate",
+      "category": "romance",
+      "similarity": 0.3625,
+      "frequency": 1
+    },
+    {
+      "word": "gross",
+      "category": "sadness",
+      "similarity": 0.3832,
+      "frequency": 1
+    },
+    {
+      "word": "devastated",
+      "category": "sadness",
+      "similarity": 0.6003,
+      "frequency": 1
+    },
+    {
+      "word": "productive",
+      "category": "focus",
+      "similarity": 0.3949,
+      "frequency": 1
+    },
+    {
+      "word": "sly",
+      "category": "elegance",
+      "similarity": 0.3528,
+      "frequency": 1
+    },
+    {
+      "word": "entangled",
+      "category": "tension",
+      "similarity": 0.312,
+      "frequency": 1
+    },
+    {
+      "word": "sullen",
+      "category": "neutral",
+      "similarity": 0.3184,
+      "frequency": 1
+    },
+    {
+      "word": "afraid",
+      "category": "fear",
+      "similarity": 0.7314,
+      "frequency": 1
+    },
+    {
+      "word": "unhygienic",
+      "category": "weariness",
+      "similarity": 0.4014,
+      "frequency": 1
+    },
+    {
+      "word": "golden",
+      "category": "gratitude",
+      "similarity": 0.4073,
+      "frequency": 1
+    },
+    {
+      "word": "reportorial",
+      "category": "poignance",
+      "similarity": 0.327,
+      "frequency": 1
+    },
+    {
+      "word": "savage",
+      "category": "sadness",
+      "similarity": 0.4124,
+      "frequency": 1
+    },
+    {
+      "word": "submerged",
+      "category": "mystery",
+      "similarity": 0.3252,
+      "frequency": 1
+    },
+    {
+      "word": "puzzling",
+      "category": "mystery",
+      "similarity": 0.5951,
+      "frequency": 1
+    },
+    {
+      "word": "moody",
+      "category": "anger",
+      "similarity": 0.4564,
+      "frequency": 1
+    },
+    {
+      "word": "distressing",
+      "category": "tension",
+      "similarity": 0.5678,
+      "frequency": 1
+    },
+    {
+      "word": "speculative",
+      "category": "mystery",
+      "similarity": 0.4251,
+      "frequency": 1
+    },
+    {
+      "word": "generous",
+      "category": "gratitude",
+      "similarity": 0.5319,
+      "frequency": 1
+    },
+    {
+      "word": "authentic",
+      "category": "gratitude",
+      "similarity": 0.3953,
+      "frequency": 1
+    },
+    {
+      "word": "reuniting",
+      "category": "nostalgia",
+      "similarity": 0.3259,
+      "frequency": 1
+    },
+    {
+      "word": "antiquated",
+      "category": "neutral",
+      "similarity": 0.3816,
+      "frequency": 1
+    },
+    {
+      "word": "disciplined",
+      "category": "elegance",
+      "similarity": 0.3673,
+      "frequency": 1
+    },
+    {
+      "word": "panicked",
+      "category": "calm",
+      "similarity": 0.5645,
+      "frequency": 1
+    },
+    {
+      "word": "patriotic",
+      "category": "gratitude",
+      "similarity": 0.4569,
+      "frequency": 1
+    },
+    {
+      "word": "trippy",
+      "category": "amusement",
+      "similarity": 0.3496,
+      "frequency": 1
+    },
+    {
+      "word": "contained",
+      "category": "contentment",
+      "similarity": 0.4547,
+      "frequency": 1
+    },
+    {
+      "word": "disruptive",
+      "category": "calm",
+      "similarity": 0.4115,
+      "frequency": 1
+    },
+    {
+      "word": "unassuming",
+      "category": "elegance",
+      "similarity": 0.3993,
+      "frequency": 1
+    },
+    {
+      "word": "scheming",
+      "category": "contemplation",
+      "similarity": 0.4258,
+      "frequency": 1
+    },
+    {
+      "word": "evolving",
+      "category": "nature",
+      "similarity": 0.4997,
+      "frequency": 1
+    },
+    {
+      "word": "affluent",
+      "category": "elegance",
+      "similarity": 0.4137,
+      "frequency": 1
+    },
+    {
+      "word": "enclosed",
+      "category": "contentment",
+      "similarity": 0.4415,
+      "frequency": 1
+    },
+    {
+      "word": "real",
+      "category": "mystery",
+      "similarity": 0.3524,
+      "frequency": 1
+    },
+    {
+      "word": "artificial",
+      "category": "nature",
+      "similarity": 0.3683,
+      "frequency": 1
+    },
+    {
+      "word": "grimy",
+      "category": "sadness",
+      "similarity": 0.3889,
+      "frequency": 1
+    },
+    {
+      "word": "refreshing",
+      "category": "calm",
+      "similarity": 0.4347,
+      "frequency": 1
+    },
+    {
+      "word": "primal",
+      "category": "neutral",
+      "similarity": 0.3898,
+      "frequency": 1
+    },
+    {
+      "word": "minimalist",
+      "category": "contentment",
+      "similarity": 0.3292,
+      "frequency": 1
+    },
+    {
+      "word": "public",
+      "category": "urban",
+      "similarity": 0.3941,
+      "frequency": 1
+    },
+    {
+      "word": "satirical",
+      "category": "seriousness",
+      "similarity": 0.4782,
+      "frequency": 1
+    }
+  ],
+  "needs_new_category": [
+    {
+      "word": "overcast",
+      "best_match": "darkness",
+      "similarity": 0.296,
+      "frequency": 2
+    },
+    {
+      "word": "prohibited",
+      "best_match": "joy",
+      "similarity": 0.2892,
+      "frequency": 1
+    },
+    {
+      "word": "solicitous",
+      "best_match": "gratitude",
+      "similarity": 0.2991,
+      "frequency": 1
+    },
+    {
+      "word": "ignored",
+      "best_match": "calm",
+      "similarity": 0.2939,
+      "frequency": 1
+    },
+    {
+      "word": "ready",
+      "best_match": "calm",
+      "similarity": 0.2038,
+      "frequency": 1
+    },
+    {
+      "word": "didactic",
+      "best_match": "informative",
+      "similarity": 0.292,
+      "frequency": 1
+    },
+    {
+      "word": "austere",
+      "best_match": "celebration",
+      "similarity": 0.2901,
+      "frequency": 1
+    }
+  ]
+}

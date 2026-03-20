@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "uncertain",
+      "inquisitive",
+      "exploratory",
+      "hesitant"
+    ],
+    "style": [
+      "contemporary",
+      "vibrant",
+      "interior"
+    ],
+    "objects": [
+      "door",
+      "woman",
+      "shelf",
+      "painting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "unsure",
+      "hesitant",
+      "cautious",
+      "uncertain"
+    ],
+    "style": [
+      "bright",
+      "indoor",
+      "casual"
+    ],
+    "objects": [
+      "woman",
+      "doorway",
+      "shelving unit"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "curious",
+      "uncertain",
+      "hesitant",
+      "apprehensive",
+      "questioning"
+    ],
+    "style": [
+      "cinematic",
+      "green-tinted",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "hallway",
+      "wall"
+    ]
+  }
+}

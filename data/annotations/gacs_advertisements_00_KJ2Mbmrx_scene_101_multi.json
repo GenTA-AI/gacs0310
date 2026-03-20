@@ -1,0 +1,59 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "confident",
+      "powerful",
+      "iconic"
+    ],
+    "style": [
+      "stark",
+      "graphic",
+      "digital"
+    ],
+    "objects": [
+      "dr. dre",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "contemplative",
+      "confident",
+      "calm",
+      "focused"
+    ],
+    "style": [
+      "dramatic",
+      "monochromatic",
+      "bold-text"
+    ],
+    "objects": [
+      "person",
+      "text",
+      "ocean",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "lighting",
+      "professional",
+      "polished",
+      "authoritative",
+      "promotional"
+    ],
+    "style": [],
+    "objects": [
+      "person",
+      "text",
+      "sky",
+      "clouds"
+    ]
+  }
+}

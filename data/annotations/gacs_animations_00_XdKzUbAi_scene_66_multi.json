@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "loving",
+      "affectionate",
+      "joyful",
+      "celebratory",
+      "sentimental"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "soft"
+    ],
+    "objects": [
+      "people",
+      "beanie",
+      "glasses",
+      "earrings"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "affectionate",
+      "warm",
+      "cheerful",
+      "supportive"
+    ],
+    "style": [
+      "soft",
+      "colorful",
+      "animated"
+    ],
+    "objects": [
+      "characters",
+      "hug",
+      "glasses",
+      "beanie"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "joyful",
+      "loving",
+      "cozy",
+      "heartwarming"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "soft-focus"
+    ],
+    "objects": [
+      "children",
+      "winter clothing",
+      "hug",
+      "snow"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "bold",
+      "glamorous",
+      "urban",
+      "modern"
+    ],
+    "style": [
+      "vibrant",
+      "high-contrast",
+      "modern"
+    ],
+    "objects": [
+      "billboard",
+      "person",
+      "building",
+      "pepsi logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "vibrant",
+      "confident",
+      "glamorous",
+      "energetic",
+      "celebratory"
+    ],
+    "style": [
+      "dramatic",
+      "urban",
+      "illuminated"
+    ],
+    "objects": [
+      "billboard",
+      "buildings",
+      "woman",
+      "cityscape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "glamorous",
+      "powerful",
+      "confident"
+    ],
+    "style": [
+      "vibrant",
+      "dynamic",
+      "modern"
+    ],
+    "objects": [
+      "billboard",
+      "person",
+      "pepsi logos",
+      "buildings"
+    ]
+  }
+}

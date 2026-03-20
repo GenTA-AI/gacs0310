@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "introspective",
+      "contemplative",
+      "soft",
+      "calm"
+    ],
+    "style": [
+      "misty",
+      "dramatic",
+      "soft-focus"
+    ],
+    "objects": [
+      "person",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "determined",
+      "hopeful",
+      "serene",
+      "ethereal"
+    ],
+    "style": [
+      "dreamlike",
+      "ethereal",
+      "cool-toned"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "intense",
+      "dramatic",
+      "contemplative",
+      "ethereal"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "smoke",
+      "face",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tropical",
+      "serene",
+      "peaceful",
+      "rustic",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "tropical",
+      "aerial-view"
+    ],
+    "objects": [
+      "butterfly",
+      "water",
+      "trees",
+      "dock",
+      "vegetation"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dangerous",
+      "tense",
+      "cautious",
+      "ominous",
+      "threatening"
+    ],
+    "style": [
+      "naturalistic",
+      "wide-shot",
+      "vibrant"
+    ],
+    "objects": [
+      "dilophosaurus",
+      "woman",
+      "trees",
+      "river"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "suspenseful",
+      "adventurous",
+      "thrilling",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "adventurous",
+      "vibrant"
+    ],
+    "objects": [
+      "dinosaur",
+      "person",
+      "spaceship",
+      "dock"
+    ]
+  }
+}

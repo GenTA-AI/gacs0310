@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "solemn",
+      "quiet",
+      "reverent",
+      "atmospheric"
+    ],
+    "style": [
+      "dimly-lit",
+      "atmospheric",
+      "traditional"
+    ],
+    "objects": [
+      "altar",
+      "candles",
+      "bowls",
+      "fruit",
+      "painting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "reverent",
+      "mysterious",
+      "dark",
+      "quiet"
+    ],
+    "style": [
+      "dim",
+      "atmospheric",
+      "traditional"
+    ],
+    "objects": [
+      "candles",
+      "shrine",
+      "portrait",
+      "vases"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "ominous",
+      "eerie",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "moody"
+    ],
+    "objects": [
+      "door",
+      "smoke",
+      "red lights",
+      "furniture"
+    ]
+  }
+}

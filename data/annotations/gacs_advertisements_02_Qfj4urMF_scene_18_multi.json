@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "engaged",
+      "collaborative",
+      "educational",
+      "curious"
+    ],
+    "style": [
+      "dimly-lit",
+      "tech-focused",
+      "casual"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "screen",
+      "paper"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "studious",
+      "intent",
+      "collaborative",
+      "nocturnal"
+    ],
+    "style": [
+      "dark",
+      "indoor",
+      "flat"
+    ],
+    "objects": [
+      "people",
+      "tablet",
+      "car",
+      "documents"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "intense",
+      "collaborative",
+      "professional",
+      "concentrated"
+    ],
+    "style": [
+      "cinematic",
+      "low-light",
+      "atmospheric"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "paper",
+      "steering wheel"
+    ]
+  }
+}

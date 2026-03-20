@@ -1,0 +1,57 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "peaceful",
+      "tender",
+      "serene",
+      "affectionate",
+      "calm"
+    ],
+    "style": [
+      "dark",
+      "intimate",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "dog",
+      "jacket"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vulnerable",
+      "helpless",
+      "tense",
+      "uncertain",
+      "worried"
+    ],
+    "style": [
+      "low-key",
+      "shallow-focus",
+      "gritty"
+    ],
+    "objects": [
+      "person",
+      "jacket",
+      "cat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [],
+    "style": [
+      "dramatic",
+      "low-lit",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "face",
+      "clothing",
+      "ground"
+    ]
+  }
+}

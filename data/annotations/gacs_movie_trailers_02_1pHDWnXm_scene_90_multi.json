@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "nostalgic",
+      "dreamy",
+      "serene",
+      "ethereal"
+    ],
+    "style": [
+      "vintage",
+      "sepia-toned",
+      "textured"
+    ],
+    "objects": [
+      "clouds",
+      "sky",
+      "fire",
+      "explosion"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fiery",
+      "chaotic",
+      "intense",
+      "destructive",
+      "dangerous"
+    ],
+    "style": [
+      "fiery",
+      "blurred",
+      "intense"
+    ],
+    "objects": [
+      "fire",
+      "figures"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "fiery",
+      "dramatic",
+      "chaotic",
+      "overwhelming"
+    ],
+    "style": [
+      "intense",
+      "fiery",
+      "vibrant"
+    ],
+    "objects": [
+      "fire",
+      "person"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "whimsical",
+      "curious",
+      "serene",
+      "reflective"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "stylized"
+    ],
+    "objects": [
+      "ocean",
+      "ship",
+      "character"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "whimsical",
+      "serene",
+      "playful",
+      "optimistic"
+    ],
+    "style": [
+      "minimalist",
+      "flat-design",
+      "cartoon"
+    ],
+    "objects": [
+      "water",
+      "person",
+      "clouds",
+      "text",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "whimsical",
+      "lighthearted",
+      "curious",
+      "serene"
+    ],
+    "style": [
+      "cartoonish",
+      "simplistic",
+      "bright"
+    ],
+    "objects": [
+      "robot",
+      "water",
+      "ship",
+      "sky"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "playful",
+      "whimsical",
+      "dynamic",
+      "carefree"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "vibrant"
+    ],
+    "objects": [
+      "roller skates",
+      "leg",
+      "shadow"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "playful",
+      "lively",
+      "dynamic",
+      "fun"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "dynamic"
+    ],
+    "objects": [
+      "roller skates",
+      "shadow"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "whimsical",
+      "lighthearted",
+      "carefree",
+      "nostalgic"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon"
+    ],
+    "objects": [
+      "legs",
+      "roller skates",
+      "shadow",
+      "ground"
+    ]
+  }
+}

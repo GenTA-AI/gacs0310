@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "proud",
+      "celebratory",
+      "respectful",
+      "nostalgic",
+      "honored"
+    ],
+    "style": [
+      "news-style",
+      "documentary",
+      "informative"
+    ],
+    "objects": [
+      "veteran",
+      "uniform",
+      "door",
+      "sign"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "respectful",
+      "patriotic",
+      "honorable",
+      "grateful",
+      "celebratory"
+    ],
+    "style": [
+      "news",
+      "bright",
+      "medium-shot"
+    ],
+    "objects": [
+      "soldier",
+      "door",
+      "hat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "proud",
+      "celebratory",
+      "respectful",
+      "honoring",
+      "joyful"
+    ],
+    "style": [
+      "news-broadcast",
+      "documentary-style",
+      "celebratory"
+    ],
+    "objects": [
+      "elderly veteran",
+      "military uniform",
+      "house",
+      "window",
+      "welcome sign"
+    ]
+  }
+}

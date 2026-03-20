@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sad",
+      "hopeful",
+      "contrasting",
+      "melancholic",
+      "joyful"
+    ],
+    "style": [
+      "contrasting",
+      "painterly",
+      "emotional"
+    ],
+    "objects": [
+      "man",
+      "girl",
+      "drawing",
+      "painting"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contrasting",
+      "hopeful",
+      "emotional",
+      "uplifting",
+      "transformative"
+    ],
+    "style": [
+      "dark-contrasted",
+      "split-screen",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "man",
+      "child",
+      "painting",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "hopeful",
+      "reflective",
+      "joyful",
+      "contrasting"
+    ],
+    "style": [
+      "moody",
+      "contrasting",
+      "expressive"
+    ],
+    "objects": [
+      "man",
+      "cane",
+      "child",
+      "painting"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "concerned",
+      "expectant",
+      "hopeful",
+      "uncertain"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "warm-toned"
+    ],
+    "objects": [
+      "mirabel",
+      "pepa madrigal",
+      "pinwheels",
+      "party hat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "festive",
+      "curious",
+      "surprised",
+      "cheerful"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "detailed"
+    ],
+    "objects": [
+      "pinwheels",
+      "jars",
+      "glasses",
+      "hat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "whimsical",
+      "celebratory",
+      "playful",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "pinwheels",
+      "woman",
+      "glasses",
+      "child"
+    ]
+  }
+}

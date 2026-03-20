@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "casual",
+      "relaxed",
+      "neutral",
+      "informative",
+      "straightforward"
+    ],
+    "style": [
+      "casual",
+      "comparison",
+      "side-by-side"
+    ],
+    "objects": [
+      "person",
+      "jeans",
+      "wall",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "informative",
+      "comparative",
+      "casual",
+      "ordinary"
+    ],
+    "style": [
+      "daylit",
+      "informational",
+      "straightforward"
+    ],
+    "objects": [
+      "jeans",
+      "t-shirt",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "neutral",
+      "relaxed",
+      "practical",
+      "informative"
+    ],
+    "style": [
+      "comparison",
+      "documentary",
+      "casual"
+    ],
+    "objects": [
+      "person",
+      "jeans",
+      "wall",
+      "boots"
+    ]
+  }
+}

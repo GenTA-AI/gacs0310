@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "prestigious",
+      "mysterious",
+      "theatrical",
+      "anticipatory"
+    ],
+    "style": [
+      "dramatic",
+      "silhouetted",
+      "theatrical"
+    ],
+    "objects": [
+      "silhouette",
+      "stars",
+      "red carpet",
+      "awards"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "eerie",
+      "ominous",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "mysterious",
+      "symmetrical"
+    ],
+    "objects": [
+      "silhouette",
+      "red light",
+      "candles",
+      "stars",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "dramatic",
+      "mysterious",
+      "ominous",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "contrasty",
+      "theatrical"
+    ],
+    "objects": [
+      "woman",
+      "carpet",
+      "doorway",
+      "stars"
+    ]
+  }
+}

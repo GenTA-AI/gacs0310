@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "neutral",
+      "clinical",
+      "objective",
+      "factual"
+    ],
+    "style": [
+      "bright",
+      "instructional",
+      "close-up"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "informative",
+      "precise",
+      "detailed",
+      "objective",
+      "instructional"
+    ],
+    "style": [
+      "informative",
+      "casual",
+      "clear"
+    ],
+    "objects": [
+      "pants",
+      "tape measure",
+      "text",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "informative",
+      "neutral",
+      "methodical",
+      "practical",
+      "straightforward"
+    ],
+    "style": [
+      "documentary",
+      "instructional",
+      "overhead-shot"
+    ],
+    "objects": [
+      "pants",
+      "measuring tape",
+      "floor",
+      "text"
+    ]
+  }
+}

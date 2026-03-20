@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "peaceful",
+      "tranquil",
+      "soothing"
+    ],
+    "style": [
+      "minimalistic",
+      "monochromatic",
+      "elegant"
+    ],
+    "objects": [
+      "text",
+      "ocean"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "serene",
+      "tranquil",
+      "clean",
+      "refreshing"
+    ],
+    "style": [
+      "clean",
+      "bright",
+      "minimalist"
+    ],
+    "objects": [
+      "ocean",
+      "text box"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "serene",
+      "hopeful",
+      "elegant",
+      "peaceful"
+    ],
+    "style": [
+      "minimalist",
+      "turquoise-dominant",
+      "typography-focused"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "ocean",
+      "conservation message"
+    ]
+  }
+}

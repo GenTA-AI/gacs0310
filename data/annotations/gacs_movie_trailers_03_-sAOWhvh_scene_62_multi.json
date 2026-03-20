@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "chaotic",
+      "destructive",
+      "apocalyptic"
+    ],
+    "style": [
+      "apocalyptic",
+      "orange-tinted",
+      "dramatic"
+    ],
+    "objects": [
+      "explosion",
+      "debris",
+      "fire",
+      "smoke",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "destructive",
+      "chaotic",
+      "intense",
+      "catastrophic",
+      "frightening"
+    ],
+    "style": [
+      "fiery",
+      "chaotic",
+      "dramatic"
+    ],
+    "objects": [
+      "smoke",
+      "debris",
+      "fire",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "intense",
+      "explosive",
+      "destructive",
+      "dramatic"
+    ],
+    "style": [
+      "explosive",
+      "dynamic",
+      "intense"
+    ],
+    "objects": [
+      "fire",
+      "explosion",
+      "debris",
+      "smoke",
+      "road"
+    ]
+  }
+}

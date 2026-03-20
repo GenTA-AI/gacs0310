@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "artistic",
+      "vibrant",
+      "creative",
+      "flowing",
+      "mesmerizing"
+    ],
+    "style": [
+      "vibrant",
+      "artistic",
+      "close-up"
+    ],
+    "objects": [
+      "painting",
+      "bottles"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "vibrant",
+      "artistic",
+      "reflective",
+      "warm",
+      "contemplative"
+    ],
+    "style": [
+      "vibrant",
+      "abstract",
+      "dynamic"
+    ],
+    "objects": [
+      "painting",
+      "bottles",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "vibrant",
+      "creative",
+      "contemplative",
+      "expressive",
+      "introspective"
+    ],
+    "style": [
+      "vibrant",
+      "swirling",
+      "artistic"
+    ],
+    "objects": [
+      "paint",
+      "bottles",
+      "canvas",
+      "brushes"
+    ]
+  }
+}

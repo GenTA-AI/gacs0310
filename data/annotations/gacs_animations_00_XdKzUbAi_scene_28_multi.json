@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "peaceful",
+      "calm",
+      "cozy",
+      "gentle"
+    ],
+    "style": [
+      "animated",
+      "dimly-lit",
+      "cozy"
+    ],
+    "objects": [
+      "child",
+      "bed",
+      "stuffed toy",
+      "window"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "calm",
+      "serene",
+      "quiet",
+      "sleepy"
+    ],
+    "style": [
+      "blue-toned",
+      "animated",
+      "nighttime"
+    ],
+    "objects": [
+      "bed",
+      "child",
+      "window",
+      "stuffed animal"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "tender",
+      "calm",
+      "protective",
+      "serene"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "blue-tinted"
+    ],
+    "objects": [
+      "baby",
+      "crib",
+      "blanket",
+      "stuffed animal"
+    ]
+  }
+}

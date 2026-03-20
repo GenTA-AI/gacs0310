@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unease",
+      "apprehensive",
+      "mysterious",
+      "dark",
+      "worrisome"
+    ],
+    "style": [
+      "dimly-lit",
+      "animated",
+      "stylized"
+    ],
+    "objects": [
+      "person",
+      "stairs",
+      "building",
+      "lamps"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding",
+      "secretive"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "animated"
+    ],
+    "objects": [
+      "stairs",
+      "railing",
+      "lanterns",
+      "plants",
+      "character"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "dark",
+      "ominous",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "moody"
+    ],
+    "objects": [
+      "stairs",
+      "railing",
+      "person",
+      "lighting"
+    ]
+  }
+}

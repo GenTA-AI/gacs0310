@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "focused",
+      "disciplined",
+      "harmonious",
+      "serene"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "columns",
+      "windows",
+      "courtyard"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "dynamic",
+      "focused",
+      "rhythmic",
+      "disciplined"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "symmetrical"
+    ],
+    "objects": [
+      "people",
+      "lanterns",
+      "wooden panels",
+      "open doorway"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "disciplined",
+      "calm",
+      "traditional",
+      "active"
+    ],
+    "style": [
+      "traditional",
+      "bright",
+      "symmetrical"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "doorway"
+    ]
+  }
+}

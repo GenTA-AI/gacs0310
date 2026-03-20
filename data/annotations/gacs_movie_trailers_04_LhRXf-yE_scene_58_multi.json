@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "romantic",
+      "celebratory",
+      "intimate",
+      "joyful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "lanterns",
+      "restaurant",
+      "lights",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "serene",
+      "thoughtful",
+      "calm",
+      "contemplative"
+    ],
+    "style": [
+      "dimly-lit",
+      "atmospheric",
+      "elegant"
+    ],
+    "objects": [
+      "lanterns",
+      "people",
+      "coats",
+      "roof",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "reflective",
+      "peaceful",
+      "serene",
+      "calm"
+    ],
+    "style": [
+      "dimly-lit",
+      "cinematic",
+      "naturalistic"
+    ],
+    "objects": [
+      "sky lanterns",
+      "people",
+      "building"
+    ]
+  }
+}

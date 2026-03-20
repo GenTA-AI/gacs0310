@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "surprised",
+      "urban",
+      "neutral",
+      "observational"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "desaturated"
+    ],
+    "objects": [
+      "turnstile",
+      "dog",
+      "subway sign"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confused",
+      "anxious",
+      "overwhelmed",
+      "lost",
+      "bewildered"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon"
+    ],
+    "objects": [
+      "turnstiles",
+      "dog",
+      "subway station",
+      "fluorescent lights",
+      "platform"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anxious",
+      "curious",
+      "urban",
+      "isolated",
+      "mundane"
+    ],
+    "style": [
+      "animated",
+      "muted-palette",
+      "detailed"
+    ],
+    "objects": [
+      "turnstiles",
+      "subway station",
+      "lights",
+      "sign",
+      "map"
+    ]
+  }
+}

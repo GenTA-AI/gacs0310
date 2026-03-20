@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frustrated",
+      "enraged",
+      "chaotic",
+      "intense",
+      "startled"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "building",
+      "woman",
+      "red panda"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "angry",
+      "frustrated",
+      "intense",
+      "chaotic",
+      "energetic"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "dynamic"
+    ],
+    "objects": [
+      "girl",
+      "pink smoke",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "excited",
+      "energetic",
+      "cheerful",
+      "exuberant"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "cartoon-style"
+    ],
+    "objects": [
+      "cartoon character",
+      "pink explosion",
+      "buildings",
+      "street"
+    ]
+  }
+}

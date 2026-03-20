@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clean",
+      "modern",
+      "digital",
+      "sleek",
+      "futuristic"
+    ],
+    "style": [
+      "minimalist",
+      "digital",
+      "vibrant"
+    ],
+    "objects": [
+      "slider",
+      "shape",
+      "color menu"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "vibrant",
+      "creative",
+      "digital",
+      "modern",
+      "interactive"
+    ],
+    "style": [
+      "dark",
+      "minimalist",
+      "interface"
+    ],
+    "objects": [
+      "color picker",
+      "spectrum bar",
+      "slider",
+      "interface buttons"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "vibrant",
+      "modern",
+      "controlled"
+    ],
+    "style": [
+      "futuristic",
+      "minimalistic",
+      "vibrant"
+    ],
+    "objects": [
+      "color picker",
+      "light bar"
+    ]
+  }
+}

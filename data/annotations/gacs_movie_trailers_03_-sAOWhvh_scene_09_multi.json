@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "somber",
+      "dramatic",
+      "melancholic",
+      "contemplative"
+    ],
+    "style": [
+      "silhouetted",
+      "dramatic",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "sky",
+      "clouds"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "somber",
+      "introspective",
+      "eerie",
+      "pensive"
+    ],
+    "style": [
+      "silhouette",
+      "desaturated",
+      "ominous"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "clouds"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "suspenseful",
+      "dramatic",
+      "eerie"
+    ],
+    "style": [
+      "silhouetted",
+      "atmospheric",
+      "moody"
+    ],
+    "objects": [
+      "silhouette",
+      "hand",
+      "sky",
+      "clouds"
+    ]
+  }
+}

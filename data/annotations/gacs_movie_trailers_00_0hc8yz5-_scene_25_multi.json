@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "elegant",
+      "bold",
+      "intriguing",
+      "confident"
+    ],
+    "style": [
+      "text-based",
+      "minimal",
+      "dark"
+    ],
+    "objects": [
+      "text",
+      "knives out"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "intriguing",
+      "confident",
+      "suspenseful",
+      "bold"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "monochrome"
+    ],
+    "objects": [
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "bold",
+      "confident",
+      "promotional",
+      "cinematic"
+    ],
+    "style": [
+      "minimalist",
+      "monochromatic",
+      "typography-focused"
+    ],
+    "objects": [
+      "text",
+      "quote",
+      "movie title",
+      "black background"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "serious",
+      "bold",
+      "impactful",
+      "triumphant"
+    ],
+    "style": [
+      "minimalist",
+      "monochromatic",
+      "cinematic"
+    ],
+    "objects": [
+      "text",
+      "title card",
+      "black background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "praising",
+      "celebratory",
+      "approving",
+      "admiring",
+      "congratulatory"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "monochromatic"
+    ],
+    "objects": [
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "impressed",
+      "confident",
+      "bold",
+      "admiring",
+      "dramatic"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "text-based"
+    ],
+    "objects": [
+      "text",
+      "quote"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "helmet",
+      "water",
+      "goggles"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "tense",
+      "ominous",
+      "uneasy",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "artificial"
+    ],
+    "objects": [
+      "person",
+      "hat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "tense",
+      "eerie",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "red outfit",
+      "glowing visor",
+      "backpack"
+    ]
+  }
+}

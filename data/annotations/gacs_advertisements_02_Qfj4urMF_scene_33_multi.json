@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ordinary",
+      "mundane",
+      "domestic",
+      "everyday",
+      "calm"
+    ],
+    "style": [
+      "bright",
+      "candid",
+      "daytime"
+    ],
+    "objects": [
+      "shopping bags",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relaxed",
+      "mundane",
+      "calm",
+      "ordinary",
+      "everyday"
+    ],
+    "style": [
+      "urban",
+      "everyday",
+      "cluttered"
+    ],
+    "objects": [
+      "grocery bags",
+      "building",
+      "street",
+      "ball"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mundane",
+      "gritty",
+      "urban",
+      "neglected",
+      "desolate"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "shallow-focus"
+    ],
+    "objects": [
+      "garbage bags",
+      "recycling bin",
+      "street",
+      "buildings"
+    ]
+  }
+}

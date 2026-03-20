@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "festive",
+      "cheerful",
+      "respectful",
+      "joyful"
+    ],
+    "style": [
+      "informative",
+      "vibrant",
+      "lively"
+    ],
+    "objects": [
+      "fire truck",
+      "trees",
+      "logo",
+      "numbers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "patriotic",
+      "appreciative",
+      "optimistic"
+    ],
+    "style": [
+      "bright",
+      "news",
+      "daylight"
+    ],
+    "objects": [
+      "fire engine",
+      "news graphic"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "heartwarming",
+      "joyful",
+      "festive",
+      "uplifting"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "bright-daylight"
+    ],
+    "objects": [
+      "fire truck",
+      "windows",
+      "news banner",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strategic",
+      "intense",
+      "dark",
+      "dramatic",
+      "competitive"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "abstract"
+    ],
+    "objects": [
+      "chess pieces",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "intimate",
+      "romantic",
+      "luxurious",
+      "dreamy"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "bokeh"
+    ],
+    "objects": [
+      "perfume bottles",
+      "cosmetics",
+      "vanity table",
+      "lights",
+      "bokeh"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "strategic",
+      "contemplative",
+      "intriguing"
+    ],
+    "style": [
+      "dark",
+      "mysterious",
+      "abstract"
+    ],
+    "objects": [
+      "chess board",
+      "chess pieces",
+      "hand"
+    ]
+  }
+}

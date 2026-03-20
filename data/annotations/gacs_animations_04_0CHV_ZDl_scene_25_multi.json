@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "playful",
+      "innocent",
+      "friendly",
+      "lighthearted"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "cartoon-style"
+    ],
+    "objects": [
+      "robot",
+      "window",
+      "sign",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "amused",
+      "whimsical",
+      "quirky",
+      "friendly",
+      "lighthearted"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "illustrative"
+    ],
+    "objects": [
+      "robot",
+      "sign",
+      "record albums",
+      "shirt"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "lighthearted",
+      "playful",
+      "cheerful",
+      "whimsical"
+    ],
+    "style": [
+      "cartoonish",
+      "colorful",
+      "flat"
+    ],
+    "objects": [
+      "robot",
+      "records",
+      "shirt",
+      "window",
+      "sign"
+    ]
+  }
+}

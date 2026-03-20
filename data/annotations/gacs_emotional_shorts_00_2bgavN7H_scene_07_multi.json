@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "loving",
+      "happy",
+      "cheerful",
+      "familial"
+    ],
+    "style": [
+      "bright",
+      "clean",
+      "family"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "children"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "joyful",
+      "loving",
+      "tender",
+      "warm"
+    ],
+    "style": [
+      "bright",
+      "family-oriented",
+      "cheerful"
+    ],
+    "objects": [
+      "family",
+      "children",
+      "grandparents",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "joyful",
+      "loving",
+      "content",
+      "peaceful"
+    ],
+    "style": [
+      "clean",
+      "soft-lit",
+      "portrait-style"
+    ],
+    "objects": [
+      "family",
+      "children",
+      "adults",
+      "glasses"
+    ]
+  }
+}

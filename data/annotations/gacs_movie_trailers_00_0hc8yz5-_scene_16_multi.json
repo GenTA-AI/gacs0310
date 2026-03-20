@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "serious",
+      "contemplative",
+      "concerned",
+      "uneasy"
+    ],
+    "style": [
+      "contrasty",
+      "desaturated",
+      "realistic"
+    ],
+    "objects": [
+      "priest",
+      "police officer",
+      "hat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "serious",
+      "focused",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "priest",
+      "police officer",
+      "uniform",
+      "church interior"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "dark",
+      "confrontational",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "priest",
+      "police officer",
+      "uniform",
+      "collar"
+    ]
+  }
+}

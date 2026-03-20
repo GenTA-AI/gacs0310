@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "elegant",
+      "sophisticated",
+      "minimalist"
+    ],
+    "style": [
+      "sleek",
+      "modern",
+      "minimalistic"
+    ],
+    "objects": [
+      "audi logo",
+      "car"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "luxurious",
+      "clean"
+    ],
+    "style": [
+      "clean",
+      "minimalist",
+      "shallow-focus"
+    ],
+    "objects": [
+      "audi logo",
+      "car"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "sophisticated",
+      "luxurious",
+      "serene",
+      "elegant"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "atmospheric"
+    ],
+    "objects": [
+      "car",
+      "audi logo",
+      "mountains",
+      "sky"
+    ]
+  }
+}

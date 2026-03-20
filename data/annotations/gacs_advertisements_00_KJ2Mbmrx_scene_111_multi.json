@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dramatic",
+      "nocturnal",
+      "urban",
+      "intense",
+      "futuristic"
+    ],
+    "style": [
+      "nighttime",
+      "blurry",
+      "aerial"
+    ],
+    "objects": [
+      "cityscape",
+      "skyscrapers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "chaotic",
+      "destructive",
+      "intense",
+      "apocalyptic",
+      "devastating"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "explosive"
+    ],
+    "objects": [
+      "buildings",
+      "explosions",
+      "debris",
+      "cityscape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "vibrant",
+      "mysterious",
+      "energetic",
+      "atmospheric"
+    ],
+    "style": [
+      "futuristic",
+      "neon-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "skyscrapers",
+      "lights",
+      "fog"
+    ]
+  }
+}

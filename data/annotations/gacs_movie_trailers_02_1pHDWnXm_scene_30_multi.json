@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "explosive",
+      "dangerous",
+      "dramatic",
+      "chaotic"
+    ],
+    "style": [
+      "cinematic",
+      "high-contrast",
+      "dramatic"
+    ],
+    "objects": [
+      "gmc truck",
+      "explosion",
+      "person",
+      "glass windows"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "explosive",
+      "dangerous",
+      "intense",
+      "serious",
+      "urgent"
+    ],
+    "style": [
+      "high-contrast",
+      "split-screen",
+      "dramatic"
+    ],
+    "objects": [
+      "truck",
+      "explosion",
+      "man",
+      "vault"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "explosive",
+      "intense",
+      "dramatic",
+      "urgent",
+      "suspenseful"
+    ],
+    "style": [
+      "explosive",
+      "dynamic",
+      "intense"
+    ],
+    "objects": [
+      "truck",
+      "explosion",
+      "man",
+      "office"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "pensive",
+      "focused",
+      "determined",
+      "serious"
+    ],
+    "style": [
+      "naturalistic",
+      "shallow-focus",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "building",
+      "earphone"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "determined",
+      "serious",
+      "contemplative",
+      "engaged"
+    ],
+    "style": [
+      "natural",
+      "focused",
+      "introspective"
+    ],
+    "objects": [
+      "woman",
+      "earbuds",
+      "jacket",
+      "blurred figure"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "contemplative",
+      "serious",
+      "determined",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "earbuds",
+      "building",
+      "jacket"
+    ]
+  }
+}

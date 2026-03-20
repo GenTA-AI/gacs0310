@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "nostalgic",
+      "cinematic",
+      "serene",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "aerial-perspective"
+    ],
+    "objects": [
+      "buildings",
+      "rooftops",
+      "trees",
+      "town square"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "desolate",
+      "bleak",
+      "somber",
+      "eerie",
+      "uneasy"
+    ],
+    "style": [
+      "desaturated",
+      "wide-angle",
+      "overcast"
+    ],
+    "objects": [
+      "buildings",
+      "trees",
+      "road",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "isolated",
+      "serene",
+      "autumnal",
+      "guarded",
+      "calm"
+    ],
+    "style": [
+      "cinematic",
+      "natural",
+      "autumnal"
+    ],
+    "objects": [
+      "buildings",
+      "people",
+      "trees",
+      "fence"
+    ]
+  }
+}

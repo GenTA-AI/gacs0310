@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "lively",
+      "joyful",
+      "sociable",
+      "relaxed",
+      "warm"
+    ],
+    "style": [
+      "night-time",
+      "social",
+      "intimate"
+    ],
+    "objects": [
+      "people",
+      "table",
+      "drinks",
+      "neon sign",
+      "chair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "friendly",
+      "social",
+      "relaxed",
+      "convivial"
+    ],
+    "style": [
+      "casual",
+      "dimly-lit",
+      "realistic"
+    ],
+    "objects": [
+      "people",
+      "table",
+      "drinks",
+      "sign"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "social",
+      "intimate",
+      "warm",
+      "convivial"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "tables",
+      "restaurant sign",
+      "chairs"
+    ]
+  }
+}

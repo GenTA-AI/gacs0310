@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "eerie",
+      "menacing",
+      "ritualistic",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "dramatic"
+    ],
+    "objects": [
+      "figures",
+      "person",
+      "chamber",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "unsettling",
+      "controlled",
+      "ominous",
+      "anonymous"
+    ],
+    "style": [
+      "dark",
+      "dystopian",
+      "symmetrical"
+    ],
+    "objects": [
+      "people",
+      "cables",
+      "structure"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "intense",
+      "foreboding",
+      "enigmatic"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "symmetrical"
+    ],
+    "objects": [
+      "circle of people",
+      "cables",
+      "standing figure"
+    ]
+  }
+}

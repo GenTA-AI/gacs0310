@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dramatic",
+      "hopeful",
+      "ominous",
+      "tense",
+      "anxious"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "hazy"
+    ],
+    "objects": [
+      "airplane",
+      "clouds",
+      "contrails"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dramatic",
+      "serene",
+      "ethereal",
+      "awe-inspiring",
+      "tranquil"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "airplane",
+      "sky",
+      "sunset",
+      "clouds"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "ominous",
+      "ethereal",
+      "melancholic",
+      "atmospheric"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "helicopter",
+      "clouds",
+      "sky",
+      "landscape"
+    ]
+  }
+}

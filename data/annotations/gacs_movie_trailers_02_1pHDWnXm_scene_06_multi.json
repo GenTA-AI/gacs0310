@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "majestic",
+      "peaceful",
+      "elegant",
+      "tranquil"
+    ],
+    "style": [
+      "dramatic",
+      "nighttime",
+      "architectural"
+    ],
+    "objects": [
+      "white house",
+      "fountain",
+      "moon",
+      "lawn"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "calm",
+      "imposing",
+      "dignified",
+      "powerful"
+    ],
+    "style": [
+      "nocturnal",
+      "stark",
+      "grand"
+    ],
+    "objects": [
+      "white house",
+      "washington monument",
+      "moon",
+      "fountain"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "serene",
+      "solemn",
+      "grand",
+      "historical"
+    ],
+    "style": [
+      "cinematic",
+      "night-time",
+      "iconic"
+    ],
+    "objects": [
+      "white house",
+      "fountain",
+      "washington monument",
+      "trees",
+      "sky"
+    ]
+  }
+}

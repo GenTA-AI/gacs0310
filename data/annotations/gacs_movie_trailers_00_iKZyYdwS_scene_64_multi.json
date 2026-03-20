@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "sorrowful",
+      "intimate",
+      "vulnerable",
+      "emotional"
+    ],
+    "style": [
+      "dramatic",
+      "red-tinted",
+      "close-up"
+    ],
+    "objects": [
+      "face",
+      "tears",
+      "person",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "emotional",
+      "vulnerable",
+      "somber",
+      "reflective"
+    ],
+    "style": [
+      "close-up",
+      "dimly-lit",
+      "glossy"
+    ],
+    "objects": [
+      "face",
+      "eyes",
+      "sweat"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "vulnerable",
+      "somber",
+      "intense",
+      "pained"
+    ],
+    "style": [
+      "dramatic",
+      "intimate",
+      "warm-toned"
+    ],
+    "objects": [
+      "person",
+      "eyes",
+      "sweat",
+      "hair"
+    ]
+  }
+}

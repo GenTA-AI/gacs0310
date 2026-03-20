@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "thoughtful",
+      "calm",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "coffee cup",
+      "kitchen",
+      "window"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "anxious",
+      "concerned",
+      "thoughtful",
+      "reflective"
+    ],
+    "style": [
+      "soft",
+      "naturalistic",
+      "shallow-depth"
+    ],
+    "objects": [
+      "woman",
+      "cup",
+      "window",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "contemplative",
+      "serious",
+      "introspective",
+      "quiet"
+    ],
+    "style": [
+      "soft-lit",
+      "contemplative",
+      "natural"
+    ],
+    "objects": [
+      "person",
+      "cup",
+      "window",
+      "plant"
+    ]
+  }
+}

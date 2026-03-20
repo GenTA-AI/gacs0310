@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "anticipatory",
+      "dramatic",
+      "bold",
+      "cinematic"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "dramatic"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "title card",
+      "marvel studios branding"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "somber",
+      "serious",
+      "intriguing",
+      "bold"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "monochromatic"
+    ],
+    "objects": [
+      "text",
+      "logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bold",
+      "heroic",
+      "exciting",
+      "dramatic",
+      "intense"
+    ],
+    "style": [
+      "bold",
+      "minimalistic",
+      "monochrome"
+    ],
+    "objects": [
+      "logo",
+      "text"
+    ]
+  }
+}

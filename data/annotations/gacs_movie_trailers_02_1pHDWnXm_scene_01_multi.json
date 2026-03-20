@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "focused",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "low-lit"
+    ],
+    "objects": [
+      "man",
+      "wall",
+      "window",
+      "room"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "focused",
+      "determined",
+      "intense",
+      "contemplative"
+    ],
+    "style": [
+      "focused",
+      "serious",
+      "dark"
+    ],
+    "objects": [
+      "man",
+      "face"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "serious",
+      "focused",
+      "tense",
+      "moody"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "intense"
+    ],
+    "objects": [
+      "man",
+      "mirror",
+      "window"
+    ]
+  }
+}

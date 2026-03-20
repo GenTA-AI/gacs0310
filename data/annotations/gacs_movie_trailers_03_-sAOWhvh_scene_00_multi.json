@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "somber",
+      "introspective",
+      "vulnerable",
+      "pensive"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "cinematic"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "blonde hair",
+      "darkness"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "pensive",
+      "solemn",
+      "introspective",
+      "somber"
+    ],
+    "style": [
+      "dark",
+      "intimate",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "hair"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "introspective",
+      "somber",
+      "serene",
+      "quiet"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "close-up"
+    ],
+    "objects": [
+      "person"
+    ]
+  }
+}

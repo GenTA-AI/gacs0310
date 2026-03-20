@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "sleek",
+      "intriguing",
+      "futuristic",
+      "refined"
+    ],
+    "style": [
+      "geometric",
+      "metallic",
+      "abstract"
+    ],
+    "objects": [
+      "geometric design",
+      "camera lens"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "high-contrast",
+      "warm-toned",
+      "geometric"
+    ],
+    "objects": [
+      "car",
+      "camera"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "moody",
+      "contemplative",
+      "intimate"
+    ],
+    "style": [
+      "dramatic",
+      "golden-lit",
+      "geometric"
+    ],
+    "objects": [
+      "triangular glass prism",
+      "light beam",
+      "shadows",
+      "surface"
+    ]
+  }
+}

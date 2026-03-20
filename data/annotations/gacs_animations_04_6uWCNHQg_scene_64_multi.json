@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "domestic",
+      "casual",
+      "relaxed",
+      "content"
+    ],
+    "style": [
+      "dimly-lit",
+      "realistic",
+      "animated"
+    ],
+    "objects": [
+      "man",
+      "dishes",
+      "window",
+      "plant",
+      "plates"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "quiet",
+      "domestic",
+      "observant",
+      "thoughtful"
+    ],
+    "style": [
+      "animated",
+      "warm",
+      "stylized"
+    ],
+    "objects": [
+      "man",
+      "table",
+      "plates",
+      "window"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "subdued",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "plates",
+      "furniture",
+      "frames"
+    ]
+  }
+}

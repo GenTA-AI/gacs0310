@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "urgent",
+      "stressful",
+      "hopeful",
+      "challenging",
+      "tense"
+    ],
+    "style": [
+      "news-report",
+      "grainy",
+      "candid"
+    ],
+    "objects": [
+      "rocks",
+      "dirt",
+      "branches"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relief",
+      "anxious",
+      "hopeful",
+      "concerned",
+      "uneasy"
+    ],
+    "style": [
+      "news-style",
+      "handheld",
+      "desaturated"
+    ],
+    "objects": [
+      "rocks",
+      "canyon",
+      "debris"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "distressing",
+      "chaotic",
+      "dangerous",
+      "dramatic"
+    ],
+    "style": [
+      "documentary",
+      "handheld",
+      "natural-lighting"
+    ],
+    "objects": [
+      "rocks",
+      "debris",
+      "canyon",
+      "rescue equipment"
+    ]
+  }
+}

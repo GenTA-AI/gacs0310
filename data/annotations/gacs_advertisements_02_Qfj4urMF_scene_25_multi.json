@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "comforting",
+      "calm",
+      "reassuring",
+      "relaxed",
+      "safe"
+    ],
+    "style": [
+      "modern",
+      "informative",
+      "minimalistic"
+    ],
+    "objects": [
+      "dog",
+      "car",
+      "screen",
+      "street",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "lonely",
+      "hopeful",
+      "comfortable",
+      "safe",
+      "patient"
+    ],
+    "style": [
+      "clean",
+      "bright",
+      "modern"
+    ],
+    "objects": [
+      "dog",
+      "car",
+      "screen",
+      "street"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "humorous",
+      "futuristic",
+      "whimsical",
+      "affectionate"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "futuristic"
+    ],
+    "objects": [
+      "car interior",
+      "dog",
+      "screen",
+      "buildings",
+      "street"
+    ]
+  }
+}

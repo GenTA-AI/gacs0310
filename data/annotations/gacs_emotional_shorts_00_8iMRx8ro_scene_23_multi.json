@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relieved",
+      "hopeful",
+      "concerned",
+      "emotional",
+      "positive"
+    ],
+    "style": [
+      "low-resolution",
+      "news broadcast",
+      "bright"
+    ],
+    "objects": [
+      "man",
+      "painting",
+      "news graphic"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "serious",
+      "relieved",
+      "tense",
+      "hopeful"
+    ],
+    "style": [
+      "news-style",
+      "on-location",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "wall",
+      "map"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relieved",
+      "grateful",
+      "hopeful",
+      "concerned",
+      "thankful"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "news-style"
+    ],
+    "objects": [
+      "man",
+      "map",
+      "news banner",
+      "microphone"
+    ]
+  }
+}

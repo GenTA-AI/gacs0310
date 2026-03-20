@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anxious",
+      "urgent",
+      "startled",
+      "intense",
+      "focused"
+    ],
+    "style": [
+      "realistic",
+      "muted",
+      "blurred"
+    ],
+    "objects": [
+      "person",
+      "car",
+      "road"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "shocked",
+      "urgent",
+      "frantic",
+      "alarmed",
+      "disturbed"
+    ],
+    "style": [
+      "shallow-focus",
+      "naturalistic",
+      "daylight"
+    ],
+    "objects": [
+      "man",
+      "truck",
+      "hat",
+      "plaid shirt"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "distressed",
+      "panicked",
+      "desperate",
+      "alarmed"
+    ],
+    "style": [
+      "cinematic",
+      "motion-blur",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "car",
+      "street",
+      "building"
+    ]
+  }
+}

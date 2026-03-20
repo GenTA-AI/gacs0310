@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "powerful",
+      "intense",
+      "dramatic",
+      "focused"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "sleek"
+    ],
+    "objects": [
+      "car",
+      "spoiler",
+      "license plate",
+      "headlights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "powerful",
+      "sleek",
+      "dramatic",
+      "anticipation",
+      "modern"
+    ],
+    "style": [
+      "dramatic",
+      "cinematic",
+      "low-key"
+    ],
+    "objects": [
+      "car",
+      "license plate",
+      "taillight",
+      "spoiler"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "mysterious",
+      "sleek",
+      "futuristic"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "high-contrast"
+    ],
+    "objects": [
+      "car",
+      "license plate",
+      "garage",
+      "lights"
+    ]
+  }
+}

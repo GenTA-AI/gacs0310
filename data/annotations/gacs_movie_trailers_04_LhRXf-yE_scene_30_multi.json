@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "focused",
+      "disciplined",
+      "intense",
+      "collaborative"
+    ],
+    "style": [
+      "documentary",
+      "fluorescent-lit",
+      "wide-angle"
+    ],
+    "objects": [
+      "people",
+      "mirrors",
+      "martial arts mats",
+      "bench"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "determined",
+      "energetic",
+      "disciplined",
+      "competitive"
+    ],
+    "style": [
+      "naturalistic",
+      "neutral",
+      "documentary"
+    ],
+    "objects": [
+      "people",
+      "mirror",
+      "gym",
+      "martial arts sign"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "energetic",
+      "intense",
+      "disciplined",
+      "serious"
+    ],
+    "style": [
+      "neutral-toned",
+      "documentary",
+      "wide-angle"
+    ],
+    "objects": [
+      "martial artists",
+      "mirror",
+      "mat",
+      "sign"
+    ]
+  }
+}

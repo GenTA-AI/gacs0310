@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "mysterious",
+      "concerned",
+      "anxious",
+      "dramatic"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "low-lit"
+    ],
+    "objects": [
+      "woman",
+      "girl",
+      "lamp",
+      "room"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "serious",
+      "pensive",
+      "anxious",
+      "uneasy"
+    ],
+    "style": [
+      "low-key",
+      "cinematic",
+      "desaturated"
+    ],
+    "objects": [
+      "people",
+      "desk",
+      "lamp",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "focused"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "characters",
+      "lamp",
+      "jacket",
+      "electrical panel"
+    ]
+  }
+}

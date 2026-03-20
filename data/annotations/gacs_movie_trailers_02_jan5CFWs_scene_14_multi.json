@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "introspective",
+      "melancholic",
+      "pensive",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "sweater",
+      "laboratory equipment",
+      "glass containers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "apprehensive",
+      "uneasy",
+      "concerned",
+      "uncertain"
+    ],
+    "style": [
+      "naturalistic",
+      "dim",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "statue",
+      "glasses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "skeptical",
+      "surprised",
+      "inquisitive",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "dimly-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "sweater",
+      "fossils",
+      "display case"
+    ]
+  }
+}

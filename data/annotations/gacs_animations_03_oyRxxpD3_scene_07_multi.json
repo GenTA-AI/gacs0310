@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excitement",
+      "awe",
+      "wonder",
+      "anticipation",
+      "celebration"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "elsa",
+      "crowd",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exhilarating",
+      "magical",
+      "festive",
+      "joyful",
+      "celebratory"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "dramatic"
+    ],
+    "objects": [
+      "stage",
+      "audience",
+      "lights",
+      "singer"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "euphoric",
+      "energetic",
+      "celebratory",
+      "exhilarating",
+      "triumphant"
+    ],
+    "style": [
+      "atmospheric",
+      "dramatic",
+      "silhouetted"
+    ],
+    "objects": [
+      "crowd",
+      "stage",
+      "lights",
+      "performer",
+      "venue"
+    ]
+  }
+}

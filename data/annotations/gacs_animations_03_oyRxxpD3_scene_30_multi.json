@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "curious",
+      "intellectual",
+      "calm",
+      "focused"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "soft lighting"
+    ],
+    "objects": [
+      "man",
+      "flask",
+      "candle",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "magical",
+      "calm",
+      "mysterious",
+      "focused"
+    ],
+    "style": [
+      "animated",
+      "detailed",
+      "futuristic"
+    ],
+    "objects": [
+      "person",
+      "machinery",
+      "flask",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "majestic",
+      "contemplative",
+      "serene",
+      "nautical",
+      "adventurous"
+    ],
+    "style": [
+      "animated",
+      "nautical",
+      "fantasy"
+    ],
+    "objects": [
+      "person",
+      "ship",
+      "sails",
+      "ropes",
+      "mast"
+    ]
+  }
+}

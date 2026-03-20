@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "grand",
+      "expectant",
+      "awe",
+      "inspired"
+    ],
+    "style": [
+      "animated",
+      "epic",
+      "warm-toned"
+    ],
+    "objects": [
+      "crowd",
+      "columns",
+      "building",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "majestic",
+      "inspirational",
+      "triumphant",
+      "reverent",
+      "uplifting"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "silhouetted"
+    ],
+    "objects": [
+      "figure",
+      "columns",
+      "crowd",
+      "sunlight",
+      "platform"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "epic",
+      "triumphant",
+      "majestic",
+      "awe-inspiring",
+      "grand"
+    ],
+    "style": [
+      "cinematic",
+      "symmetrical",
+      "backlit"
+    ],
+    "objects": [
+      "sunset",
+      "statue",
+      "crowd",
+      "pillars"
+    ]
+  }
+}

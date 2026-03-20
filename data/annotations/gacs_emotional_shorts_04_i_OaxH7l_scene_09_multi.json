@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "cheerful",
+      "positive",
+      "joyful",
+      "delighted"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "plants",
+      "rt\u00e9 news logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "excited",
+      "surprised",
+      "happy",
+      "enthusiastic",
+      "delighted"
+    ],
+    "style": [
+      "candid",
+      "natural",
+      "vibrant"
+    ],
+    "objects": [
+      "person",
+      "plants",
+      "microphone"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "excited",
+      "proud",
+      "enthusiastic",
+      "celebratory"
+    ],
+    "style": [
+      "bright",
+      "natural",
+      "conversational"
+    ],
+    "objects": [
+      "girl",
+      "foliage",
+      "microphone",
+      "text"
+    ]
+  }
+}

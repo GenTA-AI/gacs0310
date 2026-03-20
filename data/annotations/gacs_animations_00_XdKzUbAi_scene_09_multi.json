@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "worried",
+      "concerned",
+      "pressured",
+      "self-conscious"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "soft"
+    ],
+    "objects": [
+      "tamagotchi",
+      "backpack",
+      "sweater"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "playful",
+      "energetic",
+      "cheerful",
+      "lively"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "vibrant"
+    ],
+    "objects": [
+      "character",
+      "backpack",
+      "red sweater",
+      "badge"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "warm",
+      "friendly",
+      "optimistic",
+      "pleasant"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "soft-focus"
+    ],
+    "objects": [
+      "character",
+      "necklace",
+      "red clothing",
+      "white collar"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "futuristic",
+      "clean",
+      "sophisticated"
+    ],
+    "style": [
+      "modern",
+      "sleek",
+      "futuristic"
+    ],
+    "objects": [
+      "playstation 5",
+      "symbols",
+      "console",
+      "lighting"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "modern",
+      "calm",
+      "technological",
+      "sophisticated"
+    ],
+    "style": [
+      "modern",
+      "sleek",
+      "futuristic"
+    ],
+    "objects": [
+      "screens",
+      "seats",
+      "aircraft interior",
+      "seatback displays"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "mysterious",
+      "modern",
+      "technological"
+    ],
+    "style": [
+      "futuristic",
+      "sleek",
+      "minimalist"
+    ],
+    "objects": [
+      "console",
+      "light",
+      "panel"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "casual",
+      "relaxed",
+      "conversational",
+      "peaceful"
+    ],
+    "style": [
+      "soft",
+      "misty",
+      "natural"
+    ],
+    "objects": [
+      "two people",
+      "river",
+      "bridge",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "casual",
+      "conversational",
+      "serene",
+      "reflective"
+    ],
+    "style": [
+      "bright",
+      "daytime",
+      "washed-out"
+    ],
+    "objects": [
+      "men",
+      "water",
+      "trees",
+      "bridge"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "friendly",
+      "conversational",
+      "comfortable"
+    ],
+    "style": [
+      "overexposed",
+      "hazy",
+      "documentary"
+    ],
+    "objects": [
+      "two men",
+      "grass",
+      "building",
+      "trees"
+    ]
+  }
+}

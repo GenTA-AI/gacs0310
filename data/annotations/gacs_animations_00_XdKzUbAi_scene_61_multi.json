@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "startled",
+      "scared",
+      "anxious",
+      "worried",
+      "surprised"
+    ],
+    "style": [
+      "cartoonish",
+      "bright",
+      "anxious"
+    ],
+    "objects": [
+      "red panda",
+      "teeth"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "shocked",
+      "surprised",
+      "anxious",
+      "startled",
+      "frantic"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "expressive"
+    ],
+    "objects": [
+      "red panda",
+      "paper"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "shocked",
+      "distressed",
+      "alarmed",
+      "panicked",
+      "horrified"
+    ],
+    "style": [
+      "animated",
+      "blurred",
+      "cartoonish"
+    ],
+    "objects": [
+      "red character",
+      "eyes",
+      "mouth",
+      "teeth"
+    ]
+  }
+}

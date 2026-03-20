@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "nostalgic",
+      "serene",
+      "reflective",
+      "picturesque"
+    ],
+    "style": [
+      "nostalgic",
+      "warm-toned",
+      "framed"
+    ],
+    "objects": [
+      "mosque",
+      "boats",
+      "sea",
+      "sunset"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "nostalgic",
+      "warm",
+      "contemplative",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "picturesque"
+    ],
+    "objects": [
+      "window",
+      "water",
+      "building",
+      "sunset",
+      "baskets"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "nostalgic",
+      "contemplative",
+      "serene",
+      "hopeful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "boats",
+      "mosque",
+      "sunset",
+      "water",
+      "person"
+    ]
+  }
+}

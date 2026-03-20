@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "intimate",
+      "pensive",
+      "subdued"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "table",
+      "lighting",
+      "interior space"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "somber",
+      "melancholic",
+      "introspective",
+      "subdued"
+    ],
+    "style": [
+      "naturalistic",
+      "low-key",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "plate",
+      "food",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "focused",
+      "introspective",
+      "intimate",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "table",
+      "food",
+      "chair",
+      "lamp"
+    ]
+  }
+}

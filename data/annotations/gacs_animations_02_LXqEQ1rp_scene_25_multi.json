@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "threatening",
+      "sinister",
+      "dark",
+      "foreboding"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "stylized"
+    ],
+    "objects": [
+      "grim reaper",
+      "street",
+      "buildings",
+      "lanterns"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "menacing",
+      "dark",
+      "foreboding",
+      "sinister"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "contrasted"
+    ],
+    "objects": [
+      "hooded figure",
+      "village buildings",
+      "lanterns",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "ominous",
+      "eerie",
+      "sinister",
+      "mysterious",
+      "tense"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "ominous"
+    ],
+    "objects": [
+      "hooded figure",
+      "axes",
+      "houses",
+      "windows",
+      "streetlights"
+    ]
+  }
+}

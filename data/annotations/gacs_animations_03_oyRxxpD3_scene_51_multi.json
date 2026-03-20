@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "inviting",
+      "dreamy",
+      "exciting",
+      "fantastical"
+    ],
+    "style": [
+      "stylized",
+      "dark",
+      "sleek"
+    ],
+    "objects": [
+      "text",
+      "movie title",
+      "background"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "magical",
+      "enchanting",
+      "mystical",
+      "majestic",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "gradient",
+      "stylized"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "gradient background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "adventurous",
+      "magical",
+      "vibrant",
+      "captivating"
+    ],
+    "style": [
+      "dark",
+      "bold",
+      "textured"
+    ],
+    "objects": [
+      "studio",
+      "moana",
+      "text"
+    ]
+  }
+}

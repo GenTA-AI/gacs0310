@@ -1,0 +1,56 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "impactful",
+      "dramatic",
+      "iconic",
+      "powerful",
+      "emotional"
+    ],
+    "style": [
+      "black and white",
+      "retro",
+      "minimalistic"
+    ],
+    "objects": [
+      "cat",
+      "vacuum",
+      "floor"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dark",
+      "silent",
+      "empty",
+      "foreboding",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "minimalist",
+      "stark"
+    ],
+    "objects": [
+      "no objects are visible"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "lighting",
+      "empty",
+      "void",
+      "neutral",
+      "indeterminate"
+    ],
+    "style": [
+      "lighting",
+      "minimal",
+      "void"
+    ],
+    "objects": []
+  }
+}

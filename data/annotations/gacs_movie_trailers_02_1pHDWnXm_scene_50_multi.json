@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "cyberpunk",
+      "ominous",
+      "futuristic"
+    ],
+    "style": [
+      "cyberpunk",
+      "neon-lit",
+      "dystopian"
+    ],
+    "objects": [
+      "cage",
+      "person",
+      "machinery",
+      "lights",
+      "control panel"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "ominous",
+      "clandestine",
+      "disturbing",
+      "gritty"
+    ],
+    "style": [
+      "dark",
+      "high-contrast",
+      "gritty"
+    ],
+    "objects": [
+      "rack",
+      "wall",
+      "papers",
+      "monitor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "mysterious",
+      "tense",
+      "gritty",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "moody"
+    ],
+    "objects": [
+      "computer",
+      "shelves",
+      "lights",
+      "posters",
+      "tools"
+    ]
+  }
+}

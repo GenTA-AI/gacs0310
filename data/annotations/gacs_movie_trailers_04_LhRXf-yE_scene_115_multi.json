@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "epic",
+      "dramatic",
+      "nostalgic",
+      "exciting",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "glowing",
+      "dramatic"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "circle",
+      "glow"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "exciting",
+      "dramatic",
+      "bold",
+      "iconic"
+    ],
+    "style": [
+      "dramatic",
+      "retro",
+      "cinematic"
+    ],
+    "objects": [
+      "karate kid legends",
+      "jackie chan",
+      "ralph macchio"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "epic",
+      "bold",
+      "adventurous",
+      "nostalgic",
+      "exciting"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "title-card"
+    ],
+    "objects": [
+      "text",
+      "title",
+      "actors"
+    ]
+  }
+}

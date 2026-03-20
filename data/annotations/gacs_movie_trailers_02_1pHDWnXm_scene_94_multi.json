@@ -1,0 +1,59 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "anticipatory",
+      "bold",
+      "promotional",
+      "cinematic"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "movie rating",
+      "release date"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipation",
+      "excitement",
+      "curiosity",
+      "dramatic",
+      "impending"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "date"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anticipatory",
+      "exciting",
+      "intriguing",
+      "suspenseful",
+      "promising"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "monochrome"
+    ],
+    "objects": [
+      "text"
+    ]
+  }
+}

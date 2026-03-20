@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "formal",
+      "authoritative",
+      "luxurious"
+    ],
+    "style": [
+      "cinematic",
+      "luxurious",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "chandelier",
+      "curtains",
+      "columns"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "anxious",
+      "alarmed",
+      "frantic",
+      "desperate"
+    ],
+    "style": [
+      "high-key",
+      "tense",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "chandelier",
+      "doorway"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "urgent",
+      "suspenseful",
+      "dramatic",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "elegant"
+    ],
+    "objects": [
+      "man",
+      "chandelier",
+      "curtains",
+      "door",
+      "wall art"
+    ]
+  }
+}

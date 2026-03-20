@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "threatening",
+      "aggressive",
+      "dangerous",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "dramatic"
+    ],
+    "objects": [
+      "armed figures",
+      "rifles",
+      "interior hallway",
+      "columns"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "dangerous",
+      "chaotic",
+      "urgent",
+      "alarming"
+    ],
+    "style": [
+      "dynamic",
+      "high-key",
+      "tense"
+    ],
+    "objects": [
+      "soldiers",
+      "rifles",
+      "man",
+      "interior"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "urgent",
+      "dynamic",
+      "intense",
+      "dramatic"
+    ],
+    "style": [
+      "dynamic",
+      "tense",
+      "cinematic"
+    ],
+    "objects": [
+      "soldiers",
+      "guns",
+      "doorway",
+      "columns",
+      "chandelier"
+    ]
+  }
+}

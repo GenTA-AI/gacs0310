@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspenseful",
+      "anxious",
+      "trapped",
+      "claustrophobic",
+      "tense"
+    ],
+    "style": [
+      "gritty",
+      "claustrophobic",
+      "desaturated"
+    ],
+    "objects": [
+      "money",
+      "hands"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "blurry",
+      "suspenseful",
+      "dimly-lit"
+    ],
+    "objects": [
+      "hands",
+      "person",
+      "table",
+      "money"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "chaotic",
+      "frantic",
+      "urgent",
+      "disorienting"
+    ],
+    "style": [
+      "blurry",
+      "dark",
+      "handheld"
+    ],
+    "objects": [
+      "hands",
+      "papers",
+      "documents",
+      "cards"
+    ]
+  }
+}

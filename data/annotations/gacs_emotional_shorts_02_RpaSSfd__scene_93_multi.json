@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "shocked",
+      "surprised",
+      "startled",
+      "abrupt",
+      "intense"
+    ],
+    "style": [
+      "dynamic",
+      "cinematic",
+      "expressive"
+    ],
+    "objects": [
+      "man",
+      "leaves"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "shocked",
+      "surprised",
+      "disturbed",
+      "chaotic",
+      "flustered"
+    ],
+    "style": [
+      "candid",
+      "blurry",
+      "dynamic"
+    ],
+    "objects": [
+      "man",
+      "salad"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "pensive",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "moody"
+    ],
+    "objects": [
+      "man",
+      "plants",
+      "shelves",
+      "books"
+    ]
+  }
+}

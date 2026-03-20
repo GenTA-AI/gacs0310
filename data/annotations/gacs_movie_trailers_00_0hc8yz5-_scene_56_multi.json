@@ -1,0 +1,57 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "elegant",
+      "sophisticated",
+      "anticipatory",
+      "cinematic"
+    ],
+    "style": [
+      "minimalist",
+      "cinematic",
+      "elegant"
+    ],
+    "objects": [
+      "text",
+      "black background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "mysterious",
+      "understated",
+      "expectant",
+      "intriguing"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "typographic"
+    ],
+    "objects": [
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "intriguing",
+      "anticipatory",
+      "minimalist",
+      "suggestive"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "textual"
+    ],
+    "objects": [
+      "text"
+    ]
+  }
+}

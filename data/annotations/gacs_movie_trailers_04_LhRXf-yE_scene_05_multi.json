@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "melancholic",
+      "tender",
+      "wistful",
+      "bittersweet"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "hands",
+      "photograph",
+      "plant",
+      "concrete"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "sentimental",
+      "melancholic",
+      "reflective",
+      "somber"
+    ],
+    "style": [
+      "muted",
+      "desaturated",
+      "nostalgic"
+    ],
+    "objects": [
+      "photo",
+      "hands",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "reflective",
+      "somber",
+      "sentimental",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "muted",
+      "naturalistic"
+    ],
+    "objects": [
+      "photo",
+      "hands",
+      "plant",
+      "sidewalk"
+    ]
+  }
+}

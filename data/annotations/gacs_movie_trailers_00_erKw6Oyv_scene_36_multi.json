@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "somber",
+      "pensive",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "hat",
+      "city lights",
+      "night sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "determined",
+      "serious",
+      "pensive",
+      "resolute"
+    ],
+    "style": [
+      "dark",
+      "blue-toned",
+      "futuristic"
+    ],
+    "objects": [
+      "person",
+      "cityscape",
+      "building lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "somber",
+      "somber",
+      "reflective"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "helmet",
+      "cityscape",
+      "lights"
+    ]
+  }
+}

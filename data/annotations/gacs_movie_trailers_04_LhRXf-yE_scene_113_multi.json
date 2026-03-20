@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "triumphant",
+      "celebratory",
+      "confident",
+      "exuberant"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "crowded"
+    ],
+    "objects": [
+      "person",
+      "crowd",
+      "buildings",
+      "cityscape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "determined",
+      "focused",
+      "energetic",
+      "engaging"
+    ],
+    "style": [
+      "cinematic",
+      "dynamic",
+      "crowded"
+    ],
+    "objects": [
+      "person",
+      "crowd",
+      "cityscape",
+      "sunset"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "focused",
+      "intense",
+      "expectant",
+      "disciplined"
+    ],
+    "style": [
+      "staged",
+      "wide-angle",
+      "dramatic"
+    ],
+    "objects": [
+      "crowd",
+      "skyscrapers",
+      "person"
+    ]
+  }
+}

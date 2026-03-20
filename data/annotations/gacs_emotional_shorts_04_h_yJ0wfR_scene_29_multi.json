@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "warm",
+      "tender",
+      "gentle",
+      "heartfelt"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "documentary"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "balloons"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "gentle",
+      "caring",
+      "tender",
+      "compassionate"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "candid"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "flowers",
+      "beach",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "playful",
+      "warm",
+      "comforting",
+      "nostalgic"
+    ],
+    "style": [
+      "candid",
+      "vibrant",
+      "lively"
+    ],
+    "objects": [
+      "child",
+      "elderly man",
+      "pink object",
+      "beach",
+      "text"
+    ]
+  }
+}

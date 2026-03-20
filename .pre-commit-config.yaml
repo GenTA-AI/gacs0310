@@ -1,0 +1,26 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-json
+        files: '\.ipynb$'
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=5000']
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.0
+    hooks:
+      - id: ruff
+        args: ['--config', 'pyproject.toml']
+
+  - repo: local
+    hooks:
+      - id: secret-scan
+        name: Secret Scanner
+        entry: python check_secrets.py
+        language: python
+        pass_filenames: false
+        always_run: true

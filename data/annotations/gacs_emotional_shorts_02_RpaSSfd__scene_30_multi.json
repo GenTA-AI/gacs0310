@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "thoughtful",
+      "intense",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "focused"
+    ],
+    "objects": [
+      "person",
+      "robe",
+      "love buster logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "thoughtful",
+      "serious",
+      "subdued",
+      "hesitant"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "domestic"
+    ],
+    "objects": [
+      "man",
+      "robe"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "contemplative",
+      "serious",
+      "troubled",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "hoodie",
+      "wall",
+      "door"
+    ]
+  }
+}

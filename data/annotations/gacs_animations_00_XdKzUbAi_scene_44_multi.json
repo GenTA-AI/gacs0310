@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "aggressive",
+      "ferocious",
+      "angry",
+      "intense",
+      "wild"
+    ],
+    "style": [
+      "cartoonish",
+      "close-up",
+      "vibrant"
+    ],
+    "objects": [
+      "red panda",
+      "sink",
+      "toothbrush",
+      "towel rack"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "angry",
+      "intense",
+      "aggressive",
+      "fierce",
+      "agitated"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "red panda",
+      "towel",
+      "toothbrush",
+      "sink"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "energetic",
+      "chaotic",
+      "excited",
+      "animated"
+    ],
+    "style": [
+      "blurry",
+      "motion-blur",
+      "saturated"
+    ],
+    "objects": [
+      "person",
+      "bathroom",
+      "sink",
+      "mirror"
+    ]
+  }
+}

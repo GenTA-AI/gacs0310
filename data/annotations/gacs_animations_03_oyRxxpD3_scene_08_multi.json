@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "awe",
+      "powerful",
+      "grand",
+      "ethereal"
+    ],
+    "style": [
+      "stylized",
+      "bright",
+      "fantastical"
+    ],
+    "objects": [
+      "building",
+      "crowd",
+      "magic"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mystical",
+      "ethereal",
+      "majestic",
+      "transcendent",
+      "spiritual"
+    ],
+    "style": [
+      "cinematic",
+      "magical",
+      "atmospheric"
+    ],
+    "objects": [
+      "castle",
+      "light beam",
+      "figure",
+      "water",
+      "architecture"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "enchanting",
+      "magical",
+      "awe-inspiring",
+      "serene"
+    ],
+    "style": [
+      "fantastical",
+      "vibrant",
+      "majestic"
+    ],
+    "objects": [
+      "throne",
+      "light",
+      "crowd",
+      "pillars"
+    ]
+  }
+}

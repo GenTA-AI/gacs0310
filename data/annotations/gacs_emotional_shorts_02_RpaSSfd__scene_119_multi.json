@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "flirty",
+      "relaxed",
+      "social",
+      "lively",
+      "casual"
+    ],
+    "style": [
+      "warm",
+      "naturalistic",
+      "candid"
+    ],
+    "objects": [
+      "woman",
+      "bar",
+      "drinks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "intimate",
+      "casual",
+      "social",
+      "warm"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "woman",
+      "bartender",
+      "bar",
+      "drinks",
+      "glasses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "lively",
+      "social",
+      "intriguing",
+      "relaxed",
+      "vibrant"
+    ],
+    "style": [
+      "dimly-lit",
+      "casual",
+      "vibrant"
+    ],
+    "objects": [
+      "bar",
+      "bartender",
+      "woman",
+      "drink"
+    ]
+  }
+}

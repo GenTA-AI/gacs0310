@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "inviting",
+      "colorful",
+      "magical",
+      "cheerful"
+    ],
+    "style": [
+      "colorful",
+      "ornate",
+      "inviting"
+    ],
+    "objects": [
+      "archway",
+      "flowers",
+      "chandelier",
+      "wooden door"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "warm",
+      "inviting",
+      "vibrant",
+      "festive"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "interior"
+    ],
+    "objects": [
+      "arch",
+      "flowers",
+      "chandelier"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "romantic",
+      "enchanting",
+      "warm",
+      "inviting",
+      "magical"
+    ],
+    "style": [
+      "vibrant",
+      "atmospheric",
+      "romantic"
+    ],
+    "objects": [
+      "archway",
+      "flowers",
+      "balcony",
+      "building"
+    ]
+  }
+}

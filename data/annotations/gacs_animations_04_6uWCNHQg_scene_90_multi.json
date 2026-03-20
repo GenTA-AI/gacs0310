@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relaxed",
+      "calm",
+      "serene",
+      "content",
+      "peaceful"
+    ],
+    "style": [
+      "bright",
+      "casual",
+      "outdoor"
+    ],
+    "objects": [
+      "person",
+      "water",
+      "life jacket"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "informative",
+      "calm",
+      "direct",
+      "observational"
+    ],
+    "style": [
+      "bright",
+      "naturalistic",
+      "outdoor"
+    ],
+    "objects": [
+      "man",
+      "water",
+      "life vest"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "focused",
+      "determined",
+      "intense"
+    ],
+    "style": [
+      "underwater",
+      "bright-lit",
+      "professional"
+    ],
+    "objects": [
+      "man",
+      "water",
+      "text",
+      "clothing"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "intimate",
+      "vulnerable",
+      "concerned",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "leather jacket",
+      "bathroom",
+      "sink",
+      "mirror"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "serious",
+      "somber",
+      "tense",
+      "worried"
+    ],
+    "style": [
+      "desaturated",
+      "dramatic",
+      "realistic"
+    ],
+    "objects": [
+      "person",
+      "bathtub",
+      "gun"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "caring",
+      "dramatic",
+      "somber",
+      "intimate"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "characters",
+      "bathtub",
+      "chair",
+      "curtain"
+    ]
+  }
+}

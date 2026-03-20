@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "guarded",
+      "melancholic",
+      "protective",
+      "uncertain"
+    ],
+    "style": [
+      "animated",
+      "soft",
+      "fairytale"
+    ],
+    "objects": [
+      "puss in boots",
+      "girl",
+      "kittens"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "protective",
+      "comforting",
+      "warm",
+      "gentle",
+      "peaceful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "cat",
+      "girl",
+      "kittens",
+      "sword",
+      "hat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tender",
+      "protective",
+      "companionate",
+      "melancholic",
+      "intimate"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "stylized"
+    ],
+    "objects": [
+      "cat",
+      "girl",
+      "kittens",
+      "sword",
+      "cobblestone"
+    ]
+  }
+}

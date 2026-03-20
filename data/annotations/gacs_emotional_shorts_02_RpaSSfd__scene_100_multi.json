@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "resigned",
+      "reflective",
+      "mild"
+    ],
+    "style": [
+      "dimly-lit",
+      "realistic",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "wall",
+      "frames",
+      "ceiling light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "resigned",
+      "frustrated",
+      "regretful",
+      "subdued",
+      "weary"
+    ],
+    "style": [
+      "modern",
+      "flat lighting",
+      "medium shot"
+    ],
+    "objects": [
+      "woman",
+      "wall",
+      "mirror",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "defeated",
+      "resigned",
+      "guilty",
+      "somber",
+      "dejected"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "subtitles",
+      "windows",
+      "interior room"
+    ]
+  }
+}

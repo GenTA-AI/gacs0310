@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "eerie",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "noir-lighting"
+    ],
+    "objects": [
+      "kitchen",
+      "people",
+      "shelves",
+      "doorway",
+      "lighting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "bleak",
+      "clinical",
+      "unsettling",
+      "sterile"
+    ],
+    "style": [
+      "clinical",
+      "muted",
+      "symmetrical"
+    ],
+    "objects": [
+      "man",
+      "operating table",
+      "surgical lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "ominous",
+      "tense",
+      "mysterious",
+      "clinical"
+    ],
+    "style": [
+      "dark",
+      "clinical",
+      "symmetrical"
+    ],
+    "objects": [
+      "lab equipment",
+      "shelves",
+      "table",
+      "lights",
+      "figures"
+    ]
+  }
+}

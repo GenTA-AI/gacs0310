@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "urban",
+      "contemplative",
+      "brooding"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "gritty"
+    ],
+    "objects": [
+      "people",
+      "subway train",
+      "jackets",
+      "seats"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "confrontational",
+      "wary",
+      "edgy",
+      "uneasy"
+    ],
+    "style": [
+      "realistic",
+      "desaturated",
+      "gritty"
+    ],
+    "objects": [
+      "people",
+      "subway car"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "intense",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "gritty"
+    ],
+    "objects": [
+      "subway",
+      "people",
+      "jacket",
+      "hats"
+    ]
+  }
+}

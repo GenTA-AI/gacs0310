@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "angry",
+      "frustrated",
+      "intense",
+      "villainous",
+      "determined"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "symmetrical"
+    ],
+    "objects": [
+      "man",
+      "lab equipment",
+      "candle"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "menacing",
+      "intense",
+      "villainous",
+      "dramatic",
+      "sinister"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "columns",
+      "ropes",
+      "architectural ruins"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "angry",
+      "intense",
+      "determined",
+      "dramatic",
+      "confrontational"
+    ],
+    "style": [
+      "animated",
+      "fantasy",
+      "detailed"
+    ],
+    "objects": [
+      "man",
+      "beakers",
+      "columns",
+      "apparatus"
+    ]
+  }
+}

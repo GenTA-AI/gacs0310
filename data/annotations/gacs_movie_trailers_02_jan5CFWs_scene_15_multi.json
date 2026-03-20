@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "epic",
+      "cinematic",
+      "grand",
+      "powerful",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "space-themed"
+    ],
+    "objects": [
+      "earth",
+      "sun",
+      "text",
+      "globe"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "grand",
+      "epic",
+      "powerful",
+      "dramatic",
+      "optimistic"
+    ],
+    "style": [
+      "glossy",
+      "metallic",
+      "dramatic"
+    ],
+    "objects": [
+      "globe",
+      "universal logo",
+      "stars"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "grand",
+      "cinematic",
+      "epic",
+      "majestic",
+      "powerful"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "polished"
+    ],
+    "objects": [
+      "earth",
+      "universal logo",
+      "text"
+    ]
+  }
+}

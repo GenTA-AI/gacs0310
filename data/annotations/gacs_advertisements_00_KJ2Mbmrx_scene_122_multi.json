@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "intense",
+      "determined",
+      "confident",
+      "vigilant"
+    ],
+    "style": [
+      "noir",
+      "high-contrast",
+      "dark"
+    ],
+    "objects": [
+      "man",
+      "car",
+      "street lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "intense",
+      "focused",
+      "mysterious",
+      "dramatic"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "lights",
+      "cars",
+      "darkness"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "somber",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "noir",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "lights",
+      "parking lot",
+      "night sky"
+    ]
+  }
+}

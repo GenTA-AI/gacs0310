@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "focused",
+      "intense",
+      "disciplined",
+      "graceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "pillar",
+      "windows",
+      "interior space",
+      "martial arts training area"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "intense",
+      "energetic",
+      "focused",
+      "disciplined"
+    ],
+    "style": [
+      "oriental",
+      "dynamic",
+      "traditional"
+    ],
+    "objects": [
+      "martial artist",
+      "dojo",
+      "training mat",
+      "pillars"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "energetic",
+      "disciplined",
+      "intense",
+      "determined"
+    ],
+    "style": [
+      "staged",
+      "theatrical",
+      "symmetrical"
+    ],
+    "objects": [
+      "person",
+      "banner",
+      "room"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "pensive",
+      "subdued"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "plants",
+      "columns",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "serious",
+      "somber",
+      "contemplative",
+      "peaceful"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "plants",
+      "building pillar"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "contemplative",
+      "serene",
+      "introspective",
+      "calm"
+    ],
+    "style": [
+      "natural",
+      "muted",
+      "contemplative"
+    ],
+    "objects": [
+      "person",
+      "plants",
+      "building",
+      "sign"
+    ]
+  }
+}

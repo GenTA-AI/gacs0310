@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "chaotic",
+      "urgent",
+      "dangerous",
+      "aggressive"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "action-packed"
+    ],
+    "objects": [
+      "people",
+      "truck",
+      "street",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "desperate",
+      "urgent",
+      "dangerous",
+      "intense"
+    ],
+    "style": [
+      "desaturated",
+      "action",
+      "gritty"
+    ],
+    "objects": [
+      "people",
+      "street",
+      "car",
+      "van"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "chaotic",
+      "action-packed",
+      "urgent",
+      "dramatic"
+    ],
+    "style": [
+      "action-packed",
+      "dramatic",
+      "gritty"
+    ],
+    "objects": [
+      "man",
+      "road",
+      "car",
+      "bridge",
+      "sidewalk"
+    ]
+  }
+}

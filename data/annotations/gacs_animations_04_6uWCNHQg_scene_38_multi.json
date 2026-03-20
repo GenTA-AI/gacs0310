@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "serious",
+      "unsettling",
+      "observant",
+      "strained"
+    ],
+    "style": [
+      "animated",
+      "pastel",
+      "soft"
+    ],
+    "objects": [
+      "person",
+      "mirror",
+      "room"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "emotional",
+      "confrontational",
+      "dramatic"
+    ],
+    "style": [
+      "animated",
+      "reflective",
+      "subdued"
+    ],
+    "objects": [
+      "mirror",
+      "woman",
+      "man",
+      "window",
+      "lamp"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "mysterious",
+      "unsettling",
+      "psychological",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "retro-futuristic",
+      "shallow-focus"
+    ],
+    "objects": [
+      "mirror",
+      "people",
+      "window",
+      "shelves",
+      "room"
+    ]
+  }
+}

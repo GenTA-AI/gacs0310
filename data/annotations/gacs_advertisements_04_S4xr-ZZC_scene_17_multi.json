@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "sterile",
+      "fashionable",
+      "bold",
+      "quirky"
+    ],
+    "style": [
+      "futuristic",
+      "high-key",
+      "glossy"
+    ],
+    "objects": [
+      "models",
+      "bags",
+      "dresses",
+      "mannequins"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "stylish",
+      "surreal",
+      "bold",
+      "psychedelic"
+    ],
+    "style": [
+      "futuristic",
+      "monochrome",
+      "geometric"
+    ],
+    "objects": [
+      "models",
+      "outfits",
+      "futuristic room",
+      "bag"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "dramatic",
+      "avant-garde",
+      "mysterious",
+      "theatrical"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "high-contrast"
+    ],
+    "objects": [
+      "figures",
+      "runway",
+      "ceiling",
+      "handbag",
+      "alcoves"
+    ]
+  }
+}

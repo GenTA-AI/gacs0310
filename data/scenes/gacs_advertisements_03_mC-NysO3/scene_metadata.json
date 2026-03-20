@@ -1,0 +1,32 @@
+[
+  {
+    "scene_id": "gacs_advertisements_03_mC-NysO3_s0000",
+    "video_id": "gacs_advertisements_03_mC-NysO3",
+    "scene_index": 0,
+    "start_frame": 0,
+    "end_frame": 240,
+    "start_time": 0.0,
+    "end_time": 8.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_advertisements_03_mC-NysO3_s0001",
+    "video_id": "gacs_advertisements_03_mC-NysO3",
+    "scene_index": 1,
+    "start_frame": 240,
+    "end_frame": 480,
+    "start_time": 8.0,
+    "end_time": 16.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_advertisements_03_mC-NysO3_s0002",
+    "video_id": "gacs_advertisements_03_mC-NysO3",
+    "scene_index": 2,
+    "start_frame": 480,
+    "end_frame": 720,
+    "start_time": 16.0,
+    "end_time": 24.0,
+    "duration": 8.0
+  }
+]

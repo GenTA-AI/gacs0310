@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "exotic",
+      "tranquil",
+      "mystical",
+      "picturesque"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "epic"
+    ],
+    "objects": [
+      "bridge",
+      "boats",
+      "mountains",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "exotic",
+      "adventurous",
+      "tranquil",
+      "picturesque"
+    ],
+    "style": [
+      "exotic",
+      "bright",
+      "naturalistic"
+    ],
+    "objects": [
+      "mountains",
+      "boat",
+      "airplane",
+      "hut"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "picturesque",
+      "lively",
+      "serene",
+      "bustling"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "expansive"
+    ],
+    "objects": [
+      "village",
+      "bridge",
+      "mountains",
+      "boats",
+      "people"
+    ]
+  }
+}

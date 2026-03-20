@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "thoughtful",
+      "serious",
+      "uneasy",
+      "solemn"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "bright"
+    ],
+    "objects": [
+      "woman",
+      "foliage",
+      "microphone"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "serious",
+      "troubled",
+      "somber",
+      "empathetic"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "handheld"
+    ],
+    "objects": [
+      "woman",
+      "leaves",
+      "foliage",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "thoughtful",
+      "reflective",
+      "serious",
+      "contemplative",
+      "concerned"
+    ],
+    "style": [
+      "natural",
+      "candid",
+      "interview"
+    ],
+    "objects": [
+      "person",
+      "leaves",
+      "shirt"
+    ]
+  }
+}

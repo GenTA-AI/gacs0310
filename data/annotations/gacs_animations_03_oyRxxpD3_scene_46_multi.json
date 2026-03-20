@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "enchanting",
+      "hopeful",
+      "whimsical",
+      "exciting"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "magical"
+    ],
+    "objects": [
+      "text",
+      "light streak"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "magical",
+      "enchanting",
+      "imaginative",
+      "adventurous"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "magical"
+    ],
+    "objects": [
+      "creators",
+      "frozen",
+      "light trail"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "magical",
+      "anticipatory",
+      "cinematic",
+      "enchanting"
+    ],
+    "style": [
+      "cinematic",
+      "mystical",
+      "dramatic"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "sparkle",
+      "gradient background"
+    ]
+  }
+}

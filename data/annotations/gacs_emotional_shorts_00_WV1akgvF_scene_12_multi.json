@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "joyous",
+      "energetic",
+      "enthusiastic",
+      "jubilant"
+    ],
+    "style": [
+      "low-resolution",
+      "grainy",
+      "bright"
+    ],
+    "objects": [
+      "audience",
+      "banner"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cheerful",
+      "excited",
+      "celebratory",
+      "joyful",
+      "energetic"
+    ],
+    "style": [
+      "grainy",
+      "vibrant",
+      "candid"
+    ],
+    "objects": [
+      "crowd",
+      "banner",
+      "people",
+      "bleachers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "energetic",
+      "triumphant",
+      "exuberant"
+    ],
+    "style": [
+      "grainy",
+      "overexposed",
+      "documentary-style"
+    ],
+    "objects": [
+      "crowd",
+      "people",
+      "celebration",
+      "confetti",
+      "balloons"
+    ]
+  }
+}

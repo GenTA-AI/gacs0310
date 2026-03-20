@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "weary",
+      "somber",
+      "reflective",
+      "resigned"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "hair",
+      "sword",
+      "building",
+      "street"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sad",
+      "distressed",
+      "vulnerable",
+      "somber",
+      "emotional"
+    ],
+    "style": [
+      "desaturated",
+      "dramatic",
+      "realistic"
+    ],
+    "objects": [
+      "woman",
+      "road",
+      "van",
+      "car"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sad",
+      "emotional",
+      "distressed",
+      "intense",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "muted",
+      "emotional"
+    ],
+    "objects": [
+      "person",
+      "sword",
+      "vehicle",
+      "building"
+    ]
+  }
+}

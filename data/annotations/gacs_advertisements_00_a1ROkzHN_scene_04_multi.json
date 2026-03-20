@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clean",
+      "futuristic",
+      "sleek",
+      "modern",
+      "sterile"
+    ],
+    "style": [
+      "clean",
+      "minimalist",
+      "futuristic"
+    ],
+    "objects": [
+      "playstation 5",
+      "console"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "minimalist",
+      "mysterious",
+      "intriguing"
+    ],
+    "style": [
+      "sleek",
+      "futuristic",
+      "symmetrical"
+    ],
+    "objects": [
+      "playstation consoles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "minimalist",
+      "sterile",
+      "industrial",
+      "geometric",
+      "stark"
+    ],
+    "style": [
+      "minimalist",
+      "metallic",
+      "architectural"
+    ],
+    "objects": [
+      "heat sink",
+      "fins",
+      "metal",
+      "cooling system"
+    ]
+  }
+}

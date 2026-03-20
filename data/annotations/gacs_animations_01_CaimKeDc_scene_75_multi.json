@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "whimsical",
+      "mysterious",
+      "calm",
+      "intriguing"
+    ],
+    "style": [
+      "stylized",
+      "warm",
+      "animated"
+    ],
+    "objects": [
+      "tapir",
+      "person",
+      "capybara",
+      "raccoon"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "whimsical",
+      "warm",
+      "cozy",
+      "playful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "tapir",
+      "child",
+      "capybara",
+      "lemurs",
+      "candles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "warm",
+      "friendly",
+      "intimate",
+      "comfortable"
+    ],
+    "style": [
+      "animated",
+      "warm-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "child",
+      "monsters",
+      "candles",
+      "wooden floor",
+      "stairs"
+    ]
+  }
+}

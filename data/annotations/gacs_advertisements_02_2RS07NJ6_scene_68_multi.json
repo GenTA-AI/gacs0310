@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "intense",
+      "thrilling",
+      "competitive",
+      "dynamic"
+    ],
+    "style": [
+      "dynamic",
+      "focused",
+      "muted"
+    ],
+    "objects": [
+      "gt3 rs seat",
+      "helmet",
+      "driver",
+      "roll cage"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "professional",
+      "intense",
+      "anticipatory",
+      "thrilling"
+    ],
+    "style": [
+      "clean",
+      "neutral",
+      "automotive"
+    ],
+    "objects": [
+      "car seat",
+      "roll cage",
+      "helmet",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "adrenaline-filled",
+      "competitive",
+      "thrilling"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "car interior",
+      "seats",
+      "steering wheel",
+      "person",
+      "helmet"
+    ]
+  }
+}

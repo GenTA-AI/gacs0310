@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sophisticated",
+      "elegant",
+      "luxurious",
+      "minimalist",
+      "somber"
+    ],
+    "style": [
+      "monochromatic",
+      "high-key",
+      "studio"
+    ],
+    "objects": [
+      "handbag",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "luxurious",
+      "classic",
+      "refined"
+    ],
+    "style": [
+      "monochrome",
+      "minimalistic",
+      "elegant"
+    ],
+    "objects": [
+      "handbag",
+      "table"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "minimalist",
+      "luxurious",
+      "serene"
+    ],
+    "style": [
+      "monochromatic",
+      "minimalist",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "handbag",
+      "handle",
+      "clasp",
+      "surface"
+    ]
+  }
+}

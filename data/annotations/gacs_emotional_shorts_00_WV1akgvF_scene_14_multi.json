@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "determined",
+      "focused",
+      "sincere",
+      "earnest"
+    ],
+    "style": [
+      "documentary",
+      "direct",
+      "medium-shot"
+    ],
+    "objects": [
+      "person",
+      "basketball players"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "hopeful",
+      "reflective",
+      "youthful",
+      "casual"
+    ],
+    "style": [
+      "casual",
+      "candid",
+      "natural"
+    ],
+    "objects": [
+      "person",
+      "basketball players",
+      "gymnasium",
+      "shirts"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "conversational",
+      "youthful",
+      "candid"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "boy",
+      "basketball players",
+      "gymnasium",
+      "hallway"
+    ]
+  }
+}

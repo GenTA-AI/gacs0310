@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "contemplative",
+      "studious",
+      "calm",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "stairs",
+      "handrail",
+      "people",
+      "folder"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "pensive",
+      "observant",
+      "introspective",
+      "studious"
+    ],
+    "style": [
+      "realistic",
+      "candid",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "stairs",
+      "soda can",
+      "headphones"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "introspective",
+      "calm",
+      "relaxed",
+      "studious"
+    ],
+    "style": [
+      "casual",
+      "naturalistic",
+      "candid"
+    ],
+    "objects": [
+      "headphones",
+      "notebook",
+      "drink can",
+      "stairs",
+      "people"
+    ]
+  }
+}

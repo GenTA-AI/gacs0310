@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "confident",
+      "urban",
+      "energetic",
+      "rebellious"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "cool-toned"
+    ],
+    "objects": [
+      "woman",
+      "motorcycle",
+      "street",
+      "buildings",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "urban",
+      "focused",
+      "casual",
+      "somber"
+    ],
+    "style": [
+      "urban",
+      "moody",
+      "realistic"
+    ],
+    "objects": [
+      "scooter",
+      "woman",
+      "man",
+      "building",
+      "street"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "anxious",
+      "hurried",
+      "tense",
+      "apprehensive"
+    ],
+    "style": [
+      "urban",
+      "realistic",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "street",
+      "scooter",
+      "buildings"
+    ]
+  }
+}

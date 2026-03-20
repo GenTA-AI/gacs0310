@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "anxious",
+      "urgent",
+      "defensive"
+    ],
+    "style": [
+      "casual",
+      "homey",
+      "candid"
+    ],
+    "objects": [
+      "door",
+      "people",
+      "poster",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frantic",
+      "desperate",
+      "agitated",
+      "fearful",
+      "tense"
+    ],
+    "style": [
+      "realistic",
+      "medium shot",
+      "domestic"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "wall",
+      "picture"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "distressed",
+      "urgent",
+      "defensive"
+    ],
+    "style": [
+      "realistic",
+      "handheld",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "door",
+      "wall",
+      "decorative signs"
+    ]
+  }
+}

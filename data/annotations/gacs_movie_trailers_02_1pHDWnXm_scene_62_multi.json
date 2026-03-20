@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "tactical",
+      "focused",
+      "alert"
+    ],
+    "style": [
+      "cinematic",
+      "dark-toned",
+      "tactical"
+    ],
+    "objects": [
+      "tactical officer",
+      "rifle",
+      "vehicles",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "serious",
+      "focused",
+      "vigilant",
+      "dangerous"
+    ],
+    "style": [
+      "intense",
+      "gritty",
+      "realistic"
+    ],
+    "objects": [
+      "soldier",
+      "rifle",
+      "car",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "suspenseful",
+      "tense",
+      "foreboding",
+      "apprehensive"
+    ],
+    "style": [
+      "dramatic",
+      "tense",
+      "forested"
+    ],
+    "objects": [
+      "swat team",
+      "rifle",
+      "vehicle",
+      "forest"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "serious",
+      "concerned",
+      "thoughtful",
+      "subdued"
+    ],
+    "style": [
+      "close-up",
+      "cool-toned",
+      "flat"
+    ],
+    "objects": [
+      "woman",
+      "wall",
+      "hair",
+      "dress"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "contemplative",
+      "reserved",
+      "somber",
+      "introspective"
+    ],
+    "style": [
+      "muted",
+      "intimate",
+      "composed"
+    ],
+    "objects": [
+      "woman",
+      "blue dress",
+      "necklace",
+      "wall",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "pensive",
+      "subdued",
+      "introspective"
+    ],
+    "style": [
+      "dramatic",
+      "soft-lit",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "clothing",
+      "background"
+    ]
+  }
+}

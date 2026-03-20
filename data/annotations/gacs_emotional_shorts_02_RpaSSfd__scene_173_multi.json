@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "romantic",
+      "hopeful",
+      "expectant",
+      "charming",
+      "anticipatory"
+    ],
+    "style": [
+      "candid",
+      "indoor",
+      "naturalistic"
+    ],
+    "objects": [
+      "man",
+      "flowers",
+      "door",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "inviting",
+      "warm",
+      "welcoming",
+      "intriguing"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "vintage"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "table",
+      "flowers",
+      "glass cabinet"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "suspicious",
+      "dramatic",
+      "apprehensive",
+      "unsettling"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "urban"
+    ],
+    "objects": [
+      "person",
+      "storefront",
+      "glass doors",
+      "interior space",
+      "clothing"
+    ]
+  }
+}

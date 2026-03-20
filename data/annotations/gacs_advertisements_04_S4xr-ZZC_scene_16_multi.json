@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "enigmatic",
+      "surreal",
+      "striking",
+      "detached",
+      "artificial"
+    ],
+    "style": [
+      "monochromatic",
+      "surreal",
+      "staged"
+    ],
+    "objects": [
+      "models",
+      "catwalk",
+      "coats"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "mysterious",
+      "intense",
+      "surreal",
+      "theatrical"
+    ],
+    "style": [
+      "dramatic",
+      "monochromatic",
+      "atmospheric"
+    ],
+    "objects": [
+      "models",
+      "runway",
+      "coats",
+      "fashion show",
+      "pink lighting"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "avant-garde",
+      "bold",
+      "intriguing",
+      "fashionable"
+    ],
+    "style": [
+      "futuristic",
+      "monochromatic",
+      "structured"
+    ],
+    "objects": [
+      "models",
+      "coats",
+      "pink backdrop",
+      "boots"
+    ]
+  }
+}

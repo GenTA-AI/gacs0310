@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gathering",
+      "anticipation",
+      "family",
+      "hopeful",
+      "festive"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "colorful"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "plants"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "familial",
+      "welcoming",
+      "festive",
+      "warm"
+    ],
+    "style": [
+      "vibrant",
+      "animated",
+      "warm-toned"
+    ],
+    "objects": [
+      "people",
+      "house",
+      "plants",
+      "steps"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "festive",
+      "joyful",
+      "celebratory",
+      "warm",
+      "communal"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "temple",
+      "stairs",
+      "plants",
+      "building"
+    ]
+  }
+}

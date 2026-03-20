@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "powerful",
+      "dynamic",
+      "chaotic",
+      "uncertain"
+    ],
+    "style": [
+      "dark",
+      "blurred",
+      "futuristic"
+    ],
+    "objects": [
+      "man",
+      "computer",
+      "cables"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "intense",
+      "magical",
+      "dark",
+      "dramatic"
+    ],
+    "style": [
+      "dark",
+      "mystical",
+      "digital"
+    ],
+    "objects": [
+      "person",
+      "blue light",
+      "computers",
+      "equipment"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "futuristic",
+      "contemplative",
+      "atmospheric",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "blue-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "bar",
+      "lights",
+      "interior"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "dramatic",
+      "confrontational",
+      "urgent",
+      "threatening"
+    ],
+    "style": [
+      "aerial",
+      "cinematic",
+      "overhead"
+    ],
+    "objects": [
+      "people",
+      "wooden deck",
+      "plants",
+      "shadows"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dynamic",
+      "focused",
+      "energetic",
+      "competitive"
+    ],
+    "style": [
+      "overhead",
+      "geometric",
+      "natural"
+    ],
+    "objects": [
+      "people",
+      "wooden floor",
+      "plants"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "violent",
+      "tense",
+      "uncertain",
+      "urgent",
+      "concerning"
+    ],
+    "style": [
+      "high-angle",
+      "neutral",
+      "stark"
+    ],
+    "objects": [
+      "people",
+      "wooden tiles",
+      "plants"
+    ]
+  }
+}

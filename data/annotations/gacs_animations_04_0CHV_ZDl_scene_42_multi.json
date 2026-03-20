@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uncomfortable",
+      "subdued",
+      "trapped",
+      "oppressive",
+      "claustrophobic"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "muted"
+    ],
+    "objects": [
+      "hand",
+      "cloth",
+      "sleeve"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "neutral",
+      "relaxed",
+      "subdued",
+      "gentle"
+    ],
+    "style": [
+      "simple",
+      "animated",
+      "muted"
+    ],
+    "objects": [
+      "hand",
+      "cushion",
+      "leg",
+      "arm"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "sensual",
+      "passionate",
+      "romantic"
+    ],
+    "style": [
+      "animated",
+      "minimalist",
+      "muted-colors"
+    ],
+    "objects": [
+      "elephant feet",
+      "ground",
+      "dirt",
+      "rocks"
+    ]
+  }
+}

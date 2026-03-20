@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "minimal",
+      "sleek",
+      "professional",
+      "modern",
+      "focused"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "modern"
+    ],
+    "objects": [
+      "logo",
+      "circle",
+      "letter w"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "minimalistic",
+      "sleek",
+      "modern",
+      "serious",
+      "bold"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "modern"
+    ],
+    "objects": [
+      "logo",
+      "circle",
+      "lines"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "enigmatic",
+      "suspenseful",
+      "minimalist"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "monochromatic"
+    ],
+    "objects": [
+      "circle",
+      "letters"
+    ]
+  }
+}

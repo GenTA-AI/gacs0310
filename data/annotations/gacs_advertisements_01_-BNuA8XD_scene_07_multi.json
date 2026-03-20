@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "neutral",
+      "stark",
+      "urban",
+      "modern"
+    ],
+    "style": [
+      "high-contrast",
+      "close-up",
+      "dark"
+    ],
+    "objects": [
+      "zipper",
+      "fabric"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "mysterious",
+      "somber",
+      "enigmatic",
+      "moody"
+    ],
+    "style": [
+      "dark",
+      "minimalistic",
+      "monochrome"
+    ],
+    "objects": [
+      "jacket",
+      "zipper",
+      "fabric"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "sleek",
+      "mysterious",
+      "sophisticated",
+      "moody"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "textural"
+    ],
+    "objects": [
+      "zipper",
+      "fabric",
+      "leather",
+      "jacket"
+    ]
+  }
+}

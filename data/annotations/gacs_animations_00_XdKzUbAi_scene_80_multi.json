@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "uncomfortable",
+      "strained",
+      "silly",
+      "quirky"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "people",
+      "tiles",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "skeptical",
+      "judgmental",
+      "dismissive",
+      "unimpressed",
+      "indifferent"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "colorful"
+    ],
+    "objects": [
+      "red-haired character",
+      "three girls",
+      "window",
+      "wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "uncomfortable",
+      "awkward",
+      "nervous",
+      "hesitant",
+      "uncertain"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "soft-lighting"
+    ],
+    "objects": [
+      "characters",
+      "bathroom",
+      "tiles",
+      "window"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sensual",
+      "dramatic",
+      "luxurious",
+      "passionate",
+      "intense"
+    ],
+    "style": [
+      "luxurious",
+      "deep",
+      "smooth"
+    ],
+    "objects": [
+      "fabric",
+      "textile"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sensual",
+      "mysterious",
+      "elegant",
+      "warm",
+      "luxurious"
+    ],
+    "style": [
+      "velvety",
+      "rich",
+      "flowing"
+    ],
+    "objects": [
+      "fabric",
+      "red"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "passionate",
+      "intense",
+      "dramatic",
+      "sensual",
+      "mysterious"
+    ],
+    "style": [
+      "dramatic",
+      "red-tinted",
+      "flowing"
+    ],
+    "objects": [
+      "fabric",
+      "folds",
+      "textile",
+      "drapery"
+    ]
+  }
+}

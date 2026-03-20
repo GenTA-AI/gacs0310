@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calm",
+      "inviting"
+    ],
+    "style": [
+      "stylized",
+      "bright",
+      "illustrative"
+    ],
+    "objects": [
+      "temple",
+      "blossom",
+      "wall",
+      "roof"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "peaceful",
+      "serene",
+      "bright",
+      "inviting",
+      "cheerful"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "detailed"
+    ],
+    "objects": [
+      "courtyard",
+      "tree",
+      "lion statues",
+      "roof",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "harmonious",
+      "idyllic"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "building",
+      "flowers",
+      "courtyard",
+      "roof"
+    ]
+  }
+}

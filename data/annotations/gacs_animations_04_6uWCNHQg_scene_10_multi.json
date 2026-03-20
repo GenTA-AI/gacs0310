@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "intense",
+      "focused",
+      "anxious",
+      "urgent"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "surreal"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "steering wheel",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "apprehensive",
+      "alert",
+      "concerned",
+      "strained"
+    ],
+    "style": [
+      "animated",
+      "desaturated",
+      "close-up"
+    ],
+    "objects": [
+      "woman",
+      "car interior",
+      "steering wheel",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "focused",
+      "determined",
+      "serious",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "naturalistic"
+    ],
+    "objects": [
+      "woman",
+      "car",
+      "steering wheel",
+      "side mirror"
+    ]
+  }
+}

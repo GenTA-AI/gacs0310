@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "delicate",
+      "precious",
+      "careful",
+      "intimate",
+      "opulent"
+    ],
+    "style": [
+      "close-up",
+      "warm",
+      "shallow-depth"
+    ],
+    "objects": [
+      "hand",
+      "gem",
+      "tray"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "intriguing",
+      "suspenseful",
+      "focused"
+    ],
+    "style": [
+      "close-up",
+      "warm-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "hand",
+      "gemstone",
+      "plate"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "delicate",
+      "sensual",
+      "mysterious",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "fingers",
+      "glass",
+      "liquid",
+      "plate"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "melancholic",
+      "intimate",
+      "vulnerable",
+      "contemplative"
+    ],
+    "style": [
+      "moody",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "hospital bed",
+      "patient",
+      "doctor",
+      "medical equipment",
+      "blanket"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "concerned",
+      "worried",
+      "anxious",
+      "subdued"
+    ],
+    "style": [
+      "desaturated",
+      "low-key",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "bed",
+      "radio",
+      "monitor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "concerned",
+      "intimate",
+      "quiet",
+      "reflective"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "intimate"
+    ],
+    "objects": [
+      "hospital bed",
+      "patient",
+      "chair",
+      "person",
+      "radio"
+    ]
+  }
+}

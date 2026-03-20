@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "lively",
+      "warm",
+      "festive",
+      "celebratory"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "person",
+      "flowers",
+      "stairs"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "lively",
+      "cheerful",
+      "colorful",
+      "festive"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "people",
+      "stairs",
+      "flowers",
+      "basket",
+      "jars"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "festive",
+      "lively",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "staircase",
+      "people",
+      "flowers",
+      "woman in purple dress"
+    ]
+  }
+}

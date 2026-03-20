@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mischievous",
+      "cunning",
+      "alert",
+      "dramatic",
+      "sly"
+    ],
+    "style": [
+      "stylized",
+      "dramatic",
+      "warm-toned"
+    ],
+    "objects": [
+      "cat",
+      "hat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "confident",
+      "daring",
+      "playful",
+      "charming"
+    ],
+    "style": [
+      "colorful",
+      "cinematic",
+      "dramatic"
+    ],
+    "objects": [
+      "cat",
+      "hat",
+      "feather",
+      "person",
+      "light"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "charming",
+      "playful",
+      "mischievous",
+      "whimsical",
+      "adventurous"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "cat",
+      "hat",
+      "feather",
+      "windows",
+      "tavern"
+    ]
+  }
+}

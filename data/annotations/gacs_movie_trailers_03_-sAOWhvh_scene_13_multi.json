@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "intense",
+      "somber",
+      "focused",
+      "serious"
+    ],
+    "style": [
+      "cinematic",
+      "dark-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "man",
+      "spacecraft interior",
+      "control panels",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "wary",
+      "brooding",
+      "focused",
+      "determined",
+      "watchful"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "mysterious",
+      "subdued",
+      "brooding"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "contrasting"
+    ],
+    "objects": [
+      "person",
+      "interior",
+      "panel"
+    ]
+  }
+}

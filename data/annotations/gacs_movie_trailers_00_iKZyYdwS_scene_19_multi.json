@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "tense",
+      "desolate",
+      "threatening",
+      "apprehensive"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "wide-angle"
+    ],
+    "objects": [
+      "helicopters",
+      "road",
+      "people",
+      "truck",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "dramatic",
+      "dynamic",
+      "thrilling",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "expansive",
+      "naturalistic"
+    ],
+    "objects": [
+      "helicopters",
+      "cyclists",
+      "truck",
+      "road"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "tense",
+      "ominous",
+      "uneasy",
+      "watchful"
+    ],
+    "style": [
+      "realistic",
+      "desaturated",
+      "wide-shot"
+    ],
+    "objects": [
+      "helicopter",
+      "bicycles",
+      "truck",
+      "road"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "serious",
+      "analytical",
+      "calm",
+      "focused"
+    ],
+    "style": [
+      "futuristic",
+      "technological",
+      "cool-toned"
+    ],
+    "objects": [
+      "person",
+      "interface",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "mysterious",
+      "intense",
+      "intriguing",
+      "technological"
+    ],
+    "style": [
+      "futuristic",
+      "digital",
+      "dark"
+    ],
+    "objects": [
+      "subscribe",
+      "watch more",
+      "person",
+      "screen"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "futuristic",
+      "contemplative",
+      "isolated",
+      "ethereal"
+    ],
+    "style": [
+      "sci-fi",
+      "futuristic",
+      "holographic"
+    ],
+    "objects": [
+      "woman",
+      "circle",
+      "text",
+      "interface"
+    ]
+  }
+}

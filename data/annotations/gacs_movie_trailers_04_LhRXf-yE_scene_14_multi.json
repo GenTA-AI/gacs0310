@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "playful",
+      "youthful",
+      "carefree",
+      "dynamic"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "stairs",
+      "handrail",
+      "tree"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hurried",
+      "urgent",
+      "anxious",
+      "determined",
+      "restless"
+    ],
+    "style": [
+      "urban",
+      "desaturated",
+      "gritty"
+    ],
+    "objects": [
+      "building",
+      "stairs",
+      "person",
+      "railing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "youthful",
+      "determined",
+      "urban",
+      "casual"
+    ],
+    "style": [
+      "urban",
+      "dynamic",
+      "gritty"
+    ],
+    "objects": [
+      "person",
+      "school",
+      "stairs",
+      "backpack",
+      "graffiti"
+    ]
+  }
+}

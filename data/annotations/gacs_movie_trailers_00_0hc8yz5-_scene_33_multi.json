@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "eerie",
+      "abandoned",
+      "desolate",
+      "haunting",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "hallway",
+      "doorway",
+      "debris",
+      "walls",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "unsettling",
+      "creepy",
+      "disturbed",
+      "dark"
+    ],
+    "style": [
+      "claustrophobic",
+      "desaturated",
+      "disturbed"
+    ],
+    "objects": [
+      "hallway",
+      "door",
+      "picture frame",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "ominous",
+      "unsettling",
+      "eerie"
+    ],
+    "style": [
+      "dimly-lit",
+      "cluttered",
+      "vintage"
+    ],
+    "objects": [
+      "hallway",
+      "lamp",
+      "door",
+      "paintings",
+      "debris"
+    ]
+  }
+}

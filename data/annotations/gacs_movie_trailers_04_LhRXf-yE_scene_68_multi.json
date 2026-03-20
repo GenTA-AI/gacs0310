@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "melancholic",
+      "introspective",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "television",
+      "wall art",
+      "wooden beams",
+      "traditional room"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "contemplative",
+      "serene",
+      "peaceful",
+      "introspective"
+    ],
+    "style": [
+      "traditional",
+      "serene",
+      "wooden"
+    ],
+    "objects": [
+      "man",
+      "tatami mats",
+      "wall art",
+      "calligraphy",
+      "plant"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "contemplative",
+      "peaceful",
+      "respectful",
+      "serene"
+    ],
+    "style": [
+      "tranquil",
+      "symmetrical",
+      "naturalistic"
+    ],
+    "objects": [
+      "man",
+      "paintings",
+      "fireplace"
+    ]
+  }
+}

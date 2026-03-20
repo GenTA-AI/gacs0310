@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "mysterious",
+      "foreboding",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "blurred"
+    ],
+    "objects": [
+      "skull",
+      "darkness",
+      "shadows",
+      "bones"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dramatic",
+      "dark",
+      "mysterious",
+      "chaotic"
+    ],
+    "style": [
+      "dark",
+      "dynamic",
+      "intense"
+    ],
+    "objects": [
+      "robot",
+      "shield",
+      "debris"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dark",
+      "chaotic",
+      "intense",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "low-key",
+      "blurry",
+      "dark"
+    ],
+    "objects": [
+      "debris",
+      "rock"
+    ]
+  }
+}

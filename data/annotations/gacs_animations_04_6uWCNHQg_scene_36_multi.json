@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fearful",
+      "anxious",
+      "tense",
+      "worried",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "tense",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "bed",
+      "pillow",
+      "blanket"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anxious",
+      "fearful",
+      "tense",
+      "worried",
+      "cautious"
+    ],
+    "style": [
+      "animated",
+      "dramatic",
+      "expressive"
+    ],
+    "objects": [
+      "person",
+      "bed",
+      "pillow",
+      "blanket"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "fearful",
+      "anxious",
+      "vulnerable",
+      "startled",
+      "apprehensive"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "bed",
+      "blanket",
+      "pillow"
+    ]
+  }
+}

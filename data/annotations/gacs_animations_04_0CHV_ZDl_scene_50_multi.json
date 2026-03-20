@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "ominous",
+      "desolate",
+      "mysterious",
+      "quiet"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "geometric"
+    ],
+    "objects": [
+      "gate",
+      "ocean",
+      "raft"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "lonely",
+      "eerie",
+      "isolated",
+      "contemplative"
+    ],
+    "style": [
+      "dark",
+      "minimalist",
+      "animated"
+    ],
+    "objects": [
+      "gate",
+      "ocean",
+      "beach",
+      "picture"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "melancholic",
+      "isolated",
+      "contemplative",
+      "ethereal"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "window",
+      "water",
+      "fish",
+      "glass"
+    ]
+  }
+}

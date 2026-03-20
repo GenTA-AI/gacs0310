@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "intense",
+      "focused",
+      "dramatic",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "hands",
+      "camera lens",
+      "metal device"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "intent",
+      "technical",
+      "deliberate",
+      "anticipation"
+    ],
+    "style": [
+      "close-up",
+      "dark",
+      "shallow-focus"
+    ],
+    "objects": [
+      "camera lens",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "dramatic",
+      "focused",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "close-up"
+    ],
+    "objects": [
+      "camera",
+      "hands"
+    ]
+  }
+}

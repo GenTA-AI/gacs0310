@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "somber",
+      "eerie",
+      "unsettling"
+    ],
+    "style": [
+      "animated",
+      "dark-toned",
+      "textured"
+    ],
+    "objects": [
+      "hands",
+      "tiles",
+      "debris"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vulnerable",
+      "injured",
+      "uneasy",
+      "concerned",
+      "somber"
+    ],
+    "style": [
+      "animated",
+      "somber",
+      "desaturated"
+    ],
+    "objects": [
+      "hands",
+      "bricks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "desperate",
+      "trapped",
+      "anxious",
+      "claustrophobic",
+      "helpless"
+    ],
+    "style": [
+      "dramatic",
+      "blue-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "hands",
+      "brick wall",
+      "shadows"
+    ]
+  }
+}

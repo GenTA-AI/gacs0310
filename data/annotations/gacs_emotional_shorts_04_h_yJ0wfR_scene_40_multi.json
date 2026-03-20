@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "relaxed",
+      "friendly",
+      "warm",
+      "casual"
+    ],
+    "style": [
+      "shallow-focus",
+      "naturalistic",
+      "medium-shot"
+    ],
+    "objects": [
+      "guitar",
+      "person",
+      "chair",
+      "table"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "passionate",
+      "heartfelt",
+      "intimate",
+      "musical"
+    ],
+    "style": [
+      "candid",
+      "warm-toned",
+      "documentary"
+    ],
+    "objects": [
+      "guitar",
+      "men",
+      "chair",
+      "shirt"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relaxed",
+      "joyful",
+      "musical",
+      "casual",
+      "friendly"
+    ],
+    "style": [
+      "casual",
+      "musical",
+      "candid"
+    ],
+    "objects": [
+      "guitar",
+      "people",
+      "trees",
+      "chair",
+      "shirt"
+    ]
+  }
+}

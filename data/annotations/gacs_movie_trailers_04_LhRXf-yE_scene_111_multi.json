@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tender",
+      "emotional",
+      "comforting",
+      "intimate",
+      "caring"
+    ],
+    "style": [
+      "cinematic",
+      "naturalistic",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "child",
+      "hug",
+      "kitchen",
+      "shelves"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "emotional",
+      "tender",
+      "concerned",
+      "protective",
+      "somber"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "person",
+      "poster"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "comforting",
+      "emotional",
+      "tender",
+      "intimate",
+      "supportive"
+    ],
+    "style": [
+      "cinematic",
+      "dimly-lit",
+      "intimate"
+    ],
+    "objects": [
+      "people",
+      "poster",
+      "shelves"
+    ]
+  }
+}

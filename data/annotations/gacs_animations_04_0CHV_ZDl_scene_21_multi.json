@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "blank",
+      "neutral",
+      "curious",
+      "deadpan",
+      "unsettling"
+    ],
+    "style": [
+      "animated",
+      "flat",
+      "muted"
+    ],
+    "objects": [
+      "robot",
+      "bookshelf",
+      "puzzle box",
+      "camera",
+      "photo album"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "neutral",
+      "simple",
+      "retro",
+      "inquisitive"
+    ],
+    "style": [
+      "animated",
+      "flat",
+      "simple"
+    ],
+    "objects": [
+      "robot",
+      "books",
+      "shelves",
+      "camera"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "curious",
+      "thoughtful",
+      "neutral",
+      "observant"
+    ],
+    "style": [
+      "animated",
+      "flat-shaded",
+      "minimalist"
+    ],
+    "objects": [
+      "robot",
+      "books",
+      "shelves",
+      "camera"
+    ]
+  }
+}

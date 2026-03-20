@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "formal",
+      "solemn",
+      "official",
+      "ceremonial",
+      "dignified"
+    ],
+    "style": [
+      "cinematic",
+      "formal",
+      "wide-angle"
+    ],
+    "objects": [
+      "man",
+      "crowd",
+      "building",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "formal",
+      "serious",
+      "attentive",
+      "respectful",
+      "official"
+    ],
+    "style": [
+      "formal",
+      "staged",
+      "balanced"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "formal",
+      "authoritative",
+      "ceremonial",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "symmetrical"
+    ],
+    "objects": [
+      "podium",
+      "people",
+      "trees",
+      "building"
+    ]
+  }
+}

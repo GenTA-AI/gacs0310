@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "concerned",
+      "relieved",
+      "hopeful",
+      "collaborative"
+    ],
+    "style": [
+      "news-like",
+      "direct",
+      "reportage"
+    ],
+    "objects": [
+      "people",
+      "trees",
+      "backpacks",
+      "uniforms"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relieved",
+      "hopeful",
+      "determined",
+      "urgent",
+      "grateful"
+    ],
+    "style": [
+      "news",
+      "outdoor",
+      "bright"
+    ],
+    "objects": [
+      "people",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relieved",
+      "grateful",
+      "hopeful",
+      "rescued",
+      "assisted"
+    ],
+    "style": [
+      "news-broadcast",
+      "handheld-camera",
+      "outdoor-lighting"
+    ],
+    "objects": [
+      "person",
+      "trees",
+      "canyon",
+      "rescuers"
+    ]
+  }
+}

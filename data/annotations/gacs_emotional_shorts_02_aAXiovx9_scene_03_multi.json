@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "nostalgic",
+      "melancholy",
+      "reflective",
+      "poignant"
+    ],
+    "style": [
+      "documentary",
+      "outdoor",
+      "medium-shot"
+    ],
+    "objects": [
+      "photograph",
+      "boy",
+      "plant",
+      "cake"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "nostalgic",
+      "reflective",
+      "calm",
+      "poignant"
+    ],
+    "style": [
+      "documentary",
+      "natural",
+      "candid"
+    ],
+    "objects": [
+      "photo",
+      "cake",
+      "person",
+      "lamp post",
+      "grass"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "meditative",
+      "tranquil"
+    ],
+    "style": [
+      "documentary",
+      "outdoor",
+      "natural-lighting"
+    ],
+    "objects": [
+      "statue",
+      "photograph",
+      "boy",
+      "dome"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "triumphant",
+      "heroic",
+      "confident",
+      "adventurous",
+      "bold"
+    ],
+    "style": [
+      "vibrant",
+      "dynamic",
+      "adventurous"
+    ],
+    "objects": [
+      "cat",
+      "sword",
+      "hat",
+      "gate",
+      "sun"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "heroic",
+      "triumphant",
+      "adventurous",
+      "charismatic"
+    ],
+    "style": [
+      "animated",
+      "cinematic",
+      "vibrant"
+    ],
+    "objects": [
+      "cat",
+      "hat",
+      "sword",
+      "gate",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "adventurous",
+      "determined",
+      "heroic",
+      "bold"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "high-key"
+    ],
+    "objects": [
+      "puss in boots",
+      "gate",
+      "sword",
+      "raccoon"
+    ]
+  }
+}

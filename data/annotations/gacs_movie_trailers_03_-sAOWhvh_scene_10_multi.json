@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "desolate",
+      "ominous",
+      "cold",
+      "bleak",
+      "unsettling"
+    ],
+    "style": [
+      "aerial",
+      "desaturated",
+      "post-apocalyptic"
+    ],
+    "objects": [
+      "bodies",
+      "blood",
+      "floor",
+      "debris",
+      "papers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "intense",
+      "desperate",
+      "violent",
+      "surreal"
+    ],
+    "style": [
+      "desaturated",
+      "aerial",
+      "gritty"
+    ],
+    "objects": [
+      "people",
+      "ground",
+      "debris"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspenseful",
+      "chaotic",
+      "intense",
+      "ominous",
+      "dramatic"
+    ],
+    "style": [
+      "aerial",
+      "gritty",
+      "desaturated"
+    ],
+    "objects": [
+      "debris",
+      "road",
+      "people",
+      "shadows"
+    ]
+  }
+}

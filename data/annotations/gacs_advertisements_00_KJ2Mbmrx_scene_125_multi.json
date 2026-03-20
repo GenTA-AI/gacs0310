@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "anticipatory",
+      "grand",
+      "bright",
+      "energetic"
+    ],
+    "style": [
+      "aerial",
+      "nighttime",
+      "illuminated"
+    ],
+    "objects": [
+      "stadium",
+      "pepsi halftime show",
+      "lights",
+      "city"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "energetic",
+      "festive",
+      "captivating",
+      "vibrant"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "nighttime"
+    ],
+    "objects": [
+      "sofi stadium",
+      "pepsi logo",
+      "building",
+      "lights"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "anticipatory",
+      "energetic",
+      "spectacular",
+      "celebratory",
+      "exciting"
+    ],
+    "style": [
+      "aerial",
+      "dramatic",
+      "nighttime"
+    ],
+    "objects": [
+      "stadium",
+      "logo",
+      "lights",
+      "building"
+    ]
+  }
+}

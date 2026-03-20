@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "curious",
+      "scientific",
+      "concerned",
+      "respectful"
+    ],
+    "style": [
+      "documentary",
+      "realistic",
+      "bright"
+    ],
+    "objects": [
+      "whale",
+      "ship",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "serious",
+      "concerned",
+      "melancholic",
+      "respectful"
+    ],
+    "style": [
+      "documentary",
+      "maritime",
+      "naturalistic"
+    ],
+    "objects": [
+      "boat",
+      "whale",
+      "crane",
+      "people",
+      "ocean"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "focused",
+      "engaged",
+      "serious",
+      "contemplative"
+    ],
+    "style": [
+      "realistic",
+      "high-resolution",
+      "documentary-style"
+    ],
+    "objects": [
+      "whale",
+      "crane",
+      "boat",
+      "people"
+    ]
+  }
+}

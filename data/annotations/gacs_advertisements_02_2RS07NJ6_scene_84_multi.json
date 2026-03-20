@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "blurry",
+      "unclear",
+      "disorienting",
+      "strange"
+    ],
+    "style": [
+      "blurred",
+      "bright",
+      "shaky"
+    ],
+    "objects": [
+      "glove",
+      "surface"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "blurry",
+      "disorienting",
+      "unsettling",
+      "chaotic",
+      "confusing"
+    ],
+    "style": [
+      "blurry",
+      "motion-blur",
+      "handheld"
+    ],
+    "objects": [
+      "hands",
+      "gloves",
+      "steering wheel",
+      "car interior"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "intense",
+      "energetic",
+      "dynamic",
+      "competitive"
+    ],
+    "style": [
+      "blurred",
+      "dynamic",
+      "close-up"
+    ],
+    "objects": [
+      "gloves",
+      "steering wheel"
+    ]
+  }
+}

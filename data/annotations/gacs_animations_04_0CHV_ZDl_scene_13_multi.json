@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "calm",
+      "surprised",
+      "innocent",
+      "contemplative"
+    ],
+    "style": [
+      "cartoonish",
+      "muted",
+      "simplistic"
+    ],
+    "objects": [
+      "dog",
+      "television",
+      "lamp",
+      "window",
+      "ceiling fan"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surprised",
+      "curious",
+      "apprehensive",
+      "bewildered",
+      "observant"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "quirky"
+    ],
+    "objects": [
+      "dog",
+      "window",
+      "tv",
+      "radiator"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surprised",
+      "confused",
+      "bewildered",
+      "startled",
+      "perplexed"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon"
+    ],
+    "objects": [
+      "cartoon character",
+      "ceiling fan",
+      "window",
+      "television",
+      "radiator"
+    ]
+  }
+}

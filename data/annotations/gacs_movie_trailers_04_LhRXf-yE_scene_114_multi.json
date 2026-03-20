@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "competitive",
+      "dramatic",
+      "confrontational",
+      "energetic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "wide-angle"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "crowd",
+      "fighters",
+      "stage"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excitement",
+      "anticipation",
+      "competition",
+      "intensity",
+      "action"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "sky",
+      "city"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "intense",
+      "energetic",
+      "competitive",
+      "dramatic"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "action-packed"
+    ],
+    "objects": [
+      "two people",
+      "crowd",
+      "building",
+      "sky"
+    ]
+  }
+}

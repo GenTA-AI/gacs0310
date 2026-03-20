@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fearful",
+      "panicked",
+      "alarmed",
+      "frantic",
+      "anxious"
+    ],
+    "style": [
+      "animated",
+      "tense",
+      "stylized"
+    ],
+    "objects": [
+      "woman",
+      "seatbelt",
+      "car interior",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "panicked",
+      "intense",
+      "urgent",
+      "frightened",
+      "chaotic"
+    ],
+    "style": [
+      "animated",
+      "expressive",
+      "dynamic"
+    ],
+    "objects": [
+      "animated character",
+      "car seat",
+      "seatbelt"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "excited",
+      "animated",
+      "joyful",
+      "energetic",
+      "enthusiastic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "woman",
+      "bus",
+      "seats",
+      "windows"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "aggressive",
+      "action-packed"
+    ],
+    "style": [
+      "cinematic",
+      "action-packed",
+      "dynamic"
+    ],
+    "objects": [
+      "person",
+      "weapon",
+      "metal bars",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "intense",
+      "focused",
+      "urgent",
+      "strained"
+    ],
+    "style": [
+      "action-oriented",
+      "gritty",
+      "sun-baked"
+    ],
+    "objects": [
+      "woman",
+      "rifle",
+      "railing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "determined",
+      "aggressive",
+      "focused",
+      "action-packed"
+    ],
+    "style": [
+      "dynamic",
+      "action-oriented",
+      "intense"
+    ],
+    "objects": [
+      "person",
+      "rifle",
+      "railing"
+    ]
+  }
+}

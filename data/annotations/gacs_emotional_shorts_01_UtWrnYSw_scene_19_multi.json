@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "heartwarming",
+      "celebratory",
+      "patriotic",
+      "respectful",
+      "touching"
+    ],
+    "style": [
+      "bright",
+      "amateur",
+      "news"
+    ],
+    "objects": [
+      "cards",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "respectful",
+      "warm",
+      "appreciative"
+    ],
+    "style": [
+      "news-style",
+      "informative",
+      "celebratory"
+    ],
+    "objects": [
+      "birthday card",
+      "photo",
+      "text",
+      "uniform"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "heartwarming",
+      "joyful",
+      "commemorative",
+      "appreciative"
+    ],
+    "style": [
+      "broadcast",
+      "colorful",
+      "documentary"
+    ],
+    "objects": [
+      "birthday card",
+      "photograph",
+      "veteran",
+      "parade banner"
+    ]
+  }
+}

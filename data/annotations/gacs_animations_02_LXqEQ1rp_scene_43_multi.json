@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "hopeful",
+      "calm",
+      "idyllic"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "idyllic"
+    ],
+    "objects": [
+      "castle",
+      "cows",
+      "church",
+      "field"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "nostalgic",
+      "majestic",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "medieval"
+    ],
+    "objects": [
+      "castle",
+      "towers",
+      "countryside",
+      "sunset",
+      "cows"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "peaceful",
+      "warm",
+      "calm",
+      "picturesque"
+    ],
+    "style": [
+      "animated",
+      "medieval",
+      "picturesque"
+    ],
+    "objects": [
+      "castle",
+      "sunset",
+      "cows",
+      "fields",
+      "church"
+    ]
+  }
+}

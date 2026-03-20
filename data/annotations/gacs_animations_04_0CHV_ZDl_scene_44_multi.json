@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "wistful",
+      "longing",
+      "distant",
+      "confined",
+      "isolated"
+    ],
+    "style": [
+      "animated",
+      "minimalistic",
+      "somber"
+    ],
+    "objects": [
+      "hands",
+      "fence",
+      "beach",
+      "ocean",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "longing",
+      "isolated",
+      "contemplative",
+      "wistful"
+    ],
+    "style": [
+      "animated",
+      "flat-shaded",
+      "minimalist"
+    ],
+    "objects": [
+      "hands",
+      "fence",
+      "beach",
+      "ocean",
+      "box"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "trapped",
+      "longing",
+      "bleak",
+      "isolated"
+    ],
+    "style": [
+      "animated",
+      "desaturated",
+      "framed"
+    ],
+    "objects": [
+      "fence",
+      "hands",
+      "beach",
+      "bird"
+    ]
+  }
+}

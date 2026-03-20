@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "curious",
+      "intimate",
+      "private",
+      "thoughtful"
+    ],
+    "style": [
+      "candid",
+      "close-up",
+      "indoor"
+    ],
+    "objects": [
+      "person",
+      "hair",
+      "clothes",
+      "wall art"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "curious",
+      "secretive",
+      "intrigued"
+    ],
+    "style": [
+      "intimate",
+      "dimly-lit",
+      "colorful"
+    ],
+    "objects": [
+      "person",
+      "wig",
+      "clothes",
+      "poster"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "romantic",
+      "gentle",
+      "affectionate"
+    ],
+    "style": [
+      "dark",
+      "intimate",
+      "blurred"
+    ],
+    "objects": [
+      "person",
+      "hair",
+      "clothing",
+      "wall"
+    ]
+  }
+}

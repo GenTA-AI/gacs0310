@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "hopeful",
+      "majestic",
+      "serene",
+      "inspiring"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "atmospheric"
+    ],
+    "objects": [
+      "capitol building",
+      "washington monument",
+      "sunset",
+      "cityscape"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "serene",
+      "patriotic",
+      "majestic",
+      "golden"
+    ],
+    "style": [
+      "golden",
+      "atmospheric",
+      "panoramic"
+    ],
+    "objects": [
+      "washington monument",
+      "us capitol building",
+      "cityscape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "serene",
+      "majestic",
+      "nostalgic",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "sunlit",
+      "dramatic"
+    ],
+    "objects": [
+      "capitol building",
+      "washington monument",
+      "sunset",
+      "city skyline"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "sinister",
+      "threatening",
+      "frightening",
+      "dark"
+    ],
+    "style": [
+      "dark",
+      "menacing",
+      "stylized"
+    ],
+    "objects": [
+      "wolf",
+      "hood",
+      "eyes"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "menacing",
+      "dark",
+      "sinister",
+      "threatening"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "hooded figure",
+      "glowing red eyes",
+      "lightsaber",
+      "smoke"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sinister",
+      "ominous",
+      "intense",
+      "eerie",
+      "menacing"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "intense"
+    ],
+    "objects": [
+      "wolf",
+      "cloak",
+      "glowing eyes"
+    ]
+  }
+}

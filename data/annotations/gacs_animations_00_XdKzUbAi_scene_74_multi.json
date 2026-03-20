@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "clumsy",
+      "humorous",
+      "frantic",
+      "surprised"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "dynamic"
+    ],
+    "objects": [
+      "trombone",
+      "person",
+      "lockers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "chaotic",
+      "violent",
+      "aggressive",
+      "menacing",
+      "disturbing"
+    ],
+    "style": [
+      "cinematic",
+      "bright-lit",
+      "dynamic"
+    ],
+    "objects": [
+      "person",
+      "hallway",
+      "lockers",
+      "floor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "humorous",
+      "clumsy",
+      "lively",
+      "unexpected"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "playful"
+    ],
+    "objects": [
+      "trombone",
+      "lockers",
+      "hallway",
+      "person"
+    ]
+  }
+}

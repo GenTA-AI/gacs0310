@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "curious",
+      "whimsical",
+      "lighthearted",
+      "joyful"
+    ],
+    "style": [
+      "modern",
+      "minimalistic",
+      "curved"
+    ],
+    "objects": [
+      "blue puppet",
+      "hallway",
+      "archway",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "chaotic",
+      "absurd",
+      "humorous",
+      "bizarre"
+    ],
+    "style": [
+      "bright",
+      "whimsical",
+      "low-angle"
+    ],
+    "objects": [
+      "cookie monster",
+      "hallway",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "ethereal",
+      "flowing",
+      "surreal",
+      "contemplative"
+    ],
+    "style": [
+      "organic",
+      "sculptural",
+      "minimalist"
+    ],
+    "objects": [
+      "walls",
+      "archway",
+      "corridor",
+      "blue object"
+    ]
+  }
+}

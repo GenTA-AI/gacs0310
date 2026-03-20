@@ -1,0 +1,68 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "nostalgic",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "person",
+      "railing",
+      "water",
+      "trees",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "determined",
+      "disciplined",
+      "peaceful",
+      "calm"
+    ],
+    "style": [
+      "bright",
+      "traditional",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "wing chun dummy",
+      "building",
+      "pond",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "disciplined",
+      "serene",
+      "determined",
+      "tranquil"
+    ],
+    "style": [
+      "natural",
+      "serene",
+      "dynamic"
+    ],
+    "objects": [
+      "wooden dummy",
+      "person",
+      "pond",
+      "trees",
+      "building"
+    ]
+  }
+}

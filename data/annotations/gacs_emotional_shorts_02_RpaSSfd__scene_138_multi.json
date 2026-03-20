@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "amused",
+      "secretive",
+      "playful",
+      "ironic"
+    ],
+    "style": [
+      "dramatic",
+      "colorful",
+      "contemporary"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses",
+      "text",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "skeptical",
+      "dubious",
+      "cynical",
+      "suspicious",
+      "guarded"
+    ],
+    "style": [
+      "warm-toned",
+      "medium-shot",
+      "casual"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "suspicious",
+      "intense",
+      "confrontational",
+      "accusatory"
+    ],
+    "style": [
+      "dramatic",
+      "stylized",
+      "moody"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses",
+      "text",
+      "logo"
+    ]
+  }
+}

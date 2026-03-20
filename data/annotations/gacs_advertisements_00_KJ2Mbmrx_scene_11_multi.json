@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "energetic",
+      "futuristic",
+      "edgy",
+      "defiant"
+    ],
+    "style": [
+      "dark",
+      "high-contrast",
+      "futuristic"
+    ],
+    "objects": [
+      "eminem",
+      "lyrics",
+      "piano"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "intense",
+      "creative",
+      "dynamic",
+      "vibrant"
+    ],
+    "style": [
+      "dimly-lit",
+      "futuristic",
+      "holographic"
+    ],
+    "objects": [
+      "people",
+      "screens",
+      "writing",
+      "cables"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "futuristic",
+      "ominous",
+      "technological",
+      "confrontational"
+    ],
+    "style": [
+      "cinematic",
+      "futuristic",
+      "atmospheric"
+    ],
+    "objects": [
+      "holographic displays",
+      "people",
+      "control room",
+      "technology equipment"
+    ]
+  }
+}

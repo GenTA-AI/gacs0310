@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholy",
+      "pensive",
+      "subdued",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "rope",
+      "fence",
+      "foliage"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "intense",
+      "determined",
+      "concentrated",
+      "energetic"
+    ],
+    "style": [
+      "dynamic",
+      "intense",
+      "focused"
+    ],
+    "objects": [
+      "person",
+      "wooden log",
+      "rope",
+      "plants",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "determined",
+      "focused",
+      "strained",
+      "urgent"
+    ],
+    "style": [
+      "realistic",
+      "naturalistic",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "tree",
+      "building"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "patriotic",
+      "celebratory",
+      "nostalgic",
+      "heartwarming",
+      "respectful"
+    ],
+    "style": [
+      "bright",
+      "daytime",
+      "amateur"
+    ],
+    "objects": [
+      "cars",
+      "flag",
+      "truck"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "patriotic",
+      "respectful",
+      "warm"
+    ],
+    "style": [
+      "news-broadcast",
+      "outdoor",
+      "daytime"
+    ],
+    "objects": [
+      "parade",
+      "truck",
+      "flag",
+      "cars",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "joyful",
+      "heartwarming",
+      "festive"
+    ],
+    "style": [
+      "news-broadcast",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "vehicles",
+      "american flag",
+      "trees",
+      "houses",
+      "street"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "scene_id": "gacs_animations_00_-HMqv0zl_s0000",
+    "video_id": "gacs_animations_00_-HMqv0zl",
+    "scene_index": 0,
+    "start_frame": 1200,
+    "end_frame": 1440,
+    "start_time": 40.0,
+    "end_time": 48.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_animations_00_-HMqv0zl_s0001",
+    "video_id": "gacs_animations_00_-HMqv0zl",
+    "scene_index": 1,
+    "start_frame": 3120,
+    "end_frame": 3360,
+    "start_time": 104.0,
+    "end_time": 112.0,
+    "duration": 8.0
+  }
+]

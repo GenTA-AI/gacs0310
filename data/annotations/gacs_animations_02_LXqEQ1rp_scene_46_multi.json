@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "tense",
+      "suspenseful",
+      "uneasy",
+      "dangerous"
+    ],
+    "style": [
+      "stylized",
+      "dramatic",
+      "painterly"
+    ],
+    "objects": [
+      "cat",
+      "window",
+      "candle",
+      "puss in boots"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "suspenseful",
+      "eerie",
+      "threatening"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "cat",
+      "person",
+      "window",
+      "lamp",
+      "plants"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "animated",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "cat",
+      "hat",
+      "feather",
+      "window",
+      "glowing eyes"
+    ]
+  }
+}

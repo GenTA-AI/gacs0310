@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "destructive",
+      "unsettling",
+      "surreal",
+      "dangerous"
+    ],
+    "style": [
+      "blurry",
+      "dynamic",
+      "fiery"
+    ],
+    "objects": [
+      "person",
+      "shelves",
+      "smoke"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "chaotic",
+      "alarming",
+      "thrilling",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "immersive",
+      "fiery"
+    ],
+    "objects": [
+      "man",
+      "fire",
+      "desk",
+      "speakers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "dramatic",
+      "fiery",
+      "chaotic",
+      "overwhelming"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "smoke",
+      "equipment",
+      "lighting"
+    ]
+  }
+}

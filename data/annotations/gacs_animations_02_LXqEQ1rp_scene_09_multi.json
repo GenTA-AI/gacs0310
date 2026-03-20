@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "confident",
+      "adventurous",
+      "lively",
+      "bold"
+    ],
+    "style": [
+      "stylized",
+      "warm-toned",
+      "animated"
+    ],
+    "objects": [
+      "puss in boots",
+      "people",
+      "market stalls"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "whimsical",
+      "lively",
+      "charming",
+      "playful"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "cat",
+      "buildings",
+      "people",
+      "market stalls",
+      "cobblestone street"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "adventurous",
+      "lively",
+      "bustling",
+      "curious"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "detailed"
+    ],
+    "objects": [
+      "cat",
+      "hat",
+      "people",
+      "market",
+      "stalls"
+    ]
+  }
+}

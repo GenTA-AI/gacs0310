@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "cosmic",
+      "vast",
+      "hopeful",
+      "profound",
+      "unknown"
+    ],
+    "style": [
+      "celestial",
+      "dark",
+      "text-focused"
+    ],
+    "objects": [
+      "stars",
+      "text",
+      "space"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspirational",
+      "hopeful",
+      "transformative",
+      "contemplative",
+      "expansive"
+    ],
+    "style": [
+      "cosmic",
+      "inspirational",
+      "starry"
+    ],
+    "objects": [
+      "stars",
+      "galaxy",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "inspirational",
+      "contemplative",
+      "vast",
+      "hopeful",
+      "transformative"
+    ],
+    "style": [
+      "cosmic",
+      "ethereal",
+      "minimalist"
+    ],
+    "objects": [
+      "stars",
+      "text",
+      "space",
+      "nebula"
+    ]
+  }
+}

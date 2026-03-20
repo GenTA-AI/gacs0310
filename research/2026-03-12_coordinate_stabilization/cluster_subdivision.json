@@ -1,0 +1,270 @@
+{
+  "subdivision_target": "Cluster 3",
+  "cluster3_n_scenes": 811,
+  "cluster3_pct": 63.6078,
+  "sweep_results": {
+    "2": {
+      "silhouette": 0.2016,
+      "calinski_harabasz": 222.9106,
+      "davies_bouldin": 1.8157
+    },
+    "3": {
+      "silhouette": 0.1998,
+      "calinski_harabasz": 183.6703,
+      "davies_bouldin": 1.8541
+    },
+    "4": {
+      "silhouette": 0.158,
+      "calinski_harabasz": 151.8648,
+      "davies_bouldin": 2.037
+    },
+    "5": {
+      "silhouette": 0.117,
+      "calinski_harabasz": 130.5764,
+      "davies_bouldin": 2.1451
+    },
+    "6": {
+      "silhouette": 0.1177,
+      "calinski_harabasz": 118.6543,
+      "davies_bouldin": 2.1189
+    },
+    "7": {
+      "silhouette": 0.1094,
+      "calinski_harabasz": 105.8513,
+      "davies_bouldin": 2.1059
+    },
+    "8": {
+      "silhouette": 0.1131,
+      "calinski_harabasz": 96.8266,
+      "davies_bouldin": 2.0543
+    }
+  },
+  "optimal_sub_k": 2,
+  "optimal_silhouette": 0.2016,
+  "sub_cluster_profiles": {
+    "C3a": {
+      "sub_cluster_id": 0,
+      "n_scenes": 385,
+      "pct_of_c3": 47.4723,
+      "mean_PC1_valence": -13.4371,
+      "mean_PC2_arousal": -4.8535,
+      "top_moods": [
+        [
+          "joy",
+          282
+        ],
+        [
+          "warmth",
+          237
+        ],
+        [
+          "excitement",
+          195
+        ],
+        [
+          "calm",
+          123
+        ],
+        [
+          "amusement",
+          106
+        ],
+        [
+          "poignance",
+          93
+        ],
+        [
+          "celebration",
+          81
+        ],
+        [
+          "contentment",
+          69
+        ],
+        [
+          "hope",
+          56
+        ],
+        [
+          "romance",
+          31
+        ]
+      ],
+      "top_styles": [
+        [
+          "candid",
+          199
+        ],
+        [
+          "animated",
+          60
+        ],
+        [
+          "vibrant",
+          55
+        ],
+        [
+          "cinematic",
+          54
+        ],
+        [
+          "natural",
+          54
+        ]
+      ],
+      "top_objects": [
+        [
+          "man",
+          105
+        ],
+        [
+          "woman",
+          80
+        ],
+        [
+          "people",
+          69
+        ],
+        [
+          "trees",
+          33
+        ],
+        [
+          "flowers",
+          22
+        ]
+      ],
+      "category_distribution": {
+        "emotional_shorts": 231,
+        "animations": 72,
+        "advertisements": 63,
+        "movie_trailers": 14,
+        "other": 5
+      }
+    },
+    "C3b": {
+      "sub_cluster_id": 1,
+      "n_scenes": 426,
+      "pct_of_c3": 52.5277,
+      "mean_PC1_valence": -5.9684,
+      "mean_PC2_arousal": 5.0452,
+      "top_moods": [
+        [
+          "calm",
+          316
+        ],
+        [
+          "contemplation",
+          157
+        ],
+        [
+          "neutral",
+          134
+        ],
+        [
+          "focus",
+          103
+        ],
+        [
+          "warmth",
+          100
+        ],
+        [
+          "seriousness",
+          94
+        ],
+        [
+          "tension",
+          90
+        ],
+        [
+          "elegance",
+          86
+        ],
+        [
+          "informative",
+          68
+        ],
+        [
+          "excitement",
+          55
+        ]
+      ],
+      "top_styles": [
+        [
+          "candid",
+          155
+        ],
+        [
+          "realistic",
+          110
+        ],
+        [
+          "cinematic",
+          105
+        ],
+        [
+          "naturalistic",
+          56
+        ],
+        [
+          "natural",
+          54
+        ]
+      ],
+      "top_objects": [
+        [
+          "man",
+          127
+        ],
+        [
+          "woman",
+          120
+        ],
+        [
+          "shirt",
+          41
+        ],
+        [
+          "person",
+          34
+        ],
+        [
+          "people",
+          31
+        ]
+      ],
+      "category_distribution": {
+        "emotional_shorts": 222,
+        "advertisements": 105,
+        "animations": 47,
+        "movie_trailers": 47,
+        "other": 5
+      }
+    }
+  },
+  "hierarchical_scheme": {
+    "level_1": "Original KMeans k=4 (C0, C1, C2, C3)",
+    "level_2": "Cluster 3 subdivided into 2 sub-clusters",
+    "total_clusters": 5,
+    "label_distribution": {
+      "C0": 181,
+      "C1": 187,
+      "C2": 96,
+      "C3a": 385,
+      "C3b": 426
+    }
+  },
+  "full_dataset_metrics": {
+    "original_k4": {
+      "silhouette": 0.314,
+      "calinski_harabasz": 322.0739,
+      "davies_bouldin": 1.4827
+    },
+    "hierarchical": {
+      "silhouette": 0.1953,
+      "calinski_harabasz": 310.4635,
+      "davies_bouldin": 1.6352
+    }
+  }
+}

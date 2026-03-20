@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "reflective",
+      "pensive",
+      "moody",
+      "introspective"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "introspective"
+    ],
+    "objects": [
+      "person",
+      "chair",
+      "windows"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "concerned",
+      "serious",
+      "contemplative",
+      "thoughtful"
+    ],
+    "style": [
+      "moody",
+      "low-key",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "chair",
+      "paper",
+      "hat",
+      "window"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "somber",
+      "pensive"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "warm-toned"
+    ],
+    "objects": [
+      "person",
+      "candle",
+      "hand",
+      "window"
+    ]
+  }
+}

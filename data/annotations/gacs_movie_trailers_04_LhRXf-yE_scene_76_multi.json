@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urban",
+      "gritty",
+      "melancholic",
+      "industrial",
+      "desolate"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "urban-gritty"
+    ],
+    "objects": [
+      "taxi",
+      "highway",
+      "cityscape",
+      "buildings",
+      "cars"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "urban",
+      "somber",
+      "isolated",
+      "distant"
+    ],
+    "style": [
+      "desaturated",
+      "urban",
+      "muted"
+    ],
+    "objects": [
+      "taxi",
+      "city",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "urban",
+      "busy",
+      "modern",
+      "dynamic",
+      "bustling"
+    ],
+    "style": [
+      "urban",
+      "gritty",
+      "muted"
+    ],
+    "objects": [
+      "taxi",
+      "bridge",
+      "buildings",
+      "skyline"
+    ]
+  }
+}

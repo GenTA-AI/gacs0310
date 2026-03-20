@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "serious",
+      "intense",
+      "gritty",
+      "determined"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "desaturated"
+    ],
+    "objects": [
+      "eminem",
+      "microphone",
+      "cell phone",
+      "equipment"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "creative",
+      "intense",
+      "energetic",
+      "futuristic"
+    ],
+    "style": [
+      "moody",
+      "industrial",
+      "high-tech"
+    ],
+    "objects": [
+      "microphone",
+      "phone",
+      "controller",
+      "monitors"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "futuristic",
+      "focused",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "high-tech"
+    ],
+    "objects": [
+      "person",
+      "phone",
+      "desk",
+      "computer equipment",
+      "interior room"
+    ]
+  }
+}

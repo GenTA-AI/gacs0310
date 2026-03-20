@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "shadowy",
+      "ominous",
+      "suspenseful",
+      "unsettling"
+    ],
+    "style": [
+      "stylized",
+      "dark",
+      "warm-toned"
+    ],
+    "objects": [
+      "street",
+      "building",
+      "fur"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "eerie",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "cobbled street",
+      "lamps",
+      "buildings",
+      "fur"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "dramatic",
+      "intense",
+      "foreboding"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "warm-toned"
+    ],
+    "objects": [
+      "dragon",
+      "water",
+      "buildings",
+      "fire",
+      "village"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "determined",
+      "serious",
+      "intense",
+      "concerned"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "people",
+      "boat interior",
+      "windows",
+      "equipment"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "alert",
+      "anxious",
+      "concerned",
+      "apprehensive"
+    ],
+    "style": [
+      "high-key",
+      "naturalistic",
+      "action-oriented"
+    ],
+    "objects": [
+      "woman",
+      "boat interior",
+      "man",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "alert",
+      "focused",
+      "concerned",
+      "urgent"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "tense"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "boat interior",
+      "window"
+    ]
+  }
+}

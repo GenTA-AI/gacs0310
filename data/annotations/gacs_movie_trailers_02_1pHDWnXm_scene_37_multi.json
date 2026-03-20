@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "heroic",
+      "determined",
+      "powerful",
+      "resolute"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "dynamic-composition"
+    ],
+    "objects": [
+      "man",
+      "shield",
+      "sunglasses",
+      "stairs",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "focused",
+      "vigilant",
+      "serious",
+      "heroic"
+    ],
+    "style": [
+      "cinematic",
+      "bright",
+      "superhero"
+    ],
+    "objects": [
+      "captain america",
+      "shield",
+      "building",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "determined",
+      "intense",
+      "focused",
+      "powerful"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "action-packed"
+    ],
+    "objects": [
+      "shield",
+      "superhero",
+      "staircase",
+      "trees"
+    ]
+  }
+}

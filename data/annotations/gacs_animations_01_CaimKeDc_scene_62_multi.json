@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "chaotic",
+      "unsettling",
+      "frantic",
+      "strained"
+    ],
+    "style": [
+      "animated",
+      "dynamic",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "rooftop",
+      "debris"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "chaotic",
+      "urgent",
+      "dramatic",
+      "suspenseful"
+    ],
+    "style": [
+      "dramatic",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "roof",
+      "character",
+      "debris",
+      "wall",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "ethereal",
+      "dramatic",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "mystical",
+      "atmospheric"
+    ],
+    "objects": [
+      "rocks",
+      "figure",
+      "blue light",
+      "cliff",
+      "mist"
+    ]
+  }
+}

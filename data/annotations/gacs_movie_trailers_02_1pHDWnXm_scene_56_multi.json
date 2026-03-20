@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "ominous",
+      "chaotic",
+      "intense",
+      "stormy"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "low-key"
+    ],
+    "objects": [
+      "ship",
+      "ocean",
+      "clouds",
+      "light beams"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "tense",
+      "dramatic",
+      "uncertain",
+      "foreboding"
+    ],
+    "style": [
+      "epic",
+      "desaturated",
+      "wide-angle"
+    ],
+    "objects": [
+      "ocean",
+      "island",
+      "ship trails",
+      "cloud",
+      "spaceship"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "ominous",
+      "suspenseful",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "dark-toned",
+      "intense"
+    ],
+    "objects": [
+      "ocean",
+      "ship",
+      "smoke",
+      "structure"
+    ]
+  }
+}

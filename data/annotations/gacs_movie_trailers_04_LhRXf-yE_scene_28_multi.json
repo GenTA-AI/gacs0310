@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "intense",
+      "disciplined",
+      "energetic",
+      "determined"
+    ],
+    "style": [
+      "documentary",
+      "handheld",
+      "naturalistic"
+    ],
+    "objects": [
+      "people",
+      "training equipment",
+      "martial arts studio",
+      "mirrors",
+      "mats"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "focused",
+      "intense",
+      "disciplined",
+      "active"
+    ],
+    "style": [
+      "bright",
+      "action-oriented",
+      "dynamic"
+    ],
+    "objects": [
+      "people",
+      "martial arts",
+      "gym"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "intense",
+      "energetic",
+      "focused",
+      "active"
+    ],
+    "style": [
+      "dynamic",
+      "action-oriented",
+      "diverse"
+    ],
+    "objects": [
+      "martial arts gym",
+      "people",
+      "training gear",
+      "punching bag"
+    ]
+  }
+}

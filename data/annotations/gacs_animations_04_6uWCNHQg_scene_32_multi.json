@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "intriguing",
+      "analytical",
+      "somber",
+      "thoughtful"
+    ],
+    "style": [
+      "animated",
+      "muted",
+      "documentary"
+    ],
+    "objects": [
+      "people",
+      "painting",
+      "computer"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "reflective",
+      "contemplative",
+      "somber"
+    ],
+    "style": [
+      "animated",
+      "reflective",
+      "detailed"
+    ],
+    "objects": [
+      "mirror",
+      "woman",
+      "group of people",
+      "computer",
+      "table"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "mysterious",
+      "suspenseful",
+      "dramatic",
+      "intense"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "atmospheric"
+    ],
+    "objects": [
+      "woman",
+      "mirror",
+      "people",
+      "room",
+      "reflection"
+    ]
+  }
+}

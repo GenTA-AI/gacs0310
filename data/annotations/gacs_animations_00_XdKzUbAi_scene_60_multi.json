@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "embarrassed",
+      "awkward",
+      "uncomfortable",
+      "anxious",
+      "humorous"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "detailed"
+    ],
+    "objects": [
+      "bed",
+      "red panda",
+      "bookshelf"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "whimsical",
+      "chaotic",
+      "energetic",
+      "mischievous"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "monster",
+      "bed",
+      "bedroom",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anxious",
+      "overwhelmed",
+      "startled",
+      "cozy",
+      "confined"
+    ],
+    "style": [
+      "playful",
+      "colorful",
+      "animated"
+    ],
+    "objects": [
+      "red panda",
+      "bed",
+      "green blanket",
+      "dresser",
+      "window"
+    ]
+  }
+}

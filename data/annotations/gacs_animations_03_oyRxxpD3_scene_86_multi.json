@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "vibrant",
+      "lively",
+      "humorous",
+      "animated"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "chickens",
+      "platform"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "whimsical",
+      "quirky",
+      "playful",
+      "surreal",
+      "strange"
+    ],
+    "style": [
+      "cartoonish",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "chickens",
+      "stairs",
+      "lightbulb"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "whimsical",
+      "joyful",
+      "lighthearted",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "chickens",
+      "stairs",
+      "moon",
+      "building"
+    ]
+  }
+}

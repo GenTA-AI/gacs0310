@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "carefree",
+      "energetic",
+      "vibrant",
+      "social"
+    ],
+    "style": [
+      "bright",
+      "commercial",
+      "fashionable"
+    ],
+    "objects": [
+      "women",
+      "bus stop",
+      "pepsi advertisement"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "energetic",
+      "playful",
+      "lively",
+      "carefree"
+    ],
+    "style": [
+      "casual",
+      "vibrant",
+      "energetic"
+    ],
+    "objects": [
+      "bus stop",
+      "people",
+      "pepsi ad",
+      "drinks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "casual",
+      "social",
+      "relaxed",
+      "friendly"
+    ],
+    "style": [
+      "commercial",
+      "bright-lighting",
+      "casual-contemporary"
+    ],
+    "objects": [
+      "people",
+      "pepsi vending machine",
+      "bench",
+      "bus stop"
+    ]
+  }
+}

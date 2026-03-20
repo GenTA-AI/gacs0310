@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ordinary",
+      "neutral",
+      "uneventful",
+      "casual",
+      "commonplace"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "daytime"
+    ],
+    "objects": [
+      "truck",
+      "man",
+      "tool box"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "casual",
+      "routine",
+      "everyday",
+      "urban",
+      "neutral"
+    ],
+    "style": [
+      "urban",
+      "gritty",
+      "realistic"
+    ],
+    "objects": [
+      "truck",
+      "person",
+      "road"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "vigilant",
+      "authoritative",
+      "tense",
+      "focused"
+    ],
+    "style": [
+      "surveillance",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "truck",
+      "building",
+      "road"
+    ]
+  }
+}

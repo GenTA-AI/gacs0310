@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "wary",
+      "pensive",
+      "serious",
+      "guarded"
+    ],
+    "style": [
+      "realistic",
+      "medium-shot",
+      "neutral"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "wireless earphones"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "skeptical",
+      "tense",
+      "serious",
+      "uncertain"
+    ],
+    "style": [
+      "moody",
+      "natural",
+      "close-up"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "earbuds",
+      "sunglasses",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confrontational",
+      "tense",
+      "serious",
+      "accusatory",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "earbuds",
+      "face",
+      "hair"
+    ]
+  }
+}

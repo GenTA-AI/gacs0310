@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strange",
+      "surreal",
+      "contemplative",
+      "curious",
+      "ominous"
+    ],
+    "style": [
+      "painterly",
+      "stylized",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "monster",
+      "field",
+      "mountains",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tranquil",
+      "fantastical",
+      "curious",
+      "peaceful"
+    ],
+    "style": [
+      "painterly",
+      "surreal",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "landscape",
+      "tree",
+      "flying creature",
+      "mountains"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "hopeful",
+      "tranquil"
+    ],
+    "style": [
+      "painted",
+      "fantastical",
+      "cinematic"
+    ],
+    "objects": [
+      "people",
+      "dragon",
+      "mountains",
+      "trees",
+      "landscape"
+    ]
+  }
+}

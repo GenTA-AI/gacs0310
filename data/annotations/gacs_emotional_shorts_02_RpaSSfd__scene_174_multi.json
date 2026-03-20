@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "concerned",
+      "introspective",
+      "uneasy",
+      "pensive"
+    ],
+    "style": [
+      "medium-shot",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "wall",
+      "pictures"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "attentive",
+      "curious",
+      "pensive",
+      "focused",
+      "thoughtful"
+    ],
+    "style": [
+      "warm-toned",
+      "casual",
+      "portrait"
+    ],
+    "objects": [
+      "man",
+      "pictures",
+      "shirt",
+      "bowtie"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serious",
+      "introspective",
+      "melancholic",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "picture frames",
+      "wall",
+      "sweater"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "mysterious",
+      "intriguing",
+      "contemplative",
+      "dramatic"
+    ],
+    "style": [
+      "natural-lighting",
+      "close-up",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "sunglasses",
+      "text",
+      "suit",
+      "plant"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "mysterious",
+      "intense",
+      "philosophical"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "sunglasses",
+      "text",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "mysterious",
+      "serious",
+      "secretive",
+      "guarded"
+    ],
+    "style": [
+      "high-key",
+      "direct",
+      "clear"
+    ],
+    "objects": [
+      "man",
+      "sunglasses"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "busy",
+      "lively",
+      "colorful",
+      "social",
+      "energetic"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "stylized"
+    ],
+    "objects": [
+      "classroom",
+      "students",
+      "backpack",
+      "uniform"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "embarrassed",
+      "crowded",
+      "overwhelmed",
+      "concerned"
+    ],
+    "style": [
+      "cartoonish",
+      "bright",
+      "stylized"
+    ],
+    "objects": [
+      "characters",
+      "hallway",
+      "lockers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "friendly",
+      "warm",
+      "welcoming",
+      "optimistic"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "cartoon-style"
+    ],
+    "objects": [
+      "children",
+      "school hallway",
+      "backpacks",
+      "students"
+    ]
+  }
+}

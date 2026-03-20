@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "festive",
+      "majestic",
+      "celebratory",
+      "traditional"
+    ],
+    "style": [
+      "vintage",
+      "lively",
+      "urban"
+    ],
+    "objects": [
+      "horses",
+      "harness",
+      "street",
+      "buildings",
+      "bell"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "proud",
+      "majestic",
+      "historical",
+      "traditional",
+      "patriotic"
+    ],
+    "style": [
+      "detailed",
+      "majestic",
+      "traditional"
+    ],
+    "objects": [
+      "horses",
+      "liberty bell",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "peaceful",
+      "rustic",
+      "charming",
+      "serene"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "horses",
+      "harness",
+      "street",
+      "buildings"
+    ]
+  }
+}

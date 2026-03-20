@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "casual",
+      "nonchalant",
+      "mundane",
+      "calm",
+      "ordinary"
+    ],
+    "style": [
+      "urban",
+      "neutral",
+      "daytime"
+    ],
+    "objects": [
+      "car",
+      "woman",
+      "bag"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "casual",
+      "relaxed",
+      "ordinary",
+      "everyday"
+    ],
+    "style": [
+      "futuristic",
+      "sleek",
+      "minimalist"
+    ],
+    "objects": [
+      "car",
+      "woman",
+      "bag",
+      "tree",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "urban",
+      "contemplative",
+      "stylish"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "stairs",
+      "building"
+    ]
+  }
+}

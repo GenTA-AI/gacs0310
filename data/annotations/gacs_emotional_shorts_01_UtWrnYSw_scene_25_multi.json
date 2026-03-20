@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "patriotic",
+      "respectful",
+      "communal"
+    ],
+    "style": [
+      "informative",
+      "casual",
+      "colorful"
+    ],
+    "objects": [
+      "decorations",
+      "posters",
+      "people",
+      "wheelchair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "heartwarming",
+      "joyful",
+      "respectful"
+    ],
+    "style": [
+      "bright",
+      "amateur",
+      "news"
+    ],
+    "objects": [
+      "cards",
+      "pennants",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "festive",
+      "heartwarming",
+      "uplifting"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "celebratory"
+    ],
+    "objects": [
+      "display boards",
+      "bunting flags",
+      "people",
+      "swimming pool"
+    ]
+  }
+}

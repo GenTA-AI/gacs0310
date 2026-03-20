@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bored",
+      "annoyed",
+      "impatient",
+      "restless",
+      "stifled"
+    ],
+    "style": [
+      "cartoonish",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "person",
+      "desk",
+      "book"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bored",
+      "sleepy",
+      "indifferent",
+      "disinterested",
+      "apathetic"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "whimsical"
+    ],
+    "objects": [
+      "girl",
+      "classroom",
+      "desks",
+      "books"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "content",
+      "peaceful",
+      "blissful",
+      "serene"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "soft-lighting"
+    ],
+    "objects": [
+      "students",
+      "desks",
+      "classroom",
+      "glasses",
+      "books"
+    ]
+  }
+}

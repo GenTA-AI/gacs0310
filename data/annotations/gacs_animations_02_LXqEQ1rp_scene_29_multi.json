@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "powerful",
+      "determined",
+      "intense",
+      "dynamic",
+      "dramatic"
+    ],
+    "style": [
+      "animated",
+      "dusty",
+      "dynamic"
+    ],
+    "objects": [
+      "horses",
+      "cobblestones"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "lively",
+      "energetic",
+      "dynamic",
+      "intense"
+    ],
+    "style": [
+      "dynamic",
+      "dusty",
+      "low-angle"
+    ],
+    "objects": [
+      "horses",
+      "riders",
+      "cobblestone road",
+      "dust"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "dusty",
+      "intense",
+      "chaotic"
+    ],
+    "style": [
+      "cinematic",
+      "dusty",
+      "dramatic"
+    ],
+    "objects": [
+      "horses",
+      "riders",
+      "dust",
+      "ground"
+    ]
+  }
+}

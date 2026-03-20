@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vulnerable",
+      "calm",
+      "tender",
+      "subdued",
+      "gentle"
+    ],
+    "style": [
+      "low-key",
+      "rustic",
+      "naturalistic"
+    ],
+    "objects": [
+      "horse",
+      "barn",
+      "bedding"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "peaceful",
+      "serene",
+      "gentle",
+      "tranquil"
+    ],
+    "style": [
+      "warm",
+      "naturalistic",
+      "serene"
+    ],
+    "objects": [
+      "foal",
+      "stall",
+      "bedding"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "eerie",
+      "unsettling",
+      "menacing"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "bull",
+      "arena",
+      "dirt",
+      "fence"
+    ]
+  }
+}

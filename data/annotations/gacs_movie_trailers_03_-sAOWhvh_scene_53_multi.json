@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "futuristic",
+      "intense",
+      "foreboding"
+    ],
+    "style": [
+      "dramatic",
+      "futuristic",
+      "atmospheric"
+    ],
+    "objects": [
+      "laser beams",
+      "room",
+      "darkness",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "tense",
+      "futuristic",
+      "eerie",
+      "unsettling"
+    ],
+    "style": [
+      "dramatic",
+      "dark",
+      "futuristic"
+    ],
+    "objects": [
+      "laser beams",
+      "building",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "lasers",
+      "figures",
+      "lights"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "serious",
+      "uncertain",
+      "apprehensive"
+    ],
+    "style": [
+      "naturalistic",
+      "handheld",
+      "suburban"
+    ],
+    "objects": [
+      "man",
+      "tent",
+      "trees",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "uncomfortable",
+      "bizarre",
+      "comical",
+      "tense"
+    ],
+    "style": [
+      "naturalistic",
+      "balanced",
+      "overcast"
+    ],
+    "objects": [
+      "man",
+      "trees",
+      "wall",
+      "priest"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "awkward",
+      "tense",
+      "curious",
+      "surprised",
+      "focused"
+    ],
+    "style": [
+      "natural",
+      "candid",
+      "rustic"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "trees",
+      "paint",
+      "wall"
+    ]
+  }
+}

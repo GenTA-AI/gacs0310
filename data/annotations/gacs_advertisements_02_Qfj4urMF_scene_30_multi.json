@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "focused",
+      "neutral",
+      "collected",
+      "practical"
+    ],
+    "style": [
+      "clean",
+      "neutral",
+      "bright"
+    ],
+    "objects": [
+      "woman",
+      "suitcase",
+      "bed",
+      "curtains"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "organized",
+      "thoughtful",
+      "focused",
+      "serene"
+    ],
+    "style": [
+      "minimalist",
+      "warm-toned",
+      "natural-light"
+    ],
+    "objects": [
+      "woman",
+      "suitcase",
+      "bed",
+      "plant"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "focused",
+      "serene",
+      "contemplative",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "soft-lighting"
+    ],
+    "objects": [
+      "woman",
+      "suitcase",
+      "bed",
+      "curtains",
+      "plant"
+    ]
+  }
+}

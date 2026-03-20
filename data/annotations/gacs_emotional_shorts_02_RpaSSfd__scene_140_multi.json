@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confrontational",
+      "aggressive",
+      "protective",
+      "tense",
+      "awkward"
+    ],
+    "style": [
+      "candid",
+      "bar-scene",
+      "medium-shot"
+    ],
+    "objects": [
+      "people",
+      "bar",
+      "drinks",
+      "pictures"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confrontational",
+      "tense",
+      "aggressive",
+      "defensive",
+      "hostile"
+    ],
+    "style": [
+      "warm-toned",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "table",
+      "drinks",
+      "photographs"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "assertive",
+      "protective",
+      "dramatic"
+    ],
+    "style": [
+      "moody",
+      "intimate",
+      "vibrant"
+    ],
+    "objects": [
+      "bar",
+      "drinks",
+      "people",
+      "sunglasses",
+      "photos"
+    ]
+  }
+}

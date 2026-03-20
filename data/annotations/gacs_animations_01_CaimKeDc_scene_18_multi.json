@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "vibrant",
+      "celebratory",
+      "lively",
+      "colorful"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "characters",
+      "buildings",
+      "flowers",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "festive",
+      "vibrant",
+      "cheerful",
+      "celebratory"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "bright"
+    ],
+    "objects": [
+      "woman",
+      "dress",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "romantic",
+      "festive",
+      "enchanting"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "vibrant"
+    ],
+    "objects": [
+      "dancers",
+      "buildings",
+      "town square",
+      "people"
+    ]
+  }
+}

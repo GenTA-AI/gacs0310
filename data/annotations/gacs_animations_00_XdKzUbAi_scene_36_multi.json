@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "creative",
+      "lighthearted",
+      "whimsical",
+      "cheerful"
+    ],
+    "style": [
+      "bright",
+      "whimsical",
+      "overhead"
+    ],
+    "objects": [
+      "bowl",
+      "eggs",
+      "hands",
+      "box of balls"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "cheerful",
+      "creative",
+      "whimsical",
+      "light-hearted"
+    ],
+    "style": [
+      "playful",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "eggs",
+      "hands",
+      "plate",
+      "donuts",
+      "stove"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "whimsical",
+      "cheerful",
+      "creative",
+      "lighthearted"
+    ],
+    "style": [
+      "overhead",
+      "warm-lit",
+      "playful"
+    ],
+    "objects": [
+      "pan",
+      "eggs",
+      "hands",
+      "stove",
+      "bowl"
+    ]
+  }
+}

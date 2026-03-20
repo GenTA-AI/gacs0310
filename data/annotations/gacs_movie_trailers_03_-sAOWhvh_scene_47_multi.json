@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "intense",
+      "dramatic",
+      "dangerous",
+      "thrilling"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "wide-angle"
+    ],
+    "objects": [
+      "motorcycle",
+      "road",
+      "truck",
+      "desert",
+      "clouds"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "thrilling",
+      "action-packed",
+      "intense",
+      "adventurous",
+      "dynamic"
+    ],
+    "style": [
+      "cinematic",
+      "expansive",
+      "dynamic"
+    ],
+    "objects": [
+      "motorcycle",
+      "road",
+      "truck",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "adventurous",
+      "desolate",
+      "determined",
+      "solitary",
+      "vast"
+    ],
+    "style": [
+      "desaturated",
+      "cinematic",
+      "wide-angle"
+    ],
+    "objects": [
+      "motorcycle",
+      "car",
+      "road",
+      "sky"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "focused",
+      "creative",
+      "tranquil",
+      "reflective"
+    ],
+    "style": [
+      "moody",
+      "warm",
+      "focused"
+    ],
+    "objects": [
+      "man",
+      "easel",
+      "painting",
+      "paintbrush"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "focused",
+      "peaceful",
+      "creative",
+      "serene"
+    ],
+    "style": [
+      "warm-toned",
+      "artistic",
+      "intimate"
+    ],
+    "objects": [
+      "artist",
+      "painting",
+      "brush",
+      "easel"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "content",
+      "focused",
+      "warm",
+      "satisfied"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "hat",
+      "paintbrush",
+      "canvas",
+      "easel"
+    ]
+  }
+}

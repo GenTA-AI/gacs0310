@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "ominous",
+      "foreboding",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "chains",
+      "dungeon",
+      "stone walls"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "adventurous",
+      "mysterious",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "adventurous",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "stone wall",
+      "plants",
+      "bag"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "exploratory",
+      "watchful",
+      "uneasy",
+      "serious",
+      "adventurous"
+    ],
+    "style": [
+      "gritty",
+      "desaturated",
+      "cinematic"
+    ],
+    "objects": [
+      "woman",
+      "ruins",
+      "pillars",
+      "vines"
+    ]
+  }
+}

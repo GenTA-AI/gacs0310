@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "tense",
+      "dramatic",
+      "suspenseful",
+      "sinister"
+    ],
+    "style": [
+      "cinematic",
+      "high-contrast",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "person",
+      "bathtub",
+      "liquid",
+      "figure"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "tense",
+      "ominous",
+      "isolated",
+      "uncertain"
+    ],
+    "style": [
+      "sci-fi",
+      "high-contrast",
+      "claustrophobic"
+    ],
+    "objects": [
+      "spacesuit",
+      "human figure",
+      "pod",
+      "device"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "suspenseful",
+      "confined",
+      "ominous"
+    ],
+    "style": [
+      "sci-fi",
+      "atmospheric",
+      "claustrophobic"
+    ],
+    "objects": [
+      "astronaut",
+      "window",
+      "suit",
+      "red lighting"
+    ]
+  }
+}

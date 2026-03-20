@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "urban",
+      "tense",
+      "waiting",
+      "casual"
+    ],
+    "style": [
+      "urban",
+      "candid",
+      "overcast"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "road",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "contemplative",
+      "urban",
+      "ordinary",
+      "calm"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "urban"
+    ],
+    "objects": [
+      "woman",
+      "street",
+      "sign",
+      "car"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "contemplative",
+      "urban",
+      "solitary",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "urban-realism"
+    ],
+    "objects": [
+      "person",
+      "car",
+      "building",
+      "street",
+      "bollards"
+    ]
+  }
+}

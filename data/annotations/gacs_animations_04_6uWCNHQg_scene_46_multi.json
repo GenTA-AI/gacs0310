@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "anxious",
+      "apprehensive",
+      "uneasy",
+      "strained"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "intense",
+      "expressive",
+      "serious",
+      "contemplative"
+    ],
+    "style": [
+      "animated",
+      "expressive",
+      "muted"
+    ],
+    "objects": [
+      "animated characters",
+      "shirt",
+      "window",
+      "prime video logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "contemplative",
+      "worried",
+      "serious",
+      "troubled"
+    ],
+    "style": [
+      "animated",
+      "cinematic",
+      "warm-toned"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "hair",
+      "clothing",
+      "prime video logo"
+    ]
+  }
+}

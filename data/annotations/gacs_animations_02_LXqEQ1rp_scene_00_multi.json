@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "grand",
+      "majestic",
+      "opulent",
+      "regal",
+      "imposing"
+    ],
+    "style": [
+      "stylized",
+      "fantastical",
+      "golden"
+    ],
+    "objects": [
+      "castle",
+      "towers",
+      "flags",
+      "waterfall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "grandiose",
+      "regal",
+      "enchanting",
+      "awe-inspiring"
+    ],
+    "style": [
+      "ornate",
+      "fantastical",
+      "vibrant"
+    ],
+    "objects": [
+      "castle",
+      "towers",
+      "flags",
+      "waterfall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "majestic",
+      "mysterious",
+      "ethereal",
+      "fantastical",
+      "awe-inspiring"
+    ],
+    "style": [
+      "fantasy",
+      "golden",
+      "atmospheric"
+    ],
+    "objects": [
+      "castle",
+      "towers",
+      "bridge",
+      "waterfalls",
+      "flags"
+    ]
+  }
+}

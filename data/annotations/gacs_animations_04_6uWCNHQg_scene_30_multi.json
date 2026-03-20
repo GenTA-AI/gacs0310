@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "introspective",
+      "contemplative",
+      "curious",
+      "reflective",
+      "enigmatic"
+    ],
+    "style": [
+      "animated",
+      "introspective",
+      "muted-colors"
+    ],
+    "objects": [
+      "mirror",
+      "woman",
+      "group",
+      "chairs",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "contemplative",
+      "thoughtful",
+      "worried",
+      "uneasy"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "muted"
+    ],
+    "objects": [
+      "woman",
+      "painting",
+      "furniture",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "wistful",
+      "reflective"
+    ],
+    "style": [
+      "animated",
+      "cinematic",
+      "warm-toned"
+    ],
+    "objects": [
+      "woman",
+      "mirror",
+      "medical equipment",
+      "hospital room",
+      "patients"
+    ]
+  }
+}

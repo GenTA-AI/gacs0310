@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "shocked",
+      "surprised",
+      "alarmed",
+      "tense",
+      "startled"
+    ],
+    "style": [
+      "animated",
+      "expressive",
+      "detailed"
+    ],
+    "objects": [
+      "woman",
+      "candle",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "shocked",
+      "frightened",
+      "anxious",
+      "startled",
+      "alarmed"
+    ],
+    "style": [
+      "animated",
+      "dramatic",
+      "contrasted"
+    ],
+    "objects": [
+      "woman",
+      "cabinet"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "shocked",
+      "surprised",
+      "alarmed",
+      "startled",
+      "bewildered"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "face",
+      "kitchen",
+      "prime video logo"
+    ]
+  }
+}

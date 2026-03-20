@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relieved",
+      "hopeful",
+      "arduous",
+      "difficult",
+      "urgent"
+    ],
+    "style": [
+      "news",
+      "shaky",
+      "bright"
+    ],
+    "objects": [
+      "rocks",
+      "canyon"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "urgent",
+      "anxious",
+      "relief",
+      "challenging"
+    ],
+    "style": [
+      "breaking-news",
+      "grainy",
+      "candid"
+    ],
+    "objects": [
+      "rocks",
+      "text overlay"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "serious",
+      "distressing",
+      "tense",
+      "concerned"
+    ],
+    "style": [
+      "handheld",
+      "documentary",
+      "news-style"
+    ],
+    "objects": [
+      "rocks",
+      "canyon",
+      "news banner",
+      "terrain"
+    ]
+  }
+}

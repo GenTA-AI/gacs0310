@@ -1,0 +1,57 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspirational",
+      "aspirational",
+      "motivational",
+      "encouraging",
+      "hopeful"
+    ],
+    "style": [
+      "minimalistic",
+      "monochrome",
+      "simple"
+    ],
+    "objects": [
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "minimalist",
+      "introspective",
+      "stark",
+      "motivational",
+      "simple"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "text-based"
+    ],
+    "objects": [
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "motivational",
+      "inspirational",
+      "contemplative",
+      "determined",
+      "reflective"
+    ],
+    "style": [
+      "minimal",
+      "high-contrast",
+      "typography-focused"
+    ],
+    "objects": [
+      "text",
+      "black background"
+    ]
+  }
+}

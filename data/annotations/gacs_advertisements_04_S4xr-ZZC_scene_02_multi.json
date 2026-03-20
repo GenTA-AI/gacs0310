@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "amused",
+      "playful",
+      "relaxed",
+      "confident",
+      "jovial"
+    ],
+    "style": [
+      "flat",
+      "corporate",
+      "monochromatic"
+    ],
+    "objects": [
+      "man",
+      "puffer jacket",
+      "beanie",
+      "logo wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "playful",
+      "energetic",
+      "spontaneous",
+      "lively"
+    ],
+    "style": [
+      "fashionable",
+      "monochrome",
+      "playful"
+    ],
+    "objects": [
+      "person",
+      "jacket",
+      "logos",
+      "beanie"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "confident",
+      "cheerful",
+      "casual",
+      "comfortable"
+    ],
+    "style": [
+      "contemporary",
+      "branded",
+      "casual"
+    ],
+    "objects": [
+      "person",
+      "jacket",
+      "backdrop",
+      "logos",
+      "beanie"
+    ]
+  }
+}

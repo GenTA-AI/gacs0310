@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "friendly",
+      "warm",
+      "jovial",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "man",
+      "boat",
+      "water",
+      "railing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relaxed",
+      "jovial",
+      "friendly",
+      "candid",
+      "warm"
+    ],
+    "style": [
+      "bright",
+      "tropical",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "boat",
+      "water"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relaxed",
+      "friendly",
+      "casual",
+      "warm",
+      "informal"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-light"
+    ],
+    "objects": [
+      "people",
+      "bamboo structure",
+      "boat",
+      "water"
+    ]
+  }
+}

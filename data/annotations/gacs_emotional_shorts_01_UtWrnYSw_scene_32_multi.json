@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "proud",
+      "honored",
+      "joyful",
+      "respectful"
+    ],
+    "style": [
+      "broadcast-style",
+      "vibrant",
+      "sharp"
+    ],
+    "objects": [
+      "people",
+      "hat",
+      "microphone",
+      "mask"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "celebratory",
+      "heartwarming",
+      "respectful",
+      "hopeful",
+      "cautious"
+    ],
+    "style": [
+      "news broadcast",
+      "bright",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "mask",
+      "microphone",
+      "hat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "heartwarming",
+      "grateful",
+      "uplifting"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "natural-lighting"
+    ],
+    "objects": [
+      "elderly man",
+      "woman",
+      "baseball cap",
+      "news banner"
+    ]
+  }
+}

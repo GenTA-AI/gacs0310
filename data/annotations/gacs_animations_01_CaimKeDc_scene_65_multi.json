@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "dark",
+      "eerie",
+      "tense",
+      "magical"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "stylized"
+    ],
+    "objects": [
+      "building",
+      "ladder",
+      "roof",
+      "figure"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "intense",
+      "energetic",
+      "dramatic",
+      "adventurous"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "roof",
+      "ladder",
+      "person",
+      "pink wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "dark",
+      "ethereal",
+      "haunting"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "mystical"
+    ],
+    "objects": [
+      "character",
+      "platform",
+      "cave",
+      "purple light"
+    ]
+  }
+}

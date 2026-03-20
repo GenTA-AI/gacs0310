@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "threatening",
+      "intimidating",
+      "tense",
+      "anxious",
+      "perilous"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "stylized"
+    ],
+    "objects": [
+      "jaguar",
+      "mice",
+      "chair",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprising",
+      "humorous",
+      "tense",
+      "quirky",
+      "unexpected"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "dynamic"
+    ],
+    "objects": [
+      "leopard",
+      "candle",
+      "mouse",
+      "chair"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "menacing",
+      "aggressive",
+      "threatening",
+      "fierce",
+      "intimidating"
+    ],
+    "style": [
+      "animated",
+      "dramatic-lighting",
+      "stylized"
+    ],
+    "objects": [
+      "leopard",
+      "lantern",
+      "stone wall",
+      "flame"
+    ]
+  }
+}

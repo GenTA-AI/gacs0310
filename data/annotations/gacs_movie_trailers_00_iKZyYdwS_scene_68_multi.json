@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "focused",
+      "determined",
+      "serious",
+      "concentrated"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "low-lit"
+    ],
+    "objects": [
+      "man",
+      "hat",
+      "steering wheel",
+      "vehicle interior"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "grim",
+      "intense",
+      "focused",
+      "determined"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "focused"
+    ],
+    "objects": [
+      "man",
+      "hat",
+      "glass",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "gritty",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "intense",
+      "moody"
+    ],
+    "objects": [
+      "man",
+      "cap",
+      "helmet",
+      "jacket"
+    ]
+  }
+}

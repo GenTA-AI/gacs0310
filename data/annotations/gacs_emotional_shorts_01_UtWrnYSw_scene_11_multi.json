@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "respectful",
+      "serene",
+      "honored"
+    ],
+    "style": [
+      "news-style",
+      "bright",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "sunglasses",
+      "hat",
+      "shirt"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "respectful",
+      "nostalgic",
+      "hopeful",
+      "reflective",
+      "honored"
+    ],
+    "style": [
+      "documentary",
+      "bright",
+      "news"
+    ],
+    "objects": [
+      "man",
+      "sunglasses",
+      "hat",
+      "television screen"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "honored",
+      "grateful",
+      "uplifting"
+    ],
+    "style": [
+      "news-broadcast",
+      "natural-lighting",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "sunglasses",
+      "hat",
+      "sky",
+      "text"
+    ]
+  }
+}

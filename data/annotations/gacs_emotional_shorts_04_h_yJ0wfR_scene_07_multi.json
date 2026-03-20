@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calming",
+      "beautiful"
+    ],
+    "style": [
+      "shallow-focus",
+      "naturalistic",
+      "vibrant"
+    ],
+    "objects": [
+      "flowers",
+      "leaves",
+      "water"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "beautiful",
+      "tranquil",
+      "uplifting"
+    ],
+    "style": [
+      "shallow-focus",
+      "natural-lighting",
+      "soft-bokeh"
+    ],
+    "objects": [
+      "flowers",
+      "leaves",
+      "plant",
+      "water"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "peaceful",
+      "beautiful",
+      "calm",
+      "tranquil"
+    ],
+    "style": [
+      "vibrant",
+      "serene",
+      "close-up"
+    ],
+    "objects": [
+      "flowers",
+      "leaves",
+      "water"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "intense",
+      "dramatic",
+      "thrilling",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "adventure"
+    ],
+    "objects": [
+      "waterfall",
+      "person",
+      "rope",
+      "rock wall",
+      "climbing gear"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "adventurous",
+      "determined",
+      "focused",
+      "intense",
+      "exhilarating"
+    ],
+    "style": [
+      "adventure",
+      "action",
+      "saturated"
+    ],
+    "objects": [
+      "woman",
+      "waterfall",
+      "rope",
+      "cliff"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "daring",
+      "focused",
+      "intense",
+      "exhilarating"
+    ],
+    "style": [
+      "dynamic",
+      "adventurous",
+      "vibrant"
+    ],
+    "objects": [
+      "rappelling person",
+      "waterfall",
+      "cliff",
+      "vegetation"
+    ]
+  }
+}

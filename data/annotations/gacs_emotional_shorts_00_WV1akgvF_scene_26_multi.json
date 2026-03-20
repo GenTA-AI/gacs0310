@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unity",
+      "hopeful",
+      "vibrant",
+      "connected",
+      "peaceful"
+    ],
+    "style": [
+      "digitized",
+      "illustrative",
+      "vibrant"
+    ],
+    "objects": [
+      "elephants",
+      "text",
+      "website"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "colorful",
+      "harmonious",
+      "cheerful",
+      "warm",
+      "united"
+    ],
+    "style": [
+      "colorful",
+      "textured",
+      "surreal"
+    ],
+    "objects": [
+      "elephant",
+      "dog",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "uplifting",
+      "spiritual",
+      "unity",
+      "hopeful",
+      "harmonious"
+    ],
+    "style": [
+      "dreamlike",
+      "vibrant-gradient",
+      "artistic-abstract"
+    ],
+    "objects": [
+      "elephant",
+      "text",
+      "gradient background"
+    ]
+  }
+}

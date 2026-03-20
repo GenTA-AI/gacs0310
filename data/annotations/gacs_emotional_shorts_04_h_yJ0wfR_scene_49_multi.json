@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "reflective",
+      "somber",
+      "thoughtful",
+      "peaceful"
+    ],
+    "style": [
+      "serene",
+      "muted",
+      "blurry"
+    ],
+    "objects": [
+      "person",
+      "ocean",
+      "sunset"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "serene",
+      "contemplative",
+      "calm",
+      "introspective"
+    ],
+    "style": [
+      "blurred",
+      "serene",
+      "introspective"
+    ],
+    "objects": [
+      "man",
+      "beach",
+      "sunset",
+      "ocean"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "reflective",
+      "somber",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "contemplative"
+    ],
+    "objects": [
+      "person",
+      "sun",
+      "water",
+      "horizon"
+    ]
+  }
+}

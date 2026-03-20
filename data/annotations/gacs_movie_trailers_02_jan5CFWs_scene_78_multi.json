@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "terrifying",
+      "intense",
+      "chaotic",
+      "threatening",
+      "dangerous"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "action-packed"
+    ],
+    "objects": [
+      "dinosaur",
+      "person",
+      "water",
+      "boat"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frightening",
+      "dangerous",
+      "tense",
+      "desperate",
+      "anxious"
+    ],
+    "style": [
+      "high-angle",
+      "tense",
+      "saturated"
+    ],
+    "objects": [
+      "dinosaur",
+      "person",
+      "vehicle"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "thrilling",
+      "action-packed",
+      "dangerous",
+      "dramatic"
+    ],
+    "style": [
+      "action-packed",
+      "dynamic",
+      "intense"
+    ],
+    "objects": [
+      "dinosaur",
+      "spaceship",
+      "person",
+      "water"
+    ]
+  }
+}

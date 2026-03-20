@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "emotional",
+      "intimate",
+      "vulnerable",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "close-up"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "hair",
+      "tears",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sad",
+      "emotional",
+      "somber",
+      "distraught",
+      "vulnerable"
+    ],
+    "style": [
+      "desaturated",
+      "close-up",
+      "emotional"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "hair"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "emotional",
+      "intense",
+      "heartfelt",
+      "dramatic",
+      "sorrowful"
+    ],
+    "style": [
+      "dramatic",
+      "somber",
+      "close-up"
+    ],
+    "objects": [
+      "two people",
+      "earrings",
+      "jacket"
+    ]
+  }
+}

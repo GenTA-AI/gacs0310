@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "intense",
+      "energetic",
+      "active",
+      "focused"
+    ],
+    "style": [
+      "blurry",
+      "close-up",
+      "news-themed"
+    ],
+    "objects": [
+      "fists",
+      "hand",
+      "basketball",
+      "floor"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unclear",
+      "unsettling",
+      "confusing",
+      "obscured",
+      "chaotic"
+    ],
+    "style": [
+      "low-resolution",
+      "blurry",
+      "documentary"
+    ],
+    "objects": [
+      "person",
+      "cbs news logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "romantic",
+      "passionate",
+      "sensual"
+    ],
+    "style": [
+      "blurry",
+      "motion-blur",
+      "news-footage"
+    ],
+    "objects": [
+      "person",
+      "hands",
+      "cbs news logo"
+    ]
+  }
+}

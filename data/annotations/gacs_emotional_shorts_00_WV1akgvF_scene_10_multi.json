@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "informative",
+      "serious",
+      "calm",
+      "ordinary"
+    ],
+    "style": [
+      "news",
+      "direct",
+      "natural"
+    ],
+    "objects": [
+      "man",
+      "building",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "neutral",
+      "calm",
+      "informative",
+      "casual",
+      "relaxed"
+    ],
+    "style": [
+      "news-style",
+      "muted-colors",
+      "documentary"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "trees",
+      "doors"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "friendly",
+      "professional",
+      "confident",
+      "approachable"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "natural-lighting"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "trees",
+      "coat",
+      "cbs logo"
+    ]
+  }
+}

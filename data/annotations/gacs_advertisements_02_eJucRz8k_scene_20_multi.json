@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "isolated",
+      "somber",
+      "reflective",
+      "distant",
+      "nostalgic"
+    ],
+    "style": [
+      "shadowed",
+      "candid",
+      "distant"
+    ],
+    "objects": [
+      "person",
+      "road",
+      "fence",
+      "shadow"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "uncertain",
+      "lonely",
+      "eerie",
+      "secretive"
+    ],
+    "style": [
+      "low-angle",
+      "dark",
+      "framed"
+    ],
+    "objects": [
+      "person",
+      "road",
+      "fence",
+      "grass"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "eerie",
+      "blurred",
+      "disorienting",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "blurry",
+      "handheld"
+    ],
+    "objects": [
+      "stairs",
+      "person",
+      "railing",
+      "shadows"
+    ]
+  }
+}

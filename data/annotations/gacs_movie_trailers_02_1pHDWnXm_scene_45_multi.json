@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "peaceful",
+      "melancholic",
+      "respectful",
+      "contemplative"
+    ],
+    "style": [
+      "somber",
+      "naturalistic",
+      "wide-angle"
+    ],
+    "objects": [
+      "cemetery",
+      "tree",
+      "headstones",
+      "people",
+      "flag"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "mournful",
+      "grieving",
+      "respectful",
+      "reflective"
+    ],
+    "style": [
+      "desaturated",
+      "somber",
+      "wide-shot"
+    ],
+    "objects": [
+      "tree",
+      "cemetery",
+      "people",
+      "coffin"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "mournful",
+      "tranquil",
+      "respectful",
+      "grave"
+    ],
+    "style": [
+      "somber",
+      "naturalistic",
+      "widescreen"
+    ],
+    "objects": [
+      "graveyard",
+      "people",
+      "trees",
+      "headstones"
+    ]
+  }
+}

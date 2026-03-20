@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "surreal",
+      "eerie",
+      "suspenseful"
+    ],
+    "style": [
+      "nighttime",
+      "dynamic",
+      "futuristic"
+    ],
+    "objects": [
+      "car",
+      "road",
+      "city",
+      "fingers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gloomy",
+      "mysterious",
+      "nocturnal",
+      "lonely",
+      "cinematic"
+    ],
+    "style": [
+      "dark",
+      "nighttime",
+      "blurred"
+    ],
+    "objects": [
+      "skyline",
+      "road",
+      "car",
+      "fingers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "atmospheric",
+      "cinematic",
+      "moody"
+    ],
+    "style": [
+      "cinematic",
+      "dark-atmospheric",
+      "light-trails"
+    ],
+    "objects": [
+      "hands",
+      "road",
+      "city lights",
+      "highway"
+    ]
+  }
+}

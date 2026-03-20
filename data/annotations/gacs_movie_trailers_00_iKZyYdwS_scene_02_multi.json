@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "intimate",
+      "concerned",
+      "dramatic",
+      "urgent"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "face",
+      "hair",
+      "clothing",
+      "lighting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "concerned",
+      "tense",
+      "investigating",
+      "anxious"
+    ],
+    "style": [
+      "low-key",
+      "cinematic",
+      "tense"
+    ],
+    "objects": [
+      "man",
+      "headphones",
+      "wires",
+      "radio equipment"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "focused",
+      "determined",
+      "intrigued",
+      "contemplative"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "retro"
+    ],
+    "objects": [
+      "headphones",
+      "radio",
+      "headphones",
+      "light",
+      "jacket"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dramatic",
+      "intense",
+      "mysterious",
+      "unsettling"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "futuristic"
+    ],
+    "objects": [
+      "red spheres",
+      "text",
+      "tower"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "threatening",
+      "intense",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "minimalist",
+      "dramatic"
+    ],
+    "objects": [
+      "sword",
+      "smoke",
+      "text",
+      "blade"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "intense",
+      "suspenseful",
+      "enigmatic"
+    ],
+    "style": [
+      "minimalistic",
+      "futuristic",
+      "monochromatic"
+    ],
+    "objects": [
+      "red balls",
+      "sword",
+      "text"
+    ]
+  }
+}

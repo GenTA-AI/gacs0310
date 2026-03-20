@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "calm",
+      "nostalgic",
+      "idyllic"
+    ],
+    "style": [
+      "painterly",
+      "vibrant",
+      "idyllic"
+    ],
+    "objects": [
+      "lake",
+      "building",
+      "mountain",
+      "boat",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "romantic",
+      "serene",
+      "nostalgic",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "panoramic"
+    ],
+    "objects": [
+      "houses",
+      "lake",
+      "mountains",
+      "people",
+      "boat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "nostalgic",
+      "peaceful",
+      "reflective",
+      "picturesque"
+    ],
+    "style": [
+      "picturesque",
+      "vibrant",
+      "serene"
+    ],
+    "objects": [
+      "lake",
+      "boats",
+      "buildings",
+      "flag",
+      "person"
+    ]
+  }
+}

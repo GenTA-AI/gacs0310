@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "angry",
+      "passionate",
+      "serious",
+      "motivated"
+    ],
+    "style": [
+      "cartoonish",
+      "vibrant",
+      "expressive"
+    ],
+    "objects": [
+      "people",
+      "signs",
+      "megaphone"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "passionate",
+      "determined",
+      "activist",
+      "enthusiastic"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "cartoon-style"
+    ],
+    "objects": [
+      "children",
+      "protest signs",
+      "megaphone",
+      "hallway"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "assertive",
+      "passionate",
+      "focused",
+      "intense"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "expressive"
+    ],
+    "objects": [
+      "signs",
+      "megaphone",
+      "people",
+      "corridor"
+    ]
+  }
+}

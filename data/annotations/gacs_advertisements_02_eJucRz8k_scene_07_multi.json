@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "playful",
+      "rustic",
+      "lighthearted",
+      "warm"
+    ],
+    "style": [
+      "grainy",
+      "rustic",
+      "dim-lit"
+    ],
+    "objects": [
+      "cow",
+      "rope",
+      "post",
+      "hay"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "rural",
+      "muted",
+      "domestic",
+      "natural"
+    ],
+    "style": [
+      "naturalistic",
+      "neutral",
+      "candid"
+    ],
+    "objects": [
+      "goat",
+      "hay bales",
+      "post"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "confined",
+      "somber",
+      "isolated",
+      "melancholic"
+    ],
+    "style": [
+      "dark",
+      "grainy",
+      "surveillance-style"
+    ],
+    "objects": [
+      "dog",
+      "leash",
+      "fence",
+      "pavement"
+    ]
+  }
+}

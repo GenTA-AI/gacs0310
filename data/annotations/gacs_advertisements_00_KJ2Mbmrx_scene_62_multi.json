@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "glamorous",
+      "vibrant",
+      "bold",
+      "stylish"
+    ],
+    "style": [
+      "staged",
+      "bright",
+      "fashionable"
+    ],
+    "objects": [
+      "woman",
+      "coat",
+      "studio lights",
+      "carpet"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "stylish",
+      "glamorous",
+      "bold",
+      "upbeat"
+    ],
+    "style": [
+      "modern",
+      "vibrant",
+      "fashionable"
+    ],
+    "objects": [
+      "person",
+      "blue coat",
+      "purple carpet",
+      "camera equipment"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "glamorous",
+      "confident",
+      "vibrant",
+      "luxurious",
+      "bold"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "high-contrast"
+    ],
+    "objects": [
+      "person",
+      "fur coat",
+      "curved walls",
+      "floor"
+    ]
+  }
+}

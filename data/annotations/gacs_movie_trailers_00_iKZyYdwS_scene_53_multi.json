@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "threatening",
+      "intense",
+      "menacing"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "gritty"
+    ],
+    "objects": [
+      "person",
+      "street",
+      "buildings",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "scary",
+      "ominous",
+      "eerie",
+      "disturbing",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "grainy",
+      "eerie"
+    ],
+    "objects": [
+      "demogorgon",
+      "car",
+      "street",
+      "fog"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "terrifying",
+      "eerie",
+      "tense",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "eerie",
+      "foggy"
+    ],
+    "objects": [
+      "creature",
+      "street",
+      "car",
+      "trees"
+    ]
+  }
+}

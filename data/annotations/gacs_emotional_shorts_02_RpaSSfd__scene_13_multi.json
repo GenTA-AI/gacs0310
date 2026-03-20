@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "focused",
+      "confident",
+      "calm",
+      "bold"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "urban"
+    ],
+    "objects": [
+      "person",
+      "guide cane",
+      "dog",
+      "crosswalk",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "serious",
+      "formal",
+      "observant",
+      "focused"
+    ],
+    "style": [
+      "realistic",
+      "naturalistic",
+      "urban"
+    ],
+    "objects": [
+      "man",
+      "dog",
+      "crosswalk",
+      "sign"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "urban",
+      "contemplative",
+      "confident"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "wide-shot"
+    ],
+    "objects": [
+      "people",
+      "buildings",
+      "street",
+      "car",
+      "dog"
+    ]
+  }
+}

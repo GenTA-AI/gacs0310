@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fast-paced",
+      "competitive",
+      "focused",
+      "intense",
+      "thrilling"
+    ],
+    "style": [
+      "blurred",
+      "flat",
+      "bright"
+    ],
+    "objects": [
+      "car",
+      "road",
+      "kerb",
+      "wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "exciting",
+      "fast-paced",
+      "thrilling",
+      "energetic"
+    ],
+    "style": [
+      "blurry",
+      "dynamic",
+      "high-contrast"
+    ],
+    "objects": [
+      "car",
+      "road",
+      "barriers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "blurred",
+      "dynamic",
+      "racing",
+      "energetic",
+      "fast-paced"
+    ],
+    "style": [
+      "blurred",
+      "motion-filled",
+      "racing-themed"
+    ],
+    "objects": [
+      "road",
+      "lane markings",
+      "barrier",
+      "grass"
+    ]
+  }
+}

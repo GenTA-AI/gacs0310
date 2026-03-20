@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "playful",
+      "joyful",
+      "carefree",
+      "vibrant"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "natural-lighting"
+    ],
+    "objects": [
+      "person",
+      "plants",
+      "buildings",
+      "rooftop"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "determined",
+      "frantic",
+      "agitated",
+      "urgent"
+    ],
+    "style": [
+      "urban",
+      "bright",
+      "energetic"
+    ],
+    "objects": [
+      "man",
+      "plants",
+      "buildings"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "focused",
+      "energetic",
+      "determined",
+      "lively"
+    ],
+    "style": [
+      "dynamic",
+      "naturalistic",
+      "urban"
+    ],
+    "objects": [
+      "person",
+      "plants",
+      "chair",
+      "buildings"
+    ]
+  }
+}

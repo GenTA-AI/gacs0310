@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "amused",
+      "lighthearted",
+      "playful",
+      "charming",
+      "silly"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "detailed"
+    ],
+    "objects": [
+      "woman",
+      "statue",
+      "building",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "whimsical",
+      "celebratory",
+      "cheerful",
+      "lighthearted"
+    ],
+    "style": [
+      "colorful",
+      "detailed",
+      "whimsical"
+    ],
+    "objects": [
+      "statue",
+      "people",
+      "buildings",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "uplifting",
+      "hopeful",
+      "celebratory",
+      "triumphant"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "stylized"
+    ],
+    "objects": [
+      "woman",
+      "statue",
+      "buildings",
+      "people"
+    ]
+  }
+}

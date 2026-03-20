@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bold",
+      "modern",
+      "stylish",
+      "confident",
+      "sleek"
+    ],
+    "style": [
+      "minimalist",
+      "graphic",
+      "high-contrast"
+    ],
+    "objects": [
+      "text",
+      "play button"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "sophisticated",
+      "professional",
+      "minimalist",
+      "elegant"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "corporate"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "brand name",
+      "channel branding"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "stylish",
+      "bold",
+      "professional"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "modern"
+    ],
+    "objects": [
+      "fashion channel",
+      "text",
+      "logo",
+      "play button"
+    ]
+  }
+}

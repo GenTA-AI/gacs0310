@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "intense",
+      "fiery",
+      "menacing",
+      "apocalyptic"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "smoke",
+      "fire",
+      "darkness"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "powerful",
+      "intense",
+      "dangerous",
+      "determined",
+      "destructive"
+    ],
+    "style": [
+      "cinematic",
+      "gritty",
+      "fiery"
+    ],
+    "objects": [
+      "hulk",
+      "smoke"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "powerful",
+      "aggressive",
+      "dramatic",
+      "fiery"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "smoky"
+    ],
+    "objects": [
+      "muscular figure",
+      "smoke",
+      "fire embers"
+    ]
+  }
+}

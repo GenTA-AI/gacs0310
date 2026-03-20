@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "calm",
+      "peaceful",
+      "dreamy",
+      "serene"
+    ],
+    "style": [
+      "stylized",
+      "vibrant",
+      "nocturnal"
+    ],
+    "objects": [
+      "red panda",
+      "cn tower",
+      "city",
+      "moon",
+      "rooftop"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "whimsical",
+      "magical",
+      "adventurous",
+      "serene"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "whimsical"
+    ],
+    "objects": [
+      "red panda",
+      "moon",
+      "skyline",
+      "tower",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "nostalgic",
+      "dreamy",
+      "magical",
+      "contemplative"
+    ],
+    "style": [
+      "animated",
+      "nostalgic",
+      "atmospheric"
+    ],
+    "objects": [
+      "teddy bear",
+      "children",
+      "moon",
+      "city skyline",
+      "tower"
+    ]
+  }
+}

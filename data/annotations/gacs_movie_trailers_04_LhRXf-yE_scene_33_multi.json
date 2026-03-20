@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "determined",
+      "intense",
+      "serious",
+      "confrontational"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "desaturated"
+    ],
+    "objects": [
+      "person",
+      "crowd",
+      "fluorescent lights",
+      "walls",
+      "chairs"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "determined",
+      "intense",
+      "serious",
+      "anticipation"
+    ],
+    "style": [
+      "desaturated",
+      "medium-shot",
+      "realistic"
+    ],
+    "objects": [
+      "person",
+      "karate uniform",
+      "group"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "confrontational",
+      "competitive"
+    ],
+    "style": [
+      "dramatic",
+      "muted",
+      "intense"
+    ],
+    "objects": [
+      "martial artist",
+      "martial arts uniform",
+      "dojo",
+      "people",
+      "logo"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clean",
+      "futuristic",
+      "sterile",
+      "abstract",
+      "minimal"
+    ],
+    "style": [
+      "geometric",
+      "futuristic",
+      "clean"
+    ],
+    "objects": [
+      "text",
+      "lights",
+      "ceiling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "elegant",
+      "sophisticated",
+      "serene"
+    ],
+    "style": [
+      "abstract",
+      "crystalline",
+      "monochromatic"
+    ],
+    "objects": [
+      "geometric shapes",
+      "text",
+      "angular forms",
+      "crystalline structures"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "calm",
+      "sophisticated",
+      "minimalistic"
+    ],
+    "style": [
+      "futuristic",
+      "sleek",
+      "minimalistic"
+    ],
+    "objects": [
+      "ps5 consoles",
+      "text"
+    ]
+  }
+}

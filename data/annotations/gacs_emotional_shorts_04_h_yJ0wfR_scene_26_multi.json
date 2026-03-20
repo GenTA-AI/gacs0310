@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "reflective",
+      "somber",
+      "peaceful",
+      "focused"
+    ],
+    "style": [
+      "warm",
+      "intimate",
+      "low-key"
+    ],
+    "objects": [
+      "person",
+      "pen",
+      "paper",
+      "glasses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "thoughtful",
+      "reflective",
+      "serene",
+      "contemplative",
+      "calm"
+    ],
+    "style": [
+      "warm-toned",
+      "contemplative",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "pen",
+      "paper",
+      "glasses",
+      "lamp"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "focused",
+      "serene",
+      "introspective",
+      "wise"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "elderly man",
+      "pen",
+      "glasses",
+      "desk",
+      "papers"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dramatic",
+      "chaotic",
+      "urgent",
+      "thrilling"
+    ],
+    "style": [
+      "blurred",
+      "dynamic",
+      "vibrant"
+    ],
+    "objects": [
+      "car",
+      "track",
+      "grass",
+      "smoke"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worrisome",
+      "dangerous",
+      "intense",
+      "chaotic",
+      "uncertain"
+    ],
+    "style": [
+      "dynamic",
+      "blurry",
+      "vibrant"
+    ],
+    "objects": [
+      "race car",
+      "racetrack",
+      "smoke"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "intense",
+      "thrilling",
+      "fast-paced",
+      "exhilarating"
+    ],
+    "style": [
+      "motion-blur",
+      "high-speed",
+      "dynamic"
+    ],
+    "objects": [
+      "motorcycle",
+      "racetrack",
+      "smoke",
+      "tire marks"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "routine",
+      "commercial",
+      "neutral",
+      "mundane",
+      "industrial"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "documentary"
+    ],
+    "objects": [
+      "semi-truck",
+      "loading dock",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "industrial",
+      "routine",
+      "mundane",
+      "practical",
+      "commercial"
+    ],
+    "style": [
+      "documentary",
+      "overcast",
+      "industrial"
+    ],
+    "objects": [
+      "truck",
+      "trailer",
+      "building",
+      "loading dock"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "industrial",
+      "routine",
+      "busy",
+      "monotonous",
+      "functional"
+    ],
+    "style": [
+      "industrial",
+      "neutral-toned",
+      "documentary"
+    ],
+    "objects": [
+      "truck",
+      "loading dock",
+      "building"
+    ]
+  }
+}

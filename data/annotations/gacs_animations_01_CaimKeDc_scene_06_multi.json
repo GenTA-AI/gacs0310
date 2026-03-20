@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "powerful",
+      "mystical",
+      "glowing",
+      "otherworldly"
+    ],
+    "style": [
+      "glowing",
+      "warm",
+      "symmetrical"
+    ],
+    "objects": [
+      "flower",
+      "explosion"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "fiery",
+      "intense",
+      "energetic",
+      "explosive"
+    ],
+    "style": [
+      "glowing",
+      "cosmic",
+      "symmetrical"
+    ],
+    "objects": [
+      "explosion",
+      "fire",
+      "sparks",
+      "light"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "ominous",
+      "powerful",
+      "explosive"
+    ],
+    "style": [
+      "cinematic",
+      "luminous",
+      "atmospheric"
+    ],
+    "objects": [
+      "sun",
+      "solar flares",
+      "space",
+      "corona"
+    ]
+  }
+}

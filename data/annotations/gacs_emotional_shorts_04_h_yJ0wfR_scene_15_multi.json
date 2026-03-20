@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "longing",
+      "reflective",
+      "pensive",
+      "desolate"
+    ],
+    "style": [
+      "hazy",
+      "backlit",
+      "minimal"
+    ],
+    "objects": [
+      "person",
+      "sun",
+      "hair"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "wistful",
+      "introspective",
+      "longing"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "silhouetted"
+    ],
+    "objects": [
+      "person",
+      "sky",
+      "sun",
+      "text",
+      "logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "introspective",
+      "contemplative",
+      "serene",
+      "wistful",
+      "melancholic"
+    ],
+    "style": [
+      "silhouette",
+      "minimalist",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "sky",
+      "sun"
+    ]
+  }
+}

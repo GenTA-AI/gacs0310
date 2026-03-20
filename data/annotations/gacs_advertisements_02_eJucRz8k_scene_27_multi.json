@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "festive",
+      "lively",
+      "cheerful",
+      "spirited",
+      "celebratory"
+    ],
+    "style": [
+      "festive",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "parade",
+      "horses",
+      "crowd",
+      "balloons"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "festive",
+      "lively",
+      "cheerful",
+      "communal",
+      "anticipatory"
+    ],
+    "style": [
+      "realistic",
+      "documentary",
+      "neutral"
+    ],
+    "objects": [
+      "people",
+      "horses",
+      "carriage",
+      "parade"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "festive",
+      "celebratory",
+      "energetic",
+      "communal",
+      "joyful"
+    ],
+    "style": [
+      "documentary",
+      "crowded",
+      "handheld"
+    ],
+    "objects": [
+      "crowd",
+      "building",
+      "street",
+      "people",
+      "tree"
+    ]
+  }
+}

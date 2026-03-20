@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "focused",
+      "calm",
+      "reflective",
+      "serene"
+    ],
+    "style": [
+      "informal",
+      "candid",
+      "grainy"
+    ],
+    "objects": [
+      "person",
+      "gym",
+      "basketball hoop",
+      "basketball",
+      "shirt"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "informative",
+      "candid",
+      "calm",
+      "ordinary"
+    ],
+    "style": [
+      "news",
+      "flat",
+      "bright"
+    ],
+    "objects": [
+      "person",
+      "basketball court",
+      "doors"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "concerned",
+      "subdued",
+      "reflective"
+    ],
+    "style": [
+      "documentary",
+      "soft-lit",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "kitchen",
+      "cabinets",
+      "appliances"
+    ]
+  }
+}

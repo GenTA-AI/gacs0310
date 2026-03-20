@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "stuck",
+      "hopeless",
+      "trapped",
+      "unsettling",
+      "dire"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "symmetrical"
+    ],
+    "objects": [
+      "boots",
+      "ground"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "calm",
+      "relaxed",
+      "neutral",
+      "still"
+    ],
+    "style": [
+      "cartoonish",
+      "simple",
+      "flat"
+    ],
+    "objects": [
+      "robot legs",
+      "ground"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "introspective",
+      "melancholic",
+      "solitary",
+      "pensive"
+    ],
+    "style": [
+      "animated",
+      "cartoon",
+      "simple-shaded"
+    ],
+    "objects": [
+      "feet",
+      "shoes",
+      "floor",
+      "legs"
+    ]
+  }
+}

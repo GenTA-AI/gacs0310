@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "nostalgic",
+      "dreamy",
+      "peaceful",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "hands",
+      "text",
+      "person",
+      "background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "focused",
+      "intense",
+      "grave"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "epic"
+    ],
+    "objects": [
+      "hulk",
+      "person",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dramatic",
+      "powerful",
+      "charged",
+      "epic"
+    ],
+    "style": [
+      "dramatic",
+      "dynamic",
+      "intense"
+    ],
+    "objects": [
+      "world",
+      "figures",
+      "landscape",
+      "trees"
+    ]
+  }
+}

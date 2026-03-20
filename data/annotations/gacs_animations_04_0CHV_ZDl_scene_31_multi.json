@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "whimsical",
+      "adventurous",
+      "curious",
+      "peaceful"
+    ],
+    "style": [
+      "cartoonish",
+      "flat",
+      "underwater"
+    ],
+    "objects": [
+      "cartoon characters",
+      "fish",
+      "scuba mask"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "joyful",
+      "serene",
+      "whimsical",
+      "loving"
+    ],
+    "style": [
+      "cartoonish",
+      "colorful",
+      "whimsical"
+    ],
+    "objects": [
+      "divers",
+      "fish",
+      "water"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "cheerful",
+      "adventurous",
+      "friendly",
+      "whimsical"
+    ],
+    "style": [
+      "cartoon",
+      "underwater",
+      "colorful"
+    ],
+    "objects": [
+      "divers",
+      "fish",
+      "underwater scene",
+      "diving masks"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "majestic",
+      "cold",
+      "calm",
+      "intriguing"
+    ],
+    "style": [
+      "naturalistic",
+      "detailed",
+      "sharp"
+    ],
+    "objects": [
+      "whale",
+      "ocean",
+      "ice",
+      "barnacles"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uncomfortable",
+      "disturbing",
+      "unsettling",
+      "bleak",
+      "somber"
+    ],
+    "style": [
+      "naturalistic",
+      "high-definition",
+      "documentary"
+    ],
+    "objects": [
+      "whale",
+      "barnacles",
+      "iceberg"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "disturbing",
+      "grotesque",
+      "unsettling",
+      "morbid",
+      "haunting"
+    ],
+    "style": [
+      "documentary",
+      "naturalistic",
+      "high-definition"
+    ],
+    "objects": [
+      "whale",
+      "barnacles",
+      "water",
+      "ice"
+    ]
+  }
+}

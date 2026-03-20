@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "threatening",
+      "dangerous",
+      "intimidating",
+      "fierce",
+      "intense"
+    ],
+    "style": [
+      "stylized",
+      "high-contrast",
+      "dramatic"
+    ],
+    "objects": [
+      "cerberus",
+      "people",
+      "arena"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "dramatic",
+      "ominous",
+      "threatening",
+      "dangerous"
+    ],
+    "style": [
+      "animated",
+      "dramatic",
+      "vibrant"
+    ],
+    "objects": [
+      "three-headed dog",
+      "arena",
+      "two people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "ominous",
+      "threatening",
+      "epic"
+    ],
+    "style": [
+      "animated",
+      "dramatic",
+      "warm-toned"
+    ],
+    "objects": [
+      "dragon",
+      "people",
+      "colosseum",
+      "fire"
+    ]
+  }
+}

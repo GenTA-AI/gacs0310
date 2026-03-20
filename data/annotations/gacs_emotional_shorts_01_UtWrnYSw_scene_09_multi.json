@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "heartwarming",
+      "patriotic",
+      "grateful"
+    ],
+    "style": [
+      "bright",
+      "low-resolution",
+      "daytime"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "dog"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "nostalgic",
+      "respectful",
+      "sunny"
+    ],
+    "style": [
+      "news-style",
+      "vibrant",
+      "candid"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "steering wheel",
+      "sunglasses"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "festive",
+      "heartwarming",
+      "cheerful"
+    ],
+    "style": [
+      "news-footage",
+      "bright",
+      "documentary-style"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "windshield",
+      "street"
+    ]
+  }
+}

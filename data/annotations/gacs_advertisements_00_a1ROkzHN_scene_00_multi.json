@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "minimal",
+      "mysterious",
+      "futuristic"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "futuristic"
+    ],
+    "objects": [
+      "game console",
+      "controller"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "minimalist",
+      "sleek",
+      "futuristic"
+    ],
+    "style": [
+      "minimalistic",
+      "dark",
+      "futuristic"
+    ],
+    "objects": [
+      "console",
+      "table",
+      "game controller",
+      "headphones"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "minimalist",
+      "sleek",
+      "modern",
+      "mysterious"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "sleek"
+    ],
+    "objects": [
+      "playstation 5",
+      "shelf",
+      "controller"
+    ]
+  }
+}

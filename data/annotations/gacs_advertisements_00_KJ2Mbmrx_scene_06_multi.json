@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "contemplative",
+      "isolated",
+      "atmospheric",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "desk",
+      "computer screens",
+      "chairs",
+      "laboratory equipment"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "dark",
+      "technological",
+      "secretive"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "futuristic"
+    ],
+    "objects": [
+      "person",
+      "computers",
+      "screens",
+      "cables",
+      "desk"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "technological",
+      "focused",
+      "intense",
+      "determined"
+    ],
+    "style": [
+      "dark",
+      "futuristic",
+      "industrial"
+    ],
+    "objects": [
+      "person",
+      "keyboard",
+      "tables",
+      "equipment racks"
+    ]
+  }
+}

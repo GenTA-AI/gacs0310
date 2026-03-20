@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "elated",
+      "celebratory",
+      "triumphant",
+      "passionate"
+    ],
+    "style": [
+      "candid",
+      "grainy",
+      "excited"
+    ],
+    "objects": [
+      "people",
+      "basketball jersey"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "excited",
+      "triumphant",
+      "elated"
+    ],
+    "style": [
+      "broadcast",
+      "celebratory",
+      "candid"
+    ],
+    "objects": [
+      "basketball players",
+      "trophy",
+      "phones",
+      "uniforms"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "triumphant",
+      "ecstatic",
+      "celebratory",
+      "excited"
+    ],
+    "style": [
+      "candid",
+      "emotional",
+      "jubilant"
+    ],
+    "objects": [
+      "people",
+      "basketball jerseys"
+    ]
+  }
+}

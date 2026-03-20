@@ -1,0 +1,1430 @@
+{
+  "PC1": {
+    "name": "Tense-Joyful",
+    "label": "PC1: Tense-Joyful (tense r=+0.4127 vs joyful r=-0.3340)",
+    "top5_positive": [
+      {
+        "mood": "tense",
+        "r": 0.4127,
+        "p": 0.0
+      },
+      {
+        "mood": "ominous",
+        "r": 0.3967,
+        "p": 0.0
+      },
+      {
+        "mood": "mysterious",
+        "r": 0.3872,
+        "p": 0.0
+      },
+      {
+        "mood": "dark",
+        "r": 0.3677,
+        "p": 0.0
+      },
+      {
+        "mood": "suspenseful",
+        "r": 0.3665,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "joyful",
+        "r": -0.334,
+        "p": 0.0
+      },
+      {
+        "mood": "peaceful",
+        "r": -0.3187,
+        "p": 0.0
+      },
+      {
+        "mood": "serene",
+        "r": -0.3057,
+        "p": 0.0
+      },
+      {
+        "mood": "warm",
+        "r": -0.2532,
+        "p": 0.0
+      },
+      {
+        "mood": "relaxed",
+        "r": -0.2336,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mysterious",
+        179
+      ],
+      [
+        "ominous",
+        148
+      ],
+      [
+        "tense",
+        144
+      ],
+      [
+        "suspenseful",
+        124
+      ],
+      [
+        "dark",
+        123
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "joyful",
+        133
+      ],
+      [
+        "peaceful",
+        84
+      ],
+      [
+        "cheerful",
+        83
+      ],
+      [
+        "warm",
+        80
+      ],
+      [
+        "playful",
+        73
+      ]
+    ]
+  },
+  "PC2": {
+    "name": "Somber-Intense",
+    "label": "PC2: Somber-Intense (somber r=+0.6406 vs intense r=-0.1867)",
+    "top5_positive": [
+      {
+        "mood": "somber",
+        "r": 0.6406,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplative",
+        "r": 0.5212,
+        "p": 0.0
+      },
+      {
+        "mood": "melancholic",
+        "r": 0.4729,
+        "p": 0.0
+      },
+      {
+        "mood": "introspective",
+        "r": 0.346,
+        "p": 0.0
+      },
+      {
+        "mood": "pensive",
+        "r": 0.3205,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "intense",
+        "r": -0.1867,
+        "p": 0.0
+      },
+      {
+        "mood": "chaotic",
+        "r": -0.1833,
+        "p": 0.0
+      },
+      {
+        "mood": "suspenseful",
+        "r": -0.1708,
+        "p": 0.0
+      },
+      {
+        "mood": "dramatic",
+        "r": -0.1657,
+        "p": 0.0
+      },
+      {
+        "mood": "dynamic",
+        "r": -0.1652,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "somber",
+        205
+      ],
+      [
+        "contemplative",
+        159
+      ],
+      [
+        "melancholic",
+        124
+      ],
+      [
+        "serious",
+        78
+      ],
+      [
+        "pensive",
+        77
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "intense",
+        145
+      ],
+      [
+        "dramatic",
+        87
+      ],
+      [
+        "tense",
+        87
+      ],
+      [
+        "chaotic",
+        62
+      ],
+      [
+        "thrilling",
+        58
+      ]
+    ]
+  },
+  "PC3": {
+    "name": "Serene-Focused",
+    "label": "PC3: Serene-Focused (serene r=+0.3089 vs focused r=-0.2707)",
+    "top5_positive": [
+      {
+        "mood": "serene",
+        "r": 0.3089,
+        "p": 0.0
+      },
+      {
+        "mood": "mysterious",
+        "r": 0.3002,
+        "p": 0.0
+      },
+      {
+        "mood": "suspenseful",
+        "r": 0.2857,
+        "p": 0.0
+      },
+      {
+        "mood": "ominous",
+        "r": 0.2697,
+        "p": 0.0
+      },
+      {
+        "mood": "peaceful",
+        "r": 0.2466,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "focused",
+        "r": -0.2707,
+        "p": 0.0
+      },
+      {
+        "mood": "neutral",
+        "r": -0.2703,
+        "p": 0.0
+      },
+      {
+        "mood": "practical",
+        "r": -0.2336,
+        "p": 0.0
+      },
+      {
+        "mood": "methodical",
+        "r": -0.2007,
+        "p": 0.0
+      },
+      {
+        "mood": "informative",
+        "r": -0.1926,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mysterious",
+        160
+      ],
+      [
+        "suspenseful",
+        88
+      ],
+      [
+        "ominous",
+        86
+      ],
+      [
+        "serene",
+        79
+      ],
+      [
+        "contemplative",
+        78
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "intense",
+        93
+      ],
+      [
+        "focused",
+        83
+      ],
+      [
+        "neutral",
+        75
+      ],
+      [
+        "practical",
+        53
+      ],
+      [
+        "serious",
+        42
+      ]
+    ]
+  },
+  "PC4": {
+    "name": "Joyful-Serene",
+    "label": "PC4: Joyful-Serene (joyful r=+0.3829 vs serene r=-0.2940)",
+    "top5_positive": [
+      {
+        "mood": "joyful",
+        "r": 0.3829,
+        "p": 0.0
+      },
+      {
+        "mood": "surprised",
+        "r": 0.3343,
+        "p": 0.0
+      },
+      {
+        "mood": "celebratory",
+        "r": 0.3037,
+        "p": 0.0
+      },
+      {
+        "mood": "somber",
+        "r": 0.2593,
+        "p": 0.0
+      },
+      {
+        "mood": "happy",
+        "r": 0.2438,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "serene",
+        "r": -0.294,
+        "p": 0.0
+      },
+      {
+        "mood": "calm",
+        "r": -0.2504,
+        "p": 0.0
+      },
+      {
+        "mood": "peaceful",
+        "r": -0.2373,
+        "p": 0.0
+      },
+      {
+        "mood": "neutral",
+        "r": -0.2234,
+        "p": 0.0
+      },
+      {
+        "mood": "relaxed",
+        "r": -0.1951,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "joyful",
+        137
+      ],
+      [
+        "celebratory",
+        93
+      ],
+      [
+        "happy",
+        55
+      ],
+      [
+        "surprised",
+        55
+      ],
+      [
+        "somber",
+        53
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "contemplative",
+        123
+      ],
+      [
+        "serene",
+        100
+      ],
+      [
+        "calm",
+        89
+      ],
+      [
+        "peaceful",
+        79
+      ],
+      [
+        "relaxed",
+        58
+      ]
+    ]
+  },
+  "PC5": {
+    "name": "Confrontational-Mysterious",
+    "label": "PC5: Confrontational-Mysterious (confrontational r=+0.3281 vs mysterious r=-0.2532)",
+    "top5_positive": [
+      {
+        "mood": "confrontational",
+        "r": 0.3281,
+        "p": 0.0
+      },
+      {
+        "mood": "intense",
+        "r": 0.3149,
+        "p": 0.0
+      },
+      {
+        "mood": "chaotic",
+        "r": 0.3139,
+        "p": 0.0
+      },
+      {
+        "mood": "aggressive",
+        "r": 0.1965,
+        "p": 0.0
+      },
+      {
+        "mood": "dangerous",
+        "r": 0.1837,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "mysterious",
+        "r": -0.2532,
+        "p": 0.0
+      },
+      {
+        "mood": "practical",
+        "r": -0.2004,
+        "p": 0.0
+      },
+      {
+        "mood": "sophisticated",
+        "r": -0.187,
+        "p": 0.0
+      },
+      {
+        "mood": "eerie",
+        "r": -0.1812,
+        "p": 0.0
+      },
+      {
+        "mood": "neutral",
+        "r": -0.1778,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "intense",
+        164
+      ],
+      [
+        "tense",
+        90
+      ],
+      [
+        "dramatic",
+        84
+      ],
+      [
+        "chaotic",
+        79
+      ],
+      [
+        "serious",
+        55
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "mysterious",
+        91
+      ],
+      [
+        "neutral",
+        59
+      ],
+      [
+        "practical",
+        51
+      ],
+      [
+        "sophisticated",
+        45
+      ],
+      [
+        "sleek",
+        43
+      ]
+    ]
+  },
+  "PC6": {
+    "name": "Ominous-Contemplative",
+    "label": "PC6: Ominous-Contemplative (ominous r=+0.2488 vs contemplative r=-0.2814)",
+    "top5_positive": [
+      {
+        "mood": "ominous",
+        "r": 0.2488,
+        "p": 0.0
+      },
+      {
+        "mood": "joyful",
+        "r": 0.2464,
+        "p": 0.0
+      },
+      {
+        "mood": "eerie",
+        "r": 0.2248,
+        "p": 0.0
+      },
+      {
+        "mood": "practical",
+        "r": 0.2024,
+        "p": 0.0
+      },
+      {
+        "mood": "cheerful",
+        "r": 0.1868,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "contemplative",
+        "r": -0.2814,
+        "p": 0.0
+      },
+      {
+        "mood": "intense",
+        "r": -0.2683,
+        "p": 0.0
+      },
+      {
+        "mood": "thrilling",
+        "r": -0.2429,
+        "p": 0.0
+      },
+      {
+        "mood": "dynamic",
+        "r": -0.22,
+        "p": 0.0
+      },
+      {
+        "mood": "determined",
+        "r": -0.2031,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mysterious",
+        85
+      ],
+      [
+        "ominous",
+        79
+      ],
+      [
+        "eerie",
+        61
+      ],
+      [
+        "dark",
+        61
+      ],
+      [
+        "practical",
+        47
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "intense",
+        137
+      ],
+      [
+        "contemplative",
+        123
+      ],
+      [
+        "dramatic",
+        74
+      ],
+      [
+        "serious",
+        62
+      ],
+      [
+        "focused",
+        61
+      ]
+    ]
+  },
+  "PC7": {
+    "name": "Mysterious-Concerned",
+    "label": "PC7: Mysterious-Concerned (mysterious r=+0.2453 vs concerned r=-0.3502)",
+    "top5_positive": [
+      {
+        "mood": "mysterious",
+        "r": 0.2453,
+        "p": 0.0
+      },
+      {
+        "mood": "sophisticated",
+        "r": 0.2251,
+        "p": 0.0
+      },
+      {
+        "mood": "luxurious",
+        "r": 0.2086,
+        "p": 0.0
+      },
+      {
+        "mood": "sleek",
+        "r": 0.2082,
+        "p": 0.0
+      },
+      {
+        "mood": "futuristic",
+        "r": 0.2003,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "concerned",
+        "r": -0.3502,
+        "p": 0.0
+      },
+      {
+        "mood": "anxious",
+        "r": -0.2763,
+        "p": 0.0
+      },
+      {
+        "mood": "worried",
+        "r": -0.2201,
+        "p": 0.0
+      },
+      {
+        "mood": "serious",
+        "r": -0.2166,
+        "p": 0.0
+      },
+      {
+        "mood": "surprised",
+        "r": -0.1834,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mysterious",
+        91
+      ],
+      [
+        "intense",
+        78
+      ],
+      [
+        "dramatic",
+        65
+      ],
+      [
+        "sophisticated",
+        50
+      ],
+      [
+        "dark",
+        47
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "concerned",
+        115
+      ],
+      [
+        "serious",
+        100
+      ],
+      [
+        "contemplative",
+        85
+      ],
+      [
+        "focused",
+        72
+      ],
+      [
+        "anxious",
+        70
+      ]
+    ]
+  },
+  "PC8": {
+    "name": "Informative-Serene",
+    "label": "PC8: Informative-Serene (informative r=+0.1836 vs serene r=-0.3522)",
+    "top5_positive": [
+      {
+        "mood": "informative",
+        "r": 0.1836,
+        "p": 0.0
+      },
+      {
+        "mood": "somber",
+        "r": 0.1704,
+        "p": 0.0
+      },
+      {
+        "mood": "emotional",
+        "r": 0.1586,
+        "p": 0.0
+      },
+      {
+        "mood": "practical",
+        "r": 0.1491,
+        "p": 0.0
+      },
+      {
+        "mood": "tender",
+        "r": 0.1325,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "serene",
+        "r": -0.3522,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplative",
+        "r": -0.3058,
+        "p": 0.0
+      },
+      {
+        "mood": "surprised",
+        "r": -0.3022,
+        "p": 0.0
+      },
+      {
+        "mood": "peaceful",
+        "r": -0.2569,
+        "p": 0.0
+      },
+      {
+        "mood": "curious",
+        "r": -0.1836,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "serious",
+        95
+      ],
+      [
+        "concerned",
+        62
+      ],
+      [
+        "tense",
+        58
+      ],
+      [
+        "informative",
+        49
+      ],
+      [
+        "emotional",
+        45
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "contemplative",
+        126
+      ],
+      [
+        "serene",
+        91
+      ],
+      [
+        "mysterious",
+        66
+      ],
+      [
+        "peaceful",
+        65
+      ],
+      [
+        "intense",
+        64
+      ]
+    ]
+  },
+  "PC9": {
+    "name": "Serene-Intimate",
+    "label": "PC9: Serene-Intimate (serene r=+0.2270 vs intimate r=-0.3167)",
+    "top5_positive": [
+      {
+        "mood": "serene",
+        "r": 0.227,
+        "p": 0.0
+      },
+      {
+        "mood": "sleek",
+        "r": 0.1841,
+        "p": 0.0
+      },
+      {
+        "mood": "sophisticated",
+        "r": 0.1811,
+        "p": 0.0
+      },
+      {
+        "mood": "peaceful",
+        "r": 0.1736,
+        "p": 0.0
+      },
+      {
+        "mood": "dynamic",
+        "r": 0.1403,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "intimate",
+        "r": -0.3167,
+        "p": 0.0
+      },
+      {
+        "mood": "tender",
+        "r": -0.2622,
+        "p": 0.0
+      },
+      {
+        "mood": "uncomfortable",
+        "r": -0.2055,
+        "p": 0.0
+      },
+      {
+        "mood": "affectionate",
+        "r": -0.1903,
+        "p": 0.0
+      },
+      {
+        "mood": "emotional",
+        "r": -0.1819,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "serene",
+        74
+      ],
+      [
+        "calm",
+        64
+      ],
+      [
+        "peaceful",
+        61
+      ],
+      [
+        "sophisticated",
+        52
+      ],
+      [
+        "sleek",
+        51
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "intimate",
+        87
+      ],
+      [
+        "contemplative",
+        80
+      ],
+      [
+        "serious",
+        64
+      ],
+      [
+        "tender",
+        62
+      ],
+      [
+        "tense",
+        55
+      ]
+    ]
+  },
+  "PC10": {
+    "name": "Dark-Practical",
+    "label": "PC10: Dark-Practical (dark r=+0.2959 vs practical r=-0.3125)",
+    "top5_positive": [
+      {
+        "mood": "dark",
+        "r": 0.2959,
+        "p": 0.0
+      },
+      {
+        "mood": "ominous",
+        "r": 0.2835,
+        "p": 0.0
+      },
+      {
+        "mood": "mysterious",
+        "r": 0.2418,
+        "p": 0.0
+      },
+      {
+        "mood": "happy",
+        "r": 0.2183,
+        "p": 0.0
+      },
+      {
+        "mood": "suspenseful",
+        "r": 0.2027,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "practical",
+        "r": -0.3125,
+        "p": 0.0
+      },
+      {
+        "mood": "straightforward",
+        "r": -0.2602,
+        "p": 0.0
+      },
+      {
+        "mood": "methodical",
+        "r": -0.241,
+        "p": 0.0
+      },
+      {
+        "mood": "informative",
+        "r": -0.22,
+        "p": 0.0
+      },
+      {
+        "mood": "exhilarating",
+        "r": -0.202,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mysterious",
+        115
+      ],
+      [
+        "dark",
+        100
+      ],
+      [
+        "ominous",
+        86
+      ],
+      [
+        "tense",
+        66
+      ],
+      [
+        "intense",
+        55
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "practical",
+        67
+      ],
+      [
+        "neutral",
+        65
+      ],
+      [
+        "intense",
+        64
+      ],
+      [
+        "informative",
+        56
+      ],
+      [
+        "exhilarating",
+        44
+      ]
+    ]
+  },
+  "PC11": {
+    "name": "Luxurious-Playful",
+    "label": "PC11: Luxurious-Playful (luxurious r=+0.2813 vs playful r=-0.3242)",
+    "top5_positive": [
+      {
+        "mood": "luxurious",
+        "r": 0.2813,
+        "p": 0.0
+      },
+      {
+        "mood": "elegant",
+        "r": 0.278,
+        "p": 0.0
+      },
+      {
+        "mood": "sophisticated",
+        "r": 0.2437,
+        "p": 0.0
+      },
+      {
+        "mood": "glamorous",
+        "r": 0.173,
+        "p": 0.0
+      },
+      {
+        "mood": "celebratory",
+        "r": 0.1721,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "playful",
+        "r": -0.3242,
+        "p": 0.0
+      },
+      {
+        "mood": "whimsical",
+        "r": -0.2757,
+        "p": 0.0
+      },
+      {
+        "mood": "curious",
+        "r": -0.2131,
+        "p": 0.0
+      },
+      {
+        "mood": "mysterious",
+        "r": -0.2125,
+        "p": 0.0
+      },
+      {
+        "mood": "adventurous",
+        "r": -0.199,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "sophisticated",
+        60
+      ],
+      [
+        "elegant",
+        55
+      ],
+      [
+        "luxurious",
+        53
+      ],
+      [
+        "concerned",
+        51
+      ],
+      [
+        "serious",
+        43
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "intense",
+        83
+      ],
+      [
+        "playful",
+        82
+      ],
+      [
+        "mysterious",
+        65
+      ],
+      [
+        "whimsical",
+        55
+      ],
+      [
+        "curious",
+        52
+      ]
+    ]
+  },
+  "PC12": {
+    "name": "Practical-Somber",
+    "label": "PC12: Practical-Somber (practical r=+0.2841 vs somber r=-0.2287)",
+    "top5_positive": [
+      {
+        "mood": "practical",
+        "r": 0.2841,
+        "p": 0.0
+      },
+      {
+        "mood": "methodical",
+        "r": 0.2672,
+        "p": 0.0
+      },
+      {
+        "mood": "straightforward",
+        "r": 0.2373,
+        "p": 0.0
+      },
+      {
+        "mood": "instructional",
+        "r": 0.1838,
+        "p": 0.0
+      },
+      {
+        "mood": "joyful",
+        "r": 0.1385,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "somber",
+        "r": -0.2287,
+        "p": 0.0
+      },
+      {
+        "mood": "luxurious",
+        "r": -0.2277,
+        "p": 0.0
+      },
+      {
+        "mood": "elegant",
+        "r": -0.1938,
+        "p": 0.0
+      },
+      {
+        "mood": "sophisticated",
+        "r": -0.178,
+        "p": 0.0
+      },
+      {
+        "mood": "surprised",
+        "r": -0.1758,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "focused",
+        70
+      ],
+      [
+        "mysterious",
+        63
+      ],
+      [
+        "serious",
+        61
+      ],
+      [
+        "practical",
+        60
+      ],
+      [
+        "intense",
+        55
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "somber",
+        62
+      ],
+      [
+        "luxurious",
+        46
+      ],
+      [
+        "casual",
+        44
+      ],
+      [
+        "sophisticated",
+        42
+      ],
+      [
+        "relaxed",
+        41
+      ]
+    ]
+  },
+  "PC13": {
+    "name": "Suspenseful-Wistful",
+    "label": "PC13: Suspenseful-Wistful (suspenseful r=+0.1822 vs wistful r=-0.2936)",
+    "top5_positive": [
+      {
+        "mood": "suspenseful",
+        "r": 0.1822,
+        "p": 0.0
+      },
+      {
+        "mood": "dramatic",
+        "r": 0.1754,
+        "p": 0.0
+      },
+      {
+        "mood": "emotional",
+        "r": 0.1735,
+        "p": 0.0
+      },
+      {
+        "mood": "intense",
+        "r": 0.1608,
+        "p": 0.0
+      },
+      {
+        "mood": "calm",
+        "r": 0.16,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "wistful",
+        "r": -0.2936,
+        "p": 0.0
+      },
+      {
+        "mood": "confident",
+        "r": -0.1852,
+        "p": 0.0
+      },
+      {
+        "mood": "playful",
+        "r": -0.1754,
+        "p": 0.0
+      },
+      {
+        "mood": "luxurious",
+        "r": -0.1673,
+        "p": 0.0
+      },
+      {
+        "mood": "glamorous",
+        "r": -0.1606,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "intense",
+        93
+      ],
+      [
+        "dramatic",
+        73
+      ],
+      [
+        "tense",
+        59
+      ],
+      [
+        "calm",
+        56
+      ],
+      [
+        "emotional",
+        48
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "contemplative",
+        62
+      ],
+      [
+        "concerned",
+        40
+      ],
+      [
+        "wistful",
+        39
+      ],
+      [
+        "playful",
+        37
+      ],
+      [
+        "melancholic",
+        36
+      ]
+    ]
+  },
+  "PC14": {
+    "name": "Enchanting-Casual",
+    "label": "PC14: Enchanting-Casual (enchanting r=+0.2135 vs casual r=-0.2919)",
+    "top5_positive": [
+      {
+        "mood": "enchanting",
+        "r": 0.2135,
+        "p": 0.0
+      },
+      {
+        "mood": "magical",
+        "r": 0.2062,
+        "p": 0.0
+      },
+      {
+        "mood": "hopeful",
+        "r": 0.1726,
+        "p": 0.0
+      },
+      {
+        "mood": "solemn",
+        "r": 0.1538,
+        "p": 0.0
+      },
+      {
+        "mood": "mystical",
+        "r": 0.1414,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "casual",
+        "r": -0.2919,
+        "p": 0.0
+      },
+      {
+        "mood": "relaxed",
+        "r": -0.2614,
+        "p": 0.0
+      },
+      {
+        "mood": "intense",
+        "r": -0.2017,
+        "p": 0.0
+      },
+      {
+        "mood": "dynamic",
+        "r": -0.1897,
+        "p": 0.0
+      },
+      {
+        "mood": "sleek",
+        "r": -0.1649,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mysterious",
+        57
+      ],
+      [
+        "calm",
+        41
+      ],
+      [
+        "hopeful",
+        38
+      ],
+      [
+        "concerned",
+        37
+      ],
+      [
+        "magical",
+        36
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "intense",
+        115
+      ],
+      [
+        "casual",
+        85
+      ],
+      [
+        "relaxed",
+        77
+      ],
+      [
+        "focused",
+        60
+      ],
+      [
+        "dynamic",
+        55
+      ]
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "curious",
+      "neutral",
+      "observant",
+      "subdued"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "muted"
+    ],
+    "objects": [
+      "robot",
+      "shelf",
+      "books",
+      "puzzles",
+      "cameras"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "pensive",
+      "contemplative",
+      "neutral",
+      "inquisitive"
+    ],
+    "style": [
+      "cartoonish",
+      "muted",
+      "detailed"
+    ],
+    "objects": [
+      "robot",
+      "shelves",
+      "books",
+      "vhs tapes"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "lonely",
+      "pensive",
+      "subdued"
+    ],
+    "style": [
+      "animated",
+      "flat-shading",
+      "cartoon"
+    ],
+    "objects": [
+      "robot",
+      "books",
+      "shelves",
+      "brick wall"
+    ]
+  }
+}

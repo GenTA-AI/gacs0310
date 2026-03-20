@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "elegant",
+      "confident",
+      "artistic",
+      "fashionable",
+      "poised"
+    ],
+    "style": [
+      "fashion-forward",
+      "floral",
+      "monochrome"
+    ],
+    "objects": [
+      "person",
+      "dress",
+      "moncler logos",
+      "background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "stylish",
+      "confident",
+      "poised",
+      "elegant",
+      "serious"
+    ],
+    "style": [
+      "flat",
+      "event",
+      "fashion"
+    ],
+    "objects": [
+      "woman",
+      "daisy print dress",
+      "moncler logo",
+      "backdrop"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "confident",
+      "glamorous",
+      "poised",
+      "sophisticated"
+    ],
+    "style": [
+      "fashion-forward",
+      "editorial",
+      "high-contrast"
+    ],
+    "objects": [
+      "woman",
+      "dress",
+      "backdrop",
+      "logos"
+    ]
+  }
+}

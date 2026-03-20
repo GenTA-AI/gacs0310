@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "energetic",
+      "dynamic",
+      "lively",
+      "carefree"
+    ],
+    "style": [
+      "natural",
+      "rustic",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "horse",
+      "fence",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "active",
+      "dynamic",
+      "frantic",
+      "stressed"
+    ],
+    "style": [
+      "naturalistic",
+      "daytime",
+      "dynamic"
+    ],
+    "objects": [
+      "man",
+      "horse",
+      "fence"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "active",
+      "energetic",
+      "playful",
+      "dynamic",
+      "spirited"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "horse",
+      "fence",
+      "trees"
+    ]
+  }
+}

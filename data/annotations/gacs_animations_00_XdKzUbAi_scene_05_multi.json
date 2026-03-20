@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "playful",
+      "energetic",
+      "carefree",
+      "fun"
+    ],
+    "style": [
+      "bright",
+      "colorful",
+      "animated"
+    ],
+    "objects": [
+      "girl",
+      "city",
+      "skyline",
+      "water",
+      "tower"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "energetic",
+      "cheerful",
+      "frantic",
+      "joyful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "energetic"
+    ],
+    "objects": [
+      "person",
+      "buildings",
+      "cn tower"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "energetic",
+      "playful",
+      "excited",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "person",
+      "cityscape",
+      "tower",
+      "buildings"
+    ]
+  }
+}

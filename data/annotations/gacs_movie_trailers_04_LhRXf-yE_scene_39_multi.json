@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "majestic",
+      "expansive",
+      "urban",
+      "impressive",
+      "grand"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "aerial"
+    ],
+    "objects": [
+      "empire state building",
+      "skyscrapers",
+      "cityscape",
+      "manhattan",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "grand",
+      "majestic",
+      "powerful",
+      "expansive",
+      "awe"
+    ],
+    "style": [
+      "aerial",
+      "detailed",
+      "urban"
+    ],
+    "objects": [
+      "empire state building",
+      "skyscrapers",
+      "river",
+      "city"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "urban",
+      "grand",
+      "iconic",
+      "expansive"
+    ],
+    "style": [
+      "aerial",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "empire state building",
+      "skyscrapers",
+      "river",
+      "cityscape"
+    ]
+  }
+}

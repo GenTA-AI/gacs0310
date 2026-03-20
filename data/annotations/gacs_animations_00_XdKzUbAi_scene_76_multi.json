@@ -1,0 +1,59 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "daring",
+      "bold",
+      "rebellious",
+      "energetic"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "monochrome"
+    ],
+    "objects": [
+      "your wild side"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "provocative",
+      "bold",
+      "adventurous",
+      "rebellious",
+      "daring"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "words"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "bold",
+      "dramatic",
+      "adventurous",
+      "rebellious"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "high-contrast"
+    ],
+    "objects": [
+      "text",
+      "title",
+      "words"
+    ]
+  }
+}

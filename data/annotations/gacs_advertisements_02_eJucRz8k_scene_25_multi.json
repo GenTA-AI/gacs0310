@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "anticipatory",
+      "relaxed",
+      "casual",
+      "inviting"
+    ],
+    "style": [
+      "realistic",
+      "warm-toned",
+      "detailed"
+    ],
+    "objects": [
+      "newspaper",
+      "bottle",
+      "table",
+      "horses"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "nostalgic",
+      "reflective",
+      "casual",
+      "ordinary"
+    ],
+    "style": [
+      "desaturated",
+      "candid",
+      "domestic"
+    ],
+    "objects": [
+      "newspaper",
+      "beer bottle"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "contemplative",
+      "casual",
+      "relaxed",
+      "reflective"
+    ],
+    "style": [
+      "intimate",
+      "documentary",
+      "vintage"
+    ],
+    "objects": [
+      "newspaper",
+      "hands",
+      "bottle",
+      "table"
+    ]
+  }
+}

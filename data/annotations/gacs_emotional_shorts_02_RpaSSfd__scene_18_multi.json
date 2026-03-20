@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "inviting",
+      "curious",
+      "homely",
+      "serene"
+    ],
+    "style": [
+      "interior",
+      "muted",
+      "contemporary"
+    ],
+    "objects": [
+      "lamp",
+      "plant",
+      "wall",
+      "doorway"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "uncertain",
+      "quiet",
+      "expectant",
+      "curious"
+    ],
+    "style": [
+      "soft",
+      "muted",
+      "interior"
+    ],
+    "objects": [
+      "door",
+      "lamp",
+      "plant"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "intimate",
+      "expectant",
+      "cozy",
+      "welcoming"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "lamp",
+      "door",
+      "plant",
+      "wall",
+      "furniture"
+    ]
+  }
+}

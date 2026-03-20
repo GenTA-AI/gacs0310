@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "serious",
+      "contemplative",
+      "thoughtful",
+      "intimate"
+    ],
+    "style": [
+      "warm-toned",
+      "soft-focus",
+      "vintage"
+    ],
+    "objects": [
+      "person",
+      "cabinet",
+      "window",
+      "papers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "serious",
+      "contemplative",
+      "worried",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "filing cabinets",
+      "frames",
+      "office"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "serious",
+      "focused",
+      "concerned",
+      "determined"
+    ],
+    "style": [
+      "high-key",
+      "close-up",
+      "naturalistic"
+    ],
+    "objects": [
+      "woman",
+      "filing cabinet",
+      "painting"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surreal",
+      "serene",
+      "introspective",
+      "dreamy",
+      "calm"
+    ],
+    "style": [
+      "animated",
+      "cosmic",
+      "moody"
+    ],
+    "objects": [
+      "woman",
+      "space",
+      "stars"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "ethereal",
+      "somber",
+      "introspective"
+    ],
+    "style": [
+      "animated",
+      "cosmic",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "stars",
+      "space",
+      "nebula"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "introspective",
+      "ethereal",
+      "melancholic",
+      "dreaming"
+    ],
+    "style": [
+      "animated",
+      "painterly",
+      "otherworldly"
+    ],
+    "objects": [
+      "woman",
+      "stars",
+      "logo"
+    ]
+  }
+}

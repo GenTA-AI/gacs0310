@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "eerie",
+      "mysterious",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "horror"
+    ],
+    "objects": [
+      "hand",
+      "fingers",
+      "water droplets"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uneasy",
+      "creepy",
+      "ominous",
+      "disturbing",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "close-up"
+    ],
+    "objects": [
+      "hand",
+      "fingers"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "dark",
+      "eerie",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "textured",
+      "moody"
+    ],
+    "objects": [
+      "hand",
+      "water"
+    ]
+  }
+}

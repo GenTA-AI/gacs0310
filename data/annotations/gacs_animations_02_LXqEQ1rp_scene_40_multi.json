@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "intimidating",
+      "fearful",
+      "tense",
+      "threatening"
+    ],
+    "style": [
+      "animated",
+      "dramatic",
+      "medieval"
+    ],
+    "objects": [
+      "ogre",
+      "people",
+      "gate",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "ominous",
+      "intimidating",
+      "triumphant",
+      "powerful"
+    ],
+    "style": [
+      "cinematic",
+      "backlit",
+      "atmospheric"
+    ],
+    "objects": [
+      "archway",
+      "castle",
+      "figure",
+      "people",
+      "staff"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intimidating",
+      "ominous",
+      "foreboding",
+      "suspenseful",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "shadowy",
+      "medieval"
+    ],
+    "objects": [
+      "tall figure",
+      "crowd",
+      "archway",
+      "castle walls"
+    ]
+  }
+}

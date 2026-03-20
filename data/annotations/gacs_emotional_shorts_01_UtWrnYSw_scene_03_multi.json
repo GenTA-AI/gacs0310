@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "nostalgic",
+      "lively",
+      "cheerful"
+    ],
+    "style": [
+      "news-style",
+      "split-screen",
+      "vibrant"
+    ],
+    "objects": [
+      "news reporters",
+      "balloons",
+      "man",
+      "microphone"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "cheerful",
+      "celebratory",
+      "heartwarming",
+      "positive",
+      "sunny"
+    ],
+    "style": [
+      "news broadcast",
+      "bright",
+      "straightforward"
+    ],
+    "objects": [
+      "person",
+      "balloons",
+      "microphone",
+      "news anchor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "lighthearted",
+      "amusing",
+      "playful",
+      "cheerful",
+      "entertaining"
+    ],
+    "style": [
+      "broadcast",
+      "split-screen",
+      "professional"
+    ],
+    "objects": [
+      "reporter",
+      "microphone",
+      "umbrella",
+      "plants",
+      "news anchors"
+    ]
+  }
+}

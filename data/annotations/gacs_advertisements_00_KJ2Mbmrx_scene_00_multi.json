@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "strategic",
+      "focused",
+      "intense",
+      "deliberate"
+    ],
+    "style": [
+      "dramatic",
+      "moody",
+      "cinematic"
+    ],
+    "objects": [
+      "hand",
+      "chess pieces",
+      "chessboard",
+      "king"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "strategic",
+      "contemplative",
+      "tense",
+      "focused",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "low-key",
+      "high-contrast"
+    ],
+    "objects": [
+      "chessboard",
+      "hand",
+      "chess pieces"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strategic",
+      "calculating",
+      "serious",
+      "intense",
+      "deliberate"
+    ],
+    "style": [
+      "dramatic",
+      "dark",
+      "focused"
+    ],
+    "objects": [
+      "chessboard",
+      "chess piece",
+      "hand"
+    ]
+  }
+}

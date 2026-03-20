@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "colorful",
+      "animated",
+      "dynamic",
+      "lively",
+      "vibrant"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "girl",
+      "floor",
+      "pillars",
+      "doors",
+      "plants"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "panicked",
+      "energetic",
+      "concerned",
+      "dramatic"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "mirabel madrigal",
+      "building",
+      "courtyard",
+      "plant"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "energetic",
+      "celebratory",
+      "vibrant",
+      "magical"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "colorful"
+    ],
+    "objects": [
+      "character",
+      "courtyard",
+      "arches",
+      "floor pattern"
+    ]
+  }
+}

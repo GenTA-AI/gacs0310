@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "pensive",
+      "contemplative",
+      "subdued",
+      "somber"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "realistic"
+    ],
+    "objects": [
+      "woman",
+      "spoon",
+      "kitchen",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "contemplative",
+      "somber",
+      "introspective",
+      "reflective"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "muted-tones"
+    ],
+    "objects": [
+      "woman",
+      "spoon",
+      "plate rack",
+      "window",
+      "knives"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "somber",
+      "pensive"
+    ],
+    "style": [
+      "warm-toned",
+      "intimate",
+      "domestic"
+    ],
+    "objects": [
+      "woman",
+      "kitchen",
+      "spoon",
+      "food",
+      "cabinets"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "silhouetted"
+    ],
+    "objects": [
+      "helmet",
+      "sword",
+      "armor",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "tense",
+      "heavy",
+      "foreboding",
+      "dark"
+    ],
+    "style": [
+      "abstract",
+      "dark",
+      "orange"
+    ],
+    "objects": [
+      "object",
+      "sky",
+      "smoke"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "dramatic",
+      "intense",
+      "enigmatic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "structure",
+      "smoke",
+      "cables"
+    ]
+  }
+}

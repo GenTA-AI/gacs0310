@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "expectant",
+      "hopeful",
+      "reverent",
+      "anxious"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "medieval"
+    ],
+    "objects": [
+      "people",
+      "throne",
+      "stained glass window"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "reverent",
+      "solemn",
+      "ceremonial",
+      "anticipatory",
+      "sacred"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "stained glass windows",
+      "thrones",
+      "crowd",
+      "sunlight beams",
+      "stone pillars"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "anticipatory",
+      "communal",
+      "engaged",
+      "warm"
+    ],
+    "style": [
+      "colorful",
+      "detailed",
+      "medieval"
+    ],
+    "objects": [
+      "people",
+      "throne",
+      "stained glass",
+      "armor"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "stylish",
+      "casual",
+      "relaxed",
+      "modern"
+    ],
+    "style": [
+      "bright",
+      "commercial",
+      "shallow-depth"
+    ],
+    "objects": [
+      "woman",
+      "pepsi",
+      "phone",
+      "sunglasses"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "confident",
+      "cheerful",
+      "relaxed",
+      "carefree"
+    ],
+    "style": [
+      "commercial",
+      "vibrant",
+      "polished"
+    ],
+    "objects": [
+      "person",
+      "sunglasses",
+      "cup",
+      "pepsi logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "playful",
+      "casual",
+      "upbeat",
+      "modern"
+    ],
+    "style": [
+      "vibrant",
+      "modern",
+      "stylish"
+    ],
+    "objects": [
+      "person",
+      "sunglasses",
+      "phone",
+      "pepsi cup"
+    ]
+  }
+}

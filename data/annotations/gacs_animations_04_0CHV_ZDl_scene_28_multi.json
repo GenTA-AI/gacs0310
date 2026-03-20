@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "calm",
+      "nostalgic",
+      "mellow",
+      "sentimental"
+    ],
+    "style": [
+      "animated",
+      "nostalgic",
+      "romantic"
+    ],
+    "objects": [
+      "bridge",
+      "bench",
+      "trash can"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "warm",
+      "serene",
+      "reflective",
+      "urban"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "urban"
+    ],
+    "objects": [
+      "bench",
+      "bridge",
+      "railing",
+      "trash can",
+      "lamppost"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "warm",
+      "romantic",
+      "peaceful",
+      "sentimental"
+    ],
+    "style": [
+      "animated",
+      "nostalgic",
+      "twilight-lit"
+    ],
+    "objects": [
+      "bridge",
+      "bench",
+      "railing",
+      "buildings",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "festive",
+      "joyful",
+      "uplifting"
+    ],
+    "style": [
+      "informative",
+      "news-style",
+      "straightforward"
+    ],
+    "objects": [
+      "house",
+      "balloons",
+      "american flag",
+      "tree",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "patriotic",
+      "celebratory",
+      "joyful",
+      "heartwarming"
+    ],
+    "style": [
+      "bright",
+      "daytime",
+      "news"
+    ],
+    "objects": [
+      "house",
+      "flag",
+      "balloons",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "patriotic",
+      "festive",
+      "heartwarming"
+    ],
+    "style": [
+      "news-broadcast",
+      "bright-daylight",
+      "documentary-style"
+    ],
+    "objects": [
+      "house",
+      "flags",
+      "people",
+      "sky",
+      "trees"
+    ]
+  }
+}

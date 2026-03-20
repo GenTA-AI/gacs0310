@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "casual",
+      "intimate",
+      "contemplative",
+      "nostalgic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "pizza sign",
+      "two people",
+      "bench",
+      "storefront",
+      "sneakers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "casual",
+      "relaxed",
+      "mellow",
+      "calm",
+      "comfortable"
+    ],
+    "style": [
+      "urban",
+      "warm-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "man",
+      "pizza sign",
+      "street",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "casual",
+      "relaxed",
+      "conversational",
+      "serene"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "pizza sign",
+      "people",
+      "street",
+      "shoes"
+    ]
+  }
+}

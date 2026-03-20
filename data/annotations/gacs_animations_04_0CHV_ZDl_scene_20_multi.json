@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprised",
+      "curious",
+      "calm",
+      "casual",
+      "relaxed"
+    ],
+    "style": [
+      "cartoonish",
+      "muted",
+      "simple"
+    ],
+    "objects": [
+      "dog",
+      "cup",
+      "sink",
+      "dishes"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surprised",
+      "worried",
+      "anxious",
+      "observant",
+      "concerned"
+    ],
+    "style": [
+      "cartoonish",
+      "flat",
+      "muted"
+    ],
+    "objects": [
+      "dog",
+      "sink",
+      "drink",
+      "door"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surprised",
+      "confused",
+      "anxious",
+      "bewildered",
+      "startled"
+    ],
+    "style": [
+      "cartoon",
+      "flat-shading",
+      "animated"
+    ],
+    "objects": [
+      "dog",
+      "kitchen",
+      "drink cup",
+      "dishes",
+      "cabinets"
+    ]
+  }
+}

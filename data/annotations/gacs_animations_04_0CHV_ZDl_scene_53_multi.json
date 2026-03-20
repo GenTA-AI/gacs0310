@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "worried",
+      "uneasy",
+      "pensive",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "muted",
+      "somber"
+    ],
+    "objects": [
+      "dog",
+      "bus seats",
+      "luggage"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "contemplative",
+      "calm",
+      "somber",
+      "introspective"
+    ],
+    "style": [
+      "muted",
+      "cartoonish",
+      "contemplative"
+    ],
+    "objects": [
+      "dog character",
+      "bus seat",
+      "window",
+      "luggage"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confused",
+      "uncertain",
+      "bewildered",
+      "startled",
+      "disoriented"
+    ],
+    "style": [
+      "animated",
+      "monochromatic",
+      "flat-shaded"
+    ],
+    "objects": [
+      "robot",
+      "spaceship interior",
+      "seats",
+      "corridor"
+    ]
+  }
+}

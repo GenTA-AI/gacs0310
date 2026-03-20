@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "observed",
+      "controlled",
+      "wary",
+      "anxious",
+      "sterile"
+    ],
+    "style": [
+      "industrial",
+      "overcast",
+      "security"
+    ],
+    "objects": [
+      "security camera",
+      "fence",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "secure",
+      "watchful",
+      "exposed",
+      "observant",
+      "vigilant"
+    ],
+    "style": [
+      "cinematic",
+      "clean",
+      "sharp"
+    ],
+    "objects": [
+      "security camera",
+      "fence",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "clinical",
+      "sterile",
+      "watchful",
+      "institutional",
+      "surveillance"
+    ],
+    "style": [
+      "industrial",
+      "bright-lit",
+      "documentary"
+    ],
+    "objects": [
+      "security camera",
+      "metal railing",
+      "building structure",
+      "mounting bracket"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "shadowy",
+      "dramatic",
+      "enigmatic",
+      "stark"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "fashion"
+    ],
+    "objects": [
+      "hat",
+      "raincoat",
+      "belt",
+      "feather"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "enigmatic",
+      "shadowy",
+      "somber",
+      "eerie"
+    ],
+    "style": [
+      "minimalistic",
+      "monochromatic",
+      "dramatic"
+    ],
+    "objects": [
+      "raincoat",
+      "hat",
+      "belt",
+      "feather accessory"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "dramatic",
+      "enigmatic",
+      "haunting"
+    ],
+    "style": [
+      "dramatic",
+      "monochromatic",
+      "avant-garde"
+    ],
+    "objects": [
+      "person",
+      "hat",
+      "coat",
+      "belt"
+    ]
+  }
+}

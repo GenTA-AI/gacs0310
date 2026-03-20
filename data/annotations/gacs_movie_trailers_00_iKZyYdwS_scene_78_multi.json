@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ominous",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "neon",
+      "retro",
+      "atmospheric"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "red lighting",
+      "title screen"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "suspenseful",
+      "ominous",
+      "retro"
+    ],
+    "style": [
+      "neon",
+      "dark",
+      "retro"
+    ],
+    "objects": [
+      "stranger things logo",
+      "text",
+      "neon light",
+      "title"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ominous",
+      "eerie",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "red",
+      "bold"
+    ],
+    "objects": [
+      "stranger things",
+      "5"
+    ]
+  }
+}

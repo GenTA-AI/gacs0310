@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "disturbing",
+      "concerning",
+      "sad",
+      "tragic"
+    ],
+    "style": [
+      "documentary",
+      "news",
+      "snapshot"
+    ],
+    "objects": [
+      "police car",
+      "horse",
+      "brick wall",
+      "street",
+      "greenery"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "surprising",
+      "unexpected",
+      "concerning",
+      "somber"
+    ],
+    "style": [
+      "documentary",
+      "candid",
+      "news-style"
+    ],
+    "objects": [
+      "police car",
+      "road",
+      "person",
+      "trees",
+      "wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "tragic",
+      "distressing",
+      "grim",
+      "unsettling"
+    ],
+    "style": [
+      "news-broadcast",
+      "documentary",
+      "surveillance-footage"
+    ],
+    "objects": [
+      "police car",
+      "cows",
+      "road",
+      "wall",
+      "trees"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "earnest",
+      "anxious",
+      "hopeful",
+      "concerned",
+      "intimate"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "soft"
+    ],
+    "objects": [
+      "person",
+      "plant"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "intimate",
+      "engaging",
+      "warm",
+      "familial"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "detailed"
+    ],
+    "objects": [
+      "people",
+      "plants",
+      "pots",
+      "balcony"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "romantic",
+      "intimate",
+      "tender",
+      "peaceful",
+      "enchanting"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "plants",
+      "terrace",
+      "buildings"
+    ]
+  }
+}

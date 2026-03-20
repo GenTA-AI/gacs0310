@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "awe-inspiring",
+      "tranquil",
+      "adventurous",
+      "majestic",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "lush",
+      "epic"
+    ],
+    "objects": [
+      "person",
+      "waterfall",
+      "cliffs",
+      "trees",
+      "birds"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awe",
+      "adventurous",
+      "curious",
+      "foreboding",
+      "majestic"
+    ],
+    "style": [
+      "lush",
+      "expansive",
+      "dramatic"
+    ],
+    "objects": [
+      "mountains",
+      "waterfall",
+      "person",
+      "jungle"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "awe-inspiring",
+      "mysterious",
+      "expansive",
+      "curious"
+    ],
+    "style": [
+      "cinematic",
+      "lush",
+      "adventurous"
+    ],
+    "objects": [
+      "person",
+      "waterfalls",
+      "trees",
+      "cliffs"
+    ]
+  }
+}

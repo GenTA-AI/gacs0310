@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "aggressive",
+      "dangerous",
+      "violent",
+      "threatening"
+    ],
+    "style": [
+      "cinematic",
+      "action-packed",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "gun",
+      "vehicle",
+      "muzzle flash"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "violent",
+      "aggressive",
+      "intense",
+      "dangerous",
+      "dramatic"
+    ],
+    "style": [
+      "action",
+      "gritty",
+      "realistic"
+    ],
+    "objects": [
+      "man",
+      "ak-47",
+      "car"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "aggressive",
+      "chaotic",
+      "dangerous",
+      "alarming"
+    ],
+    "style": [
+      "action-packed",
+      "intense",
+      "dynamic"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "gun"
+    ]
+  }
+}

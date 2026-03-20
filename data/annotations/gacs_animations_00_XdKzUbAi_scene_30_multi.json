@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "eerie",
+      "ominous",
+      "sinister",
+      "mysterious",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "eerie",
+      "red-hued"
+    ],
+    "objects": [
+      "ghosts",
+      "temple",
+      "clouds",
+      "darkness"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "threatening",
+      "eerie",
+      "dark",
+      "foreboding"
+    ],
+    "style": [
+      "monochromatic",
+      "ominous",
+      "stylized"
+    ],
+    "objects": [
+      "building",
+      "statues"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "menacing",
+      "eerie",
+      "sinister",
+      "threatening"
+    ],
+    "style": [
+      "atmospheric",
+      "monochromatic",
+      "silhouetted"
+    ],
+    "objects": [
+      "figures",
+      "eyes",
+      "red lighting",
+      "silhouettes"
+    ]
+  }
+}

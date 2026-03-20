@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "determined",
+      "serious",
+      "concentrated"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "car interior",
+      "steering wheel",
+      "windshield"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fear",
+      "panic",
+      "urgency",
+      "chaos",
+      "desperate"
+    ],
+    "style": [
+      "dynamic",
+      "intense",
+      "gritty"
+    ],
+    "objects": [
+      "man",
+      "car interior",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "alarmed",
+      "chaotic",
+      "frightened",
+      "urgent"
+    ],
+    "style": [
+      "dynamic",
+      "intense",
+      "blurred"
+    ],
+    "objects": [
+      "person",
+      "interior",
+      "vehicle"
+    ]
+  }
+}

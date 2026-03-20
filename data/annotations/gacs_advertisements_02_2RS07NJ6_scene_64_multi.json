@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "dynamic",
+      "powerful",
+      "sophisticated"
+    ],
+    "style": [
+      "sleek",
+      "modern",
+      "high-contrast"
+    ],
+    "objects": [
+      "car",
+      "headlights",
+      "vent",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "sleek",
+      "confident",
+      "refined",
+      "focused"
+    ],
+    "style": [
+      "clean",
+      "bright",
+      "automotive"
+    ],
+    "objects": [
+      "car",
+      "headlight",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "sophisticated",
+      "technical",
+      "precise",
+      "clinical"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "close-up"
+    ],
+    "objects": [
+      "car",
+      "windows",
+      "porsche logo",
+      "headlight"
+    ]
+  }
+}

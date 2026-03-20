@@ -1,0 +1,1500 @@
+{
+  "PC1": {
+    "name": "Fear-Joy",
+    "label": "PC1: Fear-Joy (fear r=+0.5238 vs joy r=-0.4218)",
+    "variance_explained_pct": 27.7967,
+    "top5_positive": [
+      {
+        "mood": "fear",
+        "r": 0.5238,
+        "p": 0.0
+      },
+      {
+        "mood": "tension",
+        "r": 0.4951,
+        "p": 0.0
+      },
+      {
+        "mood": "darkness",
+        "r": 0.3605,
+        "p": 0.0
+      },
+      {
+        "mood": "mystery",
+        "r": 0.3485,
+        "p": 0.0
+      },
+      {
+        "mood": "chaos",
+        "r": 0.2979,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "joy",
+        "r": -0.4218,
+        "p": 0.0
+      },
+      {
+        "mood": "warmth",
+        "r": -0.3926,
+        "p": 0.0
+      },
+      {
+        "mood": "calm",
+        "r": -0.2957,
+        "p": 0.0
+      },
+      {
+        "mood": "contentment",
+        "r": -0.2549,
+        "p": 0.0
+      },
+      {
+        "mood": "amusement",
+        "r": -0.231,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "fear",
+        41
+      ],
+      [
+        "tension",
+        38
+      ],
+      [
+        "darkness",
+        19
+      ],
+      [
+        "chaos",
+        17
+      ],
+      [
+        "mystery",
+        17
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "joy",
+        56
+      ],
+      [
+        "warmth",
+        44
+      ],
+      [
+        "contentment",
+        25
+      ],
+      [
+        "poignance",
+        16
+      ],
+      [
+        "amusement",
+        13
+      ]
+    ],
+    "valence_r": -0.7615,
+    "valence_p": 0.0,
+    "arousal_r": 0.3103,
+    "arousal_p": 0.0
+  },
+  "PC2": {
+    "name": "Sadness-Excitement",
+    "label": "PC2: Sadness-Excitement (sadness r=+0.3508 vs excitement r=-0.4046)",
+    "variance_explained_pct": 13.9591,
+    "top5_positive": [
+      {
+        "mood": "sadness",
+        "r": 0.3508,
+        "p": 0.0
+      },
+      {
+        "mood": "calm",
+        "r": 0.3346,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": 0.258,
+        "p": 0.0
+      },
+      {
+        "mood": "loneliness",
+        "r": 0.2153,
+        "p": 0.0
+      },
+      {
+        "mood": "neutral",
+        "r": 0.1946,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "excitement",
+        "r": -0.4046,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": -0.3516,
+        "p": 0.0
+      },
+      {
+        "mood": "joy",
+        "r": -0.3065,
+        "p": 0.0
+      },
+      {
+        "mood": "celebration",
+        "r": -0.2242,
+        "p": 0.0
+      },
+      {
+        "mood": "amusement",
+        "r": -0.1936,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "sadness",
+        49
+      ],
+      [
+        "contemplation",
+        27
+      ],
+      [
+        "loneliness",
+        23
+      ],
+      [
+        "darkness",
+        20
+      ],
+      [
+        "calm",
+        16
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        18
+      ],
+      [
+        "wonder",
+        18
+      ],
+      [
+        "joy",
+        16
+      ],
+      [
+        "excitement",
+        13
+      ],
+      [
+        "poignance",
+        13
+      ]
+    ],
+    "valence_r": -0.3212,
+    "valence_p": 0.0,
+    "arousal_r": -0.5667,
+    "arousal_p": 0.0
+  },
+  "PC3": {
+    "name": "Fear-Sadness",
+    "label": "PC3: Fear-Sadness (fear r=+0.3715 vs sadness r=-0.5941)",
+    "variance_explained_pct": 11.11,
+    "top5_positive": [
+      {
+        "mood": "fear",
+        "r": 0.3715,
+        "p": 0.0
+      },
+      {
+        "mood": "chaos",
+        "r": 0.2381,
+        "p": 0.0
+      },
+      {
+        "mood": "tension",
+        "r": 0.221,
+        "p": 0.0
+      },
+      {
+        "mood": "anger",
+        "r": 0.1216,
+        "p": 0.0
+      },
+      {
+        "mood": "neutral",
+        "r": 0.1136,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "sadness",
+        "r": -0.5941,
+        "p": 0.0
+      },
+      {
+        "mood": "loneliness",
+        "r": -0.2682,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": -0.1745,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": -0.1385,
+        "p": 0.0
+      },
+      {
+        "mood": "darkness",
+        "r": -0.0985,
+        "p": 0.0004
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "fear",
+        54
+      ],
+      [
+        "tension",
+        51
+      ],
+      [
+        "chaos",
+        23
+      ],
+      [
+        "mystery",
+        15
+      ],
+      [
+        "darkness",
+        14
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "sadness",
+        63
+      ],
+      [
+        "contemplation",
+        22
+      ],
+      [
+        "loneliness",
+        16
+      ],
+      [
+        "tension",
+        16
+      ],
+      [
+        "darkness",
+        14
+      ]
+    ],
+    "valence_r": 0.0021,
+    "valence_p": 0.9416,
+    "arousal_r": 0.2266,
+    "arousal_p": 0.0
+  },
+  "PC4": {
+    "name": "Joy-Focus",
+    "label": "PC4: Joy-Focus (joy r=+0.3094 vs focus r=-0.2655)",
+    "variance_explained_pct": 7.2257,
+    "top5_positive": [
+      {
+        "mood": "joy",
+        "r": 0.3094,
+        "p": 0.0
+      },
+      {
+        "mood": "fear",
+        "r": 0.2697,
+        "p": 0.0
+      },
+      {
+        "mood": "amusement",
+        "r": 0.232,
+        "p": 0.0
+      },
+      {
+        "mood": "darkness",
+        "r": 0.2201,
+        "p": 0.0
+      },
+      {
+        "mood": "sadness",
+        "r": 0.216,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "focus",
+        "r": -0.2655,
+        "p": 0.0
+      },
+      {
+        "mood": "seriousness",
+        "r": -0.2373,
+        "p": 0.0
+      },
+      {
+        "mood": "neutral",
+        "r": -0.2258,
+        "p": 0.0
+      },
+      {
+        "mood": "elegance",
+        "r": -0.224,
+        "p": 0.0
+      },
+      {
+        "mood": "informative",
+        "r": -0.1828,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "fear",
+        27
+      ],
+      [
+        "tension",
+        20
+      ],
+      [
+        "sadness",
+        16
+      ],
+      [
+        "darkness",
+        15
+      ],
+      [
+        "joy",
+        13
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        17
+      ],
+      [
+        "focus",
+        15
+      ],
+      [
+        "contemplation",
+        13
+      ],
+      [
+        "elegance",
+        12
+      ],
+      [
+        "poignance",
+        9
+      ]
+    ],
+    "valence_r": 0.0918,
+    "valence_p": 0.001,
+    "arousal_r": 0.1974,
+    "arousal_p": 0.0
+  },
+  "PC5": {
+    "name": "Mystery-Anger",
+    "label": "PC5: Mystery-Anger (mystery r=+0.2876 vs anger r=-0.4222)",
+    "variance_explained_pct": 4.8238,
+    "top5_positive": [
+      {
+        "mood": "mystery",
+        "r": 0.2876,
+        "p": 0.0
+      },
+      {
+        "mood": "calm",
+        "r": 0.2788,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": 0.2241,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": 0.209,
+        "p": 0.0
+      },
+      {
+        "mood": "elegance",
+        "r": 0.0954,
+        "p": 0.0006
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "anger",
+        "r": -0.4222,
+        "p": 0.0
+      },
+      {
+        "mood": "chaos",
+        "r": -0.3023,
+        "p": 0.0
+      },
+      {
+        "mood": "tension",
+        "r": -0.2897,
+        "p": 0.0
+      },
+      {
+        "mood": "excitement",
+        "r": -0.1816,
+        "p": 0.0
+      },
+      {
+        "mood": "joy",
+        "r": -0.1531,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "mystery",
+        55
+      ],
+      [
+        "calm",
+        29
+      ],
+      [
+        "fear",
+        19
+      ],
+      [
+        "contemplation",
+        18
+      ],
+      [
+        "wonder",
+        17
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        51
+      ],
+      [
+        "chaos",
+        29
+      ],
+      [
+        "anger",
+        16
+      ],
+      [
+        "excitement",
+        15
+      ],
+      [
+        "seriousness",
+        10
+      ]
+    ],
+    "valence_r": 0.0565,
+    "valence_p": 0.0438,
+    "arousal_r": -0.3411,
+    "arousal_p": 0.0
+  },
+  "PC6": {
+    "name": "Warmth-Tension",
+    "label": "PC6: Warmth-Tension (warmth r=+0.2563 vs tension r=-0.2907)",
+    "variance_explained_pct": 3.9836,
+    "top5_positive": [
+      {
+        "mood": "warmth",
+        "r": 0.2563,
+        "p": 0.0
+      },
+      {
+        "mood": "joy",
+        "r": 0.2122,
+        "p": 0.0
+      },
+      {
+        "mood": "poignance",
+        "r": 0.1859,
+        "p": 0.0
+      },
+      {
+        "mood": "fear",
+        "r": 0.1754,
+        "p": 0.0
+      },
+      {
+        "mood": "contentment",
+        "r": 0.1576,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "tension",
+        "r": -0.2907,
+        "p": 0.0
+      },
+      {
+        "mood": "mystery",
+        "r": -0.2903,
+        "p": 0.0
+      },
+      {
+        "mood": "seriousness",
+        "r": -0.2391,
+        "p": 0.0
+      },
+      {
+        "mood": "excitement",
+        "r": -0.2309,
+        "p": 0.0
+      },
+      {
+        "mood": "adventure",
+        "r": -0.2072,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "tension",
+        28
+      ],
+      [
+        "fear",
+        17
+      ],
+      [
+        "poignance",
+        10
+      ],
+      [
+        "vulnerability",
+        10
+      ],
+      [
+        "contemplation",
+        9
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        51
+      ],
+      [
+        "mystery",
+        26
+      ],
+      [
+        "seriousness",
+        24
+      ],
+      [
+        "darkness",
+        15
+      ],
+      [
+        "excitement",
+        14
+      ]
+    ],
+    "valence_r": 0.0182,
+    "valence_p": 0.5163,
+    "arousal_r": -0.2396,
+    "arousal_p": 0.0
+  },
+  "PC7": {
+    "name": "Calm-Seriousness",
+    "label": "PC7: Calm-Seriousness (calm r=+0.5212 vs seriousness r=-0.3450)",
+    "variance_explained_pct": 2.4636,
+    "top5_positive": [
+      {
+        "mood": "calm",
+        "r": 0.5212,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": 0.2421,
+        "p": 0.0
+      },
+      {
+        "mood": "chaos",
+        "r": 0.1777,
+        "p": 0.0
+      },
+      {
+        "mood": "anger",
+        "r": 0.1281,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": 0.1259,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "seriousness",
+        "r": -0.345,
+        "p": 0.0
+      },
+      {
+        "mood": "poignance",
+        "r": -0.3251,
+        "p": 0.0
+      },
+      {
+        "mood": "sadness",
+        "r": -0.2345,
+        "p": 0.0
+      },
+      {
+        "mood": "warmth",
+        "r": -0.1718,
+        "p": 0.0
+      },
+      {
+        "mood": "informative",
+        "r": -0.1518,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "calm",
+        52
+      ],
+      [
+        "contemplation",
+        32
+      ],
+      [
+        "mystery",
+        11
+      ],
+      [
+        "tension",
+        10
+      ],
+      [
+        "neutral",
+        7
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "seriousness",
+        27
+      ],
+      [
+        "poignance",
+        23
+      ],
+      [
+        "sadness",
+        18
+      ],
+      [
+        "tension",
+        18
+      ],
+      [
+        "warmth",
+        14
+      ]
+    ],
+    "valence_r": 0.1269,
+    "valence_p": 0.0,
+    "arousal_r": -0.1539,
+    "arousal_p": 0.0
+  },
+  "PC8": {
+    "name": "Darkness-Sadness",
+    "label": "PC8: Darkness-Sadness (darkness r=+0.2063 vs sadness r=-0.2503)",
+    "variance_explained_pct": 1.9498,
+    "top5_positive": [
+      {
+        "mood": "darkness",
+        "r": 0.2063,
+        "p": 0.0
+      },
+      {
+        "mood": "amusement",
+        "r": 0.1971,
+        "p": 0.0
+      },
+      {
+        "mood": "mystery",
+        "r": 0.1521,
+        "p": 0.0
+      },
+      {
+        "mood": "nature",
+        "r": 0.0818,
+        "p": 0.0035
+      },
+      {
+        "mood": "tradition",
+        "r": 0.0774,
+        "p": 0.0057
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "sadness",
+        "r": -0.2503,
+        "p": 0.0
+      },
+      {
+        "mood": "calm",
+        "r": -0.1222,
+        "p": 0.0
+      },
+      {
+        "mood": "focus",
+        "r": -0.1137,
+        "p": 0.0
+      },
+      {
+        "mood": "excitement",
+        "r": -0.0942,
+        "p": 0.0008
+      },
+      {
+        "mood": "anger",
+        "r": -0.0786,
+        "p": 0.005
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "tension",
+        32
+      ],
+      [
+        "darkness",
+        24
+      ],
+      [
+        "mystery",
+        17
+      ],
+      [
+        "contemplation",
+        9
+      ],
+      [
+        "fear",
+        8
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "sadness",
+        25
+      ],
+      [
+        "tension",
+        23
+      ],
+      [
+        "focus",
+        12
+      ],
+      [
+        "seriousness",
+        10
+      ],
+      [
+        "calm",
+        9
+      ]
+    ],
+    "valence_r": 0.033,
+    "valence_p": 0.2385,
+    "arousal_r": 0.0575,
+    "arousal_p": 0.0403
+  },
+  "PC9": {
+    "name": "Excitement-Mystery",
+    "label": "PC9: Excitement-Mystery (excitement r=+0.2987 vs mystery r=-0.2582)",
+    "variance_explained_pct": 1.6754,
+    "top5_positive": [
+      {
+        "mood": "excitement",
+        "r": 0.2987,
+        "p": 0.0
+      },
+      {
+        "mood": "elegance",
+        "r": 0.2388,
+        "p": 0.0
+      },
+      {
+        "mood": "urban",
+        "r": 0.2043,
+        "p": 0.0
+      },
+      {
+        "mood": "informative",
+        "r": 0.2006,
+        "p": 0.0
+      },
+      {
+        "mood": "amusement",
+        "r": 0.128,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "mystery",
+        "r": -0.2582,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": -0.2042,
+        "p": 0.0
+      },
+      {
+        "mood": "darkness",
+        "r": -0.178,
+        "p": 0.0
+      },
+      {
+        "mood": "warmth",
+        "r": -0.1572,
+        "p": 0.0
+      },
+      {
+        "mood": "poignance",
+        "r": -0.1465,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "excitement",
+        17
+      ],
+      [
+        "focus",
+        15
+      ],
+      [
+        "elegance",
+        14
+      ],
+      [
+        "urban",
+        14
+      ],
+      [
+        "informative",
+        13
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        36
+      ],
+      [
+        "mystery",
+        32
+      ],
+      [
+        "contemplation",
+        17
+      ],
+      [
+        "darkness",
+        16
+      ],
+      [
+        "seriousness",
+        14
+      ]
+    ],
+    "valence_r": 0.1522,
+    "valence_p": 0.0,
+    "arousal_r": 0.0926,
+    "arousal_p": 0.0009
+  },
+  "PC10": {
+    "name": "Loneliness-Seriousness",
+    "label": "PC10: Loneliness-Seriousness (loneliness r=+0.1604 vs seriousness r=-0.4504)",
+    "variance_explained_pct": 1.246,
+    "top5_positive": [
+      {
+        "mood": "loneliness",
+        "r": 0.1604,
+        "p": 0.0
+      },
+      {
+        "mood": "warmth",
+        "r": 0.1602,
+        "p": 0.0
+      },
+      {
+        "mood": "excitement",
+        "r": 0.1385,
+        "p": 0.0
+      },
+      {
+        "mood": "mystery",
+        "r": 0.1167,
+        "p": 0.0
+      },
+      {
+        "mood": "hope",
+        "r": 0.1141,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "seriousness",
+        "r": -0.4504,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": -0.1963,
+        "p": 0.0
+      },
+      {
+        "mood": "elegance",
+        "r": -0.1359,
+        "p": 0.0
+      },
+      {
+        "mood": "contentment",
+        "r": -0.1252,
+        "p": 0.0
+      },
+      {
+        "mood": "tension",
+        "r": -0.1054,
+        "p": 0.0002
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "excitement",
+        18
+      ],
+      [
+        "mystery",
+        15
+      ],
+      [
+        "tension",
+        14
+      ],
+      [
+        "calm",
+        12
+      ],
+      [
+        "focus",
+        12
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "seriousness",
+        55
+      ],
+      [
+        "tension",
+        27
+      ],
+      [
+        "contemplation",
+        25
+      ],
+      [
+        "calm",
+        12
+      ],
+      [
+        "focus",
+        11
+      ]
+    ],
+    "valence_r": 0.1004,
+    "valence_p": 0.0003,
+    "arousal_r": 0.0477,
+    "arousal_p": 0.0888
+  },
+  "PC11": {
+    "name": "Seriousness-Mystery",
+    "label": "PC11: Seriousness-Mystery (seriousness r=+0.2877 vs mystery r=-0.1606)",
+    "variance_explained_pct": 1.1545,
+    "top5_positive": [
+      {
+        "mood": "seriousness",
+        "r": 0.2877,
+        "p": 0.0
+      },
+      {
+        "mood": "celebration",
+        "r": 0.1862,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": 0.1075,
+        "p": 0.0001
+      },
+      {
+        "mood": "calm",
+        "r": 0.1074,
+        "p": 0.0001
+      },
+      {
+        "mood": "joy",
+        "r": 0.0878,
+        "p": 0.0017
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "mystery",
+        "r": -0.1606,
+        "p": 0.0
+      },
+      {
+        "mood": "fear",
+        "r": -0.1523,
+        "p": 0.0
+      },
+      {
+        "mood": "anger",
+        "r": -0.1379,
+        "p": 0.0
+      },
+      {
+        "mood": "elegance",
+        "r": -0.1206,
+        "p": 0.0
+      },
+      {
+        "mood": "vulnerability",
+        "r": -0.0948,
+        "p": 0.0007
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "calm",
+        24
+      ],
+      [
+        "tension",
+        20
+      ],
+      [
+        "seriousness",
+        17
+      ],
+      [
+        "excitement",
+        14
+      ],
+      [
+        "contemplation",
+        13
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        31
+      ],
+      [
+        "mystery",
+        28
+      ],
+      [
+        "fear",
+        17
+      ],
+      [
+        "darkness",
+        11
+      ],
+      [
+        "elegance",
+        10
+      ]
+    ],
+    "valence_r": 0.0681,
+    "valence_p": 0.015,
+    "arousal_r": -0.0413,
+    "arousal_p": 0.1403
+  },
+  "PC12": {
+    "name": "Elegance-Amusement",
+    "label": "PC12: Elegance-Amusement (elegance r=+0.2981 vs amusement r=-0.3327)",
+    "variance_explained_pct": 1.0443,
+    "top5_positive": [
+      {
+        "mood": "elegance",
+        "r": 0.2981,
+        "p": 0.0
+      },
+      {
+        "mood": "fear",
+        "r": 0.2526,
+        "p": 0.0
+      },
+      {
+        "mood": "darkness",
+        "r": 0.1922,
+        "p": 0.0
+      },
+      {
+        "mood": "chaos",
+        "r": 0.1438,
+        "p": 0.0
+      },
+      {
+        "mood": "celebration",
+        "r": 0.1289,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "amusement",
+        "r": -0.3327,
+        "p": 0.0
+      },
+      {
+        "mood": "contemplation",
+        "r": -0.2474,
+        "p": 0.0
+      },
+      {
+        "mood": "weariness",
+        "r": -0.1237,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": -0.1072,
+        "p": 0.0001
+      },
+      {
+        "mood": "vulnerability",
+        "r": -0.0786,
+        "p": 0.005
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "fear",
+        26
+      ],
+      [
+        "elegance",
+        25
+      ],
+      [
+        "tension",
+        18
+      ],
+      [
+        "chaos",
+        17
+      ],
+      [
+        "darkness",
+        17
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        22
+      ],
+      [
+        "amusement",
+        18
+      ],
+      [
+        "contemplation",
+        18
+      ],
+      [
+        "poignance",
+        11
+      ],
+      [
+        "vulnerability",
+        11
+      ]
+    ],
+    "valence_r": 0.0117,
+    "valence_p": 0.6774,
+    "arousal_r": 0.0379,
+    "arousal_p": 0.1767
+  },
+  "PC13": {
+    "name": "Excitement-Mystery",
+    "label": "PC13: Excitement-Mystery (excitement r=+0.2216 vs mystery r=-0.3116)",
+    "variance_explained_pct": 0.8694,
+    "top5_positive": [
+      {
+        "mood": "excitement",
+        "r": 0.2216,
+        "p": 0.0
+      },
+      {
+        "mood": "adventure",
+        "r": 0.1945,
+        "p": 0.0
+      },
+      {
+        "mood": "tension",
+        "r": 0.12,
+        "p": 0.0
+      },
+      {
+        "mood": "chaos",
+        "r": 0.1067,
+        "p": 0.0001
+      },
+      {
+        "mood": "sadness",
+        "r": 0.1054,
+        "p": 0.0002
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "mystery",
+        "r": -0.3116,
+        "p": 0.0
+      },
+      {
+        "mood": "seriousness",
+        "r": -0.2369,
+        "p": 0.0
+      },
+      {
+        "mood": "darkness",
+        "r": -0.1882,
+        "p": 0.0
+      },
+      {
+        "mood": "joy",
+        "r": -0.1654,
+        "p": 0.0
+      },
+      {
+        "mood": "wonder",
+        "r": -0.1339,
+        "p": 0.0
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "excitement",
+        31
+      ],
+      [
+        "tension",
+        26
+      ],
+      [
+        "adventure",
+        15
+      ],
+      [
+        "contemplation",
+        12
+      ],
+      [
+        "loneliness",
+        10
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "mystery",
+        32
+      ],
+      [
+        "seriousness",
+        25
+      ],
+      [
+        "calm",
+        24
+      ],
+      [
+        "darkness",
+        19
+      ],
+      [
+        "tension",
+        14
+      ]
+    ],
+    "valence_r": -0.0123,
+    "valence_p": 0.661,
+    "arousal_r": 0.0254,
+    "arousal_p": 0.3642
+  },
+  "PC14": {
+    "name": "Wonder-Chaos",
+    "label": "PC14: Wonder-Chaos (wonder r=+0.2579 vs chaos r=-0.1899)",
+    "variance_explained_pct": 0.844,
+    "top5_positive": [
+      {
+        "mood": "wonder",
+        "r": 0.2579,
+        "p": 0.0
+      },
+      {
+        "mood": "hope",
+        "r": 0.1469,
+        "p": 0.0
+      },
+      {
+        "mood": "adventure",
+        "r": 0.1464,
+        "p": 0.0
+      },
+      {
+        "mood": "seriousness",
+        "r": 0.1325,
+        "p": 0.0
+      },
+      {
+        "mood": "loneliness",
+        "r": 0.1318,
+        "p": 0.0
+      }
+    ],
+    "top5_negative": [
+      {
+        "mood": "chaos",
+        "r": -0.1899,
+        "p": 0.0
+      },
+      {
+        "mood": "tension",
+        "r": -0.1759,
+        "p": 0.0
+      },
+      {
+        "mood": "elegance",
+        "r": -0.1319,
+        "p": 0.0
+      },
+      {
+        "mood": "joy",
+        "r": -0.1235,
+        "p": 0.0
+      },
+      {
+        "mood": "romance",
+        "r": -0.0934,
+        "p": 0.0008
+      }
+    ],
+    "extreme_positive_moods": [
+      [
+        "seriousness",
+        18
+      ],
+      [
+        "calm",
+        13
+      ],
+      [
+        "tension",
+        13
+      ],
+      [
+        "wonder",
+        13
+      ],
+      [
+        "hope",
+        11
+      ]
+    ],
+    "extreme_negative_moods": [
+      [
+        "tension",
+        43
+      ],
+      [
+        "mystery",
+        21
+      ],
+      [
+        "chaos",
+        20
+      ],
+      [
+        "darkness",
+        17
+      ],
+      [
+        "excitement",
+        15
+      ]
+    ],
+    "valence_r": -0.0072,
+    "valence_p": 0.7982,
+    "arousal_r": -0.1103,
+    "arousal_p": 0.0001
+  }
+}

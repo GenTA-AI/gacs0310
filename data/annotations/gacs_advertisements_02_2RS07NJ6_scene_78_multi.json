@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "advanced",
+      "dynamic",
+      "technical",
+      "modern"
+    ],
+    "style": [
+      "technical",
+      "clean",
+      "detailed"
+    ],
+    "objects": [
+      "hydraulic actuator",
+      "bolts",
+      "metal rods"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "technical",
+      "precise",
+      "focused",
+      "mechanical",
+      "innovative"
+    ],
+    "style": [
+      "detailed",
+      "industrial",
+      "cool-toned"
+    ],
+    "objects": [
+      "hydraulic cylinder",
+      "bolts"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "technical",
+      "sophisticated",
+      "precise",
+      "futuristic"
+    ],
+    "style": [
+      "sleek",
+      "high-contrast",
+      "technical"
+    ],
+    "objects": [
+      "aerodynamic component",
+      "mechanical parts",
+      "vehicle interior",
+      "adjustment mechanism"
+    ]
+  }
+}

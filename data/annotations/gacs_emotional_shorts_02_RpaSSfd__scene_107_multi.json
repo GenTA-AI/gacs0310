@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confused",
+      "curious",
+      "concerned",
+      "tense",
+      "skeptical"
+    ],
+    "style": [
+      "dramatic",
+      "natural-lit",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "text",
+      "wall art"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "skeptical",
+      "suspicious",
+      "confused",
+      "questioning",
+      "uneasy"
+    ],
+    "style": [
+      "realistic",
+      "cool-toned",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "necklace"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "confused",
+      "tense",
+      "worried",
+      "questioning"
+    ],
+    "style": [
+      "dramatic",
+      "soft-lit",
+      "close-up"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "subtitles",
+      "logo"
+    ]
+  }
+}

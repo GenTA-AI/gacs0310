@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "elegant",
+      "luxurious",
+      "refined",
+      "sophisticated",
+      "classic"
+    ],
+    "style": [
+      "luxurious",
+      "sleek",
+      "minimalistic"
+    ],
+    "objects": [
+      "handbag",
+      "strap",
+      "clasp"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "luxurious",
+      "elegant",
+      "sophisticated",
+      "exclusive",
+      "refined"
+    ],
+    "style": [
+      "elegant",
+      "shallow-focus",
+      "neutral"
+    ],
+    "objects": [
+      "handbag",
+      "lock"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "luxurious",
+      "sophisticated",
+      "refined",
+      "prestigious"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "monochromatic"
+    ],
+    "objects": [
+      "handbag",
+      "leather",
+      "clasp",
+      "strap"
+    ]
+  }
+}

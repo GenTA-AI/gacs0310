@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "ominous",
+      "urgent",
+      "loyal"
+    ],
+    "style": [
+      "dramatic",
+      "high-contrast",
+      "glossy"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "protective",
+      "noble",
+      "determined"
+    ],
+    "style": [
+      "gothic",
+      "golden",
+      "dramatic"
+    ],
+    "objects": [
+      "text",
+      "background",
+      "glow",
+      "lettering"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "protective",
+      "determined",
+      "bold",
+      "powerful",
+      "familial"
+    ],
+    "style": [
+      "ornate",
+      "bold",
+      "dramatic"
+    ],
+    "objects": [
+      "text",
+      "gold lettering"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "formal",
+      "serious",
+      "imposing",
+      "dramatic",
+      "staged"
+    ],
+    "style": [
+      "animated",
+      "formal",
+      "symmetrical"
+    ],
+    "objects": [
+      "man",
+      "palace",
+      "shield"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "regal",
+      "authoritative",
+      "dramatic",
+      "triumphant",
+      "ceremonial"
+    ],
+    "style": [
+      "animated",
+      "medieval",
+      "theatrical"
+    ],
+    "objects": [
+      "throne",
+      "stairs",
+      "scepter",
+      "people",
+      "shield"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "tense",
+      "ceremonial",
+      "ominous",
+      "formal"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "theatrical"
+    ],
+    "objects": [
+      "throne",
+      "figures",
+      "columns",
+      "steps",
+      "curtains"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "proud",
+      "accomplished",
+      "celebratory",
+      "triumphant",
+      "honored"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "awards-focused"
+    ],
+    "objects": [
+      "wooden planks",
+      "screwdriver",
+      "screw",
+      "logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "quirky",
+      "playful",
+      "humorous",
+      "imaginative",
+      "intriguing"
+    ],
+    "style": [
+      "animated",
+      "minimalist",
+      "geometric"
+    ],
+    "objects": [
+      "screwdriver",
+      "screws",
+      "shadows",
+      "laurels"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "prestigious",
+      "accomplished",
+      "elegant",
+      "celebratory",
+      "distinguished"
+    ],
+    "style": [
+      "minimalist",
+      "warm-toned",
+      "geometric"
+    ],
+    "objects": [
+      "awards",
+      "logos",
+      "wooden floor",
+      "text"
+    ]
+  }
+}

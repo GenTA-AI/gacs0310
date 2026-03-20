@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bright",
+      "modern",
+      "curious",
+      "informative",
+      "commercial"
+    ],
+    "style": [
+      "bright",
+      "commercial",
+      "contemporary"
+    ],
+    "objects": [
+      "billboard",
+      "woman",
+      "smartphone"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "curious",
+      "fascinated",
+      "engaged",
+      "contemplative",
+      "intrigued"
+    ],
+    "style": [
+      "vibrant",
+      "digital",
+      "atmospheric"
+    ],
+    "objects": [
+      "large screen",
+      "person",
+      "smartphone",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "intrigued",
+      "modern",
+      "vibrant",
+      "captivated"
+    ],
+    "style": [
+      "vibrant",
+      "modern",
+      "urban"
+    ],
+    "objects": [
+      "billboard",
+      "person",
+      "smartphone",
+      "building"
+    ]
+  }
+}

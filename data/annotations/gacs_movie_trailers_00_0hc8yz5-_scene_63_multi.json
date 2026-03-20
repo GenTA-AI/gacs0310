@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "creative",
+      "lighthearted",
+      "whimsical",
+      "amusing"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "forest-setting"
+    ],
+    "objects": [
+      "wall",
+      "people",
+      "trees",
+      "drawings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "absurd",
+      "bizarre",
+      "comical",
+      "awkward",
+      "provocative"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "desaturated"
+    ],
+    "objects": [
+      "people",
+      "graffiti",
+      "trees",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "humorous",
+      "irreverent",
+      "playful",
+      "casual",
+      "informal"
+    ],
+    "style": [
+      "natural",
+      "humorous",
+      "subdued"
+    ],
+    "objects": [
+      "building",
+      "graffiti",
+      "paint roller",
+      "trees",
+      "people"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "anxious",
+      "somber",
+      "contemplative",
+      "introspective"
+    ],
+    "style": [
+      "artificial",
+      "warm-toned",
+      "indoor"
+    ],
+    "objects": [
+      "woman",
+      "hijab",
+      "window",
+      "city lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "contemplative",
+      "solemn",
+      "serene",
+      "introspective"
+    ],
+    "style": [
+      "animated",
+      "reflective",
+      "dimly-lit"
+    ],
+    "objects": [
+      "person",
+      "window",
+      "city lights"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "vulnerable",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "urban-noir"
+    ],
+    "objects": [
+      "woman",
+      "mirror",
+      "window",
+      "cityscape"
+    ]
+  }
+}

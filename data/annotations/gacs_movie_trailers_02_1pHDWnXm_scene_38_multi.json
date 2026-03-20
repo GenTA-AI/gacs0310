@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "threatening",
+      "intense",
+      "dangerous",
+      "confrontational"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "action-oriented"
+    ],
+    "objects": [
+      "armed soldiers",
+      "kneeling person",
+      "stone building",
+      "cemetery headstones"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "action",
+      "intense",
+      "dangerous",
+      "confrontational",
+      "urgent"
+    ],
+    "style": [
+      "action-oriented",
+      "desaturated",
+      "realistic"
+    ],
+    "objects": [
+      "soldiers",
+      "statue",
+      "fountain",
+      "shield"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "action-packed",
+      "confrontational",
+      "suspenseful",
+      "dramatic"
+    ],
+    "style": [
+      "action-packed",
+      "gritty",
+      "dynamic"
+    ],
+    "objects": [
+      "armored figure",
+      "masked soldiers",
+      "fountain",
+      "stone building"
+    ]
+  }
+}

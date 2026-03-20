@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "dramatic",
+      "mysterious",
+      "powerful",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "high-contrast",
+      "golden"
+    ],
+    "objects": [
+      "person",
+      "sparks",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "intense",
+      "awe-inspiring",
+      "enigmatic"
+    ],
+    "style": [
+      "dynamic",
+      "silhouetted",
+      "sparkling"
+    ],
+    "objects": [
+      "silhouette",
+      "sparks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "contemplative",
+      "surreal",
+      "melancholic",
+      "ethereal"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "rain",
+      "lights",
+      "poles"
+    ]
+  }
+}

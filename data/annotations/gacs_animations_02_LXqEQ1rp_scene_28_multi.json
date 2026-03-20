@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ceremonial",
+      "grand",
+      "imposing",
+      "powerful",
+      "traditional"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "dynamic"
+    ],
+    "objects": [
+      "horses",
+      "crowd",
+      "banners",
+      "knights"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "powerful",
+      "triumphant",
+      "heroic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "horses",
+      "knights",
+      "cobblestone",
+      "banners",
+      "armor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "regal",
+      "triumphant",
+      "lively",
+      "energetic",
+      "grand"
+    ],
+    "style": [
+      "vibrant",
+      "dynamic",
+      "detailed"
+    ],
+    "objects": [
+      "horses",
+      "people",
+      "banners",
+      "cobblestone"
+    ]
+  }
+}

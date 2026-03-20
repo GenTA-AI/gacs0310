@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "observational",
+      "neutral",
+      "grand",
+      "establishing"
+    ],
+    "style": [
+      "aerial",
+      "stylized",
+      "muted"
+    ],
+    "objects": [
+      "cityscape",
+      "building",
+      "tower"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "melancholic",
+      "dreamy",
+      "contemplative",
+      "wistful"
+    ],
+    "style": [
+      "cinematic",
+      "aerial",
+      "warm-toned"
+    ],
+    "objects": [
+      "cityscape",
+      "buildings",
+      "bridge",
+      "text",
+      "smokestacks"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "expansive",
+      "bright",
+      "relaxed"
+    ],
+    "style": [
+      "animated",
+      "detailed",
+      "atmospheric"
+    ],
+    "objects": [
+      "cityscape",
+      "buildings",
+      "tower",
+      "highway"
+    ]
+  }
+}

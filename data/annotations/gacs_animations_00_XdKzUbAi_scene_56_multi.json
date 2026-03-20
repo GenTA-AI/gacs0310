@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "aggressive",
+      "tense",
+      "angry",
+      "anxious",
+      "confrontational"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "intense"
+    ],
+    "objects": [
+      "red panda",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "angry",
+      "intense",
+      "confrontational",
+      "fiery",
+      "emotional"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "intense"
+    ],
+    "objects": [
+      "red panda",
+      "person",
+      "lanterns"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "angry",
+      "intense",
+      "frustrated",
+      "dramatic",
+      "confrontational"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "red panda",
+      "person",
+      "lanterns",
+      "buildings"
+    ]
+  }
+}

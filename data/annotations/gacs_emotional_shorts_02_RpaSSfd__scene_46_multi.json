@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "amused",
+      "skeptical",
+      "wry",
+      "playful",
+      "lighthearted"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "neutral"
+    ],
+    "objects": [
+      "woman",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "amused",
+      "lighthearted",
+      "playful",
+      "affectionate"
+    ],
+    "style": [
+      "casual",
+      "intimate",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "amused",
+      "teasing",
+      "lighthearted",
+      "mischievous"
+    ],
+    "style": [
+      "naturalistic",
+      "soft-lit",
+      "conversational"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "hoodie",
+      "subtitles"
+    ]
+  }
+}

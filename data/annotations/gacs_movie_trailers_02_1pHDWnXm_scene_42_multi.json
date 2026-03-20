@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "moody",
+      "contemplative",
+      "noir",
+      "atmospheric",
+      "melancholic"
+    ],
+    "style": [
+      "noir",
+      "neon-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "car",
+      "man",
+      "neon lights",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "apprehensive",
+      "mysterious",
+      "uneasy",
+      "concerned"
+    ],
+    "style": [
+      "neon-lit",
+      "cinematic",
+      "noir"
+    ],
+    "objects": [
+      "tank",
+      "man",
+      "cabinet"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "suspenseful",
+      "ominous",
+      "curious"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "neon-lit"
+    ],
+    "objects": [
+      "gas pump",
+      "person"
+    ]
+  }
+}

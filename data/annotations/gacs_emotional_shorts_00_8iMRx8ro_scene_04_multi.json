@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "urgent",
+      "relieved",
+      "uncertain",
+      "challenging"
+    ],
+    "style": [
+      "news-style",
+      "raw",
+      "unfiltered"
+    ],
+    "objects": [
+      "rock",
+      "person",
+      "ground",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "relieved",
+      "hopeful",
+      "concerned",
+      "determined"
+    ],
+    "style": [
+      "documentary",
+      "outdoor",
+      "washed-out"
+    ],
+    "objects": [
+      "person",
+      "rocks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "tense",
+      "dramatic",
+      "perilous",
+      "rescue"
+    ],
+    "style": [
+      "news-broadcast",
+      "handheld-footage",
+      "documentary-style"
+    ],
+    "objects": [
+      "rocks",
+      "canyon",
+      "person",
+      "boots"
+    ]
+  }
+}

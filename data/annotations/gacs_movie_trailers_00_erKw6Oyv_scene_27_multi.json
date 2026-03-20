@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "futuristic",
+      "cyberpunk",
+      "ominous",
+      "dystopian"
+    ],
+    "style": [
+      "cyberpunk",
+      "neon-lit",
+      "dystopian"
+    ],
+    "objects": [
+      "stairs",
+      "escalator",
+      "people",
+      "building interior"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "crowded",
+      "urban",
+      "overwhelming",
+      "technological"
+    ],
+    "style": [
+      "futuristic",
+      "urban",
+      "high-angle"
+    ],
+    "objects": [
+      "building",
+      "street",
+      "sign"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "vibrant",
+      "bustling",
+      "chaotic",
+      "urban"
+    ],
+    "style": [
+      "futuristic",
+      "neon-lit",
+      "urban"
+    ],
+    "objects": [
+      "train",
+      "buildings",
+      "signs",
+      "streets"
+    ]
+  }
+}

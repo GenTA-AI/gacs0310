@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "luxurious",
+      "refined",
+      "exclusive"
+    ],
+    "style": [
+      "luxurious",
+      "high-contrast",
+      "shallow-depth"
+    ],
+    "objects": [
+      "handbag",
+      "buckle",
+      "leather"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "luxurious",
+      "polished",
+      "refined"
+    ],
+    "style": [
+      "cinematic",
+      "luxury",
+      "shallow-focus"
+    ],
+    "objects": [
+      "handbag",
+      "clasp",
+      "leather",
+      "handles"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "luxurious",
+      "sophisticated",
+      "elegant",
+      "refined",
+      "classy"
+    ],
+    "style": [
+      "luxurious",
+      "detailed",
+      "elegant"
+    ],
+    "objects": [
+      "handbag",
+      "gold hardware",
+      "strap"
+    ]
+  }
+}

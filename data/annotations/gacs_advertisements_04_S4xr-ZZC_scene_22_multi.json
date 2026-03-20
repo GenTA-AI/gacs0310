@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "curious",
+      "lively",
+      "quirky",
+      "fashionable"
+    ],
+    "style": [
+      "fashion-forward",
+      "vibrant",
+      "eclectic"
+    ],
+    "objects": [
+      "dog",
+      "people",
+      "coat",
+      "sunglasses",
+      "helmet"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "absurd",
+      "bizarre",
+      "curious",
+      "unconventional",
+      "peculiar"
+    ],
+    "style": [
+      "candid",
+      "documentary",
+      "fashion"
+    ],
+    "objects": [
+      "dog",
+      "person",
+      "jacket"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "curious",
+      "playful",
+      "intimate",
+      "casual",
+      "intriguing"
+    ],
+    "style": [
+      "documentary",
+      "candid",
+      "natural-lighting"
+    ],
+    "objects": [
+      "dog",
+      "people",
+      "microphone",
+      "camera",
+      "handbag"
+    ]
+  }
+}

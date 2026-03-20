@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urban",
+      "bustling",
+      "busy",
+      "dynamic",
+      "expansive"
+    ],
+    "style": [
+      "aerial",
+      "desaturated",
+      "urban"
+    ],
+    "objects": [
+      "cars",
+      "crosswalk",
+      "building",
+      "street"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gloomy",
+      "bleak",
+      "urban",
+      "detached",
+      "observational"
+    ],
+    "style": [
+      "desaturated",
+      "aerial",
+      "urban"
+    ],
+    "objects": [
+      "cars",
+      "buildings",
+      "road",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "quiet",
+      "serene",
+      "isolated",
+      "peaceful"
+    ],
+    "style": [
+      "aerial",
+      "urban",
+      "minimalist"
+    ],
+    "objects": [
+      "intersection",
+      "cars",
+      "crosswalk",
+      "buildings"
+    ]
+  }
+}

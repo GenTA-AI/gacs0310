@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "tense",
+      "questioning",
+      "curious",
+      "intimate"
+    ],
+    "style": [
+      "realistic",
+      "modern",
+      "dimly-lit"
+    ],
+    "objects": [
+      "table",
+      "man",
+      "woman",
+      "food",
+      "glasses"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "questioning",
+      "uncomfortable",
+      "strained",
+      "hesitant"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "desaturated"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "salad",
+      "pasta"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "domestic",
+      "concerned",
+      "intimate",
+      "questioning"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "naturalistic"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "pasta",
+      "table",
+      "kitchen"
+    ]
+  }
+}

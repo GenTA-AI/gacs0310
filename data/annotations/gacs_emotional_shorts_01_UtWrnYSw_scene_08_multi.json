@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "festive",
+      "joyful",
+      "patriotic",
+      "cheerful"
+    ],
+    "style": [
+      "broadcast",
+      "busy",
+      "vibrant"
+    ],
+    "objects": [
+      "balloons",
+      "banner",
+      "people",
+      "flag"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "joyful",
+      "heartwarming",
+      "appreciative"
+    ],
+    "style": [
+      "bright",
+      "daytime",
+      "television"
+    ],
+    "objects": [
+      "people",
+      "banner",
+      "balloons",
+      "flag"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "patriotic",
+      "heartwarming",
+      "festive"
+    ],
+    "style": [
+      "news-broadcast",
+      "documentary",
+      "bright-daylight"
+    ],
+    "objects": [
+      "parade float",
+      "banner",
+      "people",
+      "flags"
+    ]
+  }
+}

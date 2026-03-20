@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "majestic",
+      "inspiring",
+      "peaceful",
+      "magnificent"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "aerial"
+    ],
+    "objects": [
+      "skyscrapers",
+      "city lights",
+      "sunset",
+      "streets",
+      "buildings"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "vibrant",
+      "bustling",
+      "energetic",
+      "expansive",
+      "captivating"
+    ],
+    "style": [
+      "vibrant",
+      "urban",
+      "dusk-lit"
+    ],
+    "objects": [
+      "city skyline",
+      "buildings",
+      "lights",
+      "sunset"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "vast",
+      "nocturnal",
+      "powerful",
+      "grand"
+    ],
+    "style": [
+      "aerial",
+      "nocturnal",
+      "detailed"
+    ],
+    "objects": [
+      "cityscape",
+      "buildings",
+      "skyline"
+    ]
+  }
+}

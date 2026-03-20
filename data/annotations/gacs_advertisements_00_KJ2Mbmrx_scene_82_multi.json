@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "industrial",
+      "dark",
+      "mechanical",
+      "focused"
+    ],
+    "style": [
+      "industrial",
+      "dark",
+      "metallic"
+    ],
+    "objects": [
+      "machine",
+      "wire"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "focused",
+      "intense",
+      "intriguing"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "moody"
+    ],
+    "objects": [
+      "machine part",
+      "metal arm"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "moody",
+      "atmospheric",
+      "contemplative",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "shallow-focus"
+    ],
+    "objects": [
+      "violin",
+      "bow",
+      "musician",
+      "strings"
+    ]
+  }
+}

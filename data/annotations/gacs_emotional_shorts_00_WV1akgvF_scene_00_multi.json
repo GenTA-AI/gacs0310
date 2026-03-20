@@ -1,0 +1,58 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspirational",
+      "emotional",
+      "uplifting",
+      "heartwarming",
+      "encouraging"
+    ],
+    "style": [
+      "bold",
+      "vibrant",
+      "centered"
+    ],
+    "objects": [
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "positive",
+      "uplifting",
+      "emotional",
+      "inspiring"
+    ],
+    "style": [
+      "neon",
+      "text-based",
+      "dark"
+    ],
+    "objects": [
+      "text",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "uplifting",
+      "celebratory",
+      "heartwarming",
+      "positive",
+      "encouraging"
+    ],
+    "style": [
+      "bold",
+      "neon-styled",
+      "high-contrast"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  }
+}

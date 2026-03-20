@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "heartwarming",
+      "festive",
+      "uplifting"
+    ],
+    "style": [
+      "news-style",
+      "informational",
+      "bright"
+    ],
+    "objects": [
+      "balloon",
+      "news text",
+      "television logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "heartwarming",
+      "respectful",
+      "appreciative"
+    ],
+    "style": [
+      "blurred",
+      "bright",
+      "outdoor"
+    ],
+    "objects": [
+      "balloon",
+      "tree",
+      "foliage",
+      "news graphic"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "heartwarming",
+      "festive",
+      "uplifting"
+    ],
+    "style": [
+      "news-broadcast",
+      "soft-focus",
+      "colorful"
+    ],
+    "objects": [
+      "birthday card",
+      "news banner",
+      "text",
+      "celebration decorations"
+    ]
+  }
+}

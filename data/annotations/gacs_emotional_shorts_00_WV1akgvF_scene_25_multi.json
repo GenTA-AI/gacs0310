@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "energetic",
+      "joyful",
+      "celebratory",
+      "enthusiastic"
+    ],
+    "style": [
+      "grainy",
+      "low-resolution",
+      "amateur"
+    ],
+    "objects": [
+      "people",
+      "hands",
+      "cbs news logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "energetic",
+      "joyful",
+      "excited",
+      "enthusiastic"
+    ],
+    "style": [
+      "dynamic",
+      "celebratory",
+      "energetic"
+    ],
+    "objects": [
+      "people",
+      "crowd",
+      "basketball jerseys"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "jubilant",
+      "celebratory",
+      "energetic",
+      "triumphant",
+      "ecstatic"
+    ],
+    "style": [
+      "grainy",
+      "documentary",
+      "crowded"
+    ],
+    "objects": [
+      "basketball player",
+      "crowd",
+      "fans",
+      "arena"
+    ]
+  }
+}

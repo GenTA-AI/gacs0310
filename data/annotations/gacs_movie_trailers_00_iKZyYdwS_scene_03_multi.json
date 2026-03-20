@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "tense",
+      "mysterious",
+      "dark",
+      "foreboding"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "retro-tech"
+    ],
+    "objects": [
+      "radio",
+      "display",
+      "knobs",
+      "buttons"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uncertain",
+      "ominous",
+      "mysterious",
+      "anxious",
+      "tense"
+    ],
+    "style": [
+      "close-up",
+      "warm",
+      "dark"
+    ],
+    "objects": [
+      "electronic device",
+      "digital display"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "suspenseful",
+      "intriguing",
+      "retro"
+    ],
+    "style": [
+      "vintage",
+      "moody",
+      "analog"
+    ],
+    "objects": [
+      "radio",
+      "display",
+      "knob",
+      "switch"
+    ]
+  }
+}

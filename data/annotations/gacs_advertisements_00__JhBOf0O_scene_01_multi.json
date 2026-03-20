@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "concerned",
+      "melancholic",
+      "urgent",
+      "fading"
+    ],
+    "style": [
+      "underwater",
+      "vibrant",
+      "concerned"
+    ],
+    "objects": [
+      "coral",
+      "fish",
+      "ocean",
+      "sea"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "somber",
+      "concerned",
+      "urgent",
+      "environmental"
+    ],
+    "style": [
+      "underwater",
+      "documentary",
+      "atmospheric"
+    ],
+    "objects": [
+      "coral reef",
+      "fish",
+      "underwater rocks",
+      "marine vegetation"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "beautiful",
+      "concerning",
+      "wistful",
+      "urgent"
+    ],
+    "style": [
+      "underwater",
+      "natural",
+      "serene"
+    ],
+    "objects": [
+      "coral",
+      "fish",
+      "sea",
+      "water"
+    ]
+  }
+}

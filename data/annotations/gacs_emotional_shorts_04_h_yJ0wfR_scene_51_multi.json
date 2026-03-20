@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "hopeful",
+      "wise"
+    ],
+    "style": [
+      "close-up",
+      "naturalistic",
+      "desaturated"
+    ],
+    "objects": [
+      "face",
+      "hair"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "wise",
+      "contemplative",
+      "gentle"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "close-up"
+    ],
+    "objects": [
+      "elderly man",
+      "hair",
+      "face",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "serene",
+      "warm",
+      "content",
+      "uplifting"
+    ],
+    "style": [
+      "close-up",
+      "detailed",
+      "expressive"
+    ],
+    "objects": [
+      "person",
+      "text",
+      "logo"
+    ]
+  }
+}

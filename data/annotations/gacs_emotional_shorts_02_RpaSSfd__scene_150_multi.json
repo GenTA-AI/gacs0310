@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confrontational",
+      "tense",
+      "suspicious",
+      "serious",
+      "intense"
+    ],
+    "style": [
+      "warm-toned",
+      "dramatic",
+      "focused"
+    ],
+    "objects": [
+      "bartender",
+      "bow tie",
+      "suspenders",
+      "bottles",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "intense",
+      "questioning",
+      "wary",
+      "doubtful"
+    ],
+    "style": [
+      "candid",
+      "medium-shot",
+      "modern"
+    ],
+    "objects": [
+      "man",
+      "bow tie",
+      "suspenders",
+      "bottle"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "hurt",
+      "accusatory",
+      "emotional"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "bow tie",
+      "suspenders",
+      "text"
+    ]
+  }
+}

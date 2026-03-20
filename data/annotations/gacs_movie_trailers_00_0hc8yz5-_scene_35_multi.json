@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "casual",
+      "friendly",
+      "comfortable",
+      "conversational"
+    ],
+    "style": [
+      "warm-toned",
+      "intimate",
+      "cinematic"
+    ],
+    "objects": [
+      "couch",
+      "people",
+      "books",
+      "window",
+      "plant"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relaxed",
+      "casual",
+      "amused",
+      "friendly",
+      "observant"
+    ],
+    "style": [
+      "naturalistic",
+      "medium shot",
+      "indoor"
+    ],
+    "objects": [
+      "couch",
+      "man",
+      "bookshelf"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "engaged",
+      "relaxed",
+      "friendly",
+      "casual"
+    ],
+    "style": [
+      "cozy",
+      "natural",
+      "intimate"
+    ],
+    "objects": [
+      "people",
+      "couch",
+      "plant",
+      "bookshelf"
+    ]
+  }
+}

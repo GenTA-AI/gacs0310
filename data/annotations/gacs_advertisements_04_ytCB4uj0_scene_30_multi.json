@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "informative",
+      "practical",
+      "neutral",
+      "focused",
+      "straightforward"
+    ],
+    "style": [
+      "casual",
+      "straightforward",
+      "instructional"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape",
+      "pocket",
+      "button",
+      "wooden floor"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "neutral",
+      "practical",
+      "instructional",
+      "clear"
+    ],
+    "style": [
+      "practical",
+      "direct",
+      "informative"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "informational",
+      "neutral",
+      "practical",
+      "straightforward",
+      "descriptive"
+    ],
+    "style": [
+      "flat-lay",
+      "instructional",
+      "clean-lighting"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape",
+      "wooden floor"
+    ]
+  }
+}

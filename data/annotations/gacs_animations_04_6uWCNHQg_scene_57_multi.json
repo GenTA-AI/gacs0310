@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surreal",
+      "dreamlike",
+      "adventurous",
+      "curious",
+      "awe"
+    ],
+    "style": [
+      "surreal",
+      "fantastical",
+      "vibrant"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "stars"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surreal",
+      "adventurous",
+      "cosmic",
+      "whimsical",
+      "curious"
+    ],
+    "style": [
+      "surreal",
+      "cosmic",
+      "whimsical"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "stars",
+      "space"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "romantic",
+      "peaceful",
+      "intimate",
+      "ethereal"
+    ],
+    "style": [
+      "cinematic",
+      "fantastical",
+      "ethereal"
+    ],
+    "objects": [
+      "car",
+      "space",
+      "stars",
+      "people"
+    ]
+  }
+}

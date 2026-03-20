@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "nostalgic",
+      "reflective",
+      "melancholic",
+      "observant"
+    ],
+    "style": [
+      "desaturated",
+      "hazy",
+      "realistic"
+    ],
+    "objects": [
+      "person",
+      "fence",
+      "field",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "contemplative",
+      "reflective",
+      "observational",
+      "distant"
+    ],
+    "style": [
+      "naturalistic",
+      "candid",
+      "backlit"
+    ],
+    "objects": [
+      "person",
+      "gate",
+      "field",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "nostalgic",
+      "wistful",
+      "longing"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "fence",
+      "soccer field",
+      "trees",
+      "goal posts"
+    ]
+  }
+}

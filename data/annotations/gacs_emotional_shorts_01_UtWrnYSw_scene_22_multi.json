@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "patriotic",
+      "celebratory",
+      "honoring",
+      "joyful",
+      "respectful"
+    ],
+    "style": [
+      "news-style",
+      "patriotic",
+      "informative"
+    ],
+    "objects": [
+      "flags",
+      "grass",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "patriotic",
+      "celebratory",
+      "respectful",
+      "heartwarming",
+      "hopeful"
+    ],
+    "style": [
+      "patriotic",
+      "documentary",
+      "bright"
+    ],
+    "objects": [
+      "american flags",
+      "lawn",
+      "pennants"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "patriotic",
+      "celebratory",
+      "respectful",
+      "honorable",
+      "joyful"
+    ],
+    "style": [
+      "patriotic",
+      "bright-daylight",
+      "documentary-style"
+    ],
+    "objects": [
+      "american flags",
+      "grass",
+      "news banner",
+      "text overlay"
+    ]
+  }
+}

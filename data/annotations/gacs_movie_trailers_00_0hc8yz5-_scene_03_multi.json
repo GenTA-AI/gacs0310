@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "reflective",
+      "dramatic",
+      "spiritual",
+      "melancholic"
+    ],
+    "style": [
+      "moody",
+      "high-contrast",
+      "backlit"
+    ],
+    "objects": [
+      "person",
+      "stained glass window",
+      "light",
+      "chair"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "somber",
+      "dramatic",
+      "ethereal",
+      "atmospheric"
+    ],
+    "style": [
+      "dramatic",
+      "backlit",
+      "atmospheric"
+    ],
+    "objects": [
+      "chair",
+      "stained glass",
+      "lanterns",
+      "figure"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "contemplative",
+      "melancholic",
+      "atmospheric",
+      "introspective"
+    ],
+    "style": [
+      "moody",
+      "atmospheric",
+      "backlit"
+    ],
+    "objects": [
+      "person",
+      "lights",
+      "chair",
+      "ceiling fan"
+    ]
+  }
+}

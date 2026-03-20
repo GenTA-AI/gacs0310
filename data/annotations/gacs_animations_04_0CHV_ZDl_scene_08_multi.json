@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "domestic",
+      "casual",
+      "focused",
+      "mechanical"
+    ],
+    "style": [
+      "animated",
+      "cartoonish",
+      "minimalist"
+    ],
+    "objects": [
+      "kitchen",
+      "counter",
+      "hand",
+      "cables"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "surreal",
+      "awkward",
+      "curious",
+      "strange"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "linear"
+    ],
+    "objects": [
+      "pipes",
+      "hand",
+      "cabinet",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "tired",
+      "somber",
+      "reflective"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon"
+    ],
+    "objects": [
+      "robot arm",
+      "kitchen counter",
+      "stove",
+      "cabinets"
+    ]
+  }
+}

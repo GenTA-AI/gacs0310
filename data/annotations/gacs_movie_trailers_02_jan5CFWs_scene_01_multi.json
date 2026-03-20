@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "suspenseful",
+      "eerie",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "dinosaur skeleton",
+      "museum exhibit",
+      "people",
+      "columns"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "grand",
+      "historical",
+      "awe",
+      "busy"
+    ],
+    "style": [
+      "muted",
+      "theatrical",
+      "wide-shot"
+    ],
+    "objects": [
+      "dinosaur skeleton",
+      "people",
+      "museum",
+      "chandelier"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "adventurous",
+      "historical",
+      "lively",
+      "intriguing"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "detailed"
+    ],
+    "objects": [
+      "dinosaur skeleton",
+      "people",
+      "ladder",
+      "banner",
+      "chandelier"
+    ]
+  }
+}

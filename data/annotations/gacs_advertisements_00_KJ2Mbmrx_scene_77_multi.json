@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "glamorous",
+      "poised",
+      "content",
+      "composed"
+    ],
+    "style": [
+      "high-key",
+      "glamorous",
+      "shallow-focus"
+    ],
+    "objects": [
+      "mary j. blige",
+      "phone",
+      "mirror"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "content",
+      "relaxed",
+      "confident",
+      "joyful",
+      "glamorous"
+    ],
+    "style": [
+      "glamorous",
+      "warm-lit",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "mirror",
+      "phone",
+      "lights"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "glamorous",
+      "confident",
+      "luxurious",
+      "radiant",
+      "empowered"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "mirror",
+      "lights",
+      "necklace"
+    ]
+  }
+}

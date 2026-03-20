@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ethereal",
+      "contemplative",
+      "melancholic",
+      "dreamlike"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "water",
+      "rocks",
+      "cave",
+      "stalactites"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "imposing",
+      "tense",
+      "uncertain",
+      "dramatic"
+    ],
+    "style": [
+      "desaturated",
+      "epic",
+      "hazy"
+    ],
+    "objects": [
+      "ocean",
+      "island",
+      "clouds",
+      "smoke trail"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "dramatic",
+      "misty",
+      "intense"
+    ],
+    "objects": [
+      "ocean",
+      "smoke",
+      "ship",
+      "cloud"
+    ]
+  }
+}

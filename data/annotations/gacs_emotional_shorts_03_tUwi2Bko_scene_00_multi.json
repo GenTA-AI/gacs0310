@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "introductory",
+      "clean",
+      "professional",
+      "modern",
+      "focused"
+    ],
+    "style": [
+      "minimalist",
+      "corporate",
+      "clean"
+    ],
+    "objects": [
+      "letter c",
+      "circle",
+      "light flares"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "intense",
+      "dramatic",
+      "suspenseful",
+      "enigmatic"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "futuristic"
+    ],
+    "objects": [
+      "circle",
+      "starburst",
+      "c"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "modern",
+      "professional",
+      "polished",
+      "minimal"
+    ],
+    "style": [
+      "minimalist",
+      "glossy",
+      "tech-focused"
+    ],
+    "objects": [
+      "circular logo",
+      "light flare",
+      "letter c"
+    ]
+  }
+}

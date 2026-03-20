@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "intense",
+      "engaging",
+      "serious",
+      "conversational"
+    ],
+    "style": [
+      "natural",
+      "indoor",
+      "conversational"
+    ],
+    "objects": [
+      "people",
+      "closet",
+      "clothing",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "uncomfortable",
+      "tense",
+      "concerned",
+      "questioning"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "closet",
+      "robe"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "romantic",
+      "gentle",
+      "affectionate"
+    ],
+    "style": [
+      "intimate",
+      "warm-lit",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "mirror",
+      "sweater"
+    ]
+  }
+}

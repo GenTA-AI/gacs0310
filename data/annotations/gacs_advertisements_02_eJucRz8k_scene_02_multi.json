@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "restrained",
+      "anxious",
+      "trapped",
+      "serious",
+      "watchful"
+    ],
+    "style": [
+      "muted",
+      "claustrophobic",
+      "neutral"
+    ],
+    "objects": [
+      "man",
+      "bars",
+      "cap"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "enigmatic",
+      "shadowy",
+      "observant",
+      "subtle"
+    ],
+    "style": [
+      "dimly-lit",
+      "constrained",
+      "subdued"
+    ],
+    "objects": [
+      "man",
+      "hat",
+      "bars"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confined",
+      "somber",
+      "imprisoned",
+      "melancholic",
+      "isolated"
+    ],
+    "style": [
+      "dramatic",
+      "shadowy",
+      "confined"
+    ],
+    "objects": [
+      "person",
+      "bars",
+      "fence",
+      "cap"
+    ]
+  }
+}

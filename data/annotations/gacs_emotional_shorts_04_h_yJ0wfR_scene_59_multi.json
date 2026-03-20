@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "sentimental",
+      "reflective",
+      "poignant",
+      "bittersweet"
+    ],
+    "style": [
+      "low-budget",
+      "natural",
+      "diverse"
+    ],
+    "objects": [
+      "men",
+      "car",
+      "woman",
+      "plant"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "emotional",
+      "heartwarming",
+      "nostalgic",
+      "reflective",
+      "sentimental"
+    ],
+    "style": [
+      "informal",
+      "diverse",
+      "promotional"
+    ],
+    "objects": [
+      "people",
+      "car",
+      "road",
+      "plant"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "sentimental",
+      "reflective",
+      "heartwarming",
+      "emotional"
+    ],
+    "style": [
+      "dark-themed",
+      "grid-layout",
+      "promotional"
+    ],
+    "objects": [
+      "subscribe button",
+      "video thumbnails",
+      "social media icons",
+      "text labels"
+    ]
+  }
+}

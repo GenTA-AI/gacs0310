@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "exciting",
+      "anticipatory",
+      "bold",
+      "promotional",
+      "energetic"
+    ],
+    "style": [
+      "bold",
+      "cinematic",
+      "high-contrast"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "movie poster",
+      "date"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "engaging",
+      "bold",
+      "urgent",
+      "compelling"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "promotional"
+    ],
+    "objects": [
+      "imax",
+      "may 2",
+      "tickets",
+      "streaming",
+      "pg-13"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "bold",
+      "attention-grabbing",
+      "commercial",
+      "urgent"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "text-based"
+    ],
+    "objects": [
+      "text",
+      "pg-13 rating"
+    ]
+  }
+}

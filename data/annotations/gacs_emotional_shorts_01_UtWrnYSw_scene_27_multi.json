@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "warm",
+      "nostalgic",
+      "respectful",
+      "uplifting"
+    ],
+    "style": [
+      "news-style",
+      "informative",
+      "text-overlay"
+    ],
+    "objects": [
+      "folders",
+      "files"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "documented",
+      "organized",
+      "informative",
+      "factual",
+      "routine"
+    ],
+    "style": [
+      "bright",
+      "cluttered",
+      "daytime"
+    ],
+    "objects": [
+      "folders",
+      "documents"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "heartwarming",
+      "joyful",
+      "uplifting",
+      "festive"
+    ],
+    "style": [
+      "colorful",
+      "documentary",
+      "news-style"
+    ],
+    "objects": [
+      "books",
+      "cards",
+      "papers",
+      "shelves"
+    ]
+  }
+}

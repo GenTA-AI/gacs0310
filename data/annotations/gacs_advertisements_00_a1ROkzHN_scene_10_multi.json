@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "sleek",
+      "calm",
+      "cool",
+      "sophisticated"
+    ],
+    "style": [
+      "modern",
+      "sleek",
+      "dark"
+    ],
+    "objects": [
+      "television",
+      "playstation 5",
+      "bookshelf",
+      "lamp"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "tranquil",
+      "futuristic"
+    ],
+    "style": [
+      "modern",
+      "minimalist",
+      "sleek"
+    ],
+    "objects": [
+      "tv",
+      "console",
+      "couch",
+      "bookshelf"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "modern",
+      "relaxing",
+      "sophisticated",
+      "ambient"
+    ],
+    "style": [
+      "modern",
+      "minimalist",
+      "ambient"
+    ],
+    "objects": [
+      "tv",
+      "playstation 5",
+      "entertainment center",
+      "couch",
+      "bookshelf"
+    ]
+  }
+}

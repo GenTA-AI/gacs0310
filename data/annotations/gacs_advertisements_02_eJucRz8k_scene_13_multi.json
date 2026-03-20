@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "contemplative",
+      "calm",
+      "observant",
+      "neutral"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "daytime"
+    ],
+    "objects": [
+      "man",
+      "vehicle",
+      "baseball cap",
+      "field"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "focused",
+      "serene",
+      "contemplative",
+      "relaxed"
+    ],
+    "style": [
+      "natural",
+      "muted",
+      "realistic"
+    ],
+    "objects": [
+      "person",
+      "car",
+      "road",
+      "landscape"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "determined",
+      "serious",
+      "contemplative",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "man",
+      "car",
+      "steering wheel",
+      "baseball cap"
+    ]
+  }
+}

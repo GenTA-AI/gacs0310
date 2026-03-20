@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "curious",
+      "isolated",
+      "subdued",
+      "grand"
+    ],
+    "style": [
+      "animated",
+      "blue-toned",
+      "symmetrical"
+    ],
+    "objects": [
+      "room",
+      "bookshelves",
+      "door",
+      "figures"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "solemn",
+      "ethereal",
+      "contemplative",
+      "mystical"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "person",
+      "room",
+      "door",
+      "shelves",
+      "floor pattern"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "magical",
+      "enchanting",
+      "mysterious",
+      "wondrous",
+      "serene"
+    ],
+    "style": [
+      "cinematic",
+      "muted",
+      "symmetrical"
+    ],
+    "objects": [
+      "bookshelves",
+      "door",
+      "chandelier",
+      "people"
+    ]
+  }
+}

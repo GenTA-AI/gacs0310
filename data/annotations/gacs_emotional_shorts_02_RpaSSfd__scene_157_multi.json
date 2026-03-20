@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "disappointed",
+      "frustrated",
+      "serious",
+      "tense",
+      "confrontational"
+    ],
+    "style": [
+      "close-up",
+      "indoor",
+      "vibrant"
+    ],
+    "objects": [
+      "man",
+      "bow tie",
+      "suspenders"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "frustrated",
+      "tense",
+      "confrontational",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "bottles",
+      "shelf",
+      "bow tie",
+      "suspenders"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "frustrated",
+      "serious",
+      "tense",
+      "determined",
+      "confrontational"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "bow tie",
+      "suspenders",
+      "text"
+    ]
+  }
+}

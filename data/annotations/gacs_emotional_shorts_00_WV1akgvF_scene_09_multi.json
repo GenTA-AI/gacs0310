@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "anticipation",
+      "determined",
+      "camaraderie",
+      "intense"
+    ],
+    "style": [
+      "low-resolution",
+      "documentary",
+      "indoor"
+    ],
+    "objects": [
+      "people",
+      "gymnasium",
+      "basketball court"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "focused",
+      "cooperative",
+      "determined",
+      "lighthearted"
+    ],
+    "style": [
+      "candid",
+      "informal",
+      "grainy"
+    ],
+    "objects": [
+      "basketball players",
+      "gym",
+      "basketball hoop",
+      "uniforms",
+      "cbs news logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "concentrated",
+      "focused",
+      "anticipatory"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "handheld"
+    ],
+    "objects": [
+      "basketball players",
+      "gymnasium",
+      "bleachers",
+      "coach"
+    ]
+  }
+}

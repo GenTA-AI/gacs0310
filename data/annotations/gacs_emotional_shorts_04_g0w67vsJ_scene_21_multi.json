@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "warm",
+      "radiant",
+      "content",
+      "hopeful"
+    ],
+    "style": [
+      "golden-hour",
+      "warm",
+      "portrait"
+    ],
+    "objects": [
+      "woman",
+      "landscape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "inviting",
+      "joyful",
+      "serene",
+      "content"
+    ],
+    "style": [
+      "warm",
+      "golden",
+      "natural"
+    ],
+    "objects": [
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "joyful",
+      "radiant",
+      "content",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "golden-hour"
+    ],
+    "objects": [
+      "woman",
+      "headscarf",
+      "smile",
+      "golden light"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+name: GACS CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install ruff
+        run: pip install ruff
+      - name: Lint Python files
+        run: ruff check . --config pyproject.toml
+
+  secret-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Run secret scanner
+        run: python check_secrets.py
+
+  notebook-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Validate notebook JSON
+        run: |
+          python -c "
+          import json, glob, sys
+          errors = []
+          for nb in glob.glob('*.ipynb'):
+              try:
+                  with open(nb) as f:
+                      data = json.load(f)
+                  assert 'cells' in data, f'{nb}: missing cells key'
+                  assert 'metadata' in data, f'{nb}: missing metadata key'
+                  print(f'OK: {nb} ({len(data[\"cells\"])} cells)')
+              except Exception as e:
+                  errors.append(f'FAIL: {nb}: {e}')
+                  print(f'FAIL: {nb}: {e}')
+          if errors:
+              sys.exit(1)
+          print('All notebooks valid.')
+          "
+
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install minimal deps
+        run: pip install pandas numpy
+      - name: Smoke test - config import
+        run: |
+          python -c "
+          import sys
+          sys.path.insert(0, '.')
+          try:
+              from gacs_config import *
+              print('Config import: OK')
+              print(f'  SCHEMA_VERSION={SCHEMA_VERSION}')
+              print(f'  QUICK_TEST_MODE={QUICK_TEST_MODE}')
+          except ImportError:
+              print('WARN: gacs_config.py not found (expected if PR-1 not merged)')
+          "
+      - name: Smoke test - video manifest
+        run: |
+          python -c "
+          import pandas as pd
+          df = pd.read_csv('video_manifest.csv')
+          required_cols = ['video_id', 'source', 'local_path', 'category', 'duration']
+          for col in required_cols:
+              assert col in df.columns, f'Missing column: {col}'
+          print(f'Manifest OK: {len(df)} videos, columns: {list(df.columns)}')
+          "

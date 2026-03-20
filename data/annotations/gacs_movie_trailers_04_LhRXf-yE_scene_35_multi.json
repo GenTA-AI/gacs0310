@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "bright",
+      "optimistic",
+      "casual",
+      "content"
+    ],
+    "style": [
+      "natural-lighting",
+      "street-photography",
+      "documentary-style"
+    ],
+    "objects": [
+      "woman",
+      "street",
+      "buildings",
+      "cars",
+      "people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "friendly",
+      "casual",
+      "optimistic",
+      "relaxed",
+      "cheerful"
+    ],
+    "style": [
+      "natural",
+      "bright",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "buildings",
+      "car",
+      "sidewalk"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cheerful",
+      "friendly",
+      "relaxed",
+      "casual",
+      "hopeful"
+    ],
+    "style": [
+      "natural",
+      "urban",
+      "candid"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "buildings",
+      "road",
+      "car"
+    ]
+  }
+}

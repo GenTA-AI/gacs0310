@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "dramatic",
+      "intense",
+      "apocalyptic",
+      "menacing"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "monster",
+      "spikes",
+      "clouds",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "fiery",
+      "threatening",
+      "chaotic",
+      "destructive"
+    ],
+    "style": [
+      "fiery",
+      "ominous",
+      "high-contrast"
+    ],
+    "objects": [
+      "monster",
+      "fire",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "fiery",
+      "ominous",
+      "dramatic",
+      "chaotic"
+    ],
+    "style": [
+      "dramatic",
+      "fiery",
+      "textured"
+    ],
+    "objects": [
+      "creature",
+      "fire",
+      "branches"
+    ]
+  }
+}

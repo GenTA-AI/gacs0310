@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "knowing",
+      "sly",
+      "mischievous",
+      "ironic",
+      "amused"
+    ],
+    "style": [
+      "naturalistic",
+      "neutral",
+      "slightly-desaturated"
+    ],
+    "objects": [
+      "woman",
+      "jacket",
+      "fence"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "amused",
+      "mischievous",
+      "playful",
+      "engaging"
+    ],
+    "style": [
+      "informal",
+      "candid",
+      "muted"
+    ],
+    "objects": [
+      "subscribe",
+      "watch more",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "mischievous",
+      "knowing",
+      "sly",
+      "satisfied"
+    ],
+    "style": [
+      "cinematic",
+      "period-drama",
+      "professional"
+    ],
+    "objects": [
+      "woman",
+      "coat",
+      "text",
+      "building"
+    ]
+  }
+}

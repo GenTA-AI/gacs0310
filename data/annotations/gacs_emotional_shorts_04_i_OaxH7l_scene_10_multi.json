@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surprised",
+      "accomplished",
+      "grateful",
+      "happy",
+      "nostalgic"
+    ],
+    "style": [
+      "snapshot",
+      "informal",
+      "naturalistic"
+    ],
+    "objects": [
+      "horse",
+      "woman",
+      "ribbon",
+      "grass"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "surprise",
+      "accomplishment",
+      "pride",
+      "contentment"
+    ],
+    "style": [
+      "documentary-style",
+      "candid",
+      "natural-light"
+    ],
+    "objects": [
+      "horse",
+      "person",
+      "ribbon",
+      "field"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "proud",
+      "accomplished",
+      "surprised",
+      "joyful",
+      "triumphant"
+    ],
+    "style": [
+      "meme-style",
+      "polaroid-aesthetic",
+      "documentary"
+    ],
+    "objects": [
+      "horse",
+      "person",
+      "field",
+      "crowd"
+    ]
+  }
+}

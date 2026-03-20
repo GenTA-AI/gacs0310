@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anticipatory",
+      "curious",
+      "mysterious",
+      "suspenseful",
+      "intriguing"
+    ],
+    "style": [
+      "bold",
+      "minimalistic",
+      "monochrome"
+    ],
+    "objects": [
+      "march",
+      "2022",
+      "film rating notification"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipation",
+      "excitement",
+      "announcement",
+      "curiosity",
+      "eagerness"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "clean"
+    ],
+    "objects": [
+      "text",
+      "date"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "anticipatory",
+      "dramatic",
+      "ominous",
+      "suspenseful"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "bold-typography"
+    ],
+    "objects": [
+      "text",
+      "date",
+      "background"
+    ]
+  }
+}

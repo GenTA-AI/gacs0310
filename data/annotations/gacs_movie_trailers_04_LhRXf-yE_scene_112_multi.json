@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "exciting",
+      "competitive",
+      "intense",
+      "anticipatory"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "crowd-focused"
+    ],
+    "objects": [
+      "crowd",
+      "logo",
+      "stage",
+      "buildings",
+      "skyline"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "excited",
+      "energetic",
+      "vibrant",
+      "lively",
+      "celebratory"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "urban"
+    ],
+    "objects": [
+      "crowd",
+      "platform",
+      "skyscrapers",
+      "scoreboard"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "anxious",
+      "anticipatory",
+      "energetic",
+      "competitive"
+    ],
+    "style": [
+      "wide-angle",
+      "vibrant",
+      "staged"
+    ],
+    "objects": [
+      "audience",
+      "buildings",
+      "platform"
+    ]
+  }
+}

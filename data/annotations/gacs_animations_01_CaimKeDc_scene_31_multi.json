@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "vibrant",
+      "whimsical",
+      "dynamic",
+      "theatrical"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "stylized"
+    ],
+    "objects": [
+      "character",
+      "flowers",
+      "swing",
+      "balcony"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "whimsical",
+      "vibrant",
+      "lively",
+      "playful"
+    ],
+    "style": [
+      "vibrant",
+      "whimsical",
+      "magical"
+    ],
+    "objects": [
+      "swing",
+      "flowers",
+      "dress",
+      "balcony"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "romantic",
+      "dreamy",
+      "tender",
+      "intimate",
+      "enchanting"
+    ],
+    "style": [
+      "theatrical",
+      "dramatic",
+      "warm-lit"
+    ],
+    "objects": [
+      "performer",
+      "rope",
+      "ship deck",
+      "railing"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "scene_id": "gacs_emotional_shorts_01_Jzt3pQmF_s0000",
+    "video_id": "gacs_emotional_shorts_01_Jzt3pQmF",
+    "scene_index": 0,
+    "start_frame": 0,
+    "end_frame": 240,
+    "start_time": 0.0,
+    "end_time": 8.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_01_Jzt3pQmF_s0001",
+    "video_id": "gacs_emotional_shorts_01_Jzt3pQmF",
+    "scene_index": 1,
+    "start_frame": 240,
+    "end_frame": 480,
+    "start_time": 8.0,
+    "end_time": 16.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_emotional_shorts_01_Jzt3pQmF_s0002",
+    "video_id": "gacs_emotional_shorts_01_Jzt3pQmF",
+    "scene_index": 2,
+    "start_frame": 480,
+    "end_frame": 615,
+    "start_time": 16.0,
+    "end_time": 20.5,
+    "duration": 4.5
+  }
+]

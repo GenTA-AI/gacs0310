@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "warm",
+      "inviting",
+      "peaceful",
+      "nostalgic",
+      "homey"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "stairs",
+      "painting",
+      "chair"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "inviting",
+      "cozy",
+      "nostalgic",
+      "cheerful"
+    ],
+    "style": [
+      "colorful",
+      "rustic",
+      "vibrant"
+    ],
+    "objects": [
+      "stairs",
+      "chair",
+      "table",
+      "portrait",
+      "plant"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "inviting",
+      "cozy",
+      "rustic",
+      "peaceful"
+    ],
+    "style": [
+      "vibrant",
+      "rustic",
+      "colorful"
+    ],
+    "objects": [
+      "staircase",
+      "chairs",
+      "plant",
+      "railing",
+      "beams"
+    ]
+  }
+}

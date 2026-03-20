@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "tense",
+      "foreboding",
+      "suspenseful"
+    ],
+    "style": [
+      "noir",
+      "atmospheric",
+      "silhouetted"
+    ],
+    "objects": [
+      "office desks",
+      "silhouettes",
+      "windows",
+      "chairs"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "ominous",
+      "tense",
+      "dark",
+      "unsettling"
+    ],
+    "style": [
+      "gloomy",
+      "desaturated",
+      "realistic"
+    ],
+    "objects": [
+      "office",
+      "people",
+      "desk",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "office",
+      "desks",
+      "windows",
+      "people"
+    ]
+  }
+}

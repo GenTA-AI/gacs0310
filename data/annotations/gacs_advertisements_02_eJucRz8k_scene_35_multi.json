@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "orderly",
+      "calm",
+      "quiet",
+      "neutral",
+      "waiting"
+    ],
+    "style": [
+      "naturalistic",
+      "daytime",
+      "urban"
+    ],
+    "objects": [
+      "barricades",
+      "people",
+      "tree",
+      "sidewalk"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "orderly",
+      "expectant",
+      "contained",
+      "subdued",
+      "neutral"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "daytime"
+    ],
+    "objects": [
+      "people",
+      "fence",
+      "building",
+      "street"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "patient",
+      "orderly",
+      "waiting",
+      "subdued",
+      "anticipatory"
+    ],
+    "style": [
+      "documentary",
+      "muted-colors",
+      "street-photography"
+    ],
+    "objects": [
+      "people",
+      "barriers",
+      "tree",
+      "street",
+      "building"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "tropical",
+      "tranquil",
+      "idyllic"
+    ],
+    "style": [
+      "cinematic",
+      "tropical",
+      "wide-angle"
+    ],
+    "objects": [
+      "cliffs",
+      "beach",
+      "ocean",
+      "forest",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "majestic",
+      "isolated",
+      "tranquil",
+      "peaceful"
+    ],
+    "style": [
+      "aerial",
+      "scenic",
+      "turquoise"
+    ],
+    "objects": [
+      "island",
+      "sea",
+      "trees",
+      "cliff"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "tranquil",
+      "natural",
+      "picturesque",
+      "inviting"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "tranquil"
+    ],
+    "objects": [
+      "cliffs",
+      "trees",
+      "beach",
+      "ocean"
+    ]
+  }
+}

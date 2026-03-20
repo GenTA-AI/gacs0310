@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "intense",
+      "focused",
+      "determined",
+      "authoritative"
+    ],
+    "style": [
+      "high-contrast",
+      "dramatic",
+      "chiaroscuro"
+    ],
+    "objects": [
+      "man",
+      "desk",
+      "lamp",
+      "window blinds"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serious",
+      "focused",
+      "introspective",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "noir",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "desk",
+      "lamp",
+      "papers",
+      "chair"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "serious",
+      "contemplative",
+      "dim",
+      "atmospheric"
+    ],
+    "style": [
+      "moody",
+      "dramatic",
+      "backlit"
+    ],
+    "objects": [
+      "lamp",
+      "person",
+      "desk",
+      "chair",
+      "papers"
+    ]
+  }
+}

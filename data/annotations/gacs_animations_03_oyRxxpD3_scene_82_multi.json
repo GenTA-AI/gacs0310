@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "strange",
+      "intrigued",
+      "awed",
+      "expectant"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "people",
+      "chicks",
+      "display stand"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "colorful",
+      "whimsical",
+      "enchanting",
+      "magical",
+      "wonderous"
+    ],
+    "style": [
+      "3d-animated",
+      "vibrant",
+      "theatrical"
+    ],
+    "objects": [
+      "people",
+      "stage",
+      "performance",
+      "audience",
+      "theater"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "whimsical",
+      "mystical",
+      "surprised",
+      "intrigued"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "chickens",
+      "shelves",
+      "people",
+      "door"
+    ]
+  }
+}

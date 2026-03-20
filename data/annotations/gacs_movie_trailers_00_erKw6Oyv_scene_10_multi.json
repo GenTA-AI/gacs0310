@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ethereal",
+      "dreamlike",
+      "surreal",
+      "otherworldly"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "airplane",
+      "airport",
+      "runway",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "imposing",
+      "ominous",
+      "stark",
+      "cold"
+    ],
+    "style": [
+      "futuristic",
+      "cool-toned",
+      "architectural"
+    ],
+    "objects": [
+      "building",
+      "helipad",
+      "cars"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "dim",
+      "urban",
+      "mysterious",
+      "isolated"
+    ],
+    "style": [
+      "futuristic",
+      "moody",
+      "urban"
+    ],
+    "objects": [
+      "helicopter pad",
+      "vehicles",
+      "buildings",
+      "cityscape"
+    ]
+  }
+}

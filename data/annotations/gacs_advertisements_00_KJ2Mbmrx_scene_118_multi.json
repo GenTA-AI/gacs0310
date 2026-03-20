@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "brooding",
+      "somber",
+      "pensive",
+      "lonely",
+      "reflective"
+    ],
+    "style": [
+      "nocturnal",
+      "stark",
+      "high-contrast"
+    ],
+    "objects": [
+      "person",
+      "street lights",
+      "bicycle"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "isolated",
+      "contemplative",
+      "somber",
+      "solitary",
+      "quiet"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "bicycle",
+      "person",
+      "streetlights",
+      "road",
+      "night sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "contemplative",
+      "solitary",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "low-key",
+      "silhouetted"
+    ],
+    "objects": [
+      "person",
+      "stage",
+      "lights",
+      "drum kit"
+    ]
+  }
+}

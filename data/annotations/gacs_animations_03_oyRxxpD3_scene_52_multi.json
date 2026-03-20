@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "whimsical",
+      "magical",
+      "enchanting",
+      "curious",
+      "peaceful"
+    ],
+    "style": [
+      "cartoonish",
+      "vibrant",
+      "fantasy"
+    ],
+    "objects": [
+      "raccoon",
+      "rabbit",
+      "squirrel",
+      "mouse"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "whimsical",
+      "enchanting",
+      "joyful",
+      "magical",
+      "serene"
+    ],
+    "style": [
+      "vibrant",
+      "whimsical",
+      "luminous"
+    ],
+    "objects": [
+      "raccoon",
+      "rabbit",
+      "mouse",
+      "flowers",
+      "tree"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "magical",
+      "whimsical",
+      "enchanting",
+      "dreamy",
+      "serene"
+    ],
+    "style": [
+      "animated",
+      "mystical",
+      "blue-tinted"
+    ],
+    "objects": [
+      "rabbits",
+      "glowing orb",
+      "cave",
+      "crystals",
+      "magical plants"
+    ]
+  }
+}

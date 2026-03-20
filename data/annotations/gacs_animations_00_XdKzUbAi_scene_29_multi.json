@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "exciting",
+      "bold",
+      "dynamic",
+      "adventurous"
+    ],
+    "style": [
+      "bold",
+      "dramatic",
+      "iconic"
+    ],
+    "objects": [
+      "text",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dramatic",
+      "bold",
+      "powerful",
+      "heroic",
+      "exciting"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "stylized"
+    ],
+    "objects": [
+      "the incredibles",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "heroic",
+      "exciting",
+      "bold",
+      "anticipatory"
+    ],
+    "style": [
+      "dramatic",
+      "gradient",
+      "bold"
+    ],
+    "objects": [
+      "logo",
+      "text",
+      "background"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "anticipatory",
+      "excited",
+      "hopeful",
+      "intrigued"
+    ],
+    "style": [
+      "colorful",
+      "detailed",
+      "vibrant"
+    ],
+    "objects": [
+      "people",
+      "clothing",
+      "flower",
+      "wall",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "attentive",
+      "expectant",
+      "concerned",
+      "hopeful",
+      "curious"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "theatrical"
+    ],
+    "objects": [
+      "people",
+      "clothing"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "joyful",
+      "celebratory",
+      "familial",
+      "content"
+    ],
+    "style": [
+      "animated",
+      "warm-lighting",
+      "disney-style"
+    ],
+    "objects": [
+      "characters",
+      "people",
+      "costumes",
+      "crowd",
+      "faces"
+    ]
+  }
+}

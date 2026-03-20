@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "energetic",
+      "festive",
+      "exuberant"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "crowded"
+    ],
+    "objects": [
+      "people",
+      "hands",
+      "clothing",
+      "drinks"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "joyful",
+      "celebratory",
+      "lively",
+      "convivial"
+    ],
+    "style": [
+      "candid",
+      "vibrant",
+      "tropical"
+    ],
+    "objects": [
+      "man",
+      "shirt",
+      "can"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "energetic",
+      "celebratory",
+      "lively",
+      "vibrant"
+    ],
+    "style": [
+      "vibrant",
+      "dynamic",
+      "immersive"
+    ],
+    "objects": [
+      "people",
+      "shirt",
+      "can",
+      "table"
+    ]
+  }
+}

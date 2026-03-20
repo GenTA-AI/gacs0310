@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "composed",
+      "cool",
+      "serious",
+      "fashionable"
+    ],
+    "style": [
+      "moody",
+      "cool-toned",
+      "sleek"
+    ],
+    "objects": [
+      "sunglasses",
+      "jacket",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "cool",
+      "confident",
+      "serious",
+      "sophisticated",
+      "stylish"
+    ],
+    "style": [
+      "cool",
+      "clean",
+      "neutral"
+    ],
+    "objects": [
+      "man",
+      "sunglasses",
+      "jacket"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "cool",
+      "serious",
+      "determined",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "portrait-style"
+    ],
+    "objects": [
+      "man",
+      "sunglasses",
+      "hoodie",
+      "sky"
+    ]
+  }
+}

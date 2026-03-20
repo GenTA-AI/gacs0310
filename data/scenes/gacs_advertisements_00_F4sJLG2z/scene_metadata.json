@@ -1,0 +1,32 @@
+[
+  {
+    "scene_id": "gacs_advertisements_00_F4sJLG2z_s0000",
+    "video_id": "gacs_advertisements_00_F4sJLG2z",
+    "scene_index": 0,
+    "start_frame": 0,
+    "end_frame": 240,
+    "start_time": 0.0,
+    "end_time": 8.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_advertisements_00_F4sJLG2z_s0001",
+    "video_id": "gacs_advertisements_00_F4sJLG2z",
+    "scene_index": 1,
+    "start_frame": 720,
+    "end_frame": 960,
+    "start_time": 24.0,
+    "end_time": 32.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_advertisements_00_F4sJLG2z_s0002",
+    "video_id": "gacs_advertisements_00_F4sJLG2z",
+    "scene_index": 2,
+    "start_frame": 1440,
+    "end_frame": 1485,
+    "start_time": 48.0,
+    "end_time": 49.5,
+    "duration": 1.5
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "somber",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "armor",
+      "woman",
+      "interior"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "intense",
+      "somber",
+      "concerned",
+      "weary"
+    ],
+    "style": [
+      "gritty",
+      "desaturated",
+      "realistic"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "somber",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "muted",
+      "naturalistic"
+    ],
+    "objects": [
+      "person",
+      "beard",
+      "building",
+      "window"
+    ]
+  }
+}

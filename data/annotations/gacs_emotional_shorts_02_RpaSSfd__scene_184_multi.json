@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "earnest",
+      "sincere",
+      "hopeful",
+      "serious",
+      "intent"
+    ],
+    "style": [
+      "medium-shot",
+      "warm",
+      "earnest"
+    ],
+    "objects": [
+      "man",
+      "suspenders",
+      "bow tie"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sincere",
+      "earnest",
+      "intimate",
+      "serious",
+      "heartfelt"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "shirt",
+      "tie",
+      "suspenders"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sincere",
+      "emotional",
+      "intimate",
+      "focused",
+      "heartfelt"
+    ],
+    "style": [
+      "warm-toned",
+      "intimate",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "bowtie",
+      "suspenders"
+    ]
+  }
+}

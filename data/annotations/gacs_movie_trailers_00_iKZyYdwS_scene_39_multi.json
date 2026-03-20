@@ -1,0 +1,59 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "dramatic",
+      "intense",
+      "climactic",
+      "suspenseful"
+    ],
+    "style": [
+      "dramatic",
+      "neon-lit",
+      "retro-futuristic"
+    ],
+    "objects": [
+      "text",
+      "background",
+      "title"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "ominous",
+      "suspenseful",
+      "dramatic"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "red"
+    ],
+    "objects": [
+      "the final chapter"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dramatic",
+      "final",
+      "intense",
+      "foreboding"
+    ],
+    "style": [
+      "ominous",
+      "red-toned",
+      "smoky"
+    ],
+    "objects": [
+      "text",
+      "fog"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "glamorous",
+      "focused",
+      "poised",
+      "refined",
+      "confident"
+    ],
+    "style": [
+      "glamorous",
+      "close-up",
+      "warm-toned"
+    ],
+    "objects": [
+      "woman",
+      "makeup brush",
+      "lips",
+      "eye makeup"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "glamorous",
+      "intense",
+      "concentrated",
+      "poised"
+    ],
+    "style": [
+      "close-up",
+      "glamorous",
+      "polished"
+    ],
+    "objects": [
+      "makeup brush",
+      "lips",
+      "face"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "glamorous",
+      "confident",
+      "focused",
+      "polished",
+      "elegant"
+    ],
+    "style": [
+      "intimate",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "makeup brush",
+      "lipstick",
+      "face",
+      "hand"
+    ]
+  }
+}

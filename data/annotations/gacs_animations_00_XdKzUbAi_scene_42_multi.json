@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "overwhelming",
+      "rushed",
+      "unsettling",
+      "frantic"
+    ],
+    "style": [
+      "blurred",
+      "colorful",
+      "animated"
+    ],
+    "objects": [
+      "fur",
+      "cabinet"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "frantic",
+      "lively",
+      "cluttered",
+      "energetic"
+    ],
+    "style": [
+      "blurry",
+      "chaotic",
+      "close-up"
+    ],
+    "objects": [
+      "towels",
+      "cup",
+      "cabinet",
+      "tile"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "chaotic",
+      "disorienting",
+      "unsettling",
+      "frantic",
+      "distorted"
+    ],
+    "style": [
+      "blurry",
+      "motion-blur",
+      "handheld"
+    ],
+    "objects": [
+      "cabinet",
+      "bottles",
+      "person",
+      "wall"
+    ]
+  }
+}

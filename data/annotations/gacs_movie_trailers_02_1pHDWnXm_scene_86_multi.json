@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "determined",
+      "confident",
+      "patriotic",
+      "resolute"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "superhero"
+    ],
+    "objects": [
+      "captain america shield",
+      "superhero costume",
+      "cars",
+      "cherry blossom trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "urgent",
+      "alert",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "bright",
+      "vibrant",
+      "action-oriented"
+    ],
+    "objects": [
+      "captain america",
+      "cars",
+      "drones",
+      "cherry blossom trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "determined",
+      "confident",
+      "action-packed",
+      "dynamic"
+    ],
+    "style": [
+      "vibrant",
+      "action-packed",
+      "heroic"
+    ],
+    "objects": [
+      "superhero",
+      "shield",
+      "cars",
+      "trees"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "calm",
+      "attentive",
+      "focused",
+      "engaging"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "muted-colors"
+    ],
+    "objects": [
+      "person",
+      "shirt",
+      "door",
+      "lamp",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "concerned",
+      "formal",
+      "calm",
+      "focused"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "warm"
+    ],
+    "objects": [
+      "woman",
+      "door",
+      "collar",
+      "prime video logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "serious",
+      "worried",
+      "tense",
+      "contemplative"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "warm-toned"
+    ],
+    "objects": [
+      "person",
+      "shirt",
+      "door",
+      "wall"
+    ]
+  }
+}

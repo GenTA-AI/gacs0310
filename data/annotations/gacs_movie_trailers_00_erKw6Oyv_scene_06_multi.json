@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "introspective",
+      "melancholic",
+      "contemplative",
+      "subdued"
+    ],
+    "style": [
+      "cyberpunk",
+      "teal-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "hair",
+      "headphones"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "focused",
+      "determined",
+      "intent",
+      "enigmatic"
+    ],
+    "style": [
+      "close-up",
+      "cool-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "cable"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "focused",
+      "somber",
+      "contemplative"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "futuristic"
+    ],
+    "objects": [
+      "person",
+      "background",
+      "light",
+      "hair"
+    ]
+  }
+}

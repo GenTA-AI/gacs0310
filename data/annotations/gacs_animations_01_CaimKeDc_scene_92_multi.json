@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "eerie",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "fantastical",
+      "dark",
+      "dramatic"
+    ],
+    "objects": [
+      "cave",
+      "light",
+      "rocks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "dramatic",
+      "atmospheric",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "rocks",
+      "canyon",
+      "light",
+      "cliffs"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "foreboding",
+      "dark",
+      "mysterious",
+      "dangerous"
+    ],
+    "style": [
+      "dramatic",
+      "dark",
+      "cavernous"
+    ],
+    "objects": [
+      "cliffs",
+      "canyon",
+      "sunlight"
+    ]
+  }
+}

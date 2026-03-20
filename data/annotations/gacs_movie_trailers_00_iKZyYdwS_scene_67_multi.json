@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "suspenseful",
+      "threatening",
+      "anxious",
+      "intimidating"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "weapon",
+      "laboratory equipment",
+      "shelving",
+      "lighting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "alert",
+      "serious",
+      "anxious",
+      "dangerous"
+    ],
+    "style": [
+      "cool",
+      "muted",
+      "tense"
+    ],
+    "objects": [
+      "person",
+      "gun",
+      "shelf"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "serious",
+      "suspenseful",
+      "focused",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "tense",
+      "moody"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "gun",
+      "lab equipment"
+    ]
+  }
+}

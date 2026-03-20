@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "complex",
+      "isolating",
+      "sprawling",
+      "detached",
+      "logistical"
+    ],
+    "style": [
+      "illustrated",
+      "overhead",
+      "muted"
+    ],
+    "objects": [
+      "roads",
+      "cars",
+      "vegetation"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "complex",
+      "overwhelming",
+      "disorienting",
+      "structured",
+      "vast"
+    ],
+    "style": [
+      "aerial",
+      "warm-toned",
+      "architectural"
+    ],
+    "objects": [
+      "highways",
+      "roads",
+      "interchange",
+      "grass",
+      "overpass"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "complex",
+      "dynamic",
+      "intricate",
+      "bustling"
+    ],
+    "style": [
+      "animated",
+      "detailed",
+      "muted"
+    ],
+    "objects": [
+      "highway",
+      "overpass",
+      "car",
+      "truck"
+    ]
+  }
+}

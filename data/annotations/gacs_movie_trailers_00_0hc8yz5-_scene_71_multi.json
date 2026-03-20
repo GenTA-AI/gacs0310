@@ -1,0 +1,59 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "minimalist",
+      "corporate",
+      "sleek",
+      "anticipatory"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "corporate"
+    ],
+    "objects": [
+      "netflix logo",
+      "black background",
+      "red letter n"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "dramatic",
+      "modern",
+      "sleek",
+      "mysterious"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "dark"
+    ],
+    "objects": [
+      "netflix logo",
+      "black background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dramatic",
+      "cinematic",
+      "intense",
+      "bold",
+      "mysterious"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "iconic"
+    ],
+    "objects": [
+      "n"
+    ]
+  }
+}

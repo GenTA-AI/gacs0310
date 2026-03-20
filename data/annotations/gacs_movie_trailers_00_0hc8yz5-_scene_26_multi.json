@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "intense",
+      "contemplative",
+      "formal",
+      "reserved"
+    ],
+    "style": [
+      "muted",
+      "controlled",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "cloak"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "somber",
+      "intense",
+      "contemplative",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "muted-tones",
+      "reflective"
+    ],
+    "objects": [
+      "mirror",
+      "woman",
+      "person",
+      "red robe"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "reverent",
+      "contemplative",
+      "ceremonial",
+      "serious"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "period-drama"
+    ],
+    "objects": [
+      "people",
+      "red clothing",
+      "mirror",
+      "room"
+    ]
+  }
+}

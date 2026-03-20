@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprised",
+      "confused",
+      "startled",
+      "curious",
+      "playful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "bright"
+    ],
+    "objects": [
+      "girl",
+      "bed",
+      "dresser",
+      "mirror"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surprised",
+      "confused",
+      "bewildered",
+      "anxious",
+      "uncertain"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "detailed"
+    ],
+    "objects": [
+      "girl",
+      "bed",
+      "room",
+      "wallpaper"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "innocent",
+      "cheerful",
+      "curious",
+      "lighthearted"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "stylized"
+    ],
+    "objects": [
+      "child",
+      "bedroom",
+      "bed",
+      "toys"
+    ]
+  }
+}

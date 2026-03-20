@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "authoritative",
+      "intense",
+      "focused",
+      "disciplined"
+    ],
+    "style": [
+      "dramatic",
+      "somber",
+      "candid"
+    ],
+    "objects": [
+      "police officer",
+      "badge",
+      "boxes",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "stern",
+      "intense",
+      "determined",
+      "authoritative"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "serious"
+    ],
+    "objects": [
+      "police officer",
+      "badge",
+      "stars",
+      "boxes"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "authoritative",
+      "professional",
+      "contemplative",
+      "stoic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "police officer",
+      "badge",
+      "uniform",
+      "office"
+    ]
+  }
+}

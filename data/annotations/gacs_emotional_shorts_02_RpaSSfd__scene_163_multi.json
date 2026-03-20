@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "casual",
+      "observant",
+      "urban",
+      "neutral",
+      "calm"
+    ],
+    "style": [
+      "naturalistic",
+      "urban",
+      "everyday"
+    ],
+    "objects": [
+      "woman",
+      "road",
+      "building",
+      "sign"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "relaxed",
+      "contemplative",
+      "casual",
+      "everyday"
+    ],
+    "style": [
+      "urban",
+      "overcast",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "sign",
+      "posts"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "peaceful",
+      "leisurely",
+      "urban",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "shallow-focus"
+    ],
+    "objects": [
+      "buildings",
+      "person",
+      "street",
+      "traffic sign",
+      "sidewalk"
+    ]
+  }
+}

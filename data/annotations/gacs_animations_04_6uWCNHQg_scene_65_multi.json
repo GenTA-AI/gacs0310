@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspenseful",
+      "concerned",
+      "focused",
+      "tense",
+      "neutral"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "muted-color"
+    ],
+    "objects": [
+      "woman",
+      "knife",
+      "carrot",
+      "table",
+      "cutting board"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "concerned",
+      "uncertain",
+      "apprehensive",
+      "wary"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "indoor"
+    ],
+    "objects": [
+      "woman",
+      "knife",
+      "carrot",
+      "cutting board"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "concerned",
+      "focused",
+      "anxious",
+      "serious"
+    ],
+    "style": [
+      "cinematic",
+      "muted-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "woman",
+      "knife",
+      "carrot",
+      "cutting board",
+      "kitchen"
+    ]
+  }
+}

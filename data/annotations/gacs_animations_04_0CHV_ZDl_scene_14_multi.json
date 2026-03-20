@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "concerned",
+      "ominous",
+      "bizarre",
+      "melancholic"
+    ],
+    "style": [
+      "animated",
+      "flat",
+      "comical"
+    ],
+    "objects": [
+      "pigeons",
+      "window",
+      "room"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "humorous",
+      "lighthearted",
+      "comedic",
+      "whimsical"
+    ],
+    "style": [
+      "animated",
+      "cartoonish",
+      "colorful"
+    ],
+    "objects": [
+      "pigeons",
+      "window",
+      "brick wall",
+      "sofa",
+      "boxes"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "voyeuristic",
+      "intrusive",
+      "uncomfortable",
+      "secretive",
+      "disturbing"
+    ],
+    "style": [
+      "animated",
+      "cartoon",
+      "flat-colored"
+    ],
+    "objects": [
+      "window",
+      "pigeons",
+      "building",
+      "brick wall"
+    ]
+  }
+}

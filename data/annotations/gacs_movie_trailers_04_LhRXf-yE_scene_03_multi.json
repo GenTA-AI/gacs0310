@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "serious",
+      "contemplative",
+      "weary",
+      "troubled"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "blue jacket",
+      "building",
+      "columns"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "thoughtful",
+      "concerned",
+      "contemplative",
+      "solemn"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "medium-shot"
+    ],
+    "objects": [
+      "jackie chan",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "thoughtful",
+      "contemplative",
+      "serious",
+      "introspective",
+      "calm"
+    ],
+    "style": [
+      "cinematic",
+      "natural",
+      "contemplative"
+    ],
+    "objects": [
+      "person",
+      "blue shirt",
+      "building",
+      "plants"
+    ]
+  }
+}

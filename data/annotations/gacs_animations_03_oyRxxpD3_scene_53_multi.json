@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "magical",
+      "enchanting",
+      "serene",
+      "ethereal",
+      "wondrous"
+    ],
+    "style": [
+      "colorful",
+      "mystical",
+      "glowing"
+    ],
+    "objects": [
+      "person",
+      "lights",
+      "spiral",
+      "colors"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "wondrous",
+      "ethereal",
+      "dreamy",
+      "luminous"
+    ],
+    "style": [
+      "dreamlike",
+      "vibrant",
+      "surreal"
+    ],
+    "objects": [
+      "child",
+      "lights",
+      "ring"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "magical",
+      "dreamy",
+      "ethereal",
+      "enchanting",
+      "transcendent"
+    ],
+    "style": [
+      "luminous",
+      "cosmic",
+      "ethereal"
+    ],
+    "objects": [
+      "circular portal",
+      "figure",
+      "lights",
+      "sparkles"
+    ]
+  }
+}

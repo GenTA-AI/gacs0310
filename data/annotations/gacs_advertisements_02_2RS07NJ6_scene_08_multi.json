@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "sleek",
+      "powerful",
+      "intense",
+      "focused"
+    ],
+    "style": [
+      "vintage",
+      "grainy",
+      "muted"
+    ],
+    "objects": [
+      "car",
+      "garage"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "modern",
+      "cool",
+      "reserved",
+      "understated"
+    ],
+    "style": [
+      "grainy",
+      "dark",
+      "vintage"
+    ],
+    "objects": [
+      "car",
+      "spoiler"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sterile",
+      "mundane",
+      "surveillance",
+      "cold",
+      "neutral"
+    ],
+    "style": [
+      "surveillance",
+      "grainy",
+      "monochromatic"
+    ],
+    "objects": [
+      "car",
+      "garage",
+      "concrete floor",
+      "ceiling"
+    ]
+  }
+}

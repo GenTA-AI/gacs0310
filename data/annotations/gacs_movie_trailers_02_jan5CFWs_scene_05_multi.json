@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "contemplative",
+      "tranquil",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "pastoral"
+    ],
+    "objects": [
+      "cornfield",
+      "person",
+      "trees",
+      "sky",
+      "fog"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "uneasy",
+      "anxious",
+      "hidden",
+      "watchful"
+    ],
+    "style": [
+      "gritty",
+      "naturalistic",
+      "desaturated"
+    ],
+    "objects": [
+      "cornfield",
+      "person",
+      "tree",
+      "forest"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "adventurous",
+      "suspenseful",
+      "cautious",
+      "mysterious"
+    ],
+    "style": [
+      "lush",
+      "dynamic",
+      "naturalistic"
+    ],
+    "objects": [
+      "field",
+      "person",
+      "trees",
+      "fog"
+    ]
+  }
+}

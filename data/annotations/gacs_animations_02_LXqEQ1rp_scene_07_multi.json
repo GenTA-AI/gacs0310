@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "festive",
+      "lively",
+      "warm",
+      "cheerful",
+      "convivial"
+    ],
+    "style": [
+      "warm",
+      "rustic",
+      "theatrical"
+    ],
+    "objects": [
+      "bartop",
+      "stool",
+      "people",
+      "lantern"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "warm",
+      "festive",
+      "communal",
+      "inviting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "tavern",
+      "people",
+      "lanterns",
+      "wooden table",
+      "barrels"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "lively",
+      "festive",
+      "energetic",
+      "cheerful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "lively"
+    ],
+    "objects": [
+      "tavern",
+      "people",
+      "candle",
+      "hat",
+      "table"
+    ]
+  }
+}

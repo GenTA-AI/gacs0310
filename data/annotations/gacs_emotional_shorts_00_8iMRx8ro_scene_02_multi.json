@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "informative",
+      "urgent",
+      "dynamic",
+      "current",
+      "engaging"
+    ],
+    "style": [
+      "bold",
+      "dynamic",
+      "modern"
+    ],
+    "objects": [
+      "happening now",
+      "abc",
+      "10",
+      "5:31",
+      "66\u00b0"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "informative",
+      "dynamic",
+      "bright",
+      "current"
+    ],
+    "style": [
+      "bright",
+      "graphic",
+      "modern"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "time",
+      "temperature"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "dynamic",
+      "energetic",
+      "immediate",
+      "alert"
+    ],
+    "style": [
+      "broadcast",
+      "glossy",
+      "warm-toned"
+    ],
+    "objects": [
+      "text",
+      "television screen",
+      "news graphics",
+      "studio lighting"
+    ]
+  }
+}

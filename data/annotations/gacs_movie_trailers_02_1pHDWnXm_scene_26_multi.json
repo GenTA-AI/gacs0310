@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "nostalgic",
+      "peaceful",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "split-screen",
+      "moody"
+    ],
+    "objects": [
+      "tree",
+      "people",
+      "screen",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "melancholy",
+      "ominous",
+      "reflective",
+      "somber",
+      "tense"
+    ],
+    "style": [
+      "contrasting",
+      "split-screen",
+      "high-tech"
+    ],
+    "objects": [
+      "people",
+      "tree",
+      "monitor",
+      "radar screen"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "solemn",
+      "technological",
+      "analytical",
+      "reflective"
+    ],
+    "style": [
+      "contrasting",
+      "dynamic",
+      "balanced"
+    ],
+    "objects": [
+      "tree",
+      "people",
+      "gravestones",
+      "screens"
+    ]
+  }
+}

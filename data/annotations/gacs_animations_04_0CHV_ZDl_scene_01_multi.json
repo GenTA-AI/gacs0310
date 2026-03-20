@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "puzzled",
+      "calm",
+      "domestic",
+      "contemplative"
+    ],
+    "style": [
+      "cartoonish",
+      "detailed",
+      "cozy"
+    ],
+    "objects": [
+      "character",
+      "toolbox",
+      "engine",
+      "couch",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "puzzled",
+      "curious",
+      "awkward",
+      "confused",
+      "uncertain"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "symmetrical"
+    ],
+    "objects": [
+      "dog",
+      "engine",
+      "toolbox",
+      "couch"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surprised",
+      "shocked",
+      "startled",
+      "bewildered",
+      "confused"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoonish"
+    ],
+    "objects": [
+      "character",
+      "car engine",
+      "toolbox",
+      "couch",
+      "room"
+    ]
+  }
+}

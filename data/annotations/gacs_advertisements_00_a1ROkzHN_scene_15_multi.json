@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "futuristic",
+      "sleek",
+      "technological",
+      "mysterious"
+    ],
+    "style": [
+      "modern",
+      "neon",
+      "geometric"
+    ],
+    "objects": [
+      "rectangular prisms",
+      "neon lights",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "modern",
+      "technological",
+      "sophisticated"
+    ],
+    "style": [
+      "futuristic",
+      "neon-lit",
+      "geometric"
+    ],
+    "objects": [
+      "blocks",
+      "neon lights",
+      "geometric shapes",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "vibrant",
+      "mysterious",
+      "high-tech"
+    ],
+    "style": [
+      "sleek",
+      "modern",
+      "colorful"
+    ],
+    "objects": [
+      "geometric shapes",
+      "neon lights"
+    ]
+  }
+}

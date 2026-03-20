@@ -1,0 +1,58 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "sophisticated",
+      "warm",
+      "luxurious",
+      "refined"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "brass faucet",
+      "blurred bottles",
+      "metallic fixtures"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "elegant",
+      "strategic",
+      "intense",
+      "sophisticated",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "metallic",
+      "close-up"
+    ],
+    "objects": [
+      "chess pieces"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strategic",
+      "serious",
+      "contemplative",
+      "deliberate",
+      "calculating"
+    ],
+    "style": [
+      "shallow-focus",
+      "low-key",
+      "metallic"
+    ],
+    "objects": [
+      "chess pieces"
+    ]
+  }
+}

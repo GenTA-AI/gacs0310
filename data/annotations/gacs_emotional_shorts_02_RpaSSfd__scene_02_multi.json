@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "tense",
+      "uneasy",
+      "anxious",
+      "watchful"
+    ],
+    "style": [
+      "realistic",
+      "urban",
+      "daytime"
+    ],
+    "objects": [
+      "people",
+      "car",
+      "street",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "tense",
+      "alert",
+      "cautious",
+      "anxious"
+    ],
+    "style": [
+      "candid",
+      "urban",
+      "dynamic"
+    ],
+    "objects": [
+      "car",
+      "people",
+      "sign",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "urban",
+      "conversational",
+      "friendly"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "shallow-focus"
+    ],
+    "objects": [
+      "people",
+      "car",
+      "street",
+      "buildings",
+      "cobblestones"
+    ]
+  }
+}

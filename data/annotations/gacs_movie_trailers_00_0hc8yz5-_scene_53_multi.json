@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "ominous",
+      "atmospheric",
+      "brooding"
+    ],
+    "style": [
+      "cinematic",
+      "dark-moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "sky",
+      "clouds",
+      "landscape",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "ominous",
+      "melancholic",
+      "mysterious",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "aerial"
+    ],
+    "objects": [
+      "city",
+      "clouds",
+      "mountain"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "tense",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "moody"
+    ],
+    "objects": [
+      "road",
+      "lights",
+      "mountains",
+      "sky"
+    ]
+  }
+}

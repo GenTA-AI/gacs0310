@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "observational",
+      "curious",
+      "mundane",
+      "quirky",
+      "comedic"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "muted"
+    ],
+    "objects": [
+      "apartment",
+      "pizza box",
+      "couch",
+      "box",
+      "robot"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "nostalgic",
+      "cluttered",
+      "domestic",
+      "lived-in"
+    ],
+    "style": [
+      "animated",
+      "flat-shaded",
+      "cartoon"
+    ],
+    "objects": [
+      "kitchen",
+      "boxes",
+      "table",
+      "cabinets",
+      "stove"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "domestic",
+      "casual",
+      "relaxed",
+      "mundane",
+      "ordinary"
+    ],
+    "style": [
+      "animated",
+      "minimalist",
+      "flat-colored"
+    ],
+    "objects": [
+      "couch",
+      "pizza box",
+      "cardboard box",
+      "bottle",
+      "table"
+    ]
+  }
+}

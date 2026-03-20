@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "confrontational",
+      "serious",
+      "tense",
+      "awkward"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "shallow-depth"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "shelving"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "accusatory",
+      "confrontational",
+      "serious",
+      "suspicious"
+    ],
+    "style": [
+      "realistic",
+      "muted",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "text",
+      "shelves",
+      "products"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "dramatic",
+      "intimate",
+      "serious"
+    ],
+    "style": [
+      "cinematic",
+      "intimate",
+      "warm-toned"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "faces",
+      "subtitle text"
+    ]
+  }
+}

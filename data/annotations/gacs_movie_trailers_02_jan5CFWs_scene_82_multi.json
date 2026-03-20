@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "anticipatory",
+      "ominous",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "golden-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "logo",
+      "dinosaur skeleton",
+      "text",
+      "amber background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "adventurous",
+      "exciting",
+      "dramatic",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "metallic",
+      "dramatic"
+    ],
+    "objects": [
+      "dinosaur",
+      "logo",
+      "jurassic world"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "thrilling",
+      "nostalgic",
+      "mysterious",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "dark",
+      "emblematic"
+    ],
+    "objects": [
+      "logo",
+      "dinosaur",
+      "text"
+    ]
+  }
+}

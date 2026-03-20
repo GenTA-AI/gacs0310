@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surprised",
+      "curious",
+      "concerned",
+      "uneasy",
+      "attentive"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "medieval"
+    ],
+    "objects": [
+      "woman",
+      "bowl",
+      "spoon",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "surprised",
+      "amused",
+      "focused",
+      "lighthearted"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "medieval"
+    ],
+    "objects": [
+      "two girls",
+      "spoon",
+      "plate",
+      "archway"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "curious",
+      "friendly",
+      "conversational",
+      "animated",
+      "engaging"
+    ],
+    "style": [
+      "animated",
+      "medieval",
+      "warm-lit"
+    ],
+    "objects": [
+      "characters",
+      "kitchen",
+      "table",
+      "spoon",
+      "castle interior"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "serious",
+      "emotional",
+      "revealing"
+    ],
+    "style": [
+      "naturalistic",
+      "subdued",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "tree",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "confrontational",
+      "concerned",
+      "tense",
+      "stressed"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "serious",
+      "emotional",
+      "accusatory"
+    ],
+    "style": [
+      "dramatic",
+      "shallow-focus",
+      "natural-lighting"
+    ],
+    "objects": [
+      "woman",
+      "trees",
+      "subtitles",
+      "logo"
+    ]
+  }
+}

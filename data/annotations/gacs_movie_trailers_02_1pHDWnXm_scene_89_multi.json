@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "exhilarating",
+      "free",
+      "soaring",
+      "triumphant"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dynamic"
+    ],
+    "objects": [
+      "person",
+      "wings",
+      "ground",
+      "aircraft"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "action",
+      "dynamic",
+      "intense",
+      "serious",
+      "determined"
+    ],
+    "style": [
+      "bright",
+      "dynamic",
+      "action"
+    ],
+    "objects": [
+      "person",
+      "wings",
+      "shield"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "dynamic",
+      "adventurous",
+      "exhilarating",
+      "intense"
+    ],
+    "style": [
+      "dynamic",
+      "action-packed",
+      "vibrant"
+    ],
+    "objects": [
+      "wingsuit",
+      "helmet",
+      "pavement",
+      "gloves"
+    ]
+  }
+}

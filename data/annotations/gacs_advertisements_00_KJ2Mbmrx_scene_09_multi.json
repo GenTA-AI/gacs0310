@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "edgy",
+      "defiant",
+      "assertive",
+      "bold"
+    ],
+    "style": [
+      "high-contrast",
+      "stylized",
+      "blue"
+    ],
+    "objects": [
+      "eminem",
+      "text",
+      "studio equipment"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "enigmatic",
+      "edgy",
+      "confident",
+      "energized"
+    ],
+    "style": [
+      "blue-tinted",
+      "bold-text",
+      "dramatic"
+    ],
+    "objects": [
+      "slim shady",
+      "man",
+      "text",
+      "studio",
+      "computers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "confrontational",
+      "aggressive",
+      "defiant",
+      "menacing"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "text",
+      "hoodie",
+      "studio"
+    ]
+  }
+}

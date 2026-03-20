@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "suspicious",
+      "secretive",
+      "ominous",
+      "voyeuristic"
+    ],
+    "style": [
+      "voyeuristic",
+      "nocturnal",
+      "surveillance"
+    ],
+    "objects": [
+      "people",
+      "pathway",
+      "trees",
+      "grass",
+      "streetlight"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "urgent",
+      "threatening",
+      "disturbing",
+      "secretive"
+    ],
+    "style": [
+      "dramatic",
+      "tense",
+      "obscured"
+    ],
+    "objects": [
+      "truck",
+      "people",
+      "grass",
+      "garden lamp"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspenseful",
+      "tense",
+      "mysterious",
+      "distressing",
+      "secretive"
+    ],
+    "style": [
+      "framed",
+      "natural",
+      "observational"
+    ],
+    "objects": [
+      "truck",
+      "person",
+      "path",
+      "garden"
+    ]
+  }
+}

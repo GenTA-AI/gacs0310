@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "intrigued",
+      "surprised",
+      "skeptical",
+      "inquisitive"
+    ],
+    "style": [
+      "natural-light",
+      "candid",
+      "casual"
+    ],
+    "objects": [
+      "people",
+      "earbuds",
+      "sunglasses",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "perplexed",
+      "questioning",
+      "intrigued",
+      "doubtful"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "suit",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "curious",
+      "grateful",
+      "intrigued",
+      "questioning",
+      "expectant"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "urban-contemporary"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "sunglasses",
+      "building",
+      "earrings"
+    ]
+  }
+}

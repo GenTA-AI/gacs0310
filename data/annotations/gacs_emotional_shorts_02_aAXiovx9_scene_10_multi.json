@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "relaxed",
+      "peaceful",
+      "casual",
+      "content"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "outdoor-interview"
+    ],
+    "objects": [
+      "man",
+      "bench",
+      "grass",
+      "building",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "thoughtful",
+      "neutral",
+      "calm",
+      "earnest"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "overcast"
+    ],
+    "objects": [
+      "man",
+      "grass",
+      "building",
+      "bench"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "relaxed",
+      "thoughtful",
+      "casual",
+      "serene"
+    ],
+    "style": [
+      "casual",
+      "natural",
+      "outdoor"
+    ],
+    "objects": [
+      "man",
+      "grass",
+      "bench",
+      "building",
+      "trees"
+    ]
+  }
+}

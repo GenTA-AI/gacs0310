@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "professional",
+      "stoic",
+      "composed"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "stairs",
+      "columns",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "neutral",
+      "formal",
+      "controlled"
+    ],
+    "style": [
+      "neutral-lighting",
+      "corporate",
+      "staged"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "scaffolding"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "intense",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "dimly-lit",
+      "realistic"
+    ],
+    "objects": [
+      "person",
+      "scaffolding",
+      "crate",
+      "screen"
+    ]
+  }
+}

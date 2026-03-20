@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "ominous",
+      "intense",
+      "explosive",
+      "catastrophic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "atmospheric"
+    ],
+    "objects": [
+      "explosion",
+      "silhouettes",
+      "lightning",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dramatic",
+      "intense",
+      "fearful",
+      "apocalyptic"
+    ],
+    "style": [
+      "dramatic",
+      "high-contrast",
+      "otherworldly"
+    ],
+    "objects": [
+      "people",
+      "explosion",
+      "lightning"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "ominous",
+      "mysterious",
+      "dramatic",
+      "electrifying"
+    ],
+    "style": [
+      "vivid",
+      "surreal",
+      "dark"
+    ],
+    "objects": [
+      "explosion",
+      "silhouettes",
+      "sky",
+      "lightning"
+    ]
+  }
+}

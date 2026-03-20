@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calm",
+      "contemplative"
+    ],
+    "style": [
+      "aerial",
+      "high-contrast",
+      "documentary"
+    ],
+    "objects": [
+      "plaza",
+      "trees",
+      "people",
+      "shadows",
+      "pavement"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "serene",
+      "contemplative",
+      "peaceful",
+      "balanced"
+    ],
+    "style": [
+      "aerial",
+      "desaturated",
+      "high-angle"
+    ],
+    "objects": [
+      "rooftop",
+      "plants",
+      "people",
+      "couch"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calm",
+      "relaxed"
+    ],
+    "style": [
+      "aerial",
+      "sunlit",
+      "organized"
+    ],
+    "objects": [
+      "rooftop garden",
+      "plants",
+      "pathways",
+      "chairs",
+      "people"
+    ]
+  }
+}

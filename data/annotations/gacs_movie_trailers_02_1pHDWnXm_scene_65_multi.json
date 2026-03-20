@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "authoritative",
+      "urgent",
+      "ominous"
+    ],
+    "style": [
+      "futuristic",
+      "high-contrast",
+      "neon-lit"
+    ],
+    "objects": [
+      "control panel",
+      "military officers",
+      "computer screens",
+      "status display"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "tense",
+      "urgent",
+      "concerned",
+      "determined"
+    ],
+    "style": [
+      "high-contrast",
+      "futuristic",
+      "cool-toned"
+    ],
+    "objects": [
+      "man",
+      "monitor",
+      "uniform"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "authoritative",
+      "serious",
+      "intense",
+      "focused"
+    ],
+    "style": [
+      "futuristic",
+      "dramatic",
+      "cool-toned"
+    ],
+    "objects": [
+      "board",
+      "people",
+      "uniform",
+      "lights",
+      "table"
+    ]
+  }
+}

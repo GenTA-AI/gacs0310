@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "emotional",
+      "comforting",
+      "somber",
+      "intimate",
+      "heartfelt"
+    ],
+    "style": [
+      "intimate",
+      "emotive",
+      "close-up"
+    ],
+    "objects": [
+      "people",
+      "jacket",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vulnerable",
+      "somber",
+      "intimate",
+      "yearning",
+      "melancholic"
+    ],
+    "style": [
+      "naturalistic",
+      "intimate",
+      "emotional"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "hug"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "emotional",
+      "vulnerable",
+      "comforting"
+    ],
+    "style": [
+      "intimate",
+      "soft-focus",
+      "naturalistic"
+    ],
+    "objects": [
+      "woman",
+      "hoodie",
+      "hair",
+      "face"
+    ]
+  }
+}

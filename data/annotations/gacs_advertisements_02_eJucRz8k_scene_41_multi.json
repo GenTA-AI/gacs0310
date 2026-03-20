@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprising",
+      "dynamic",
+      "spontaneous",
+      "urban",
+      "curious"
+    ],
+    "style": [
+      "motion-blurred",
+      "urban",
+      "candid"
+    ],
+    "objects": [
+      "horse",
+      "person",
+      "street",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surreal",
+      "chaotic",
+      "hurried",
+      "unexpected",
+      "urban"
+    ],
+    "style": [
+      "blurred",
+      "urban",
+      "neutral"
+    ],
+    "objects": [
+      "horse",
+      "building",
+      "road",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "urgent",
+      "energetic",
+      "bustling",
+      "rushed"
+    ],
+    "style": [
+      "blurred",
+      "motion-capture",
+      "urban"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "street",
+      "pillar"
+    ]
+  }
+}

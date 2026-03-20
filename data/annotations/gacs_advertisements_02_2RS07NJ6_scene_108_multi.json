@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "luxurious",
+      "sophisticated",
+      "elegant",
+      "prestigious"
+    ],
+    "style": [
+      "sleek",
+      "minimalistic",
+      "modern"
+    ],
+    "objects": [
+      "porsche logo",
+      "hood"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clean",
+      "sleek",
+      "modern",
+      "elegant",
+      "aspirational"
+    ],
+    "style": [
+      "clean",
+      "corporate",
+      "minimal"
+    ],
+    "objects": [
+      "porsche logo",
+      "car body"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "elegant",
+      "prestigious",
+      "sophisticated",
+      "luxurious",
+      "refined"
+    ],
+    "style": [
+      "minimalist",
+      "clean",
+      "corporate"
+    ],
+    "objects": [
+      "porsche logo",
+      "car hood",
+      "sky",
+      "clouds"
+    ]
+  }
+}

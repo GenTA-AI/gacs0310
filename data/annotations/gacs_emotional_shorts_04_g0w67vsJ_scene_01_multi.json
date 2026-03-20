@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "peaceful",
+      "serene",
+      "tranquil",
+      "calming",
+      "nostalgic"
+    ],
+    "style": [
+      "sunset-lit",
+      "serene",
+      "contrast-rich"
+    ],
+    "objects": [
+      "pier",
+      "waves",
+      "ocean",
+      "sunset"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "nostalgic",
+      "tranquil",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "silhouetted"
+    ],
+    "objects": [
+      "wooden pier",
+      "waves",
+      "sunset",
+      "ocean"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "peaceful",
+      "tranquil",
+      "calming",
+      "reflective"
+    ],
+    "style": [
+      "serene",
+      "golden",
+      "atmospheric"
+    ],
+    "objects": [
+      "pier",
+      "waves",
+      "sunset"
+    ]
+  }
+}

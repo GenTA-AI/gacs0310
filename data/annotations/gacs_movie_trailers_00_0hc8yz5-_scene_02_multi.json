@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "disturbing",
+      "anxious",
+      "concerned",
+      "tense"
+    ],
+    "style": [
+      "gritty",
+      "low-key",
+      "intense"
+    ],
+    "objects": [
+      "man",
+      "blood",
+      "hand",
+      "robe"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "unsettling"
+    ],
+    "style": [
+      "dramatic",
+      "intimate",
+      "moody"
+    ],
+    "objects": [
+      "man",
+      "hand",
+      "blood"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "intense",
+      "dramatic",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "red jacket",
+      "hand"
+    ]
+  }
+}

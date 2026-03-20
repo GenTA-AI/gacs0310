@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "emotional",
+      "vulnerable",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "intimate-framing"
+    ],
+    "objects": [
+      "two people",
+      "white fabric",
+      "faces",
+      "hair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "focused",
+      "intense",
+      "somber"
+    ],
+    "style": [
+      "desaturated",
+      "cinematic",
+      "close-up"
+    ],
+    "objects": [
+      "women",
+      "clothing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "emotional",
+      "dramatic",
+      "caring",
+      "urgent"
+    ],
+    "style": [
+      "dramatic",
+      "muted",
+      "intense"
+    ],
+    "objects": [
+      "two people",
+      "white jacket",
+      "black jacket",
+      "parachute"
+    ]
+  }
+}

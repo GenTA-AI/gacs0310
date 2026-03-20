@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "reverent",
+      "peaceful",
+      "traditional",
+      "sacred"
+    ],
+    "style": [
+      "ornate",
+      "dimly-lit",
+      "traditional"
+    ],
+    "objects": [
+      "buddhist altar",
+      "oranges",
+      "teapot",
+      "candles",
+      "painting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "reverent",
+      "solemn",
+      "peaceful",
+      "spiritual",
+      "traditional"
+    ],
+    "style": [
+      "reddish",
+      "ornate",
+      "traditional"
+    ],
+    "objects": [
+      "altar",
+      "picture",
+      "oranges",
+      "incense"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mystical",
+      "reverent",
+      "serene",
+      "sacred",
+      "contemplative"
+    ],
+    "style": [
+      "atmospheric",
+      "warm-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "buddha statue",
+      "altar",
+      "candles",
+      "temple interior"
+    ]
+  }
+}

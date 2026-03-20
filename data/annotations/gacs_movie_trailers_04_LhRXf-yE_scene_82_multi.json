@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "relaxed",
+      "content"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "urban"
+    ],
+    "objects": [
+      "man",
+      "basketball",
+      "wooden beam",
+      "buildings",
+      "plants"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "pensive",
+      "hopeful",
+      "urban",
+      "reflective"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "urban"
+    ],
+    "objects": [
+      "man",
+      "building",
+      "ball"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "nostalgic",
+      "peaceful",
+      "serene",
+      "reflective"
+    ],
+    "style": [
+      "urban",
+      "natural",
+      "relaxed"
+    ],
+    "objects": [
+      "man",
+      "log",
+      "ball",
+      "plants",
+      "buildings"
+    ]
+  }
+}

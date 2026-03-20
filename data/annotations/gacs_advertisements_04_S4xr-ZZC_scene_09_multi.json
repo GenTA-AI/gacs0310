@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dreamy",
+      "serene",
+      "ethereal",
+      "melancholic",
+      "detached"
+    ],
+    "style": [
+      "muted",
+      "contrasting",
+      "documentary"
+    ],
+    "objects": [
+      "screen",
+      "people",
+      "logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "introspective",
+      "contemplative",
+      "serene",
+      "artistic",
+      "dreamy"
+    ],
+    "style": [
+      "dreamlike",
+      "ethereal",
+      "muted"
+    ],
+    "objects": [
+      "screen",
+      "projection",
+      "people",
+      "silhouette"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "intimate",
+      "pensive",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "blue-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "screen",
+      "audience",
+      "projection",
+      "people"
+    ]
+  }
+}

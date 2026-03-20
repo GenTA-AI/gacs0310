@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "urgent",
+      "active",
+      "chaotic",
+      "alert",
+      "intense"
+    ],
+    "style": [
+      "news-style",
+      "vibrant",
+      "documentary"
+    ],
+    "objects": [
+      "fire truck",
+      "trees",
+      "sky",
+      "logo",
+      "numbers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "serious",
+      "concerned",
+      "focused",
+      "ready"
+    ],
+    "style": [
+      "bright",
+      "news",
+      "flat"
+    ],
+    "objects": [
+      "fire truck",
+      "news graphic"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "serious",
+      "emergency",
+      "focused",
+      "alert"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "fire truck",
+      "firefighter",
+      "window",
+      "number 94"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "industrious",
+      "focused",
+      "rustic"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "rustic"
+    ],
+    "objects": [
+      "person",
+      "horse",
+      "bucket",
+      "truck"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "rural",
+      "industrious",
+      "neutral",
+      "natural"
+    ],
+    "style": [
+      "realistic",
+      "daytime",
+      "desaturated"
+    ],
+    "objects": [
+      "man",
+      "donkey",
+      "building",
+      "truck"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "rural",
+      "peaceful",
+      "mundane"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "wooden structure",
+      "buckets",
+      "stone wall"
+    ]
+  }
+}

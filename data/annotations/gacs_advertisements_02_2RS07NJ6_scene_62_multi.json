@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "sleek",
+      "powerful",
+      "exhilarating",
+      "fast"
+    ],
+    "style": [
+      "dynamic",
+      "sleek",
+      "detailed"
+    ],
+    "objects": [
+      "car",
+      "wheel",
+      "mirror",
+      "road"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "powerful",
+      "sleek",
+      "modern",
+      "expensive",
+      "fast"
+    ],
+    "style": [
+      "muted",
+      "dynamic",
+      "detailed"
+    ],
+    "objects": [
+      "car",
+      "wheel",
+      "tire"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "dynamic",
+      "aggressive",
+      "powerful",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "motion-blur",
+      "low-angle"
+    ],
+    "objects": [
+      "car",
+      "wheel",
+      "brake caliper",
+      "tire"
+    ]
+  }
+}

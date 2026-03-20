@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "bold",
+      "heroic",
+      "intense",
+      "anticipatory"
+    ],
+    "style": [
+      "bold",
+      "dramatic",
+      "high-contrast"
+    ],
+    "objects": [
+      "marvel studios logo",
+      "thunderbolts text",
+      "black background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bold",
+      "powerful",
+      "intense",
+      "anticipation",
+      "excitement"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "contrast"
+    ],
+    "objects": [
+      "marvel studios logo",
+      "thunderbolts title"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "bold",
+      "energetic",
+      "dramatic",
+      "powerful",
+      "intense"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "contrast"
+    ],
+    "objects": [
+      "thunderbolts",
+      "marvel studios"
+    ]
+  }
+}

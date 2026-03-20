@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "relaxed",
+      "content",
+      "whimsical",
+      "mellow"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "simplistic"
+    ],
+    "objects": [
+      "robot",
+      "pillow"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "content",
+      "relaxed",
+      "peaceful",
+      "serene",
+      "calm"
+    ],
+    "style": [
+      "cartoonish",
+      "simple",
+      "clean"
+    ],
+    "objects": [
+      "robot",
+      "pillow",
+      "ground"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholy",
+      "tired",
+      "resigned",
+      "peaceful",
+      "subdued"
+    ],
+    "style": [
+      "cartoon",
+      "flat-shading",
+      "muted-colors"
+    ],
+    "objects": [
+      "robot",
+      "bed",
+      "pillow",
+      "blanket"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "anticipatory",
+      "sleek",
+      "cinematic",
+      "promotional"
+    ],
+    "style": [
+      "neon",
+      "cyberpunk",
+      "gradient"
+    ],
+    "objects": [
+      "text",
+      "lights",
+      "gradient background",
+      "rating box"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anticipatory",
+      "mysterious",
+      "dramatic",
+      "enticing",
+      "bold"
+    ],
+    "style": [
+      "colorful",
+      "bold",
+      "modern"
+    ],
+    "objects": [
+      "netflix",
+      "december 12",
+      "pg-13"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "modern",
+      "expectant",
+      "bold",
+      "sleek"
+    ],
+    "style": [
+      "abstract",
+      "vibrant",
+      "dark"
+    ],
+    "objects": [
+      "text",
+      "pg-13 rating symbol"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "tranquil",
+      "idyllic",
+      "calming"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant-blue",
+      "aerial-perspective"
+    ],
+    "objects": [
+      "boat",
+      "water",
+      "rocks",
+      "coastline"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uneasy",
+      "threatened",
+      "perilous",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "high-angle",
+      "vibrant",
+      "wide-shot"
+    ],
+    "objects": [
+      "water",
+      "boat",
+      "spinosauruses"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspenseful",
+      "thrilling",
+      "adventurous",
+      "tense",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "boat",
+      "dinosaur",
+      "water",
+      "cliffs"
+    ]
+  }
+}

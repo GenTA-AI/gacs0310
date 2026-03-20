@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "poised",
+      "stylish",
+      "calm",
+      "sophisticated"
+    ],
+    "style": [
+      "fashionable",
+      "sleek",
+      "monochromatic"
+    ],
+    "objects": [
+      "person",
+      "yellow jacket",
+      "moncler logos",
+      "dress"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "poised",
+      "fashionable",
+      "elegant",
+      "composed"
+    ],
+    "style": [
+      "stark",
+      "modern",
+      "fashionable"
+    ],
+    "objects": [
+      "woman",
+      "vest",
+      "backdrop",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "elegant",
+      "poised",
+      "sophisticated",
+      "glamorous"
+    ],
+    "style": [
+      "minimalist",
+      "high-fashion",
+      "corporate"
+    ],
+    "objects": [
+      "woman",
+      "jacket",
+      "backdrop",
+      "logos"
+    ]
+  }
+}

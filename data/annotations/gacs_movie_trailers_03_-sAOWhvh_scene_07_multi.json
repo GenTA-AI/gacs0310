@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "somber",
+      "introspective",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "paintings",
+      "wall",
+      "lighting",
+      "interior"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "serious",
+      "reserved",
+      "thoughtful",
+      "somber"
+    ],
+    "style": [
+      "muted",
+      "realistic",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "poster",
+      "shelf",
+      "lamp"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "somber",
+      "introspective",
+      "subdued"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "necklace",
+      "lamp",
+      "shelf",
+      "picture"
+    ]
+  }
+}

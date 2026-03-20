@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "shocked",
+      "anxious",
+      "startled",
+      "vulnerable",
+      "emotional"
+    ],
+    "style": [
+      "realistic",
+      "shallow-focus",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "man"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "frustrated",
+      "annoyed",
+      "intense",
+      "conflicted",
+      "emotional"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "people",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "dramatic",
+      "intense",
+      "emotional"
+    ],
+    "style": [
+      "dramatic",
+      "warm-lighting",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "hands",
+      "faces"
+    ]
+  }
+}

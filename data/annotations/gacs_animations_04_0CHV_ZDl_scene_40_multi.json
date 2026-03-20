@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "confused",
+      "anxious",
+      "reflective",
+      "uncertain"
+    ],
+    "style": [
+      "simple",
+      "cartoonish",
+      "minimalistic"
+    ],
+    "objects": [
+      "character",
+      "eyes",
+      "mouth",
+      "pillow"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "concerned",
+      "anxious",
+      "melancholic",
+      "subdued"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "simple"
+    ],
+    "objects": [
+      "character",
+      "background"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholy",
+      "dejected",
+      "sad",
+      "contemplative",
+      "somber"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon"
+    ],
+    "objects": [
+      "robot",
+      "eyes",
+      "mouth",
+      "wall"
+    ]
+  }
+}

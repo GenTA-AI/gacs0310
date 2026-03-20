@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "casual",
+      "whimsical",
+      "animated",
+      "bright",
+      "lighthearted"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "low-angle"
+    ],
+    "objects": [
+      "shoes",
+      "sidewalk",
+      "street",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "vibrant",
+      "cheerful",
+      "playful",
+      "casual",
+      "lively"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "detailed"
+    ],
+    "objects": [
+      "shoes",
+      "sidewalk",
+      "people",
+      "building",
+      "bus"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "cheerful",
+      "optimistic",
+      "friendly"
+    ],
+    "style": [
+      "colorful",
+      "soft-focus",
+      "dreamy"
+    ],
+    "objects": [
+      "sneakers",
+      "legs",
+      "pavement",
+      "street"
+    ]
+  }
+}

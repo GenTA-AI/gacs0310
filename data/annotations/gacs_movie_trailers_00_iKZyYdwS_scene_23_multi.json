@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "pensive",
+      "somber",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "person",
+      "hat",
+      "jacket",
+      "trees",
+      "mountains"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "reflective",
+      "melancholic",
+      "pensive",
+      "sad"
+    ],
+    "style": [
+      "desaturated",
+      "naturalistic",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "hat",
+      "grave marker"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "somber",
+      "melancholic",
+      "contemplative",
+      "serene"
+    ],
+    "style": [
+      "drama-like",
+      "natural-light",
+      "somber"
+    ],
+    "objects": [
+      "gravestone",
+      "person",
+      "trees",
+      "cap"
+    ]
+  }
+}

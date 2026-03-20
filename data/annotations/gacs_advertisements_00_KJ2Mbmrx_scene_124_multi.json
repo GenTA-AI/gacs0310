@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "solemn",
+      "dark",
+      "secretive",
+      "ominous"
+    ],
+    "style": [
+      "nighttime",
+      "shadowy",
+      "urban"
+    ],
+    "objects": [
+      "people",
+      "walkway",
+      "building",
+      "water"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "somber",
+      "contemplative",
+      "nocturnal"
+    ],
+    "style": [
+      "cinematic",
+      "noir",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "walkway",
+      "buildings",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ominous",
+      "suspenseful",
+      "intriguing"
+    ],
+    "style": [
+      "nighttime",
+      "dramatic",
+      "silhouetted"
+    ],
+    "objects": [
+      "people",
+      "path",
+      "building",
+      "lights"
+    ]
+  }
+}

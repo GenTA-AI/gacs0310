@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "contemplative",
+      "solemn",
+      "introspective",
+      "calm",
+      "serene"
+    ],
+    "style": [
+      "natural",
+      "moody",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "reflective",
+      "contemplative",
+      "subdued",
+      "serious"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "overcast"
+    ],
+    "objects": [
+      "man",
+      "clerical collar",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "contemplative",
+      "serious",
+      "troubled",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "natural-lighting"
+    ],
+    "objects": [
+      "man",
+      "priest collar",
+      "trees",
+      "foliage"
+    ]
+  }
+}

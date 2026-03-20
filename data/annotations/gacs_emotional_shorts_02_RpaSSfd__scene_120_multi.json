@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "stylish",
+      "intriguing",
+      "cinematic",
+      "cool",
+      "confident"
+    ],
+    "style": [
+      "close-up",
+      "shallow-focus",
+      "warm-toned"
+    ],
+    "objects": [
+      "sunglasses",
+      "face"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intriguing",
+      "stylish",
+      "reflective",
+      "cool",
+      "relaxed"
+    ],
+    "style": [
+      "dramatic",
+      "vibrant",
+      "close-up"
+    ],
+    "objects": [
+      "sunglasses",
+      "face",
+      "hand"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sultry",
+      "seductive",
+      "confident",
+      "intimate",
+      "alluring"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "sunglasses",
+      "person",
+      "hand",
+      "text"
+    ]
+  }
+}

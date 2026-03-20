@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "whimsical",
+      "hopeful",
+      "playful",
+      "curious"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "goat",
+      "pigeons",
+      "platform",
+      "conductor's baton"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "whimsical",
+      "playful",
+      "energetic",
+      "lively"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "whimsical"
+    ],
+    "objects": [
+      "lamb",
+      "stick",
+      "doves"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "triumphant",
+      "theatrical",
+      "bold",
+      "empowered"
+    ],
+    "style": [
+      "animated",
+      "theatrical",
+      "purple-tinted"
+    ],
+    "objects": [
+      "character",
+      "sword",
+      "amphitheater",
+      "crowd silhouettes"
+    ]
+  }
+}

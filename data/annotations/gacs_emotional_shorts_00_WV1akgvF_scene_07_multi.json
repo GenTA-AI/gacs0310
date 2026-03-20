@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "motivated",
+      "energetic",
+      "focused",
+      "excited",
+      "intense"
+    ],
+    "style": [
+      "candid",
+      "medium shot",
+      "news"
+    ],
+    "objects": [
+      "basketball players",
+      "basketball",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "excited",
+      "energetic",
+      "celebratory",
+      "joyful",
+      "triumphant"
+    ],
+    "style": [
+      "documentary",
+      "broadcast",
+      "handheld"
+    ],
+    "objects": [
+      "basketball players",
+      "team huddle",
+      "uniforms",
+      "coach"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "excited",
+      "determined",
+      "energetic",
+      "supportive",
+      "intense"
+    ],
+    "style": [
+      "candid",
+      "documentary-style",
+      "group-focused"
+    ],
+    "objects": [
+      "group of people",
+      "basketball",
+      "jerseys"
+    ]
+  }
+}

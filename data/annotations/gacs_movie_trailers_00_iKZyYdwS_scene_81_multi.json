@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "vibrant",
+      "energetic",
+      "dynamic",
+      "electric"
+    ],
+    "style": [
+      "abstract",
+      "glitchy",
+      "neon-lit"
+    ],
+    "objects": [
+      "vertical lines",
+      "red light",
+      "reflections",
+      "glass surface"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "energetic",
+      "distorted",
+      "intense",
+      "vibrant"
+    ],
+    "style": [
+      "abstract",
+      "vibrant",
+      "distorted"
+    ],
+    "objects": [
+      "abstract art",
+      "lines"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "vibrant",
+      "energetic",
+      "dynamic",
+      "chaotic"
+    ],
+    "style": [
+      "abstract",
+      "vibrant",
+      "striped"
+    ],
+    "objects": [
+      "colorful stripes",
+      "abstract patterns"
+    ]
+  }
+}

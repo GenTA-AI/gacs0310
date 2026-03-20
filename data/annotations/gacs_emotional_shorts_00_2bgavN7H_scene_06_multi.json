@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "resilient",
+      "serene",
+      "thoughtful",
+      "melancholic",
+      "dignified"
+    ],
+    "style": [
+      "naturalistic",
+      "overcast",
+      "balanced"
+    ],
+    "objects": [
+      "man",
+      "umbrella",
+      "cane",
+      "bench"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspirational",
+      "determined",
+      "serene",
+      "resilient",
+      "hopeful"
+    ],
+    "style": [
+      "natural",
+      "serene",
+      "contemplative"
+    ],
+    "objects": [
+      "man",
+      "umbrella",
+      "cane",
+      "bench",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "inspiring",
+      "hopeful"
+    ],
+    "style": [
+      "naturalistic",
+      "documentary-style",
+      "bright-lighting"
+    ],
+    "objects": [
+      "man",
+      "umbrella",
+      "trees",
+      "bench",
+      "path"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "somber",
+      "introspective",
+      "melancholic",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "low-lit"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "sink",
+      "cabinets",
+      "window"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "uneasy",
+      "serious",
+      "brooding",
+      "private"
+    ],
+    "style": [
+      "low-key",
+      "naturalistic",
+      "muted"
+    ],
+    "objects": [
+      "man",
+      "cellphone",
+      "kitchen sink"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "pensive",
+      "tense",
+      "focused",
+      "contemplative",
+      "serious"
+    ],
+    "style": [
+      "moody",
+      "dimly-lit",
+      "naturalistic"
+    ],
+    "objects": [
+      "person",
+      "phone",
+      "kitchen",
+      "faucet"
+    ]
+  }
+}

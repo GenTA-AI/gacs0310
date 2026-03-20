@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "unsettling",
+      "ominous",
+      "quiet",
+      "still"
+    ],
+    "style": [
+      "low-lit",
+      "stylized",
+      "symmetrical"
+    ],
+    "objects": [
+      "bed",
+      "door",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "tense",
+      "suspenseful",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "animated",
+      "interior"
+    ],
+    "objects": [
+      "bed",
+      "door",
+      "shelf",
+      "lock"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "ominous",
+      "foreboding",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "stylized"
+    ],
+    "objects": [
+      "bed",
+      "chairs",
+      "table",
+      "door"
+    ]
+  }
+}

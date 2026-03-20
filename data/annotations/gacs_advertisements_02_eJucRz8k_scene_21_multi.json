@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "wistful",
+      "calm",
+      "longing",
+      "reflective"
+    ],
+    "style": [
+      "dusty",
+      "natural",
+      "nostalgic"
+    ],
+    "objects": [
+      "truck",
+      "person",
+      "road",
+      "fence"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "hopeful",
+      "calm",
+      "reflective",
+      "rural"
+    ],
+    "style": [
+      "nostalgic",
+      "rural",
+      "muted"
+    ],
+    "objects": [
+      "truck",
+      "man",
+      "fence"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "nostalgic",
+      "melancholic",
+      "peaceful",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "dusty",
+      "dramatic"
+    ],
+    "objects": [
+      "truck",
+      "person",
+      "road",
+      "fence",
+      "dust"
+    ]
+  }
+}

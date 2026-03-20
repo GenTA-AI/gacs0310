@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "eerie",
+      "isolated",
+      "ominous"
+    ],
+    "style": [
+      "animated",
+      "moody",
+      "nocturnal"
+    ],
+    "objects": [
+      "fence",
+      "boardwalk",
+      "streetlights",
+      "character",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "lonely",
+      "uneasy",
+      "quiet",
+      "mysterious",
+      "melancholic"
+    ],
+    "style": [
+      "animated",
+      "blue-toned",
+      "flat"
+    ],
+    "objects": [
+      "person",
+      "fence",
+      "boardwalk",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "lonely",
+      "somber",
+      "nostalgic",
+      "contemplative"
+    ],
+    "style": [
+      "animated",
+      "moody",
+      "blue-tinted"
+    ],
+    "objects": [
+      "fence",
+      "walkway",
+      "buildings",
+      "person",
+      "bags"
+    ]
+  }
+}

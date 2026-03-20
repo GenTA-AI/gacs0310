@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "whimsical",
+      "lighthearted",
+      "fun",
+      "joyful"
+    ],
+    "style": [
+      "minimalist",
+      "iconic",
+      "playful"
+    ],
+    "objects": [
+      "lamp",
+      "letters"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "bright",
+      "gentle",
+      "inviting",
+      "nostalgic"
+    ],
+    "style": [
+      "clean",
+      "minimalist",
+      "bright"
+    ],
+    "objects": [
+      "lamp",
+      "letters"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "serene",
+      "professional",
+      "clean",
+      "anticipatory"
+    ],
+    "style": [
+      "minimalist",
+      "clean",
+      "corporate"
+    ],
+    "objects": [
+      "pixar logo",
+      "lamp",
+      "letter i",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "anticipation",
+      "sleek",
+      "modern",
+      "mysterious"
+    ],
+    "style": [
+      "futuristic",
+      "dark",
+      "linear"
+    ],
+    "objects": [
+      "ps6",
+      "road",
+      "lighting"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "dramatic",
+      "technological",
+      "mysterious"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "neon-lit"
+    ],
+    "objects": [
+      "ps5",
+      "console",
+      "blue light",
+      "geometric design"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "mysterious",
+      "sleek",
+      "dark",
+      "anticipatory"
+    ],
+    "style": [
+      "futuristic",
+      "minimalistic",
+      "dark"
+    ],
+    "objects": [
+      "ps6",
+      "lights",
+      "darkness"
+    ]
+  }
+}

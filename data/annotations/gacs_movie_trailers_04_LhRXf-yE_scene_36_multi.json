@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "friendly",
+      "casual",
+      "optimistic",
+      "welcoming"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "urban-contemporary"
+    ],
+    "objects": [
+      "person",
+      "street",
+      "buildings",
+      "sidewalk"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "coy",
+      "hopeful",
+      "mischievous",
+      "friendly",
+      "lighthearted"
+    ],
+    "style": [
+      "naturalistic",
+      "urban",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "building",
+      "bus"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "friendly",
+      "warm",
+      "relaxed",
+      "casual"
+    ],
+    "style": [
+      "natural",
+      "urban",
+      "candid"
+    ],
+    "objects": [
+      "people",
+      "bus",
+      "building",
+      "bag"
+    ]
+  }
+}

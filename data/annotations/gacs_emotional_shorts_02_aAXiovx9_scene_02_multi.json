@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "concerned",
+      "neutral",
+      "informative",
+      "calm"
+    ],
+    "style": [
+      "news",
+      "naturalistic",
+      "outdoor"
+    ],
+    "objects": [
+      "man",
+      "grass",
+      "rocks"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "concerned",
+      "thoughtful",
+      "subdued"
+    ],
+    "style": [
+      "realistic",
+      "natural-lighting",
+      "journalistic"
+    ],
+    "objects": [
+      "man",
+      "grass",
+      "rocks",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "reflective",
+      "serious",
+      "contemplative",
+      "casual"
+    ],
+    "style": [
+      "casual",
+      "outdoors",
+      "reportage"
+    ],
+    "objects": [
+      "man",
+      "hat",
+      "sunglasses",
+      "grass",
+      "rocks"
+    ]
+  }
+}

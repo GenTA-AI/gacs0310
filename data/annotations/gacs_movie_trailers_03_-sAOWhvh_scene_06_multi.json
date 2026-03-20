@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "intimate",
+      "vulnerable",
+      "contemplative",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "hair",
+      "fabric",
+      "background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "mournful",
+      "reflective",
+      "grieving",
+      "despondent"
+    ],
+    "style": [
+      "desaturated",
+      "muted",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "tombstone"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "sorrowful",
+      "emotional",
+      "grieving",
+      "poignant"
+    ],
+    "style": [
+      "somber",
+      "desaturated",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "gravestone"
+    ]
+  }
+}

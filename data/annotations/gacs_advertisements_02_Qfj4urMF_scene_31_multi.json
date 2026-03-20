@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "urban",
+      "everyday",
+      "relaxed",
+      "community"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "urban"
+    ],
+    "objects": [
+      "car",
+      "building",
+      "tree",
+      "store",
+      "people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "everyday",
+      "ordinary",
+      "peaceful",
+      "serene"
+    ],
+    "style": [
+      "realistic",
+      "bright",
+      "modern"
+    ],
+    "objects": [
+      "car",
+      "building",
+      "tree",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "urban",
+      "leisurely",
+      "nostalgic",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "urban"
+    ],
+    "objects": [
+      "car",
+      "building",
+      "tree",
+      "people",
+      "street"
+    ]
+  }
+}

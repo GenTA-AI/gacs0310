@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "nostalgic",
+      "eerie",
+      "atmospheric"
+    ],
+    "style": [
+      "dark",
+      "neon-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "car",
+      "building",
+      "neon sign",
+      "night sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "eerie",
+      "mysterious",
+      "unsettling",
+      "tense"
+    ],
+    "style": [
+      "nocturnal",
+      "neon-lit",
+      "grainy"
+    ],
+    "objects": [
+      "van",
+      "building",
+      "neon sign"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "dark",
+      "ominous",
+      "enigmatic"
+    ],
+    "style": [
+      "nighttime",
+      "neon-lit",
+      "vintage"
+    ],
+    "objects": [
+      "van",
+      "building",
+      "sign"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "eerie",
+      "desolate",
+      "ominous",
+      "haunting",
+      "melancholic"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "underwater"
+    ],
+    "objects": [
+      "anchor",
+      "ship deck",
+      "debris",
+      "ropes",
+      "metal structures"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "desolate",
+      "somber",
+      "eerie",
+      "ominous",
+      "bleak"
+    ],
+    "style": [
+      "bleak",
+      "cold",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "debris",
+      "floor",
+      "rubble"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "desolate",
+      "eerie",
+      "somber",
+      "mysterious",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "dark",
+      "rubble"
+    ],
+    "objects": [
+      "rubble",
+      "person",
+      "light beam",
+      "debris"
+    ]
+  }
+}

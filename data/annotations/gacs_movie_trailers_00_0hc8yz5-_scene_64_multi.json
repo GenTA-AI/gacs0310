@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "mysterious",
+      "determined",
+      "serious",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "split-screen",
+      "contrasted"
+    ],
+    "objects": [
+      "whiteboard",
+      "woman",
+      "forest",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "absurd",
+      "unsettling",
+      "humorous",
+      "strange",
+      "ominous"
+    ],
+    "style": [
+      "naturalistic",
+      "comedic",
+      "surreal"
+    ],
+    "objects": [
+      "woman",
+      "drawing",
+      "axe",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "surprised",
+      "provocative",
+      "tense"
+    ],
+    "style": [
+      "cinematic",
+      "natural",
+      "sharp"
+    ],
+    "objects": [
+      "axe",
+      "tree",
+      "graffiti",
+      "woman"
+    ]
+  }
+}

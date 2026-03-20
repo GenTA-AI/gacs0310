@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "grand",
+      "celebratory",
+      "anticipatory",
+      "hopeful",
+      "impressive"
+    ],
+    "style": [
+      "stylized",
+      "grand",
+      "desaturated"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "stage"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "triumphant",
+      "festive",
+      "communal"
+    ],
+    "style": [
+      "grand",
+      "colorful",
+      "dramatic"
+    ],
+    "objects": [
+      "crowd",
+      "steps",
+      "building",
+      "people",
+      "costumes"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "triumphant",
+      "celebratory",
+      "uplifting",
+      "joyous",
+      "reverent"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "epic"
+    ],
+    "objects": [
+      "crowd",
+      "steps",
+      "figures",
+      "columns",
+      "temple"
+    ]
+  }
+}

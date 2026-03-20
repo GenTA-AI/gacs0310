@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "wistful",
+      "romantic",
+      "bittersweet"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "eyes",
+      "face",
+      "sunset"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "serene",
+      "introspective",
+      "warm",
+      "contemplative"
+    ],
+    "style": [
+      "realistic",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "woman",
+      "eyes",
+      "canvas"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "serene",
+      "dreamy",
+      "romantic",
+      "wistful"
+    ],
+    "style": [
+      "dreamy",
+      "warm-toned",
+      "soft"
+    ],
+    "objects": [
+      "woman",
+      "painting",
+      "man"
+    ]
+  }
+}

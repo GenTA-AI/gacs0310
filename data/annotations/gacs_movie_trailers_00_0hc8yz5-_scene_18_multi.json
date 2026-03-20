@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "tense",
+      "confined",
+      "curious"
+    ],
+    "style": [
+      "low-key",
+      "warm-toned",
+      "claustrophobic"
+    ],
+    "objects": [
+      "man",
+      "wall",
+      "electrical panel",
+      "gothic decoration"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "suspenseful",
+      "dark",
+      "secretive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shadowy"
+    ],
+    "objects": [
+      "person",
+      "box",
+      "wall",
+      "light fixture"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "mysterious",
+      "apprehensive",
+      "secretive",
+      "ominous"
+    ],
+    "style": [
+      "warm-toned",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "wall",
+      "door",
+      "stairs",
+      "railing"
+    ]
+  }
+}

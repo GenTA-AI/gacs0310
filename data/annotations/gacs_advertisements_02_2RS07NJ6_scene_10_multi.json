@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "industrial",
+      "stark",
+      "somber",
+      "metallic",
+      "heavy"
+    ],
+    "style": [
+      "grainy",
+      "dark",
+      "gritty"
+    ],
+    "objects": [
+      "car",
+      "metal grid",
+      "tag"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "confined",
+      "claustrophobic",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "monochrome",
+      "surveillance-style",
+      "low-contrast"
+    ],
+    "objects": [
+      "car grille",
+      "headlight",
+      "mesh pattern",
+      "vehicle front"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "industrial",
+      "gritty",
+      "enigmatic"
+    ],
+    "style": [
+      "vintage",
+      "gritty",
+      "textured"
+    ],
+    "objects": [
+      "car",
+      "mesh",
+      "label"
+    ]
+  }
+}

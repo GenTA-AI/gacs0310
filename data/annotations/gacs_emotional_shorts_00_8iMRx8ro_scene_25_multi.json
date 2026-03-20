@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "informative",
+      "serious",
+      "concerned",
+      "urgent",
+      "calm"
+    ],
+    "style": [
+      "professional",
+      "informative",
+      "clean"
+    ],
+    "objects": [
+      "news anchor",
+      "buildings",
+      "news ticker"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "informative",
+      "serious",
+      "professional",
+      "urgent"
+    ],
+    "style": [
+      "news",
+      "staged",
+      "bright"
+    ],
+    "objects": [
+      "woman",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "concerned",
+      "urgent",
+      "focused",
+      "professional"
+    ],
+    "style": [
+      "professional",
+      "broadcast",
+      "corporate"
+    ],
+    "objects": [
+      "news anchor",
+      "city buildings",
+      "television screen",
+      "news desk"
+    ]
+  }
+}

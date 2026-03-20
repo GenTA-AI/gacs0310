@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "contemplative",
+      "somber",
+      "quiet",
+      "introspective"
+    ],
+    "style": [
+      "natural",
+      "subdued",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "wall",
+      "hoodie",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "concerned",
+      "thoughtful",
+      "subdued",
+      "reflective"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "medium-shot"
+    ],
+    "objects": [
+      "woman",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholy",
+      "contemplative",
+      "subdued",
+      "pensive",
+      "somber"
+    ],
+    "style": [
+      "intimate",
+      "naturalistic",
+      "soft-lit"
+    ],
+    "objects": [
+      "woman",
+      "hoodie",
+      "necklace",
+      "wall"
+    ]
+  }
+}

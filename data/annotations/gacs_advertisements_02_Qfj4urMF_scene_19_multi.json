@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "sleepy",
+      "late",
+      "quiet",
+      "dim"
+    ],
+    "style": [
+      "dimly-lit",
+      "nocturnal",
+      "realistic"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "screen",
+      "badge"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tired",
+      "weary",
+      "solemn",
+      "contemplative",
+      "lonely"
+    ],
+    "style": [
+      "noir",
+      "high-contrast",
+      "desaturated"
+    ],
+    "objects": [
+      "person",
+      "car interior",
+      "id badge",
+      "screen",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "contemplative",
+      "serious",
+      "introspective",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "low-light",
+      "moody"
+    ],
+    "objects": [
+      "person",
+      "screen",
+      "headphones",
+      "control panel"
+    ]
+  }
+}

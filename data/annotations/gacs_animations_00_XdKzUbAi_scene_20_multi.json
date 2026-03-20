@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "excited",
+      "cheerful",
+      "vibrant",
+      "energetic",
+      "fun"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "vibrant"
+    ],
+    "objects": [
+      "magazine",
+      "hands",
+      "text",
+      "cartoon characters"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "cheerful",
+      "enthusiastic",
+      "joyful",
+      "vibrant"
+    ],
+    "style": [
+      "bright",
+      "cartoonish",
+      "vibrant"
+    ],
+    "objects": [
+      "magazine",
+      "band",
+      "hands"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "nostalgic",
+      "cheerful",
+      "innocent",
+      "whimsical"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "promotional"
+    ],
+    "objects": [
+      "hands",
+      "magazine",
+      "poster",
+      "toy figures"
+    ]
+  }
+}

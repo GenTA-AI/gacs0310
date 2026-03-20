@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "distressed",
+      "panicked",
+      "desperate",
+      "drowning",
+      "terrified"
+    ],
+    "style": [
+      "underwater",
+      "cinematic",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "water",
+      "bubbles",
+      "hand"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suffocating",
+      "anxious",
+      "unsettling",
+      "claustrophobic",
+      "tragic"
+    ],
+    "style": [
+      "underwater",
+      "muted",
+      "unsettling"
+    ],
+    "objects": [
+      "people",
+      "water",
+      "netflix logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dramatic",
+      "intense",
+      "emotional",
+      "submerged",
+      "gripping"
+    ],
+    "style": [
+      "dramatic",
+      "subdued",
+      "underwater"
+    ],
+    "objects": [
+      "people",
+      "water"
+    ]
+  }
+}

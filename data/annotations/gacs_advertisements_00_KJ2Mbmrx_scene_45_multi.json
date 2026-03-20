@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "exciting",
+      "rebellious",
+      "cool",
+      "daring"
+    ],
+    "style": [
+      "dynamic",
+      "stylized",
+      "saturated"
+    ],
+    "objects": [
+      "car",
+      "license plate",
+      "tire",
+      "undercarriage"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "bold",
+      "playful",
+      "vibrant"
+    ],
+    "style": [
+      "dynamic",
+      "urban",
+      "vintage"
+    ],
+    "objects": [
+      "car",
+      "road",
+      "license plate",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "aggressive",
+      "powerful",
+      "thrilling",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "dynamic",
+      "low-angle"
+    ],
+    "objects": [
+      "car",
+      "license plate",
+      "road",
+      "wheels"
+    ]
+  }
+}

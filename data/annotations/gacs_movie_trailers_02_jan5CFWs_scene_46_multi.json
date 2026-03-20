@@ -1,0 +1,58 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "anticipatory",
+      "dramatic",
+      "mysterious",
+      "cinematic",
+      "exciting"
+    ],
+    "style": [
+      "dramatic",
+      "gradient",
+      "minimalist"
+    ],
+    "objects": [
+      "text",
+      "black background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "intriguing",
+      "dark",
+      "anticipatory",
+      "mysterious"
+    ],
+    "style": [
+      "dark",
+      "stylized",
+      "textured"
+    ],
+    "objects": [
+      "text",
+      "this summer"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anticipatory",
+      "exciting",
+      "mysterious",
+      "dramatic",
+      "bold"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "dramatic"
+    ],
+    "objects": [
+      "text"
+    ]
+  }
+}

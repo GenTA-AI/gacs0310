@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "mundane",
+      "ordinary",
+      "calm",
+      "casual"
+    ],
+    "style": [
+      "bright",
+      "naturalistic",
+      "close-up"
+    ],
+    "objects": [
+      "spaghetti",
+      "fork",
+      "plate",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "relaxed",
+      "casual",
+      "content",
+      "everyday"
+    ],
+    "style": [
+      "natural",
+      "everyday",
+      "casual"
+    ],
+    "objects": [
+      "plate",
+      "spaghetti",
+      "fork",
+      "table",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "comfortable",
+      "satisfied",
+      "relaxed",
+      "content"
+    ],
+    "style": [
+      "warm-toned",
+      "shallow-focus",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "plate",
+      "pasta",
+      "fork",
+      "table"
+    ]
+  }
+}

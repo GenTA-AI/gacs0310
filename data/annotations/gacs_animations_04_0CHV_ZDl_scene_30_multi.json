@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "serene",
+      "peaceful",
+      "tranquil",
+      "mysterious"
+    ],
+    "style": [
+      "cartoonish",
+      "blue-toned",
+      "flat"
+    ],
+    "objects": [
+      "ocean",
+      "seaweed",
+      "jellyfish",
+      "fish"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "tranquil",
+      "serene",
+      "mysterious",
+      "dreamy"
+    ],
+    "style": [
+      "animated",
+      "underwater",
+      "stylized"
+    ],
+    "objects": [
+      "jellyfish",
+      "coral",
+      "seaweed",
+      "fish",
+      "ocean floor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "tranquil",
+      "peaceful",
+      "calm",
+      "relaxing"
+    ],
+    "style": [
+      "colorful",
+      "underwater",
+      "animated"
+    ],
+    "objects": [
+      "jellyfish",
+      "fish",
+      "coral",
+      "seaweed"
+    ]
+  }
+}

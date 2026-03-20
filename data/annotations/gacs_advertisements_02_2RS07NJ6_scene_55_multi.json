@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "intense",
+      "dramatic",
+      "energetic",
+      "thrilling"
+    ],
+    "style": [
+      "dynamic",
+      "gritty",
+      "cinematic"
+    ],
+    "objects": [
+      "plants",
+      "dirt",
+      "track",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "turbulent",
+      "intense",
+      "exhilarating",
+      "gritty",
+      "fast"
+    ],
+    "style": [
+      "gritty",
+      "desaturated",
+      "dynamic"
+    ],
+    "objects": [
+      "mud",
+      "grass",
+      "barrier"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "desolate",
+      "ominous",
+      "polluted",
+      "unsettling",
+      "dystopian"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "atmospheric"
+    ],
+    "objects": [
+      "water",
+      "shore",
+      "vegetation",
+      "rocks",
+      "bridge"
+    ]
+  }
+}

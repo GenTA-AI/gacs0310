@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "content",
+      "thoughtful",
+      "serene",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "low-lit",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "wistful",
+      "cunning",
+      "sly",
+      "calculating",
+      "reflective"
+    ],
+    "style": [
+      "close-up",
+      "dark",
+      "cinematic"
+    ],
+    "objects": [
+      "man",
+      "shirt"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "contemplative",
+      "warm",
+      "gentle",
+      "thoughtful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "face",
+      "man",
+      "text",
+      "background"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "serene",
+      "neutral",
+      "peaceful",
+      "empty"
+    ],
+    "style": [
+      "minimalist",
+      "muted",
+      "atmospheric"
+    ],
+    "objects": [
+      "sky",
+      "clouds"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "empty",
+      "bleak",
+      "somber",
+      "desolate",
+      "stark"
+    ],
+    "style": [
+      "minimalist",
+      "desaturated",
+      "overcast"
+    ],
+    "objects": [
+      "surface",
+      "texture"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "quiet",
+      "serene",
+      "isolated",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "minimalist",
+      "muted",
+      "distant"
+    ],
+    "objects": [
+      "bird",
+      "sky"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urban",
+      "bustling",
+      "energetic",
+      "vibrant",
+      "metropolitan"
+    ],
+    "style": [
+      "cinematic",
+      "aerial",
+      "urban"
+    ],
+    "objects": [
+      "skyscrapers",
+      "city streets",
+      "buildings",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "moody",
+      "urban",
+      "atmospheric",
+      "bustling",
+      "evocative"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "urban"
+    ],
+    "objects": [
+      "buildings",
+      "road",
+      "skyscrapers",
+      "cityscape"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urban",
+      "somber",
+      "nighttime",
+      "sprawling",
+      "imposing"
+    ],
+    "style": [
+      "aerial",
+      "dark",
+      "urban"
+    ],
+    "objects": [
+      "buildings",
+      "road",
+      "cars",
+      "river"
+    ]
+  }
+}

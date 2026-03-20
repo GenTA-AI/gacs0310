@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "desolate",
+      "eerie",
+      "cold",
+      "barren",
+      "melancholic"
+    ],
+    "style": [
+      "foggy",
+      "monochromatic",
+      "atmospheric"
+    ],
+    "objects": [
+      "boat",
+      "water",
+      "fog",
+      "dock"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uncertain",
+      "bleak",
+      "desolate",
+      "unsettling",
+      "isolated"
+    ],
+    "style": [
+      "desaturated",
+      "muted",
+      "claustrophobic"
+    ],
+    "objects": [
+      "cockpit",
+      "windshield",
+      "wing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "futuristic",
+      "muted",
+      "gritty"
+    ],
+    "objects": [
+      "car"
+    ]
+  }
+}

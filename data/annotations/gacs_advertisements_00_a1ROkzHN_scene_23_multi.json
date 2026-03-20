@@ -1,0 +1,59 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "futuristic",
+      "minimalist",
+      "sophisticated"
+    ],
+    "style": [
+      "sleek",
+      "minimalist",
+      "futuristic"
+    ],
+    "objects": [
+      "console",
+      "controller"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clean",
+      "modern",
+      "sleek",
+      "minimal",
+      "futuristic"
+    ],
+    "style": [
+      "clean",
+      "minimalist",
+      "product-shot"
+    ],
+    "objects": [
+      "playstation 5",
+      "controller"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "modern",
+      "pristine",
+      "sophisticated",
+      "minimalist"
+    ],
+    "style": [
+      "minimalist",
+      "clean",
+      "product-focused"
+    ],
+    "objects": [
+      "playstation 5",
+      "controller"
+    ]
+  }
+}

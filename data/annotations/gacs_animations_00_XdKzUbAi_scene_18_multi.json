@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "excited",
+      "lively",
+      "energetic",
+      "cheerful",
+      "playful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "expressive"
+    ],
+    "objects": [
+      "classroom",
+      "students",
+      "musical instruments",
+      "sheet music"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "focused",
+      "anxious",
+      "comical",
+      "bright"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "cartoonish"
+    ],
+    "objects": [
+      "students",
+      "instruments",
+      "classroom",
+      "teacher"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "energetic",
+      "playful",
+      "enthusiastic",
+      "cheerful"
+    ],
+    "style": [
+      "3d-animated",
+      "colorful",
+      "stylized"
+    ],
+    "objects": [
+      "children",
+      "musical instruments",
+      "classroom",
+      "chairs"
+    ]
+  }
+}

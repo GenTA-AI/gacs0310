@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "serious",
+      "unsettling",
+      "concerned",
+      "pensive"
+    ],
+    "style": [
+      "stylized",
+      "animated",
+      "desaturated"
+    ],
+    "objects": [
+      "man",
+      "car",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "surreal",
+      "eerie",
+      "reflective",
+      "contemplative"
+    ],
+    "style": [
+      "surreal",
+      "animated",
+      "vintage"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "suit",
+      "car window",
+      "prime video logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "melancholic",
+      "contemplative",
+      "isolated",
+      "introspective"
+    ],
+    "style": [
+      "atmospheric",
+      "stylized",
+      "moody"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "coat",
+      "building",
+      "sky"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "unsettling",
+      "morbid",
+      "eerie",
+      "bleak"
+    ],
+    "style": [
+      "low-key",
+      "blurry",
+      "claustrophobic"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "coffin"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "eerie",
+      "mysterious",
+      "solemn",
+      "unsettling"
+    ],
+    "style": [
+      "muted",
+      "intimate",
+      "shadowy"
+    ],
+    "objects": [
+      "coffin",
+      "man",
+      "hand",
+      "pillow"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "intimate",
+      "vulnerable",
+      "contemplative",
+      "sorrowful"
+    ],
+    "style": [
+      "cinematic",
+      "motion-blur",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "hand",
+      "lace collar",
+      "fabric"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "adventurous",
+      "perilous",
+      "dramatic",
+      "awe-inspiring"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "high-contrast"
+    ],
+    "objects": [
+      "waterfall",
+      "rocks",
+      "cave",
+      "person",
+      "water"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "adventurous",
+      "precarious",
+      "exciting",
+      "intense",
+      "determined"
+    ],
+    "style": [
+      "adventure",
+      "dramatic",
+      "naturalistic"
+    ],
+    "objects": [
+      "waterfall",
+      "rock",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "adventurous",
+      "daring",
+      "thrilling",
+      "breathtaking",
+      "suspenseful"
+    ],
+    "style": [
+      "cinematic",
+      "adventurous",
+      "lush"
+    ],
+    "objects": [
+      "waterfall",
+      "cliff",
+      "people"
+    ]
+  }
+}

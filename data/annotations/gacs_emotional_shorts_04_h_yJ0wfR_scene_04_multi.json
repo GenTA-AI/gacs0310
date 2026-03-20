@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "thoughtful",
+      "melancholic",
+      "reflective",
+      "intimate"
+    ],
+    "style": [
+      "warm",
+      "intimate",
+      "low-key"
+    ],
+    "objects": [
+      "hand",
+      "pen",
+      "paper",
+      "desk"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "emotional",
+      "personal",
+      "nostalgic",
+      "reflective",
+      "sincere"
+    ],
+    "style": [
+      "warm-toned",
+      "intimate",
+      "nostalgic"
+    ],
+    "objects": [
+      "hand",
+      "pen",
+      "paper",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "contemplative",
+      "nostalgic",
+      "tender",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "hands",
+      "paper",
+      "pen",
+      "desk"
+    ]
+  }
+}

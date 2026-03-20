@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "luxurious",
+      "sophisticated",
+      "elegant",
+      "refined",
+      "muted"
+    ],
+    "style": [
+      "close-up",
+      "shallow-focus",
+      "neutral"
+    ],
+    "objects": [
+      "handbag",
+      "buckle"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sophisticated",
+      "elegant",
+      "luxurious",
+      "refined",
+      "minimalist"
+    ],
+    "style": [
+      "textured",
+      "close-up",
+      "blurred"
+    ],
+    "objects": [
+      "bag",
+      "shelves"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sophisticated",
+      "luxurious",
+      "elegant",
+      "professional",
+      "refined"
+    ],
+    "style": [
+      "shallow-focus",
+      "warm-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "black leather bag",
+      "handbag",
+      "purse",
+      "leather accessories"
+    ]
+  }
+}

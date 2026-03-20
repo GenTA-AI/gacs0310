@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "calm",
+      "serene",
+      "nostalgic",
+      "whimsical"
+    ],
+    "style": [
+      "stylized",
+      "vibrant",
+      "dreamy"
+    ],
+    "objects": [
+      "cn tower",
+      "buildings",
+      "roof",
+      "flowers"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "vibrant",
+      "peaceful",
+      "picturesque",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "tower",
+      "buildings",
+      "roof",
+      "flowers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "peaceful",
+      "nostalgic",
+      "whimsical",
+      "serene"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "cn tower",
+      "traditional roof",
+      "purple flowers",
+      "city skyline"
+    ]
+  }
+}

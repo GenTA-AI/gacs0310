@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "inspiring",
+      "hopeful",
+      "uplifting",
+      "encouraging",
+      "motivational"
+    ],
+    "style": [
+      "simple",
+      "text-based",
+      "positive"
+    ],
+    "objects": [
+      "text",
+      "sparkles"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspiring",
+      "hopeful",
+      "uplifting",
+      "encouraging",
+      "optimistic"
+    ],
+    "style": [
+      "text-heavy",
+      "inspirational",
+      "starry"
+    ],
+    "objects": [
+      "text",
+      "stars"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "uplifting",
+      "inspirational",
+      "hopeful",
+      "welcoming",
+      "motivational"
+    ],
+    "style": [
+      "minimalist",
+      "text-overlay",
+      "dark-background"
+    ],
+    "objects": [
+      "text",
+      "stars",
+      "space background"
+    ]
+  }
+}

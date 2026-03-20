@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "majestic",
+      "adventurous",
+      "peaceful",
+      "awe-inspiring"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "wide-angle"
+    ],
+    "objects": [
+      "boat",
+      "water",
+      "limestone cliffs",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serene",
+      "adventurous",
+      "majestic",
+      "isolated",
+      "exploratory"
+    ],
+    "style": [
+      "atmospheric",
+      "wide-angle",
+      "scenic"
+    ],
+    "objects": [
+      "boat",
+      "cliffs",
+      "water"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dramatic",
+      "adventurous",
+      "serene",
+      "mysterious",
+      "exploratory"
+    ],
+    "style": [
+      "cinematic",
+      "vibrant",
+      "dramatic"
+    ],
+    "objects": [
+      "boat",
+      "water",
+      "rocks",
+      "islands"
+    ]
+  }
+}

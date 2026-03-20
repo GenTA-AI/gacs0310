@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "melancholic",
+      "curious",
+      "hesitant",
+      "subdued"
+    ],
+    "style": [
+      "cool-toned",
+      "muted",
+      "realistic"
+    ],
+    "objects": [
+      "woman",
+      "door",
+      "sign",
+      "record"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "melancholic",
+      "contemplative",
+      "subdued",
+      "somber",
+      "reflective"
+    ],
+    "style": [
+      "moody",
+      "soft-focus",
+      "muted"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "push sign",
+      "32 jazz club sign"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "contemplative",
+      "moody",
+      "introspective",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "teal-toned"
+    ],
+    "objects": [
+      "woman",
+      "door",
+      "buttons",
+      "sign"
+    ]
+  }
+}

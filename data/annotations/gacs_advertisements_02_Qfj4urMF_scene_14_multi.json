@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "surprised",
+      "attentive",
+      "engaged",
+      "focused"
+    ],
+    "style": [
+      "futuristic",
+      "realistic",
+      "vibrant"
+    ],
+    "objects": [
+      "car interior",
+      "screen",
+      "boy",
+      "glasses"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "anticipating",
+      "observant",
+      "engaged",
+      "involved"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "interior"
+    ],
+    "objects": [
+      "boy",
+      "car interior",
+      "tablet"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "concentrated",
+      "serious",
+      "studious",
+      "determined"
+    ],
+    "style": [
+      "naturalistic",
+      "casual",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "car",
+      "laptop",
+      "glasses",
+      "seatbelt"
+    ]
+  }
+}

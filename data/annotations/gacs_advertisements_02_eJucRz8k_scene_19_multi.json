@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "focused",
+      "dynamic",
+      "lively",
+      "purposeful"
+    ],
+    "style": [
+      "dynamic",
+      "realistic",
+      "vibrant"
+    ],
+    "objects": [
+      "horse",
+      "person",
+      "truck"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intent",
+      "active",
+      "focused",
+      "serious",
+      "determined"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "medium-shot"
+    ],
+    "objects": [
+      "horse",
+      "trailer",
+      "man"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "curious",
+      "energetic",
+      "mischievous",
+      "adventurous"
+    ],
+    "style": [
+      "documentary",
+      "handheld",
+      "natural-lighting"
+    ],
+    "objects": [
+      "dog",
+      "truck",
+      "leash",
+      "person"
+    ]
+  }
+}

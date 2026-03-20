@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "elegant",
+      "sophisticated",
+      "futuristic"
+    ],
+    "style": [
+      "futuristic",
+      "sleek",
+      "minimalistic"
+    ],
+    "objects": [
+      "car",
+      "taillight",
+      "emblem"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "modern",
+      "sophisticated",
+      "elegant"
+    ],
+    "style": [
+      "sleek",
+      "cool-toned",
+      "product-focused"
+    ],
+    "objects": [
+      "car",
+      "e-tron gt",
+      "car emblem"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "modern",
+      "sleek",
+      "sophisticated",
+      "minimalist",
+      "professional"
+    ],
+    "style": [
+      "sleek",
+      "automotive",
+      "close-up"
+    ],
+    "objects": [
+      "car",
+      "badge",
+      "taillight",
+      "text"
+    ]
+  }
+}

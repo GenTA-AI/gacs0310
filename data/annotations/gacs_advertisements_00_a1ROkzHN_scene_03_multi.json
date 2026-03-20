@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "sleek",
+      "futuristic",
+      "minimal",
+      "elegant"
+    ],
+    "style": [
+      "minimalist",
+      "futuristic",
+      "dark"
+    ],
+    "objects": [
+      "tower",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "enigmatic",
+      "modern",
+      "intriguing"
+    ],
+    "style": [
+      "futuristic",
+      "sleek",
+      "minimalistic"
+    ],
+    "objects": [
+      "grand",
+      "blue lights",
+      "structure"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "mysterious",
+      "elegant",
+      "sophisticated"
+    ],
+    "style": [
+      "minimalist",
+      "futuristic",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "tower",
+      "light",
+      "text",
+      "darkness"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "embarrassed",
+      "awkward",
+      "flustered",
+      "nervous",
+      "overwhelmed"
+    ],
+    "style": [
+      "bright",
+      "animated",
+      "stylized"
+    ],
+    "objects": [
+      "red panda",
+      "door",
+      "window",
+      "wallpaper"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surprised",
+      "anxious",
+      "flustered",
+      "startled",
+      "overwhelmed"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "vibrant"
+    ],
+    "objects": [
+      "red panda",
+      "bed",
+      "window",
+      "door"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "cheerful",
+      "energetic",
+      "silly",
+      "joyful"
+    ],
+    "style": [
+      "playful",
+      "bright-colored",
+      "domestic"
+    ],
+    "objects": [
+      "red teddy bear",
+      "kitchen cabinets",
+      "window blinds",
+      "ceiling light"
+    ]
+  }
+}

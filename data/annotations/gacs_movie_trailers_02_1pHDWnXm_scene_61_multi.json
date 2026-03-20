@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "determined",
+      "hopeful",
+      "triumphant",
+      "resolute"
+    ],
+    "style": [
+      "cinematic",
+      "golden-hour",
+      "epic"
+    ],
+    "objects": [
+      "superhero",
+      "trees",
+      "sunlight",
+      "people",
+      "costume"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "serious",
+      "hopeful",
+      "tense",
+      "concerned"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "desaturated"
+    ],
+    "objects": [
+      "people",
+      "sky",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "hopeful",
+      "determined",
+      "warm",
+      "united",
+      "heroic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dynamic"
+    ],
+    "objects": [
+      "people",
+      "trees",
+      "sunset",
+      "armor"
+    ]
+  }
+}

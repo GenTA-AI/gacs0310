@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "frightening",
+      "panicked",
+      "desperate",
+      "terrifying"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "hospital bed",
+      "medical equipment",
+      "window",
+      "netflix logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "anxious",
+      "protective",
+      "frightened",
+      "desperate"
+    ],
+    "style": [
+      "dark",
+      "tense",
+      "claustrophobic"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "monster"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "protective",
+      "anxious",
+      "dramatic",
+      "urgent"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "intense"
+    ],
+    "objects": [
+      "child",
+      "adult",
+      "dinosaur",
+      "chair"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "energetic",
+      "defiant",
+      "aggressive",
+      "focused"
+    ],
+    "style": [
+      "dark",
+      "energetic",
+      "surreal"
+    ],
+    "objects": [
+      "eminem",
+      "monitors",
+      "recording studio",
+      "console"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "futuristic",
+      "dramatic",
+      "concentrated"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "futuristic"
+    ],
+    "objects": [
+      "person",
+      "computer monitors",
+      "desk",
+      "chair",
+      "screens"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "energetic",
+      "dynamic",
+      "focused",
+      "modern"
+    ],
+    "style": [
+      "dark",
+      "dynamic",
+      "digital"
+    ],
+    "objects": [
+      "monitors",
+      "person",
+      "writing",
+      "computer",
+      "chair"
+    ]
+  }
+}

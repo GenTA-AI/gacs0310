@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "intense",
+      "brooding",
+      "contemplative",
+      "somber"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "cinematic"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "face",
+      "netflix logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "grim",
+      "intense",
+      "thoughtful"
+    ],
+    "style": [
+      "low-key",
+      "cinematic",
+      "blue-toned"
+    ],
+    "objects": [
+      "man",
+      "beard"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "shadowy",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "dramatic",
+      "low-key",
+      "moody"
+    ],
+    "objects": [
+      "bearded man",
+      "hat"
+    ]
+  }
+}

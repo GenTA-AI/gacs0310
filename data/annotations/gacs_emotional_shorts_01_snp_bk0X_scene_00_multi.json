@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "unsettling",
+      "bleak",
+      "burdened",
+      "stoic"
+    ],
+    "style": [
+      "documentary",
+      "detailed",
+      "cool-toned"
+    ],
+    "objects": [
+      "whale",
+      "water",
+      "icebergs"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "serene",
+      "awe-inspiring",
+      "tranquil",
+      "peaceful"
+    ],
+    "style": [
+      "ultra-hd",
+      "natural",
+      "detailed"
+    ],
+    "objects": [
+      "whale",
+      "water",
+      "barnacles",
+      "ice",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "disturbing",
+      "somber",
+      "tragic",
+      "unsettling",
+      "mournful"
+    ],
+    "style": [
+      "naturalistic",
+      "high-definition",
+      "documentary-style"
+    ],
+    "objects": [
+      "whale",
+      "barnacles",
+      "water",
+      "ice"
+    ]
+  }
+}

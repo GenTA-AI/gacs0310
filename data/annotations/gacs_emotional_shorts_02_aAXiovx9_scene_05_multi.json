@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "bittersweet",
+      "poignant",
+      "sentimental",
+      "melancholic"
+    ],
+    "style": [
+      "news",
+      "outdoor",
+      "sentimental"
+    ],
+    "objects": [
+      "photograph",
+      "family",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "bittersweet",
+      "melancholic",
+      "sentimental",
+      "wistful"
+    ],
+    "style": [
+      "nostalgic",
+      "documentary",
+      "handheld"
+    ],
+    "objects": [
+      "photograph",
+      "car",
+      "driveway",
+      "family"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "sentimental",
+      "familial",
+      "tender",
+      "peaceful"
+    ],
+    "style": [
+      "documentary",
+      "candid",
+      "nostalgic"
+    ],
+    "objects": [
+      "photograph",
+      "people",
+      "helmet"
+    ]
+  }
+}

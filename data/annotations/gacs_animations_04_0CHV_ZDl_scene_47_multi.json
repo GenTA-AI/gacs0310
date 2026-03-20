@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "curious",
+      "educational",
+      "practical",
+      "retro"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "schematic"
+    ],
+    "objects": [
+      "robot repair handbook",
+      "hands",
+      "table"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "technical",
+      "methodical",
+      "quirky",
+      "informative"
+    ],
+    "style": [
+      "cartoonish",
+      "flat",
+      "graphic"
+    ],
+    "objects": [
+      "robot repair handbook",
+      "hand",
+      "book"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "methodical",
+      "technical",
+      "studious",
+      "determined"
+    ],
+    "style": [
+      "animated",
+      "flat-colored",
+      "cartoon-style"
+    ],
+    "objects": [
+      "hands",
+      "book",
+      "table",
+      "knife"
+    ]
+  }
+}

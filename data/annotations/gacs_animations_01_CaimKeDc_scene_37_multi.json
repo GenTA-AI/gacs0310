@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tender",
+      "comforting",
+      "warm",
+      "emotional",
+      "nurturing"
+    ],
+    "style": [
+      "vibrant",
+      "detailed",
+      "warm"
+    ],
+    "objects": [
+      "two animated characters"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "thoughtful",
+      "subdued",
+      "intimate",
+      "serious"
+    ],
+    "style": [
+      "animated",
+      "warm",
+      "focused"
+    ],
+    "objects": [
+      "person",
+      "glasses",
+      "dress"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "romantic",
+      "warm",
+      "affectionate"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "glasses",
+      "women",
+      "clothing",
+      "hair"
+    ]
+  }
+}

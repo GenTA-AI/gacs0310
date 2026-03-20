@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "festive",
+      "anticipatory",
+      "bold",
+      "curious",
+      "intriguing"
+    ],
+    "style": [
+      "digital",
+      "colorful",
+      "bokeh"
+    ],
+    "objects": [
+      "text",
+      "sparkles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "festive",
+      "warm",
+      "celebratory",
+      "grateful",
+      "joyful"
+    ],
+    "style": [
+      "cinematic",
+      "bokeh",
+      "warm-toned"
+    ],
+    "objects": [
+      "text",
+      "lights",
+      "particles",
+      "background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "festive",
+      "celebratory",
+      "joyous",
+      "cheerful",
+      "lively"
+    ],
+    "style": [
+      "colorful",
+      "festive",
+      "vibrant"
+    ],
+    "objects": [
+      "thanksgiving",
+      "background text"
+    ]
+  }
+}

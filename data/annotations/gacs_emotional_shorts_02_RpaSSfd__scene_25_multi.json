@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "intense",
+      "serious",
+      "focused"
+    ],
+    "style": [
+      "warm",
+      "close-up",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "robe",
+      "text",
+      "room",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "agreeable",
+      "thoughtful",
+      "calm",
+      "neutral",
+      "expectant"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "cool-toned"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "robe"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "resigned",
+      "melancholic",
+      "subdued",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "hoodie",
+      "door",
+      "wall"
+    ]
+  }
+}

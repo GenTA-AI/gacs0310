@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "confident",
+      "casual",
+      "cool",
+      "laid-back"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses",
+      "bar",
+      "bottles"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relaxed",
+      "casual",
+      "sunny",
+      "carefree",
+      "chill"
+    ],
+    "style": [
+      "casual",
+      "vibrant",
+      "natural-lighting"
+    ],
+    "objects": [
+      "sunglasses",
+      "bottle",
+      "bar",
+      "necklace"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "casual",
+      "relaxed",
+      "observant",
+      "contemplative",
+      "alert"
+    ],
+    "style": [
+      "realistic",
+      "bright",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "sunglasses",
+      "teeth",
+      "bar"
+    ]
+  }
+}

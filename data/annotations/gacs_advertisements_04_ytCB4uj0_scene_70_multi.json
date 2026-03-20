@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "casual",
+      "neutral",
+      "simple",
+      "minimal"
+    ],
+    "style": [
+      "casual",
+      "simple",
+      "natural"
+    ],
+    "objects": [
+      "jeans",
+      "label",
+      "wooden floor"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "informational",
+      "product-focused",
+      "clean",
+      "ordinary"
+    ],
+    "style": [
+      "direct",
+      "product",
+      "neutral"
+    ],
+    "objects": [
+      "jeans",
+      "label",
+      "wood surface"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "clean",
+      "casual",
+      "organized",
+      "simple",
+      "neutral"
+    ],
+    "style": [
+      "clean",
+      "minimalist",
+      "product-focused"
+    ],
+    "objects": [
+      "jeans",
+      "wooden floor",
+      "levi's label",
+      "denim"
+    ]
+  }
+}

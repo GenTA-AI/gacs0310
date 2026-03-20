@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "contemplative",
+      "intimate",
+      "vulnerable"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "hand",
+      "watch",
+      "fabric",
+      "skin"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "gentle",
+      "intimate",
+      "protective",
+      "melancholic"
+    ],
+    "style": [
+      "cool-toned",
+      "intimate",
+      "low-contrast"
+    ],
+    "objects": [
+      "hands",
+      "watch",
+      "fabric"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "comforting",
+      "intimate",
+      "gentle",
+      "compassionate",
+      "emotional"
+    ],
+    "style": [
+      "moody",
+      "intimate",
+      "dramatic"
+    ],
+    "objects": [
+      "hands",
+      "watch",
+      "bed",
+      "blanket"
+    ]
+  }
+}

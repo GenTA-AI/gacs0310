@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "luxurious",
+      "cool",
+      "nonchalant",
+      "self-assured"
+    ],
+    "style": [
+      "high-contrast",
+      "nocturnal",
+      "luxurious"
+    ],
+    "objects": [
+      "man",
+      "car",
+      "fur coat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "luxurious",
+      "powerful",
+      "confident",
+      "glamorous",
+      "adventurous"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "glamorous"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "sunglasses",
+      "fur coat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "glamorous",
+      "confident",
+      "luxurious",
+      "stylish",
+      "sophisticated"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "noir"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "sunglasses",
+      "fur coat"
+    ]
+  }
+}

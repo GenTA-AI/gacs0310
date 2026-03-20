@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "intimate",
+      "nostalgic",
+      "contemplative",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "hands",
+      "cards",
+      "table",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "contemplative",
+      "intimate",
+      "curious",
+      "reflective"
+    ],
+    "style": [
+      "dimly-lit",
+      "intimate",
+      "moody"
+    ],
+    "objects": [
+      "envelope",
+      "hands",
+      "pattern"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "curious",
+      "focused",
+      "subdued",
+      "calm"
+    ],
+    "style": [
+      "low-key",
+      "handheld",
+      "grainy"
+    ],
+    "objects": [
+      "cloth",
+      "hands",
+      "person"
+    ]
+  }
+}

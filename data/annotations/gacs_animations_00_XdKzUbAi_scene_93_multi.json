@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "playful",
+      "vibrant",
+      "whimsical",
+      "active"
+    ],
+    "style": [
+      "cartoonish",
+      "bright",
+      "dynamic"
+    ],
+    "objects": [
+      "building",
+      "basketball",
+      "children"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "energetic",
+      "joyful",
+      "carefree",
+      "cheerful"
+    ],
+    "style": [
+      "animated",
+      "bright-colored",
+      "stylized"
+    ],
+    "objects": [
+      "children",
+      "school building",
+      "playground",
+      "basketball court"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "energetic",
+      "cheerful",
+      "lively",
+      "youthful"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "soft-focus"
+    ],
+    "objects": [
+      "basketball",
+      "children",
+      "basketball court",
+      "building"
+    ]
+  }
+}

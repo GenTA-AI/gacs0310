@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "attention-grabbing",
+      "bold",
+      "direct",
+      "informative"
+    ],
+    "style": [
+      "bold",
+      "flat",
+      "graphic"
+    ],
+    "objects": [
+      "logo",
+      "text",
+      "arrow"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "commanding",
+      "promotional",
+      "assertive",
+      "attention-grabbing"
+    ],
+    "style": [
+      "bold",
+      "graphic",
+      "minimalist"
+    ],
+    "objects": [
+      "text",
+      "arrows",
+      "circle",
+      "logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intriguing",
+      "inviting",
+      "bold",
+      "playful",
+      "direct"
+    ],
+    "style": [
+      "bold",
+      "minimalistic",
+      "graphic"
+    ],
+    "objects": [
+      "love buster logo",
+      "text"
+    ]
+  }
+}

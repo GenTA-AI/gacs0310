@@ -1,0 +1,407 @@
+{
+  "best_algorithm": "HDBSCAN",
+  "best_params": {
+    "min_cluster_size": 20
+  },
+  "metrics": {
+    "silhouette": 0.4796,
+    "calinski_harabasz": 208.3028,
+    "davies_bouldin": 0.7136
+  },
+  "n_clusters": 4,
+  "noise_points": 527,
+  "hdbscan_available": true,
+  "cluster_profiles": [
+    {
+      "cluster_id": 0,
+      "size": 40,
+      "percentage": 3.1373,
+      "top_10_moods": [
+        {
+          "word": "tense",
+          "count": 16
+        },
+        {
+          "word": "intense",
+          "count": 14
+        },
+        {
+          "word": "mysterious",
+          "count": 14
+        },
+        {
+          "word": "dangerous",
+          "count": 13
+        },
+        {
+          "word": "ominous",
+          "count": 12
+        },
+        {
+          "word": "chaotic",
+          "count": 11
+        },
+        {
+          "word": "dark",
+          "count": 10
+        },
+        {
+          "word": "dramatic",
+          "count": 7
+        },
+        {
+          "word": "eerie",
+          "count": 6
+        },
+        {
+          "word": "powerful",
+          "count": 5
+        }
+      ],
+      "top_5_styles": [
+        {
+          "word": "cinematic",
+          "count": 31
+        },
+        {
+          "word": "dramatic",
+          "count": 23
+        },
+        {
+          "word": "animated",
+          "count": 10
+        },
+        {
+          "word": "dynamic",
+          "count": 5
+        },
+        {
+          "word": "realistic",
+          "count": 5
+        }
+      ],
+      "top_5_objects": [
+        {
+          "word": "smoke",
+          "count": 9
+        },
+        {
+          "word": "water",
+          "count": 6
+        },
+        {
+          "word": "figure",
+          "count": 6
+        },
+        {
+          "word": "people",
+          "count": 5
+        },
+        {
+          "word": "structure",
+          "count": 5
+        }
+      ],
+      "category_distribution": {
+        "movie_trailers": 23,
+        "animations": 14,
+        "advertisements": 3
+      }
+    },
+    {
+      "cluster_id": 1,
+      "size": 37,
+      "percentage": 2.902,
+      "top_10_moods": [
+        {
+          "word": "surprised",
+          "count": 34
+        },
+        {
+          "word": "joyful",
+          "count": 11
+        },
+        {
+          "word": "emotional",
+          "count": 10
+        },
+        {
+          "word": "curious",
+          "count": 7
+        },
+        {
+          "word": "concerned",
+          "count": 7
+        },
+        {
+          "word": "happy",
+          "count": 5
+        },
+        {
+          "word": "anxious",
+          "count": 4
+        },
+        {
+          "word": "excited",
+          "count": 4
+        },
+        {
+          "word": "overwhelmed",
+          "count": 4
+        },
+        {
+          "word": "tense",
+          "count": 4
+        }
+      ],
+      "top_5_styles": [
+        {
+          "word": "candid",
+          "count": 24
+        },
+        {
+          "word": "domestic",
+          "count": 13
+        },
+        {
+          "word": "animated",
+          "count": 10
+        },
+        {
+          "word": "bright",
+          "count": 7
+        },
+        {
+          "word": "vibrant",
+          "count": 6
+        }
+      ],
+      "top_5_objects": [
+        {
+          "word": "man",
+          "count": 13
+        },
+        {
+          "word": "woman",
+          "count": 10
+        },
+        {
+          "word": "couch",
+          "count": 5
+        },
+        {
+          "word": "boy",
+          "count": 5
+        },
+        {
+          "word": "table",
+          "count": 5
+        }
+      ],
+      "category_distribution": {
+        "emotional_shorts": 23,
+        "animations": 10,
+        "man_vs_baby": 2,
+        "advertisements": 2
+      }
+    },
+    {
+      "cluster_id": 2,
+      "size": 644,
+      "percentage": 50.5098,
+      "top_10_moods": [
+        {
+          "word": "calm",
+          "count": 162
+        },
+        {
+          "word": "joyful",
+          "count": 130
+        },
+        {
+          "word": "happy",
+          "count": 91
+        },
+        {
+          "word": "tender",
+          "count": 76
+        },
+        {
+          "word": "emotional",
+          "count": 70
+        },
+        {
+          "word": "peaceful",
+          "count": 66
+        },
+        {
+          "word": "playful",
+          "count": 59
+        },
+        {
+          "word": "warm",
+          "count": 56
+        },
+        {
+          "word": "serene",
+          "count": 56
+        },
+        {
+          "word": "lively",
+          "count": 52
+        }
+      ],
+      "top_5_styles": [
+        {
+          "word": "candid",
+          "count": 333
+        },
+        {
+          "word": "realistic",
+          "count": 122
+        },
+        {
+          "word": "cinematic",
+          "count": 104
+        },
+        {
+          "word": "natural",
+          "count": 100
+        },
+        {
+          "word": "domestic",
+          "count": 84
+        }
+      ],
+      "top_5_objects": [
+        {
+          "word": "man",
+          "count": 195
+        },
+        {
+          "word": "woman",
+          "count": 180
+        },
+        {
+          "word": "people",
+          "count": 89
+        },
+        {
+          "word": "shirt",
+          "count": 47
+        },
+        {
+          "word": "flowers",
+          "count": 44
+        }
+      ],
+      "category_distribution": {
+        "emotional_shorts": 412,
+        "advertisements": 107,
+        "animations": 87,
+        "movie_trailers": 33,
+        "man_vs_baby": 3,
+        "ready_or_not": 1,
+        "toy_story_5": 1
+      }
+    },
+    {
+      "cluster_id": 3,
+      "size": 27,
+      "percentage": 2.1176,
+      "top_10_moods": [
+        {
+          "word": "somber",
+          "count": 23
+        },
+        {
+          "word": "pensive",
+          "count": 9
+        },
+        {
+          "word": "tense",
+          "count": 6
+        },
+        {
+          "word": "reflective",
+          "count": 5
+        },
+        {
+          "word": "melancholic",
+          "count": 5
+        },
+        {
+          "word": "concerned",
+          "count": 4
+        },
+        {
+          "word": "serious",
+          "count": 4
+        },
+        {
+          "word": "contemplative",
+          "count": 3
+        },
+        {
+          "word": "gritty",
+          "count": 3
+        },
+        {
+          "word": "isolated",
+          "count": 3
+        }
+      ],
+      "top_5_styles": [
+        {
+          "word": "cinematic",
+          "count": 20
+        },
+        {
+          "word": "realistic",
+          "count": 6
+        },
+        {
+          "word": "dramatic",
+          "count": 6
+        },
+        {
+          "word": "candid",
+          "count": 3
+        },
+        {
+          "word": "atmospheric",
+          "count": 3
+        }
+      ],
+      "top_5_objects": [
+        {
+          "word": "man",
+          "count": 7
+        },
+        {
+          "word": "woman",
+          "count": 5
+        },
+        {
+          "word": "person",
+          "count": 5
+        },
+        {
+          "word": "sky",
+          "count": 4
+        },
+        {
+          "word": "street",
+          "count": 3
+        }
+      ],
+      "category_distribution": {
+        "movie_trailers": 12,
+        "emotional_shorts": 7,
+        "advertisements": 5,
+        "animations": 2,
+        "ready_or_not": 1
+      }
+    }
+  ]
+}

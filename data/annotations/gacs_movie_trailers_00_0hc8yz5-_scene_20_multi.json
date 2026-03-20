@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "claustrophobic",
+      "trapped",
+      "uneasy",
+      "tense",
+      "confined"
+    ],
+    "style": [
+      "claustrophobic",
+      "high-angle",
+      "warm-toned"
+    ],
+    "objects": [
+      "person",
+      "wooden structure",
+      "window"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "claustrophobic",
+      "tense",
+      "confined",
+      "desperate",
+      "uncomfortable"
+    ],
+    "style": [
+      "warm-toned",
+      "atmospheric",
+      "confined"
+    ],
+    "objects": [
+      "person",
+      "ceiling",
+      "walls",
+      "floor",
+      "wooden beams"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "trapped",
+      "isolated",
+      "constrained",
+      "suspenseful"
+    ],
+    "style": [
+      "overhead",
+      "dimly-lit",
+      "confined"
+    ],
+    "objects": [
+      "person",
+      "wooden walls",
+      "ceiling",
+      "light"
+    ]
+  }
+}

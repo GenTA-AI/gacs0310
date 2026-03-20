@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surprised",
+      "agitated",
+      "frantic",
+      "comical",
+      "tense"
+    ],
+    "style": [
+      "cartoonish",
+      "warm-toned",
+      "dimly-lit"
+    ],
+    "objects": [
+      "turkey",
+      "bottles",
+      "cupboard",
+      "plates"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "startled",
+      "animated",
+      "vibrant",
+      "surprised"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "dimly-lit"
+    ],
+    "objects": [
+      "toucan",
+      "shelves",
+      "plates",
+      "bottles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "warm",
+      "nostalgic",
+      "intimate",
+      "rustic"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "rustic"
+    ],
+    "objects": [
+      "parrot",
+      "shelves",
+      "pottery",
+      "lantern"
+    ]
+  }
+}

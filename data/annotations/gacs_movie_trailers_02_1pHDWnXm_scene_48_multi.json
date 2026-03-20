@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "somber",
+      "isolated",
+      "melancholic",
+      "pensive"
+    ],
+    "style": [
+      "moody",
+      "institutional",
+      "silhouetted"
+    ],
+    "objects": [
+      "person",
+      "chairs",
+      "flag",
+      "ceiling",
+      "room"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "anxious",
+      "subdued",
+      "lonely",
+      "contemplative"
+    ],
+    "style": [
+      "desaturated",
+      "low-key",
+      "institutional"
+    ],
+    "objects": [
+      "man",
+      "chairs",
+      "flag",
+      "wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "contemplative",
+      "isolated",
+      "subdued",
+      "melancholic"
+    ],
+    "style": [
+      "dimly-lit",
+      "contemplative",
+      "minimalist"
+    ],
+    "objects": [
+      "chairs",
+      "person",
+      "window",
+      "ceiling lights"
+    ]
+  }
+}

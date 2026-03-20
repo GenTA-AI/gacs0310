@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "determined",
+      "intense",
+      "serious",
+      "purposeful"
+    ],
+    "style": [
+      "dynamic",
+      "moody",
+      "detailed"
+    ],
+    "objects": [
+      "helmet",
+      "person",
+      "suit"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipation",
+      "suspense",
+      "concealed",
+      "serious",
+      "intense"
+    ],
+    "style": [
+      "low-angle",
+      "desaturated",
+      "claustrophobic"
+    ],
+    "objects": [
+      "helmet",
+      "hands",
+      "jacket",
+      "ceiling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "distressed",
+      "overwhelmed",
+      "anguished",
+      "desperate",
+      "troubled"
+    ],
+    "style": [
+      "moody",
+      "low-key",
+      "cinematic"
+    ],
+    "objects": [
+      "person",
+      "mask",
+      "hoodie",
+      "hands"
+    ]
+  }
+}

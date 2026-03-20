@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "contemplative",
+      "melancholic",
+      "weary",
+      "introspective"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "moody"
+    ],
+    "objects": [
+      "man",
+      "orange shirt",
+      "prison bars",
+      "face"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "somber",
+      "serious",
+      "thoughtful",
+      "brooding"
+    ],
+    "style": [
+      "low-key",
+      "gritty",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "prison uniform"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "brooding",
+      "somber",
+      "reflective",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "focused"
+    ],
+    "objects": [
+      "person",
+      "orange jumpsuit",
+      "door"
+    ]
+  }
+}

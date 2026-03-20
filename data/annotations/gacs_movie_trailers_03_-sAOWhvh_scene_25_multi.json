@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "ominous",
+      "tense",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "desaturated"
+    ],
+    "objects": [
+      "trucks",
+      "smoke",
+      "machinery",
+      "vehicles"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gloomy",
+      "bleak",
+      "tense",
+      "industrial",
+      "ominous"
+    ],
+    "style": [
+      "desaturated",
+      "cinematic",
+      "gritty"
+    ],
+    "objects": [
+      "van",
+      "truck"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "dramatic",
+      "chaotic",
+      "urgent",
+      "gritty"
+    ],
+    "style": [
+      "gritty",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "van",
+      "truck",
+      "road",
+      "building"
+    ]
+  }
+}

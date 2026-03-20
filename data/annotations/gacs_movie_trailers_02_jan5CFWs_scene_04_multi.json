@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "serious",
+      "confrontational",
+      "tense",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "blue-tinted",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "man with glasses",
+      "woman",
+      "blue lighting",
+      "indoor setting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "anxious",
+      "watchful",
+      "alert",
+      "uneasy"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "desaturated"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "glasses",
+      "mural"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confused",
+      "focused",
+      "inquisitive",
+      "serious"
+    ],
+    "style": [
+      "cinematic",
+      "muted",
+      "focused"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "glasses",
+      "sculpture",
+      "ladder"
+    ]
+  }
+}

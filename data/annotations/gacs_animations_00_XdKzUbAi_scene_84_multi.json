@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dreamlike",
+      "surreal",
+      "hazy",
+      "abstract",
+      "unsettling"
+    ],
+    "style": [
+      "blurred",
+      "pink",
+      "synthetic"
+    ],
+    "objects": [
+      "foam",
+      "aquarium"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "whimsical",
+      "playful",
+      "vibrant",
+      "lively"
+    ],
+    "style": [
+      "blurred",
+      "vibrant",
+      "chaotic"
+    ],
+    "objects": [
+      "pink smoke"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "surreal",
+      "ethereal",
+      "mystical",
+      "tranquil"
+    ],
+    "style": [
+      "dreamy",
+      "saturated",
+      "ethereal"
+    ],
+    "objects": [
+      "coral",
+      "fish",
+      "aquarium",
+      "water"
+    ]
+  }
+}

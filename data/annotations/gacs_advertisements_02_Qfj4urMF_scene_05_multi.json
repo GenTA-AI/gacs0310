@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dark",
+      "mysterious",
+      "sleek",
+      "tense",
+      "modern"
+    ],
+    "style": [
+      "low-key",
+      "modern",
+      "sleek"
+    ],
+    "objects": [
+      "car",
+      "tires"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "tense",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "low-light",
+      "sleek"
+    ],
+    "objects": [
+      "car",
+      "door",
+      "street"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "sleek",
+      "cinematic",
+      "atmospheric"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "low-lit"
+    ],
+    "objects": [
+      "car",
+      "garage",
+      "shadows",
+      "lighting"
+    ]
+  }
+}

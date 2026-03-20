@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tender",
+      "joyful",
+      "serene",
+      "affectionate",
+      "peaceful"
+    ],
+    "style": [
+      "muted",
+      "natural",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "horse",
+      "cap",
+      "plaid shirt"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gentle",
+      "happy",
+      "peaceful",
+      "calm",
+      "serene"
+    ],
+    "style": [
+      "naturalistic",
+      "soft",
+      "muted"
+    ],
+    "objects": [
+      "man",
+      "horse",
+      "cap"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "mischievous",
+      "secretive",
+      "sneaky",
+      "amused"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "soft-focus"
+    ],
+    "objects": [
+      "person",
+      "hat",
+      "jacket",
+      "wall"
+    ]
+  }
+}

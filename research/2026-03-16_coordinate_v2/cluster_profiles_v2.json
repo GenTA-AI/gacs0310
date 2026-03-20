@@ -1,0 +1,188 @@
+{
+  "C0": {
+    "n_scenes": 403,
+    "pct": 12.0,
+    "top_moods": [
+      [
+        "somber",
+        210
+      ],
+      [
+        "contemplative",
+        180
+      ],
+      [
+        "melancholic",
+        126
+      ],
+      [
+        "serious",
+        103
+      ],
+      [
+        "pensive",
+        86
+      ],
+      [
+        "introspective",
+        73
+      ],
+      [
+        "mysterious",
+        53
+      ],
+      [
+        "intense",
+        49
+      ],
+      [
+        "reflective",
+        42
+      ],
+      [
+        "focused",
+        40
+      ]
+    ],
+    "mean_pcs": {
+      "PC1": 9.426,
+      "PC2": 22.548,
+      "PC3": -1.975,
+      "PC4": 4.995,
+      "PC5": 0.142,
+      "PC6": -0.056,
+      "PC7": 0.347
+    },
+    "categories": {
+      "emotional_shorts": 147,
+      "movie_trailers": 123,
+      "advertisements": 68,
+      "animations": 65
+    },
+    "suggested_name": "Somber/Contemplative/Melancholic"
+  },
+  "C1": {
+    "n_scenes": 970,
+    "pct": 28.9,
+    "top_moods": [
+      [
+        "tense",
+        317
+      ],
+      [
+        "intense",
+        300
+      ],
+      [
+        "mysterious",
+        299
+      ],
+      [
+        "dramatic",
+        192
+      ],
+      [
+        "ominous",
+        168
+      ],
+      [
+        "dark",
+        163
+      ],
+      [
+        "suspenseful",
+        155
+      ],
+      [
+        "serious",
+        121
+      ],
+      [
+        "concerned",
+        115
+      ],
+      [
+        "chaotic",
+        105
+      ]
+    ],
+    "mean_pcs": {
+      "PC1": 17.674,
+      "PC2": -6.142,
+      "PC3": 1.104,
+      "PC4": -0.746,
+      "PC5": 1.478,
+      "PC6": 0.241,
+      "PC7": -0.175
+    },
+    "categories": {
+      "movie_trailers": 411,
+      "animations": 247,
+      "emotional_shorts": 185,
+      "advertisements": 127
+    },
+    "suggested_name": "Tense/Intense/Mysterious"
+  },
+  "C2": {
+    "n_scenes": 1982,
+    "pct": 59.1,
+    "top_moods": [
+      [
+        "peaceful",
+        308
+      ],
+      [
+        "serene",
+        297
+      ],
+      [
+        "contemplative",
+        273
+      ],
+      [
+        "joyful",
+        263
+      ],
+      [
+        "calm",
+        243
+      ],
+      [
+        "warm",
+        177
+      ],
+      [
+        "intense",
+        175
+      ],
+      [
+        "energetic",
+        170
+      ],
+      [
+        "relaxed",
+        159
+      ],
+      [
+        "casual",
+        151
+      ]
+    ],
+    "mean_pcs": {
+      "PC1": -10.566,
+      "PC2": -1.579,
+      "PC3": -0.139,
+      "PC4": -0.651,
+      "PC5": -0.752,
+      "PC6": -0.107,
+      "PC7": 0.015
+    },
+    "categories": {
+      "emotional_shorts": 731,
+      "advertisements": 587,
+      "animations": 416,
+      "movie_trailers": 248
+    },
+    "suggested_name": "Peaceful/Serene/Contemplative"
+  }
+}

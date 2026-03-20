@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "determined",
+      "futuristic",
+      "threatening",
+      "focused"
+    ],
+    "style": [
+      "cyberpunk",
+      "neon-lit",
+      "cinematic"
+    ],
+    "objects": [
+      "woman",
+      "gun",
+      "neon lights",
+      "cityscape"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "focused",
+      "dangerous",
+      "intense",
+      "serious"
+    ],
+    "style": [
+      "cyberpunk",
+      "gritty",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "gun",
+      "city lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "suspenseful",
+      "confrontational",
+      "futuristic"
+    ],
+    "style": [
+      "futuristic",
+      "neon-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "gun",
+      "woman",
+      "neon signs",
+      "cityscape"
+    ]
+  }
+}

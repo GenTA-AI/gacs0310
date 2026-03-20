@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "concerned",
+      "pensive",
+      "focused",
+      "subdued"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "indoor"
+    ],
+    "objects": [
+      "man",
+      "wall",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "tense",
+      "focused",
+      "pensive"
+    ],
+    "style": [
+      "naturalistic",
+      "dimly-lit",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "table",
+      "coffee machine",
+      "bowl"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "concerned",
+      "tense",
+      "contemplative",
+      "troubled"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "refrigerator",
+      "cabinets"
+    ]
+  }
+}

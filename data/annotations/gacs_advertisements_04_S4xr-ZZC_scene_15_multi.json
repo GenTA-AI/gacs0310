@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "vibrant",
+      "energetic",
+      "playful",
+      "lively",
+      "dynamic"
+    ],
+    "style": [
+      "blurry",
+      "vibrant",
+      "abstract"
+    ],
+    "objects": [
+      "lights",
+      "fashion channel logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "abstract",
+      "modern",
+      "vibrant",
+      "energetic",
+      "stylish"
+    ],
+    "style": [
+      "blurry",
+      "abstract",
+      "vibrant"
+    ],
+    "objects": [
+      "lights",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "ethereal",
+      "vibrant",
+      "mysterious",
+      "elegant"
+    ],
+    "style": [
+      "blurred",
+      "neon-lit",
+      "abstract"
+    ],
+    "objects": [
+      "lights",
+      "shapes",
+      "logo",
+      "channel branding"
+    ]
+  }
+}

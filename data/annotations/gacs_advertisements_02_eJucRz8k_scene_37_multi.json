@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "determined",
+      "concentrated",
+      "attentive",
+      "calm"
+    ],
+    "style": [
+      "realistic",
+      "neutral-toned",
+      "focused"
+    ],
+    "objects": [
+      "truck",
+      "mirror",
+      "driver"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspicious",
+      "watchful",
+      "uneasy",
+      "alert",
+      "tense"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "shallow-focus"
+    ],
+    "objects": [
+      "truck",
+      "side mirror",
+      "reflection"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "determined",
+      "serious",
+      "intense",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "desaturated"
+    ],
+    "objects": [
+      "truck",
+      "side mirror",
+      "person",
+      "vehicle"
+    ]
+  }
+}

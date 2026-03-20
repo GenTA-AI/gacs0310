@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "car",
+      "shield",
+      "person",
+      "trees"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "dark",
+      "vigilant",
+      "cautious",
+      "determined"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "high-contrast"
+    ],
+    "objects": [
+      "people",
+      "car",
+      "shield"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "dark",
+      "suspenseful",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "contrast"
+    ],
+    "objects": [
+      "shield",
+      "people",
+      "truck",
+      "headlights"
+    ]
+  }
+}

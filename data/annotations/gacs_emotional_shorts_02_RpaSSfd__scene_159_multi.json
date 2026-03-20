@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "meticulous",
+      "subtle",
+      "casual",
+      "warm"
+    ],
+    "style": [
+      "warm-toned",
+      "shallow-focus",
+      "intimate"
+    ],
+    "objects": [
+      "hand",
+      "glass",
+      "shirt",
+      "suspenders",
+      "bottle"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "focused",
+      "skillful",
+      "measured",
+      "deft"
+    ],
+    "style": [
+      "soft",
+      "bright",
+      "quirky"
+    ],
+    "objects": [
+      "hand",
+      "suspenders",
+      "lemon",
+      "glass"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tender",
+      "intimate",
+      "gentle",
+      "peaceful",
+      "loving"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "intimate"
+    ],
+    "objects": [
+      "baby",
+      "hands",
+      "white clothing",
+      "red ribbon"
+    ]
+  }
+}

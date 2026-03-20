@@ -1,0 +1,430 @@
+{
+  "intra_inter_distances": {
+    "adventure": {
+      "n_scenes": 4,
+      "intra_mean": 16.2322,
+      "inter_mean": 29.5588,
+      "ratio": 1.821
+    },
+    "amusement": {
+      "n_scenes": 36,
+      "intra_mean": 16.1298,
+      "inter_mean": 30.368,
+      "ratio": 1.8827
+    },
+    "anger": {
+      "n_scenes": 6,
+      "intra_mean": 34.525,
+      "inter_mean": 46.8874,
+      "ratio": 1.3581
+    },
+    "calm": {
+      "n_scenes": 131,
+      "intra_mean": 19.0967,
+      "inter_mean": 29.9849,
+      "ratio": 1.5702
+    },
+    "celebration": {
+      "n_scenes": 21,
+      "intra_mean": 14.4814,
+      "inter_mean": 29.199,
+      "ratio": 2.0163
+    },
+    "chaos": {
+      "n_scenes": 18,
+      "intra_mean": 32.7681,
+      "inter_mean": 42.9539,
+      "ratio": 1.3108
+    },
+    "contemplation": {
+      "n_scenes": 87,
+      "intra_mean": 27.6717,
+      "inter_mean": 32.3352,
+      "ratio": 1.1685
+    },
+    "contentment": {
+      "n_scenes": 10,
+      "intra_mean": 11.998,
+      "inter_mean": 28.5879,
+      "ratio": 2.3827
+    },
+    "darkness": {
+      "n_scenes": 47,
+      "intra_mean": 30.2368,
+      "inter_mean": 38.841,
+      "ratio": 1.2846
+    },
+    "domesticity": {
+      "n_scenes": 4,
+      "intra_mean": 15.4315,
+      "inter_mean": 28.0926,
+      "ratio": 1.8205
+    },
+    "elegance": {
+      "n_scenes": 31,
+      "intra_mean": 16.0204,
+      "inter_mean": 30.3087,
+      "ratio": 1.8919
+    },
+    "excitement": {
+      "n_scenes": 100,
+      "intra_mean": 23.4214,
+      "inter_mean": 32.1976,
+      "ratio": 1.3747
+    },
+    "fear": {
+      "n_scenes": 26,
+      "intra_mean": 25.21,
+      "inter_mean": 45.4745,
+      "ratio": 1.8038
+    },
+    "focus": {
+      "n_scenes": 27,
+      "intra_mean": 21.8545,
+      "inter_mean": 29.5038,
+      "ratio": 1.35
+    },
+    "hope": {
+      "n_scenes": 24,
+      "intra_mean": 21.3297,
+      "inter_mean": 28.9114,
+      "ratio": 1.3555
+    },
+    "informative": {
+      "n_scenes": 29,
+      "intra_mean": 19.0128,
+      "inter_mean": 29.2738,
+      "ratio": 1.5397
+    },
+    "joy": {
+      "n_scenes": 101,
+      "intra_mean": 16.0446,
+      "inter_mean": 31.1349,
+      "ratio": 1.9405
+    },
+    "loneliness": {
+      "n_scenes": 22,
+      "intra_mean": 28.5354,
+      "inter_mean": 36.1939,
+      "ratio": 1.2684
+    },
+    "mystery": {
+      "n_scenes": 49,
+      "intra_mean": 29.9431,
+      "inter_mean": 35.7663,
+      "ratio": 1.1945
+    },
+    "nature": {
+      "n_scenes": 3,
+      "intra_mean": 38.3192,
+      "inter_mean": 34.6981,
+      "ratio": 0.9055
+    },
+    "neutral": {
+      "n_scenes": 40,
+      "intra_mean": 19.0713,
+      "inter_mean": 29.5,
+      "ratio": 1.5468
+    },
+    "nostalgia": {
+      "n_scenes": 3,
+      "intra_mean": 23.4845,
+      "inter_mean": 28.5894,
+      "ratio": 1.2174
+    },
+    "poignance": {
+      "n_scenes": 41,
+      "intra_mean": 26.1427,
+      "inter_mean": 31.8445,
+      "ratio": 1.2181
+    },
+    "romance": {
+      "n_scenes": 12,
+      "intra_mean": 26.6538,
+      "inter_mean": 30.2961,
+      "ratio": 1.1367
+    },
+    "sadness": {
+      "n_scenes": 43,
+      "intra_mean": 27.027,
+      "inter_mean": 42.0988,
+      "ratio": 1.5577
+    },
+    "seriousness": {
+      "n_scenes": 63,
+      "intra_mean": 25.6973,
+      "inter_mean": 33.0616,
+      "ratio": 1.2866
+    },
+    "tension": {
+      "n_scenes": 144,
+      "intra_mean": 34.6036,
+      "inter_mean": 38.1835,
+      "ratio": 1.1035
+    },
+    "tradition": {
+      "n_scenes": 4,
+      "intra_mean": 19.3402,
+      "inter_mean": 28.2004,
+      "ratio": 1.4581
+    },
+    "urban": {
+      "n_scenes": 14,
+      "intra_mean": 23.7752,
+      "inter_mean": 29.961,
+      "ratio": 1.2602
+    },
+    "vulnerability": {
+      "n_scenes": 10,
+      "intra_mean": 35.767,
+      "inter_mean": 36.4427,
+      "ratio": 1.0189
+    },
+    "warmth": {
+      "n_scenes": 89,
+      "intra_mean": 15.4189,
+      "inter_mean": 29.2505,
+      "ratio": 1.8971
+    },
+    "weariness": {
+      "n_scenes": 8,
+      "intra_mean": 35.1174,
+      "inter_mean": 36.5563,
+      "ratio": 1.041
+    },
+    "wonder": {
+      "n_scenes": 20,
+      "intra_mean": 17.6283,
+      "inter_mean": 37.5551,
+      "ratio": 2.1304
+    }
+  },
+  "overall_avg_ratio": 1.4883,
+  "category_stats": {
+    "advertisements": {
+      "n": 231,
+      "mean": [
+        -0.5802,
+        -0.6539,
+        -0.5696,
+        -0.641,
+        0.6558
+      ],
+      "std": [
+        12.1138,
+        9.818,
+        7.4995,
+        8.1047,
+        6.0145
+      ]
+    },
+    "animations": {
+      "n": 242,
+      "mean": [
+        4.5042,
+        -3.2879,
+        -0.0771,
+        1.3394,
+        0.0053
+      ],
+      "std": [
+        15.2873,
+        10.2853,
+        9.8613,
+        7.5866,
+        7.3551
+      ]
+    },
+    "emotional_shorts": {
+      "n": 571,
+      "mean": [
+        -6.7034,
+        1.7013,
+        0.2996,
+        -0.8564,
+        0.2991
+      ],
+      "std": [
+        11.5686,
+        9.8432,
+        8.0308,
+        7.0194,
+        3.4863
+      ]
+    },
+    "movie_trailers": {
+      "n": 205,
+      "mean": [
+        12.7549,
+        0.0949,
+        0.3188,
+        1.7845,
+        -1.4901
+      ],
+      "std": [
+        12.7701,
+        10.8641,
+        12.4173,
+        6.5528,
+        9.3221
+      ]
+    },
+    "other": {
+      "n": 26,
+      "mean": [
+        9.8798,
+        -1.7001,
+        -3.3158,
+        -2.0336,
+        -0.6968
+      ],
+      "std": [
+        14.3418,
+        13.6674,
+        11.4257,
+        10.7531,
+        3.9921
+      ]
+    }
+  },
+  "kruskal_wallis": {
+    "PC1": {
+      "H_statistic": 329.0826,
+      "p_value": 0.0
+    },
+    "PC2": {
+      "H_statistic": 50.1279,
+      "p_value": 0.0
+    },
+    "PC3": {
+      "H_statistic": 17.3611,
+      "p_value": 0.0016
+    },
+    "PC4": {
+      "H_statistic": 31.9458,
+      "p_value": 0.0
+    },
+    "PC5": {
+      "H_statistic": 5.8003,
+      "p_value": 0.2146
+    },
+    "PC6": {
+      "H_statistic": 289.4678,
+      "p_value": 0.0
+    },
+    "PC7": {
+      "H_statistic": 65.6917,
+      "p_value": 0.0
+    },
+    "PC8": {
+      "H_statistic": 34.949,
+      "p_value": 0.0
+    },
+    "PC9": {
+      "H_statistic": 101.0977,
+      "p_value": 0.0
+    },
+    "PC10": {
+      "H_statistic": 55.092,
+      "p_value": 0.0
+    },
+    "PC11": {
+      "H_statistic": 103.5955,
+      "p_value": 0.0
+    },
+    "PC12": {
+      "H_statistic": 100.4575,
+      "p_value": 0.0
+    },
+    "PC13": {
+      "H_statistic": 53.8076,
+      "p_value": 0.0
+    },
+    "PC14": {
+      "H_statistic": 16.7622,
+      "p_value": 0.0021
+    }
+  },
+  "classification": {
+    "accuracy": 0.5137,
+    "macro_f1": 0.4522,
+    "per_class_f1": {
+      "amusement": 0.6154,
+      "calm": 0.5414,
+      "celebration": 0.087,
+      "contemplation": 0.3625,
+      "darkness": 0.5412,
+      "elegance": 0.7619,
+      "excitement": 0.6197,
+      "fear": 0.4889,
+      "focus": 0.1765,
+      "hope": 0.2069,
+      "informative": 0.4091,
+      "joy": 0.6017,
+      "loneliness": 0.1538,
+      "mystery": 0.4902,
+      "neutral": 0.1967,
+      "other": 0.2604,
+      "poignance": 0.4,
+      "sadness": 0.6306,
+      "seriousness": 0.7015,
+      "tension": 0.5627,
+      "warmth": 0.5556,
+      "wonder": 0.5854
+    }
+  },
+  "ev_distance": {
+    "sample_size": 100,
+    "mean_ev_dist": 11.5018,
+    "std_ev_dist": 6.6837,
+    "min_ev_dist": 0.5005,
+    "max_ev_dist": 26.6258,
+    "example_pairs": {
+      "most_similar": {
+        "scene_i": 49,
+        "scene_j": 74,
+        "video_i": "gacs_emotional_shorts_00_WAmw-erI.mp4",
+        "video_j": "gacs_emotional_shorts_00_WAmw-erI.mp4",
+        "mood_i": "contemplation",
+        "mood_j": "contemplation",
+        "ev_distance": 0.5005
+      },
+      "mid_range_1": {
+        "scene_i": 26,
+        "scene_j": 58,
+        "video_i": "gacs_emotional_shorts_00_WAmw-erI.mp4",
+        "video_j": "gacs_emotional_shorts_00_WAmw-erI.mp4",
+        "mood_i": "tension",
+        "mood_j": "warmth",
+        "ev_distance": 6.8323
+      },
+      "mid_range_2": {
+        "scene_i": 15,
+        "scene_j": 26,
+        "video_i": "gacs_animations_00_WIPV1iwz.mp4",
+        "video_j": "gacs_emotional_shorts_00_WAmw-erI.mp4",
+        "mood_i": "vulnerability",
+        "mood_j": "tension",
+        "ev_distance": 10.206
+      },
+      "mid_range_3": {
+        "scene_i": 2,
+        "scene_j": 21,
+        "video_i": "ready_or_not_trailer.mp4",
+        "video_j": "gacs_animations_00_WIPV1iwz.mp4",
+        "mood_i": "vulnerability",
+        "mood_j": "informative",
+        "ev_distance": 15.3683
+      },
+      "most_different": {
+        "scene_i": 6,
+        "scene_j": 18,
+        "video_i": "ready_or_not_trailer.mp4",
+        "video_j": "gacs_animations_02_qLGNj-xr.mp4",
+        "mood_i": "tension",
+        "mood_j": "calm",
+        "ev_distance": 26.6258
+      }
+    }
+  }
+}

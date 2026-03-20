@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "technological",
+      "focused",
+      "futuristic",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "hand",
+      "watch",
+      "holographic display",
+      "interface"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "calculating",
+      "focused",
+      "analytical",
+      "mysterious"
+    ],
+    "style": [
+      "futuristic",
+      "cool-toned",
+      "clean"
+    ],
+    "objects": [
+      "hand",
+      "mug",
+      "table",
+      "bracelets"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "focused",
+      "intense",
+      "analytical",
+      "strategic"
+    ],
+    "style": [
+      "futuristic",
+      "high-contrast",
+      "interactive"
+    ],
+    "objects": [
+      "hand",
+      "touchscreen",
+      "bracelets",
+      "cup"
+    ]
+  }
+}

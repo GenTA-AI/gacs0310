@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "contemplative",
+      "concerned",
+      "intimate",
+      "guarded"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "indoor"
+    ],
+    "objects": [
+      "women",
+      "table",
+      "paintings",
+      "brick wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "contemplative",
+      "attentive",
+      "conversational",
+      "engaged"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "muted-tones"
+    ],
+    "objects": [
+      "two women",
+      "brick wall",
+      "picture frames",
+      "prime video logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "intimate",
+      "concerned",
+      "serious",
+      "reflective"
+    ],
+    "style": [
+      "animated",
+      "cinematic",
+      "warm-toned"
+    ],
+    "objects": [
+      "women",
+      "brick wall",
+      "frames",
+      "prime video logo"
+    ]
+  }
+}

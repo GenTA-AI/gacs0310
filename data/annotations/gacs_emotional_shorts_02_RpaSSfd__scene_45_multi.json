@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "apologetic",
+      "confrontational",
+      "intense",
+      "regretful"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "close-up"
+    ],
+    "objects": [
+      "man",
+      "robe",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "remorseful",
+      "tense",
+      "worried",
+      "suspicious"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "muted"
+    ],
+    "objects": [
+      "man",
+      "bathrobe",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "apologetic",
+      "regretful",
+      "vulnerable",
+      "concerned",
+      "sincere"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "hoodie",
+      "subtitles",
+      "logo"
+    ]
+  }
+}

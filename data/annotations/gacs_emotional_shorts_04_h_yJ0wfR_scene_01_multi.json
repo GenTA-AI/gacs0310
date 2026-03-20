@@ -1,0 +1,60 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "minimalist",
+      "stark",
+      "clean",
+      "formal",
+      "neutral"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "graphic"
+    ],
+    "objects": [
+      "text",
+      "letter"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "elegant",
+      "simple",
+      "calm",
+      "clear",
+      "minimalistic"
+    ],
+    "style": [
+      "minimalistic",
+      "bold",
+      "monochrome"
+    ],
+    "objects": [
+      "\u0916\u093c\u0924",
+      "letter"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "minimalist",
+      "stark",
+      "formal",
+      "serious",
+      "educational"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "letter",
+      "typography"
+    ]
+  }
+}

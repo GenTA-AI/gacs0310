@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "cool",
+      "stylish",
+      "nostalgic",
+      "laid-back"
+    ],
+    "style": [
+      "vintage",
+      "high-key",
+      "stylized"
+    ],
+    "objects": [
+      "person",
+      "car",
+      "steering wheel"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cool",
+      "confident",
+      "relaxed",
+      "stylish",
+      "laid-back"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "retro"
+    ],
+    "objects": [
+      "man",
+      "sunglasses",
+      "car",
+      "steering wheel"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cool",
+      "relaxed",
+      "confident",
+      "urban",
+      "stylish"
+    ],
+    "style": [
+      "vintage",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "car",
+      "steering wheel",
+      "sunglasses",
+      "person"
+    ]
+  }
+}

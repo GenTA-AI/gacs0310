@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "tense",
+      "ominous",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "people",
+      "lights",
+      "interior space",
+      "netflix logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "dark",
+      "tense",
+      "uncertain",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "low-key",
+      "desaturated"
+    ],
+    "objects": [
+      "person",
+      "ceiling light"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "suspenseful",
+      "tense",
+      "mysterious",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "crossbow",
+      "lights",
+      "room"
+    ]
+  }
+}

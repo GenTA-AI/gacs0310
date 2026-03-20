@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "contemplative",
+      "somber",
+      "introspective",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "low-key"
+    ],
+    "objects": [
+      "desk",
+      "chairs",
+      "windows",
+      "curtains",
+      "flag"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "serious",
+      "contemplative",
+      "powerful",
+      "isolated"
+    ],
+    "style": [
+      "formal",
+      "low-key",
+      "symmetrical"
+    ],
+    "objects": [
+      "oval office",
+      "person",
+      "flags",
+      "window"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "solemn",
+      "authoritative",
+      "shadowy",
+      "imposing"
+    ],
+    "style": [
+      "dramatic",
+      "silhouetted",
+      "symmetrical"
+    ],
+    "objects": [
+      "desk",
+      "chair",
+      "flags",
+      "lamps",
+      "bookshelf"
+    ]
+  }
+}

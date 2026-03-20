@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "industrial",
+      "mysterious",
+      "ominous",
+      "foreboding"
+    ],
+    "style": [
+      "cinematic",
+      "industrial",
+      "atmospheric"
+    ],
+    "objects": [
+      "warehouse",
+      "machinery",
+      "workers",
+      "boxes",
+      "industrial equipment"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "awe",
+      "educational",
+      "historical",
+      "intriguing"
+    ],
+    "style": [
+      "wide-angle",
+      "desaturated",
+      "documentary"
+    ],
+    "objects": [
+      "skeleton",
+      "windows",
+      "people"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "quiet",
+      "informative",
+      "curious",
+      "historic",
+      "focused"
+    ],
+    "style": [
+      "museum-like",
+      "detailed",
+      "spacious"
+    ],
+    "objects": [
+      "dinosaur skeleton",
+      "scaffolding",
+      "windows",
+      "people"
+    ]
+  }
+}

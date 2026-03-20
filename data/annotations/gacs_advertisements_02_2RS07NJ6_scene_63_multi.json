@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "sleek",
+      "powerful",
+      "focused"
+    ],
+    "style": [
+      "dynamic",
+      "sleek",
+      "high-contrast"
+    ],
+    "objects": [
+      "car",
+      "spoiler",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fast",
+      "sleek",
+      "powerful",
+      "intense",
+      "modern"
+    ],
+    "style": [
+      "automotive",
+      "neutral",
+      "blurred"
+    ],
+    "objects": [
+      "car",
+      "rear wing"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "technical",
+      "sophisticated",
+      "modern"
+    ],
+    "style": [
+      "cinematic",
+      "cool-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "car",
+      "roof",
+      "windshield",
+      "text overlay"
+    ]
+  }
+}

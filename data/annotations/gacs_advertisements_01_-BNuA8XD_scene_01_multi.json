@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sophisticated",
+      "stylish",
+      "elegant",
+      "refined",
+      "modern"
+    ],
+    "style": [
+      "close-up",
+      "neutral",
+      "modern"
+    ],
+    "objects": [
+      "jacket",
+      "zipper"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sophisticated",
+      "luxurious",
+      "elegant",
+      "minimalist",
+      "refined"
+    ],
+    "style": [
+      "minimalist",
+      "luxury",
+      "close-up"
+    ],
+    "objects": [
+      "zipper",
+      "hoodie",
+      "logo",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sophisticated",
+      "elegant",
+      "luxurious",
+      "chic",
+      "refined"
+    ],
+    "style": [
+      "luxurious",
+      "minimalist",
+      "modern"
+    ],
+    "objects": [
+      "jacket",
+      "zipper",
+      "text"
+    ]
+  }
+}

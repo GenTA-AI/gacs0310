@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "focused",
+      "intense",
+      "secretive",
+      "technological"
+    ],
+    "style": [
+      "cinematic",
+      "blue-tinted",
+      "low-key"
+    ],
+    "objects": [
+      "hands",
+      "keyboard",
+      "screen",
+      "fingers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "focused",
+      "secretive",
+      "technological",
+      "anxious"
+    ],
+    "style": [
+      "high-contrast",
+      "dark",
+      "cool-toned"
+    ],
+    "objects": [
+      "hands",
+      "keyboard"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "intense",
+      "mysterious",
+      "concentrated",
+      "technological"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "backlit"
+    ],
+    "objects": [
+      "hands",
+      "keyboard"
+    ]
+  }
+}

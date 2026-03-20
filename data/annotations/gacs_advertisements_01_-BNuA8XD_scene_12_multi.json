@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "calm",
+      "natural",
+      "muted",
+      "neutral"
+    ],
+    "style": [
+      "muted",
+      "textural",
+      "outdoors"
+    ],
+    "objects": [
+      "jacket",
+      "trees",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "formal",
+      "serene",
+      "poised",
+      "elegant"
+    ],
+    "style": [
+      "cinematic",
+      "formal",
+      "natural-light"
+    ],
+    "objects": [
+      "suit",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "peaceful",
+      "serene",
+      "contemplative",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "natural-lighting"
+    ],
+    "objects": [
+      "coat",
+      "buttons",
+      "trees",
+      "fabric"
+    ]
+  }
+}

@@ -1,0 +1,501 @@
+[
+  {
+    "algorithm": "HDBSCAN",
+    "params": {
+      "min_cluster_size": 20
+    },
+    "silhouette": 0.4796,
+    "calinski_harabasz": 208.3028,
+    "davies_bouldin": 0.7136,
+    "n_clusters": 4,
+    "noise_points": 527
+  },
+  {
+    "algorithm": "HDBSCAN",
+    "params": {
+      "min_cluster_size": 15
+    },
+    "silhouette": 0.469,
+    "calinski_harabasz": 236.1405,
+    "davies_bouldin": 0.7676,
+    "n_clusters": 4,
+    "noise_points": 522
+  },
+  {
+    "algorithm": "HDBSCAN",
+    "params": {
+      "min_cluster_size": 30
+    },
+    "silhouette": 0.4669,
+    "calinski_harabasz": 210.7203,
+    "davies_bouldin": 0.7336,
+    "n_clusters": 4,
+    "noise_points": 470
+  },
+  {
+    "algorithm": "HDBSCAN",
+    "params": {
+      "min_cluster_size": 10
+    },
+    "silhouette": 0.4551,
+    "calinski_harabasz": 178.8382,
+    "davies_bouldin": 0.9233,
+    "n_clusters": 5,
+    "noise_points": 540
+  },
+  {
+    "algorithm": "HDBSCAN",
+    "params": {
+      "min_cluster_size": 5
+    },
+    "silhouette": 0.3117,
+    "calinski_harabasz": 99.3313,
+    "davies_bouldin": 1.0569,
+    "n_clusters": 5,
+    "noise_points": 264
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 4
+    },
+    "silhouette": 0.2893,
+    "calinski_harabasz": 259.7758,
+    "davies_bouldin": 1.5724,
+    "n_clusters": 4,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "DBSCAN",
+    "params": {
+      "eps": 20.0,
+      "min_samples": 5
+    },
+    "silhouette": 0.2893,
+    "calinski_harabasz": 70.2593,
+    "davies_bouldin": 1.0427,
+    "n_clusters": 8,
+    "noise_points": 174
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 3
+    },
+    "silhouette": 0.2864,
+    "calinski_harabasz": 275.4134,
+    "davies_bouldin": 1.6377,
+    "n_clusters": 3,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "DBSCAN",
+    "params": {
+      "eps": 15.0,
+      "min_samples": 5
+    },
+    "silhouette": 0.2778,
+    "calinski_harabasz": 63.1844,
+    "davies_bouldin": 0.9416,
+    "n_clusters": 11,
+    "noise_points": 592
+  },
+  {
+    "algorithm": "DBSCAN",
+    "params": {
+      "eps": 25.0,
+      "min_samples": 5
+    },
+    "silhouette": 0.2753,
+    "calinski_harabasz": 12.3989,
+    "davies_bouldin": 0.6067,
+    "n_clusters": 2,
+    "noise_points": 44
+  },
+  {
+    "algorithm": "DBSCAN",
+    "params": {
+      "eps": 10.0,
+      "min_samples": 5
+    },
+    "silhouette": 0.2328,
+    "calinski_harabasz": 138.3555,
+    "davies_bouldin": 0.918,
+    "n_clusters": 6,
+    "noise_points": 1022
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 7
+    },
+    "silhouette": 0.1921,
+    "calinski_harabasz": 220.7526,
+    "davies_bouldin": 1.7525,
+    "n_clusters": 7,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 6
+    },
+    "silhouette": 0.1899,
+    "calinski_harabasz": 238.8119,
+    "davies_bouldin": 1.7734,
+    "n_clusters": 6,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 5
+    },
+    "silhouette": 0.186,
+    "calinski_harabasz": 254.4683,
+    "davies_bouldin": 1.6609,
+    "n_clusters": 5,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 8
+    },
+    "silhouette": 0.1822,
+    "calinski_harabasz": 203.0997,
+    "davies_bouldin": 1.8284,
+    "n_clusters": 8,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 9
+    },
+    "silhouette": 0.172,
+    "calinski_harabasz": 189.4829,
+    "davies_bouldin": 1.9126,
+    "n_clusters": 9,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 10
+    },
+    "silhouette": 0.1707,
+    "calinski_harabasz": 177.4177,
+    "davies_bouldin": 1.9091,
+    "n_clusters": 10,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 6
+    },
+    "silhouette": 0.1636,
+    "calinski_harabasz": 224.4647,
+    "davies_bouldin": 1.8321,
+    "n_clusters": 6,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 7
+    },
+    "silhouette": 0.1629,
+    "calinski_harabasz": 208.4501,
+    "davies_bouldin": 2.0174,
+    "n_clusters": 7,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 5
+    },
+    "silhouette": 0.1621,
+    "calinski_harabasz": 236.9293,
+    "davies_bouldin": 1.7509,
+    "n_clusters": 5,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 11
+    },
+    "silhouette": 0.1616,
+    "calinski_harabasz": 167.0626,
+    "davies_bouldin": 1.8521,
+    "n_clusters": 11,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 10
+    },
+    "silhouette": 0.1529,
+    "calinski_harabasz": 162.4872,
+    "davies_bouldin": 1.8406,
+    "n_clusters": 10,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 9
+    },
+    "silhouette": 0.1473,
+    "calinski_harabasz": 180.1568,
+    "davies_bouldin": 2.0169,
+    "n_clusters": 9,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 8
+    },
+    "silhouette": 0.1452,
+    "calinski_harabasz": 193.7971,
+    "davies_bouldin": 2.0076,
+    "n_clusters": 8,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 4
+    },
+    "silhouette": 0.1386,
+    "calinski_harabasz": 231.7442,
+    "davies_bouldin": 1.7756,
+    "n_clusters": 4,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 14
+    },
+    "silhouette": 0.1383,
+    "calinski_harabasz": 145.649,
+    "davies_bouldin": 1.9341,
+    "n_clusters": 14,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 22
+    },
+    "silhouette": 0.138,
+    "calinski_harabasz": 107.877,
+    "davies_bouldin": 1.9416,
+    "n_clusters": 22,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 21
+    },
+    "silhouette": 0.1371,
+    "calinski_harabasz": 112.9997,
+    "davies_bouldin": 1.8439,
+    "n_clusters": 21,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 13
+    },
+    "silhouette": 0.1363,
+    "calinski_harabasz": 151.0527,
+    "davies_bouldin": 1.9615,
+    "n_clusters": 13,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 15
+    },
+    "silhouette": 0.1362,
+    "calinski_harabasz": 138.5242,
+    "davies_bouldin": 1.9233,
+    "n_clusters": 15,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 17
+    },
+    "silhouette": 0.1355,
+    "calinski_harabasz": 127.4235,
+    "davies_bouldin": 1.9689,
+    "n_clusters": 17,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 16
+    },
+    "silhouette": 0.1337,
+    "calinski_harabasz": 133.3801,
+    "davies_bouldin": 1.9394,
+    "n_clusters": 16,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 12
+    },
+    "silhouette": 0.1335,
+    "calinski_harabasz": 158.6819,
+    "davies_bouldin": 1.9355,
+    "n_clusters": 12,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 23
+    },
+    "silhouette": 0.133,
+    "calinski_harabasz": 105.5759,
+    "davies_bouldin": 1.9008,
+    "n_clusters": 23,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 20
+    },
+    "silhouette": 0.129,
+    "calinski_harabasz": 115.7083,
+    "davies_bouldin": 1.9464,
+    "n_clusters": 20,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 18
+    },
+    "silhouette": 0.1276,
+    "calinski_harabasz": 122.4625,
+    "davies_bouldin": 1.9749,
+    "n_clusters": 18,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 15
+    },
+    "silhouette": 0.1231,
+    "calinski_harabasz": 133.1244,
+    "davies_bouldin": 2.011,
+    "n_clusters": 15,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 11
+    },
+    "silhouette": 0.1224,
+    "calinski_harabasz": 159.7388,
+    "davies_bouldin": 2.0198,
+    "n_clusters": 11,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 25
+    },
+    "silhouette": 0.1219,
+    "calinski_harabasz": 99.4296,
+    "davies_bouldin": 1.9927,
+    "n_clusters": 25,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 12
+    },
+    "silhouette": 0.1219,
+    "calinski_harabasz": 153.61,
+    "davies_bouldin": 1.9287,
+    "n_clusters": 12,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 14
+    },
+    "silhouette": 0.1209,
+    "calinski_harabasz": 136.5781,
+    "davies_bouldin": 2.0462,
+    "n_clusters": 14,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 19
+    },
+    "silhouette": 0.1174,
+    "calinski_harabasz": 118.8215,
+    "davies_bouldin": 1.9479,
+    "n_clusters": 19,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "KMeans",
+    "params": {
+      "k": 24
+    },
+    "silhouette": 0.1152,
+    "calinski_harabasz": 101.4454,
+    "davies_bouldin": 2.0552,
+    "n_clusters": 24,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 13
+    },
+    "silhouette": 0.1057,
+    "calinski_harabasz": 140.9986,
+    "davies_bouldin": 2.0083,
+    "n_clusters": 13,
+    "noise_points": 0
+  },
+  {
+    "algorithm": "GaussianMixture",
+    "params": {
+      "n_components": 3
+    },
+    "silhouette": 0.1046,
+    "calinski_harabasz": 235.1684,
+    "davies_bouldin": 1.897,
+    "n_clusters": 3,
+    "noise_points": 0
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "dark",
+      "atmospheric",
+      "contemplative",
+      "moody"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "bottles",
+      "glasses",
+      "liquid",
+      "table"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "dramatic",
+      "tense",
+      "ominous",
+      "dark"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "reflective"
+    ],
+    "objects": [
+      "chess pieces",
+      "buildings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "strategic",
+      "calculated",
+      "competitive",
+      "focused"
+    ],
+    "style": [
+      "glossy",
+      "dark",
+      "blurred"
+    ],
+    "objects": [
+      "building",
+      "sculpture"
+    ]
+  }
+}

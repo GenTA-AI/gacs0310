@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "tense",
+      "dark",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "mysterious",
+      "animated"
+    ],
+    "objects": [
+      "person",
+      "dragon",
+      "stone floor",
+      "archway",
+      "wall"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "uncertain",
+      "uneasy",
+      "tense",
+      "looming"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "stylized"
+    ],
+    "objects": [
+      "wall",
+      "child",
+      "tunnel"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "eerie",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "pixelated",
+      "atmospheric",
+      "dark-toned"
+    ],
+    "objects": [
+      "player character",
+      "stone blocks",
+      "cave wall",
+      "underground tunnel"
+    ]
+  }
+}

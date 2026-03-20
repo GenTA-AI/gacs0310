@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "intimate",
+      "vulnerable",
+      "melancholic",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "gun",
+      "headphones",
+      "microphone"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "focused",
+      "serious",
+      "gritty",
+      "intense"
+    ],
+    "style": [
+      "gritty",
+      "desaturated",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "sword"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "emotional",
+      "intense",
+      "somber",
+      "reflective",
+      "dramatic"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "helmet",
+      "armor"
+    ]
+  }
+}

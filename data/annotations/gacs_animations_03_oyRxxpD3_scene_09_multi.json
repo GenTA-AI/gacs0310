@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "dramatic",
+      "ominous",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "animated",
+      "cool-toned",
+      "magical"
+    ],
+    "objects": [
+      "man",
+      "crowd",
+      "staff",
+      "pillars"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "magical",
+      "suspenseful",
+      "anticipatory",
+      "dramatic"
+    ],
+    "style": [
+      "animated",
+      "mystical",
+      "vibrant"
+    ],
+    "objects": [
+      "person",
+      "staff",
+      "glowing effects",
+      "audience",
+      "stage"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "dramatic",
+      "confrontational",
+      "mystical",
+      "climactic"
+    ],
+    "style": [
+      "cinematic",
+      "blue-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "lightsaber",
+      "jedi",
+      "arena",
+      "crowd"
+    ]
+  }
+}

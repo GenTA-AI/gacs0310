@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "serious",
+      "contemplative",
+      "worried",
+      "tense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "shirt",
+      "earrings",
+      "interior room"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "serious",
+      "contemplative",
+      "thoughtful",
+      "anxious"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "low-contrast"
+    ],
+    "objects": [
+      "woman",
+      "shirt",
+      "wall",
+      "molding"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "thoughtful",
+      "anxious",
+      "serious",
+      "intense"
+    ],
+    "style": [
+      "natural",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "earrings",
+      "shirt",
+      "door frame"
+    ]
+  }
+}

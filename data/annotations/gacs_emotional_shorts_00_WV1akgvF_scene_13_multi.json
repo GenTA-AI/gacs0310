@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "competitive",
+      "energetic",
+      "intense",
+      "focused"
+    ],
+    "style": [
+      "low-resolution",
+      "overexposed",
+      "amateur"
+    ],
+    "objects": [
+      "basketball players",
+      "basketball court",
+      "spectators",
+      "scoreboard"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "competitive",
+      "focused",
+      "energetic",
+      "crowded"
+    ],
+    "style": [
+      "low-resolution",
+      "candid",
+      "dynamic"
+    ],
+    "objects": [
+      "basketball court",
+      "players",
+      "scoreboard",
+      "audience",
+      "benches"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "competitive",
+      "intense",
+      "exciting",
+      "spirited"
+    ],
+    "style": [
+      "vintage",
+      "grainy",
+      "documentary-style"
+    ],
+    "objects": [
+      "basketball court",
+      "players",
+      "bleachers",
+      "crowd",
+      "scoreboard"
+    ]
+  }
+}

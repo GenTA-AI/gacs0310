@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "angry",
+      "intense",
+      "aggressive",
+      "furious",
+      "enraged"
+    ],
+    "style": [
+      "cinematic",
+      "saturated",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "trees",
+      "sky",
+      "explosion"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "furious",
+      "enraged",
+      "aggressive",
+      "intense",
+      "threatening"
+    ],
+    "style": [
+      "high-contrast",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "hulk",
+      "tree",
+      "lamp post"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "angry",
+      "aggressive",
+      "intense",
+      "furious",
+      "explosive"
+    ],
+    "style": [
+      "high-contrast",
+      "intense",
+      "dynamic"
+    ],
+    "objects": [
+      "red hulk",
+      "trees",
+      "sky"
+    ]
+  }
+}

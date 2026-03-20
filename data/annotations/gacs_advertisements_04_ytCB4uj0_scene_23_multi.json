@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "practical",
+      "neutral",
+      "instructional",
+      "straightforward"
+    ],
+    "style": [
+      "practical",
+      "informative",
+      "direct"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "informative",
+      "clear",
+      "straightforward",
+      "instructional",
+      "neutral"
+    ],
+    "style": [
+      "informative",
+      "casual",
+      "straightforward"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape",
+      "tags",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "neutral",
+      "practical",
+      "informative",
+      "straightforward",
+      "commercial"
+    ],
+    "style": [
+      "overhead",
+      "product-photography",
+      "measurement-documentation"
+    ],
+    "objects": [
+      "jeans",
+      "measuring tape",
+      "wooden floor",
+      "price tags"
+    ]
+  }
+}

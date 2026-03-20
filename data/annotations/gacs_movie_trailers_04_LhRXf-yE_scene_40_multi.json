@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "crowded",
+      "tense",
+      "uncomfortable",
+      "claustrophobic",
+      "urban"
+    ],
+    "style": [
+      "naturalistic",
+      "crowded",
+      "documentary-style"
+    ],
+    "objects": [
+      "people",
+      "subway train",
+      "handrails",
+      "seats",
+      "bags"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "tense",
+      "uneasy",
+      "crowded",
+      "neutral"
+    ],
+    "style": [
+      "candid",
+      "desaturated",
+      "crowded"
+    ],
+    "objects": [
+      "people",
+      "subway train",
+      "toy ride"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "uneasy",
+      "crowded",
+      "intense"
+    ],
+    "style": [
+      "gritty",
+      "dim-lit",
+      "realistic"
+    ],
+    "objects": [
+      "subway train",
+      "people",
+      "helmet"
+    ]
+  }
+}

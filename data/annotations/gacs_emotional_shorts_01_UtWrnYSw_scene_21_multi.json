@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "heartwarming",
+      "joyful",
+      "appreciative"
+    ],
+    "style": [
+      "bright",
+      "patriotic",
+      "news-style"
+    ],
+    "objects": [
+      "number",
+      "sign",
+      "banner",
+      "news broadcast"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "respectful",
+      "joyful",
+      "honoring"
+    ],
+    "style": [
+      "news-style",
+      "informational",
+      "straightforward"
+    ],
+    "objects": [
+      "105 sign",
+      "banners"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "patriotic",
+      "joyful",
+      "festive",
+      "heartwarming"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "celebratory"
+    ],
+    "objects": [
+      "birthday card",
+      "number 105",
+      "american flag pattern",
+      "news broadcast graphics"
+    ]
+  }
+}

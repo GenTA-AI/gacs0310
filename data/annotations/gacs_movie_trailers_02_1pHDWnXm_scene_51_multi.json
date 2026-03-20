@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "serious",
+      "focused",
+      "determined",
+      "intense"
+    ],
+    "style": [
+      "dramatic",
+      "low-key",
+      "atmospheric"
+    ],
+    "objects": [
+      "pilot",
+      "helicopter cockpit",
+      "headset",
+      "controls"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strained",
+      "anxious",
+      "desperate",
+      "urgent",
+      "fearful"
+    ],
+    "style": [
+      "low-key",
+      "dramatic",
+      "tense"
+    ],
+    "objects": [
+      "man",
+      "arms",
+      "ceiling"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "determined",
+      "focused",
+      "challenging",
+      "dramatic"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "tense"
+    ],
+    "objects": [
+      "person",
+      "headset",
+      "uniform",
+      "window"
+    ]
+  }
+}

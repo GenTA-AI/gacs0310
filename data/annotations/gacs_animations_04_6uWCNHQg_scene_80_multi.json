@@ -1,0 +1,59 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "anticipation",
+      "subdued",
+      "informative",
+      "neutral"
+    ],
+    "style": [
+      "minimalist",
+      "clean",
+      "dark"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intriguing",
+      "anticipatory",
+      "exciting",
+      "suspenseful",
+      "curious"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "dark"
+    ],
+    "objects": [
+      "new series",
+      "september 13"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "anticipatory",
+      "mysterious",
+      "promotional",
+      "sleek",
+      "expectant"
+    ],
+    "style": [
+      "minimalist",
+      "dark-toned",
+      "centered-text"
+    ],
+    "objects": [
+      "text",
+      "background"
+    ]
+  }
+}

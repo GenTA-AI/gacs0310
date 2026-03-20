@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "hopeful",
+      "peaceful",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "jacket",
+      "buildings",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "content",
+      "warm",
+      "nostalgic",
+      "hopeful",
+      "serene"
+    ],
+    "style": [
+      "cinematic",
+      "natural-light",
+      "urban"
+    ],
+    "objects": [
+      "person",
+      "buildings",
+      "trees",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "content",
+      "calm",
+      "hopeful",
+      "reflective",
+      "pleasant"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "outdoor"
+    ],
+    "objects": [
+      "man",
+      "building",
+      "tree",
+      "lights"
+    ]
+  }
+}

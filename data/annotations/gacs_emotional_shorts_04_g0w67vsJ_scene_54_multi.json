@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "sentimental",
+      "hopeful",
+      "calm",
+      "reflective"
+    ],
+    "style": [
+      "artistic",
+      "detailed",
+      "muted"
+    ],
+    "objects": [
+      "heart",
+      "wall",
+      "rail"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "sentimental",
+      "nostalgic",
+      "thoughtful",
+      "artistic"
+    ],
+    "style": [
+      "artistic",
+      "vibrant",
+      "textured"
+    ],
+    "objects": [
+      "heart",
+      "board",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "hopeful",
+      "inspiring",
+      "heartfelt",
+      "uplifting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "heart",
+      "nail art",
+      "yarn",
+      "wall",
+      "book"
+    ]
+  }
+}

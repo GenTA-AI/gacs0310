@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "reflective",
+      "historical",
+      "intriguing",
+      "cinematic"
+    ],
+    "style": [
+      "warm",
+      "shallow-focus",
+      "dreamlike"
+    ],
+    "objects": [
+      "field",
+      "text",
+      "sunset",
+      "mountains"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspirational",
+      "serene",
+      "warm",
+      "hopeful",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "reflective"
+    ],
+    "objects": [
+      "sunset",
+      "field",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "inspiring",
+      "triumphant",
+      "hopeful",
+      "determined",
+      "resilient"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "sunset",
+      "mountains",
+      "desert vegetation",
+      "commemorative plaque"
+    ]
+  }
+}

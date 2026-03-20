@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "vibrant",
+      "hopeful",
+      "natural"
+    ],
+    "style": [
+      "vibrant",
+      "underwater",
+      "tranquil"
+    ],
+    "objects": [
+      "ocean",
+      "coral reef",
+      "fish"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "peaceful",
+      "inspiring",
+      "hopeful",
+      "tranquil"
+    ],
+    "style": [
+      "underwater",
+      "cinematic",
+      "blue-toned"
+    ],
+    "objects": [
+      "coral reef",
+      "fish",
+      "ocean water",
+      "marine life"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "peaceful",
+      "calm",
+      "soothing",
+      "harmonious"
+    ],
+    "style": [
+      "natural",
+      "vibrant",
+      "serene"
+    ],
+    "objects": [
+      "coral",
+      "fish",
+      "ocean",
+      "text"
+    ]
+  }
+}

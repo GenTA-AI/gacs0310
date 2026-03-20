@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "confrontational",
+      "anxious",
+      "dramatic",
+      "intimidating"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "wide-shot"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "courtyard",
+      "crowd",
+      "students"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confrontational",
+      "tense",
+      "uneasy",
+      "expectant",
+      "apprehensive"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "medium-shot"
+    ],
+    "objects": [
+      "people",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "confrontational",
+      "focused",
+      "determined",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "muted",
+      "dynamic"
+    ],
+    "objects": [
+      "crowd",
+      "building",
+      "person",
+      "backpack"
+    ]
+  }
+}

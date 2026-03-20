@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "tense",
+      "mysterious",
+      "foreboding"
+    ],
+    "style": [
+      "moody",
+      "desaturated",
+      "atmospheric"
+    ],
+    "objects": [
+      "tunnel",
+      "cars",
+      "road",
+      "people",
+      "overpass"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "desperate",
+      "chaotic",
+      "tense",
+      "bleak"
+    ],
+    "style": [
+      "desaturated",
+      "gritty",
+      "dystopian"
+    ],
+    "objects": [
+      "people",
+      "car",
+      "buildings",
+      "road"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "urgent",
+      "tense",
+      "alarming",
+      "distressing"
+    ],
+    "style": [
+      "dystopian",
+      "dark",
+      "dramatic"
+    ],
+    "objects": [
+      "people",
+      "taxi",
+      "road",
+      "bridge"
+    ]
+  }
+}

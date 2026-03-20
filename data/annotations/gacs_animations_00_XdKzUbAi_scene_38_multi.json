@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dim",
+      "cozy",
+      "childlike",
+      "gentle",
+      "sleepy"
+    ],
+    "style": [
+      "low-key",
+      "soft",
+      "cute"
+    ],
+    "objects": [
+      "slippers",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cozy",
+      "warm",
+      "comfortable",
+      "cute",
+      "serene"
+    ],
+    "style": [
+      "soft",
+      "cozy",
+      "dimly-lit"
+    ],
+    "objects": [
+      "slippers",
+      "hand",
+      "floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "peaceful",
+      "comfortable",
+      "soft",
+      "intimate"
+    ],
+    "style": [
+      "soft-focus",
+      "dim-lighting",
+      "cozy-intimate"
+    ],
+    "objects": [
+      "slippers",
+      "feet",
+      "floor",
+      "bunny slippers"
+    ]
+  }
+}

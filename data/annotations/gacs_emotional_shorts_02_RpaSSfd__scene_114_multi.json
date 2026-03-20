@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "disturbed",
+      "eerie",
+      "ominous",
+      "unsettling",
+      "intense"
+    ],
+    "style": [
+      "modern",
+      "cool-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "mirror"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "eerie",
+      "unsettling",
+      "contemplative"
+    ],
+    "style": [
+      "dramatic",
+      "intimate",
+      "cool-toned"
+    ],
+    "objects": [
+      "mirror",
+      "woman",
+      "bottles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "heartbroken",
+      "vulnerable",
+      "sorrowful",
+      "resigned"
+    ],
+    "style": [
+      "cinematic",
+      "soft-lit",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "kitchen",
+      "sink",
+      "mirror",
+      "bottles"
+    ]
+  }
+}

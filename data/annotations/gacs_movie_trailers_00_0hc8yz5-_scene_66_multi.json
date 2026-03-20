@@ -1,0 +1,60 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "gothic",
+      "stark",
+      "foreboding"
+    ],
+    "style": [
+      "gothic",
+      "minimalist",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "letters",
+      "typography",
+      "word"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "stark",
+      "morbid",
+      "somber",
+      "unsettling"
+    ],
+    "style": [
+      "high-contrast",
+      "gothic",
+      "stark"
+    ],
+    "objects": [
+      "text",
+      "dead"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "foreboding",
+      "ominous",
+      "somber",
+      "eerie"
+    ],
+    "style": [
+      "gothic",
+      "monochromatic",
+      "bold"
+    ],
+    "objects": [
+      "text"
+    ]
+  }
+}

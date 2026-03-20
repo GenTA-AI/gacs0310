@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "intimate",
+      "casual",
+      "comfortable",
+      "relaxed"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "bowl",
+      "table",
+      "hoodie"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "quiet",
+      "pensive",
+      "somber",
+      "subdued",
+      "thoughtful"
+    ],
+    "style": [
+      "realistic",
+      "warm",
+      "domestic"
+    ],
+    "objects": [
+      "person",
+      "table",
+      "chopsticks",
+      "bowl",
+      "refrigerator"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "casual",
+      "relaxed",
+      "domestic",
+      "cozy",
+      "focused"
+    ],
+    "style": [
+      "cozy",
+      "intimate",
+      "natural-light"
+    ],
+    "objects": [
+      "person",
+      "bowl",
+      "chopsticks",
+      "table",
+      "glass"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "focused",
+      "intense",
+      "serious",
+      "committed"
+    ],
+    "style": [
+      "moody",
+      "atmospheric",
+      "soft-focus"
+    ],
+    "objects": [
+      "race suit",
+      "badge"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "serious",
+      "focused",
+      "intense",
+      "somber"
+    ],
+    "style": [
+      "gritty",
+      "desaturated",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "racing suit"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "determined",
+      "focused",
+      "serious",
+      "resolute"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "desaturated"
+    ],
+    "objects": [
+      "man",
+      "uniform",
+      "patches",
+      "profile"
+    ]
+  }
+}

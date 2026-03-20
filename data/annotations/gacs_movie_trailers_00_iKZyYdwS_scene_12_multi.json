@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "eerie",
+      "tense",
+      "mysterious",
+      "unsettling",
+      "ominous"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "neon-lit"
+    ],
+    "objects": [
+      "person",
+      "fluorescent lights",
+      "ceiling",
+      "room",
+      "equipment"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "dimly-lit",
+      "atmospheric",
+      "enclosed"
+    ],
+    "objects": [
+      "person",
+      "lights",
+      "chairs",
+      "people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "uncertain",
+      "tense",
+      "concerned",
+      "watchful"
+    ],
+    "style": [
+      "dimly lit",
+      "claustrophobic",
+      "desaturated"
+    ],
+    "objects": [
+      "person",
+      "lights",
+      "doorway"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "ominous",
+      "atmospheric",
+      "contemplative"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "columns",
+      "figures",
+      "stone walls",
+      "light beams"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "dark",
+      "ancient",
+      "calm",
+      "eerie"
+    ],
+    "style": [
+      "low-key",
+      "atmospheric",
+      "desaturated"
+    ],
+    "objects": [
+      "stone structure",
+      "person",
+      "light beam",
+      "smoke"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "tense",
+      "ancient",
+      "dark",
+      "atmospheric"
+    ],
+    "style": [
+      "cinematic",
+      "low-key",
+      "atmospheric"
+    ],
+    "objects": [
+      "stone walls",
+      "person",
+      "light beam"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "strong",
+      "determined",
+      "focused",
+      "powerful",
+      "resolute"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "character",
+      "roof",
+      "building",
+      "plants"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "strong",
+      "determined",
+      "capable",
+      "confident",
+      "powerful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "woman",
+      "rock",
+      "house"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "determined",
+      "confident",
+      "strong",
+      "focused",
+      "empowered"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "man",
+      "ceiling",
+      "room",
+      "shirt"
+    ]
+  }
+}

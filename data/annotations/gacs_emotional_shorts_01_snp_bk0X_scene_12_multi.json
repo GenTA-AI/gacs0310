@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "focused",
+      "busy",
+      "determined",
+      "industrious"
+    ],
+    "style": [
+      "documentary",
+      "high-resolution",
+      "naturalistic"
+    ],
+    "objects": [
+      "whale",
+      "people",
+      "ship",
+      "water",
+      "barnacles"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "empathetic",
+      "laborious",
+      "strange",
+      "somber"
+    ],
+    "style": [
+      "documentary",
+      "bright",
+      "realistic"
+    ],
+    "objects": [
+      "whale",
+      "people",
+      "boat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "somber",
+      "scientific",
+      "respectful",
+      "melancholic",
+      "investigative"
+    ],
+    "style": [
+      "documentary",
+      "maritime",
+      "realistic"
+    ],
+    "objects": [
+      "whale",
+      "ship",
+      "people",
+      "deck"
+    ]
+  }
+}

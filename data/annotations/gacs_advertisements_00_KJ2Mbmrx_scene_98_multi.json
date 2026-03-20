@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "surreal",
+      "dreamy",
+      "melancholic",
+      "peaceful",
+      "ethereal"
+    ],
+    "style": [
+      "surreal",
+      "dreamy",
+      "muted"
+    ],
+    "objects": [
+      "piano",
+      "beach",
+      "water"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "whimsical",
+      "artistic",
+      "serene",
+      "imaginative",
+      "calming"
+    ],
+    "style": [
+      "surreal",
+      "artistic",
+      "imaginative"
+    ],
+    "objects": [
+      "piano keys",
+      "waves",
+      "beach",
+      "sand"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "dreamy",
+      "contemplative",
+      "wistful"
+    ],
+    "style": [
+      "aerial",
+      "dreamy",
+      "soft-focus"
+    ],
+    "objects": [
+      "piano keys",
+      "water",
+      "beach",
+      "sand"
+    ]
+  }
+}

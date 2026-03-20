@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "ominous",
+      "intense",
+      "foreboding",
+      "dramatic",
+      "unsettling"
+    ],
+    "style": [
+      "dramatic",
+      "red-dominated",
+      "atmospheric"
+    ],
+    "objects": [
+      "moon",
+      "beams",
+      "clouds",
+      "city"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "intense",
+      "threatening",
+      "apocalyptic",
+      "dramatic"
+    ],
+    "style": [
+      "monochromatic",
+      "surreal",
+      "dramatic"
+    ],
+    "objects": [
+      "moon",
+      "lights",
+      "city skyline",
+      "clouds"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "apocalyptic",
+      "intense",
+      "dramatic",
+      "foreboding"
+    ],
+    "style": [
+      "dramatic",
+      "red-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "red beams",
+      "clouds",
+      "sky",
+      "light rays"
+    ]
+  }
+}

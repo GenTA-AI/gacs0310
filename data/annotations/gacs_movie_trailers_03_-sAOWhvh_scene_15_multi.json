@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "introspective",
+      "melancholic",
+      "solitary",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "geometric"
+    ],
+    "objects": [
+      "grid",
+      "shadow",
+      "person",
+      "floor"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "imposing",
+      "observant",
+      "thoughtful",
+      "curious"
+    ],
+    "style": [
+      "geometric",
+      "warm-toned",
+      "low-key"
+    ],
+    "objects": [
+      "person",
+      "window",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anticipatory",
+      "mysterious",
+      "focused",
+      "reflective",
+      "intriguing"
+    ],
+    "style": [
+      "architectural",
+      "illuminated",
+      "reflective"
+    ],
+    "objects": [
+      "person",
+      "illuminated sign",
+      "building structure"
+    ]
+  }
+}

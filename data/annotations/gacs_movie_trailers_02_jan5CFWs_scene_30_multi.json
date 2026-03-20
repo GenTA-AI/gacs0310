@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "scientific",
+      "focused",
+      "intense",
+      "investigative"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "sci-fi"
+    ],
+    "objects": [
+      "person",
+      "flashlight",
+      "specimen jar",
+      "laboratory equipment"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "curious",
+      "investigative",
+      "scientific",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "investigative"
+    ],
+    "objects": [
+      "man",
+      "flashlight",
+      "containment chamber",
+      "liquid"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "tense",
+      "anxious",
+      "unsettling",
+      "cautious"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "sci-fi"
+    ],
+    "objects": [
+      "man",
+      "container",
+      "flashlight"
+    ]
+  }
+}

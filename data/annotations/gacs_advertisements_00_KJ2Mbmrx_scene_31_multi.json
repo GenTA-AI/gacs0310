@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cool",
+      "relaxed",
+      "vintage",
+      "playful",
+      "joyful"
+    ],
+    "style": [
+      "retro",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "car",
+      "sunglasses",
+      "steering wheel",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "cool",
+      "confident",
+      "relaxed",
+      "swagger",
+      "playful"
+    ],
+    "style": [
+      "stylized",
+      "monochromatic",
+      "automotive"
+    ],
+    "objects": [
+      "snoop dogg",
+      "car",
+      "steering wheel",
+      "sunglasses"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cool",
+      "confident",
+      "relaxed",
+      "stylish",
+      "carefree"
+    ],
+    "style": [
+      "cinematic",
+      "blue-tinted",
+      "high-contrast"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "sunglasses",
+      "steering wheel"
+    ]
+  }
+}

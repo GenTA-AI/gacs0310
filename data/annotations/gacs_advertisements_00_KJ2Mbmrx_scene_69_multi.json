@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sterile",
+      "clinical",
+      "detached",
+      "unsettling",
+      "curious"
+    ],
+    "style": [
+      "wide-angle",
+      "sterile",
+      "surreal"
+    ],
+    "objects": [
+      "woman",
+      "carpet",
+      "hallway"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "serene",
+      "contemplative",
+      "ethereal",
+      "peaceful"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "organic"
+    ],
+    "objects": [
+      "curved walls",
+      "red carpet",
+      "person",
+      "white interior"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "surreal",
+      "dynamic",
+      "bold",
+      "glamorous"
+    ],
+    "style": [
+      "futuristic",
+      "minimalistic",
+      "distorted"
+    ],
+    "objects": [
+      "person",
+      "red carpet",
+      "blue dress",
+      "studio lights"
+    ]
+  }
+}

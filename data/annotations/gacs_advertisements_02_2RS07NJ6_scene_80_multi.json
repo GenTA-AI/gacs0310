@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "exhilarating",
+      "thrilling",
+      "intense",
+      "competitive"
+    ],
+    "style": [
+      "dynamic",
+      "high-contrast",
+      "aerial"
+    ],
+    "objects": [
+      "track",
+      "finish line",
+      "barriers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fast",
+      "dynamic",
+      "competitive",
+      "focused",
+      "determined"
+    ],
+    "style": [
+      "artificial",
+      "high-angle",
+      "stark"
+    ],
+    "objects": [
+      "race track",
+      "bridge",
+      "wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dynamic",
+      "energetic",
+      "competitive",
+      "fast-paced",
+      "intense"
+    ],
+    "style": [
+      "aerial",
+      "motion-blur",
+      "dark-toned"
+    ],
+    "objects": [
+      "race track",
+      "barriers",
+      "asphalt",
+      "markings"
+    ]
+  }
+}

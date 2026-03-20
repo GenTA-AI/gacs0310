@@ -1,0 +1,60 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "sophisticated",
+      "minimalist",
+      "elegant"
+    ],
+    "style": [
+      "minimalist",
+      "monochrome",
+      "geometric"
+    ],
+    "objects": [
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "modern",
+      "sleek",
+      "minimalist",
+      "bold",
+      "powerful"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "graphic"
+    ],
+    "objects": [
+      "rings",
+      "logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "minimalist",
+      "clean",
+      "corporate",
+      "sophisticated",
+      "neutral"
+    ],
+    "style": [
+      "minimalist",
+      "monochromatic",
+      "geometric"
+    ],
+    "objects": [
+      "logo",
+      "rings",
+      "circles",
+      "interlocking rings"
+    ]
+  }
+}

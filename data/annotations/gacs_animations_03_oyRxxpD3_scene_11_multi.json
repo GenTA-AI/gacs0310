@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "threatening",
+      "malicious",
+      "sinister",
+      "cruel",
+      "triumphant"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "dark"
+    ],
+    "objects": [
+      "man",
+      "sword",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "triumphant",
+      "heroic",
+      "confident",
+      "determined",
+      "victorious"
+    ],
+    "style": [
+      "animated",
+      "cinematic",
+      "low-angle"
+    ],
+    "objects": [
+      "knight",
+      "sword",
+      "castle",
+      "armor"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "happy",
+      "triumphant",
+      "lively",
+      "playful"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "knight",
+      "sword",
+      "shield",
+      "building"
+    ]
+  }
+}

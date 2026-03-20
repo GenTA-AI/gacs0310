@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cheerful",
+      "confident",
+      "lighthearted",
+      "playful",
+      "upbeat"
+    ],
+    "style": [
+      "cinematic",
+      "warm-lit",
+      "professional"
+    ],
+    "objects": [
+      "person",
+      "glasses",
+      "lights",
+      "camera equipment",
+      "trailer text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "anticipatory",
+      "intriguing",
+      "expectant",
+      "assured"
+    ],
+    "style": [
+      "staged",
+      "bright",
+      "cinematic"
+    ],
+    "objects": [
+      "jackie chan",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "nostalgic",
+      "warm",
+      "cinematic",
+      "engaging"
+    ],
+    "style": [
+      "studio-lit",
+      "professional",
+      "poised"
+    ],
+    "objects": [
+      "person",
+      "lights",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "magical",
+      "curious",
+      "warm",
+      "expectant"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "warm-toned"
+    ],
+    "objects": [
+      "toucan",
+      "child"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "magical",
+      "tender",
+      "peaceful",
+      "enchanting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "bokeh"
+    ],
+    "objects": [
+      "bird",
+      "person",
+      "lights",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "magical",
+      "curious",
+      "vibrant",
+      "gentle"
+    ],
+    "style": [
+      "vibrant",
+      "whimsical",
+      "glowing"
+    ],
+    "objects": [
+      "bird",
+      "child",
+      "light"
+    ]
+  }
+}

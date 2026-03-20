@@ -1,0 +1,22 @@
+[
+  {
+    "scene_id": "gacs_movie_trailers_01_OzY2r2JX_s0000",
+    "video_id": "gacs_movie_trailers_01_OzY2r2JX",
+    "scene_index": 0,
+    "start_frame": 2880,
+    "end_frame": 3120,
+    "start_time": 96.0,
+    "end_time": 104.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_movie_trailers_01_OzY2r2JX_s0001",
+    "video_id": "gacs_movie_trailers_01_OzY2r2JX",
+    "scene_index": 1,
+    "start_frame": 3120,
+    "end_frame": 3360,
+    "start_time": 104.0,
+    "end_time": 112.0,
+    "duration": 8.0
+  }
+]

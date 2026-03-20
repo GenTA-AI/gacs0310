@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excitement",
+      "awe",
+      "wonder",
+      "anticipation",
+      "curiosity"
+    ],
+    "style": [
+      "naturalistic",
+      "interior",
+      "focused"
+    ],
+    "objects": [
+      "dog",
+      "car interior",
+      "screen",
+      "rocket",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "focused",
+      "thrilling",
+      "concentrated",
+      "engaged"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "atmospheric"
+    ],
+    "objects": [
+      "people",
+      "car interior",
+      "screen",
+      "explosion"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cozy",
+      "adventurous",
+      "curious",
+      "relaxed",
+      "engaging"
+    ],
+    "style": [
+      "cinematic",
+      "immersive",
+      "warm-toned"
+    ],
+    "objects": [
+      "dog",
+      "screen",
+      "rocket",
+      "car"
+    ]
+  }
+}

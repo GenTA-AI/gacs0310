@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "precise",
+      "methodical",
+      "concentrated",
+      "deliberate"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "hand",
+      "yellow object",
+      "surface",
+      "fingers"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "precise",
+      "deliberate",
+      "mysterious",
+      "controlled"
+    ],
+    "style": [
+      "low-key",
+      "warm",
+      "shallow-focus"
+    ],
+    "objects": [
+      "hand",
+      "candle",
+      "ring"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "focused",
+      "mysterious",
+      "secretive",
+      "futuristic"
+    ],
+    "style": [
+      "futuristic",
+      "dim-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "hand",
+      "fingerprint scanner",
+      "light"
+    ]
+  }
+}

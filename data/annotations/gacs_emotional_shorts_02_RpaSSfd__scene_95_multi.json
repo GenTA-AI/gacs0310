@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "defensive",
+      "angry",
+      "accusatory",
+      "frustrated",
+      "intense"
+    ],
+    "style": [
+      "close-up",
+      "dramatic",
+      "indoor"
+    ],
+    "objects": [
+      "man",
+      "text overlay",
+      "kitchen cabinet"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "defensive",
+      "tense",
+      "emotional",
+      "serious",
+      "conflicted"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "emotional"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "cutting board",
+      "appliances"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "defensive",
+      "frustrated",
+      "intense",
+      "confrontational",
+      "emotional"
+    ],
+    "style": [
+      "dramatic",
+      "intimate",
+      "naturalistic"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "subtitle",
+      "logo"
+    ]
+  }
+}

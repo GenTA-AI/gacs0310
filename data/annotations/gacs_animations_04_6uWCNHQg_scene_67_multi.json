@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "whimsical",
+      "surreal",
+      "dreamlike",
+      "imaginative",
+      "contemplative"
+    ],
+    "style": [
+      "surreal",
+      "dreamlike",
+      "whimsical"
+    ],
+    "objects": [
+      "man",
+      "stairs",
+      "cards",
+      "clouds"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "surreal",
+      "thoughtful",
+      "enigmatic",
+      "ethereal"
+    ],
+    "style": [
+      "stylized",
+      "surreal",
+      "painterly"
+    ],
+    "objects": [
+      "man",
+      "cards",
+      "clouds",
+      "wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surreal",
+      "contemplative",
+      "ethereal",
+      "melancholic",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "surreal",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "clouds",
+      "brick wall",
+      "papers"
+    ]
+  }
+}

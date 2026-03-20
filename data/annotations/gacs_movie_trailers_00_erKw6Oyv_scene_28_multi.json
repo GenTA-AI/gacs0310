@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "mesmerizing",
+      "mysterious",
+      "captivating",
+      "haunting"
+    ],
+    "style": [
+      "macro",
+      "intense",
+      "atmospheric"
+    ],
+    "objects": [
+      "eye",
+      "iris",
+      "pupil",
+      "eyelashes"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "focused",
+      "eerie",
+      "watchful",
+      "probing"
+    ],
+    "style": [
+      "close-up",
+      "blurred",
+      "dramatic"
+    ],
+    "objects": [
+      "eye",
+      "iris",
+      "pupil"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "focused",
+      "curious",
+      "detailed"
+    ],
+    "style": [
+      "close-up",
+      "detailed",
+      "natural"
+    ],
+    "objects": [
+      "eye"
+    ]
+  }
+}

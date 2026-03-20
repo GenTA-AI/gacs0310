@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "carefree",
+      "nostalgic",
+      "youthful",
+      "lively",
+      "bittersweet"
+    ],
+    "style": [
+      "desaturated",
+      "shallow-depth",
+      "naturalistic"
+    ],
+    "objects": [
+      "people",
+      "sand",
+      "buildings"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "playful",
+      "carefree",
+      "nostalgic",
+      "lively"
+    ],
+    "style": [
+      "casual",
+      "candid",
+      "vibrant"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "trees",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "carefree",
+      "joyful",
+      "energetic",
+      "innocent"
+    ],
+    "style": [
+      "documentary",
+      "naturalistic",
+      "handheld"
+    ],
+    "objects": [
+      "people",
+      "beach",
+      "buildings",
+      "sand",
+      "umbrellas"
+    ]
+  }
+}

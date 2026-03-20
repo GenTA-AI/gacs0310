@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "solemn",
+      "hopeful",
+      "tender",
+      "contemplative",
+      "warm"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "candle",
+      "woman",
+      "stairs",
+      "flowers",
+      "railing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "worried",
+      "somber",
+      "apprehensive",
+      "concerned"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "detailed"
+    ],
+    "objects": [
+      "woman",
+      "candle",
+      "staircase"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "hopeful",
+      "magical",
+      "peaceful",
+      "contemplative"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "warm-lit"
+    ],
+    "objects": [
+      "candle",
+      "woman",
+      "staircase",
+      "lights"
+    ]
+  }
+}

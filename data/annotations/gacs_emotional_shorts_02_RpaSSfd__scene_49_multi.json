@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "uncomfortable",
+      "tense",
+      "guarded",
+      "uncertain"
+    ],
+    "style": [
+      "realistic",
+      "intimate",
+      "dialogue-focused"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "robe"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "concerned",
+      "tender",
+      "vulnerable",
+      "contemplative"
+    ],
+    "style": [
+      "intimate",
+      "naturalistic",
+      "conversational"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "bathrobe",
+      "subtitle text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "intimate",
+      "affectionate",
+      "relaxed",
+      "tender"
+    ],
+    "style": [
+      "warm-toned",
+      "natural",
+      "intimate"
+    ],
+    "objects": [
+      "person",
+      "robe",
+      "lamp",
+      "door",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "excited",
+      "social",
+      "cheerful",
+      "friendly"
+    ],
+    "style": [
+      "casual",
+      "candid",
+      "vibrant"
+    ],
+    "objects": [
+      "people",
+      "phone",
+      "jacket",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "happy",
+      "cheerful",
+      "friendly",
+      "sociable"
+    ],
+    "style": [
+      "candid",
+      "neutral",
+      "contemporary"
+    ],
+    "objects": [
+      "people",
+      "phones",
+      "jacket"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "friendly",
+      "cheerful",
+      "warm",
+      "social",
+      "joyful"
+    ],
+    "style": [
+      "candid",
+      "documentary",
+      "intimate"
+    ],
+    "objects": [
+      "women",
+      "jackets",
+      "phones",
+      "wall",
+      "people"
+    ]
+  }
+}

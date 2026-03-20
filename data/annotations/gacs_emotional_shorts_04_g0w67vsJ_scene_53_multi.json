@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "romantic",
+      "melancholic"
+    ],
+    "style": [
+      "warm",
+      "romantic",
+      "scenic"
+    ],
+    "objects": [
+      "woman",
+      "sunset",
+      "lightbulb",
+      "table"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "romantic",
+      "serene",
+      "nostalgic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "golden-hour"
+    ],
+    "objects": [
+      "woman",
+      "table",
+      "candles",
+      "sunset",
+      "wine glass"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "romantic",
+      "serene",
+      "contemplative",
+      "intimate",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "intimate"
+    ],
+    "objects": [
+      "woman",
+      "candles",
+      "wine glass",
+      "table",
+      "sunset"
+    ]
+  }
+}

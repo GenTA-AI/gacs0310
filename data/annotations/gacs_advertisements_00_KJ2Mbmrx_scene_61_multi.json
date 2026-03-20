@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "confident",
+      "powerful",
+      "glamorous",
+      "bold",
+      "captivating"
+    ],
+    "style": [
+      "monochrome",
+      "bold",
+      "glamorous"
+    ],
+    "objects": [
+      "text",
+      "earrings",
+      "necklace"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "confident",
+      "powerful",
+      "serious",
+      "glamorous",
+      "determined"
+    ],
+    "style": [
+      "monochromatic",
+      "glamorous",
+      "high-contrast"
+    ],
+    "objects": [
+      "woman",
+      "earrings",
+      "necklace",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "confident",
+      "glamorous",
+      "powerful",
+      "intense",
+      "captivating"
+    ],
+    "style": [
+      "glamorous",
+      "blue-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "woman",
+      "earrings",
+      "text",
+      "background"
+    ]
+  }
+}

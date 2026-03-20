@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "carefree",
+      "breezy",
+      "nostalgic",
+      "sunny",
+      "relaxed"
+    ],
+    "style": [
+      "bright",
+      "vintage",
+      "cinematic"
+    ],
+    "objects": [
+      "car",
+      "palm trees",
+      "road"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "carefree",
+      "sunny",
+      "adventurous",
+      "vibrant"
+    ],
+    "style": [
+      "cinematic",
+      "nostalgic",
+      "vibrant"
+    ],
+    "objects": [
+      "car",
+      "road",
+      "palm trees",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "nostalgic",
+      "carefree",
+      "sunny",
+      "relaxed",
+      "dreamy"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "nostalgic"
+    ],
+    "objects": [
+      "car",
+      "palm trees",
+      "road",
+      "sky"
+    ]
+  }
+}

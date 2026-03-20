@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "investigative",
+      "technological",
+      "analytical",
+      "focused"
+    ],
+    "style": [
+      "layered",
+      "futuristic",
+      "muted"
+    ],
+    "objects": [
+      "finger",
+      "screen",
+      "table",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intriguing",
+      "mysterious",
+      "futuristic",
+      "curious",
+      "reflective"
+    ],
+    "style": [
+      "futuristic",
+      "reflective",
+      "interactive"
+    ],
+    "objects": [
+      "fingers",
+      "reflection",
+      "overlay pattern",
+      "people",
+      "table"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "intense",
+      "clinical",
+      "technological",
+      "sterile"
+    ],
+    "style": [
+      "handheld",
+      "documentary-style",
+      "natural-lighting"
+    ],
+    "objects": [
+      "hands",
+      "medical equipment",
+      "monitor screen",
+      "hospital room"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "isolated",
+      "bleak",
+      "cold",
+      "determined",
+      "arduous"
+    ],
+    "style": [
+      "desaturated",
+      "overcast",
+      "documentary"
+    ],
+    "objects": [
+      "mountains",
+      "snow",
+      "backpack"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cold",
+      "adventurous",
+      "serene",
+      "reflective",
+      "determined"
+    ],
+    "style": [
+      "cold",
+      "rugged",
+      "adventurous"
+    ],
+    "objects": [
+      "mountains",
+      "snow",
+      "person",
+      "backpack"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "contemplative",
+      "peaceful",
+      "inspiring",
+      "hopeful"
+    ],
+    "style": [
+      "cinematic",
+      "cold-toned",
+      "wide-angle"
+    ],
+    "objects": [
+      "snow-covered mountains",
+      "hikers",
+      "backpacks",
+      "snowy landscape"
+    ]
+  }
+}

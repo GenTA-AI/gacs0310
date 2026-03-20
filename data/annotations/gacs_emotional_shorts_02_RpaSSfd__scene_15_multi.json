@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "tense",
+      "secretive",
+      "intriguing"
+    ],
+    "style": [
+      "dimly-lit",
+      "contemporary",
+      "intimate"
+    ],
+    "objects": [
+      "painting",
+      "lamp",
+      "box",
+      "door",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspenseful",
+      "mysterious",
+      "hidden",
+      "uncertain",
+      "lurking"
+    ],
+    "style": [
+      "muted",
+      "indoor",
+      "naturalistic"
+    ],
+    "objects": [
+      "door",
+      "wall",
+      "artwork",
+      "woman"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "intimate",
+      "warm",
+      "domestic",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "wall",
+      "poster",
+      "doorway",
+      "subscription button"
+    ]
+  }
+}

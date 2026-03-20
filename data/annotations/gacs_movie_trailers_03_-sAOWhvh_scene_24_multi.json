@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "solitary",
+      "elevated",
+      "cinematic",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "wide-angle"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "city",
+      "mountains",
+      "rooftop"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dangerous",
+      "daring",
+      "isolated",
+      "exposed",
+      "apprehensive"
+    ],
+    "style": [
+      "desaturated",
+      "urban",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "cityscape",
+      "building roof",
+      "mountains"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "dramatic",
+      "suspenseful",
+      "daring",
+      "isolated"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "expansive"
+    ],
+    "objects": [
+      "person",
+      "building",
+      "cityscape",
+      "mountains"
+    ]
+  }
+}

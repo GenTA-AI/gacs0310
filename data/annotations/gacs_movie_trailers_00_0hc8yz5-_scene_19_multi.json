@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "thoughtful",
+      "inquisitive",
+      "somber",
+      "contemplative"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "building",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "intense",
+      "contemplative",
+      "dramatic",
+      "focused"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "natural"
+    ],
+    "objects": [
+      "person",
+      "coat",
+      "tie",
+      "trees",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "reflective",
+      "somber",
+      "pensive"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "suit",
+      "tie",
+      "trees",
+      "buildings"
+    ]
+  }
+}

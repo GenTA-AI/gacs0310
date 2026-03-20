@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "anxious",
+      "alert",
+      "wary",
+      "contemplative"
+    ],
+    "style": [
+      "naturalistic",
+      "shallow-focus",
+      "muted"
+    ],
+    "objects": [
+      "woman",
+      "tree",
+      "building"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "alert",
+      "concerned",
+      "focused",
+      "attentive"
+    ],
+    "style": [
+      "natural",
+      "vibrant",
+      "close-up"
+    ],
+    "objects": [
+      "person",
+      "tree",
+      "building"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "intense",
+      "focused",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "trees",
+      "building",
+      "watermark"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "informative",
+      "professional",
+      "neutral",
+      "formal",
+      "straightforward"
+    ],
+    "style": [
+      "minimalist",
+      "monochrome",
+      "modern"
+    ],
+    "objects": [
+      "rt\u00e9 news",
+      "text"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "neutral",
+      "simple",
+      "straightforward",
+      "modern"
+    ],
+    "style": [
+      "minimalist",
+      "flat",
+      "corporate"
+    ],
+    "objects": [
+      "rte news",
+      "like",
+      "comment",
+      "share"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "neutral",
+      "professional",
+      "clean",
+      "minimalist",
+      "corporate"
+    ],
+    "style": [
+      "minimal",
+      "dark",
+      "corporate"
+    ],
+    "objects": [
+      "rt\u00e9 news logo",
+      "text",
+      "buttons"
+    ]
+  }
+}

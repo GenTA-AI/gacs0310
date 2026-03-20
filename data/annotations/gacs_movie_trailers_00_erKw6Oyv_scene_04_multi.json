@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "sensual",
+      "mysterious",
+      "warm",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "macro"
+    ],
+    "objects": [
+      "lips",
+      "mouth",
+      "nose",
+      "face"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "anxious",
+      "intimate",
+      "vulnerable",
+      "strained"
+    ],
+    "style": [
+      "close-up",
+      "dramatic",
+      "sweaty"
+    ],
+    "objects": [
+      "lips",
+      "skin",
+      "sweat"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "intimate",
+      "sensual",
+      "anticipatory"
+    ],
+    "style": [
+      "close-up",
+      "moist",
+      "dramatic"
+    ],
+    "objects": [
+      "face",
+      "lips",
+      "water droplets"
+    ]
+  }
+}

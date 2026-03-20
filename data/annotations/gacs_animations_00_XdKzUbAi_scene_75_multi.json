@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "excited",
+      "surprised",
+      "playful",
+      "energetic",
+      "whimsical"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "dynamic"
+    ],
+    "objects": [
+      "backpack",
+      "lockers",
+      "hat",
+      "person"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "excited",
+      "frantic",
+      "hurried",
+      "playful"
+    ],
+    "style": [
+      "cartoonish",
+      "bright",
+      "vibrant"
+    ],
+    "objects": [
+      "person",
+      "lockers",
+      "backpack",
+      "cupcake"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "energetic",
+      "chaotic",
+      "frantic",
+      "comedic"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "motion-blur"
+    ],
+    "objects": [
+      "lockers",
+      "person in red",
+      "backpack",
+      "hallway"
+    ]
+  }
+}

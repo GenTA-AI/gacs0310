@@ -1,0 +1,32 @@
+[
+  {
+    "scene_id": "gacs_movie_trailers_00_UDfjsSqC_s0000",
+    "video_id": "gacs_movie_trailers_00_UDfjsSqC",
+    "scene_index": 0,
+    "start_frame": 1200,
+    "end_frame": 1440,
+    "start_time": 40.0,
+    "end_time": 48.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_movie_trailers_00_UDfjsSqC_s0001",
+    "video_id": "gacs_movie_trailers_00_UDfjsSqC",
+    "scene_index": 1,
+    "start_frame": 1440,
+    "end_frame": 1680,
+    "start_time": 48.0,
+    "end_time": 56.0,
+    "duration": 8.0
+  },
+  {
+    "scene_id": "gacs_movie_trailers_00_UDfjsSqC_s0002",
+    "video_id": "gacs_movie_trailers_00_UDfjsSqC",
+    "scene_index": 2,
+    "start_frame": 1680,
+    "end_frame": 1920,
+    "start_time": 56.0,
+    "end_time": 64.0,
+    "duration": 8.0
+  }
+]

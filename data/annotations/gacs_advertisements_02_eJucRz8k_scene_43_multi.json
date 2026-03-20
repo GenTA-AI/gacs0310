@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "curious",
+      "peaceful",
+      "relaxed",
+      "serene"
+    ],
+    "style": [
+      "blurry",
+      "urban",
+      "daytime"
+    ],
+    "objects": [
+      "man",
+      "horse",
+      "street",
+      "building"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unexpected",
+      "curious",
+      "surreal",
+      "odd",
+      "strange"
+    ],
+    "style": [
+      "realistic",
+      "shallow-focus",
+      "muted"
+    ],
+    "objects": [
+      "horse",
+      "person",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "blurry",
+      "distant",
+      "melancholic",
+      "contemplative",
+      "subdued"
+    ],
+    "style": [
+      "shallow-focus",
+      "soft-lit",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "vehicle interior",
+      "buildings",
+      "steering wheel"
+    ]
+  }
+}

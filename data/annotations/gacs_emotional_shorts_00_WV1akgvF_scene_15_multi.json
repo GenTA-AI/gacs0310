@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "informative",
+      "neutral",
+      "ordinary",
+      "casual"
+    ],
+    "style": [
+      "news",
+      "interview",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "t-shirt",
+      "wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "contemplative",
+      "serious",
+      "subdued",
+      "pensive"
+    ],
+    "style": [
+      "broadcast",
+      "documentary",
+      "interview"
+    ],
+    "objects": [
+      "man",
+      "microphone",
+      "wall",
+      "shirt"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "relaxed",
+      "content",
+      "cheerful",
+      "pleasant"
+    ],
+    "style": [
+      "news-style",
+      "natural",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "walls",
+      "microphone"
+    ]
+  }
+}

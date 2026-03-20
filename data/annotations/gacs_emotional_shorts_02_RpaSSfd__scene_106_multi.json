@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "regretful",
+      "somber",
+      "reflective",
+      "burdened",
+      "remorseful"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "muted"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "shelf"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "regretful",
+      "contemplative",
+      "somber",
+      "introspective",
+      "emotional"
+    ],
+    "style": [
+      "dramatic",
+      "dimly-lit",
+      "realistic"
+    ],
+    "objects": [
+      "man",
+      "beverage cans",
+      "shelf",
+      "woman"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "regretful",
+      "contemplative",
+      "somber",
+      "resigned"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "beard",
+      "hoodie",
+      "text"
+    ]
+  }
+}

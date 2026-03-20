@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "secretive",
+      "humorous",
+      "awkward",
+      "sneaky"
+    ],
+    "style": [
+      "cozy",
+      "intimate",
+      "dimly-lit"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "bathrobe",
+      "lamp",
+      "paintings"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "awkward",
+      "relieved",
+      "secretive",
+      "humorous",
+      "suspicious"
+    ],
+    "style": [
+      "casual",
+      "indoor",
+      "staged"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "closet"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "worried",
+      "intimate",
+      "domestic",
+      "tense"
+    ],
+    "style": [
+      "warm-toned",
+      "domestic",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "door",
+      "lamp",
+      "children's artwork"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "natural",
+      "grounded",
+      "calm",
+      "simple"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "shallow-focus"
+    ],
+    "objects": [
+      "grass",
+      "feet",
+      "pants"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "serene",
+      "welcoming",
+      "natural",
+      "grounding"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "natural-lighting"
+    ],
+    "objects": [
+      "feet",
+      "grass",
+      "pants",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "welcoming",
+      "gentle",
+      "peaceful"
+    ],
+    "style": [
+      "natural",
+      "grounded",
+      "simple"
+    ],
+    "objects": [
+      "feet",
+      "grass",
+      "pants"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "serene",
+      "natural",
+      "gentle",
+      "hopeful"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "shallow-focus"
+    ],
+    "objects": [
+      "leaves",
+      "hand",
+      "shirt"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "nurturing",
+      "hopeful",
+      "serene",
+      "inspiring"
+    ],
+    "style": [
+      "natural",
+      "soft-focus",
+      "documentary"
+    ],
+    "objects": [
+      "hands",
+      "plants",
+      "shirt",
+      "leaves"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "peaceful",
+      "nurturing",
+      "calm",
+      "reflective"
+    ],
+    "style": [
+      "natural",
+      "intimate",
+      "vibrant"
+    ],
+    "objects": [
+      "hand",
+      "plants",
+      "shirt sleeves"
+    ]
+  }
+}

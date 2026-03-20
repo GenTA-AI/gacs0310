@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "desolate",
+      "lonely",
+      "melancholic",
+      "bleak",
+      "frozen"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "desaturated"
+    ],
+    "objects": [
+      "robot",
+      "snow",
+      "ferris wheel",
+      "beach"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "whimsical",
+      "surreal",
+      "contemplative",
+      "peaceful",
+      "nostalgic"
+    ],
+    "style": [
+      "animated",
+      "whimsical",
+      "muted"
+    ],
+    "objects": [
+      "ferris wheel",
+      "robot",
+      "snow",
+      "beach"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "serene",
+      "wistful",
+      "contemplative"
+    ],
+    "style": [
+      "animated",
+      "muted-palette",
+      "atmospheric"
+    ],
+    "objects": [
+      "train",
+      "ferris wheel",
+      "snow",
+      "tracks"
+    ]
+  }
+}

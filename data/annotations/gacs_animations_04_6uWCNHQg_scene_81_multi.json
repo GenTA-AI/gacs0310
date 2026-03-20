@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "hopeful",
+      "elegant",
+      "joyful",
+      "romantic",
+      "nostalgic"
+    ],
+    "style": [
+      "soft",
+      "elegant",
+      "vintage"
+    ],
+    "objects": [
+      "woman",
+      "veil",
+      "wedding cake"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "nostalgic",
+      "romantic",
+      "content"
+    ],
+    "style": [
+      "vintage",
+      "nostalgic",
+      "soft-lit"
+    ],
+    "objects": [
+      "bride",
+      "veil",
+      "wedding dress",
+      "cake",
+      "candles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "romantic",
+      "celebratory",
+      "elegant",
+      "blissful"
+    ],
+    "style": [
+      "vintage",
+      "romantic",
+      "period-drama"
+    ],
+    "objects": [
+      "bride",
+      "wedding dress",
+      "veil",
+      "wedding cake"
+    ]
+  }
+}

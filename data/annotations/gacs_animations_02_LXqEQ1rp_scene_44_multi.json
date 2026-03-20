@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "tense",
+      "watchful",
+      "cautious",
+      "foreboding"
+    ],
+    "style": [
+      "animated",
+      "dark",
+      "stylized"
+    ],
+    "objects": [
+      "cats",
+      "lantern",
+      "figure"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "watchful",
+      "ominous",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "dimly-lit",
+      "detailed"
+    ],
+    "objects": [
+      "black cat",
+      "small cat",
+      "lantern",
+      "sword"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "enchanting",
+      "whimsical",
+      "tender",
+      "magical"
+    ],
+    "style": [
+      "animated",
+      "cinematic",
+      "warm-toned"
+    ],
+    "objects": [
+      "black cat",
+      "kitten",
+      "lantern",
+      "boots"
+    ]
+  }
+}

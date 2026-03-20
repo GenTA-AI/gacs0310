@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "contemplative",
+      "somber",
+      "formal",
+      "still"
+    ],
+    "style": [
+      "gothic",
+      "desaturated",
+      "architectural"
+    ],
+    "objects": [
+      "church",
+      "pews",
+      "chandeliers",
+      "organ"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "somber",
+      "tranquil",
+      "solemn",
+      "reverent",
+      "austere"
+    ],
+    "style": [
+      "gothic",
+      "atmospheric",
+      "dimly-lit"
+    ],
+    "objects": [
+      "chandeliers",
+      "pews",
+      "organ",
+      "windows",
+      "altar"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "solemn",
+      "reverent",
+      "gothic",
+      "austere",
+      "ceremonial"
+    ],
+    "style": [
+      "gothic",
+      "atmospheric",
+      "cinematic"
+    ],
+    "objects": [
+      "altar",
+      "organ",
+      "chandelier",
+      "arches",
+      "people"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "intimate",
+      "meditative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "table",
+      "fireplace",
+      "window",
+      "room"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "inviting",
+      "tranquil",
+      "serene",
+      "contemplative"
+    ],
+    "style": [
+      "warm-toned",
+      "minimalist",
+      "serene"
+    ],
+    "objects": [
+      "table",
+      "chairs",
+      "lamp",
+      "swords",
+      "fireplace"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "serene",
+      "focused",
+      "contemplative",
+      "anticipation"
+    ],
+    "style": [
+      "balanced",
+      "muted",
+      "interior"
+    ],
+    "objects": [
+      "man",
+      "table",
+      "lamp",
+      "painting"
+    ]
+  }
+}

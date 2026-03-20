@@ -1,0 +1,59 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "modern",
+      "professional",
+      "cinematic",
+      "anticipatory"
+    ],
+    "style": [
+      "dark",
+      "minimalist",
+      "branded"
+    ],
+    "objects": [
+      "prime video logo",
+      "text",
+      "curved arrow"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "professional",
+      "modern",
+      "sleek",
+      "straightforward"
+    ],
+    "style": [
+      "clean",
+      "minimal",
+      "dark"
+    ],
+    "objects": [
+      "prime video logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "relaxed",
+      "neutral",
+      "serene",
+      "soothing"
+    ],
+    "style": [
+      "dark",
+      "minimalist",
+      "branded"
+    ],
+    "objects": [
+      "logo",
+      "text"
+    ]
+  }
+}

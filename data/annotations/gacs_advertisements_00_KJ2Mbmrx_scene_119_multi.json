@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "somber",
+      "isolated",
+      "powerful",
+      "enigmatic"
+    ],
+    "style": [
+      "high-contrast",
+      "cinematic",
+      "nocturnal"
+    ],
+    "objects": [
+      "person",
+      "airplane",
+      "airport lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "dramatic",
+      "cinematic",
+      "bold"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "low-lit"
+    ],
+    "objects": [
+      "airplane",
+      "person",
+      "runway",
+      "stairs"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "cinematic",
+      "dramatic",
+      "contemplative",
+      "atmospheric"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "dark-toned"
+    ],
+    "objects": [
+      "person",
+      "airplane",
+      "runway",
+      "lights"
+    ]
+  }
+}

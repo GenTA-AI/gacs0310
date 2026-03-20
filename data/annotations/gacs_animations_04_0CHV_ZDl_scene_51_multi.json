@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "stern",
+      "authoritative",
+      "grim",
+      "watchful"
+    ],
+    "style": [
+      "cartoonish",
+      "flat",
+      "nighttime"
+    ],
+    "objects": [
+      "gorilla",
+      "policeman",
+      "handcuffs",
+      "flashlight"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "authoritative",
+      "stern",
+      "vigilant",
+      "intimidating"
+    ],
+    "style": [
+      "dark",
+      "cartoonish",
+      "stylized"
+    ],
+    "objects": [
+      "gorilla",
+      "handcuffs",
+      "flashlight",
+      "uniform"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "menacing",
+      "authoritative",
+      "intimidating",
+      "stern",
+      "serious"
+    ],
+    "style": [
+      "animated",
+      "noir",
+      "stylized"
+    ],
+    "objects": [
+      "police officer",
+      "handcuffs",
+      "flashlight",
+      "badge"
+    ]
+  }
+}

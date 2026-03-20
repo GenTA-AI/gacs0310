@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "worried",
+      "concerned",
+      "apprehensive",
+      "uneasy"
+    ],
+    "style": [
+      "animated",
+      "close-up",
+      "concerned"
+    ],
+    "objects": [
+      "woman",
+      "glasses",
+      "hair"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "concerned",
+      "anxious",
+      "surprised",
+      "tense",
+      "uncertain"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "glasses",
+      "earrings",
+      "hair",
+      "dress"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "anxious",
+      "worried",
+      "apprehensive",
+      "uncertain"
+    ],
+    "style": [
+      "3d-animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "glasses",
+      "girl",
+      "earrings",
+      "hair"
+    ]
+  }
+}

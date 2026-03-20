@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "connected",
+      "productive",
+      "modern",
+      "surreal",
+      "busy"
+    ],
+    "style": [
+      "clean",
+      "modern",
+      "bright"
+    ],
+    "objects": [
+      "car dashboard",
+      "buildings",
+      "people",
+      "screen"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "collaborative",
+      "focused",
+      "professional",
+      "connected",
+      "informal"
+    ],
+    "style": [
+      "minimalistic",
+      "modern",
+      "sleek"
+    ],
+    "objects": [
+      "car interior",
+      "touchscreen",
+      "video call",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "connected",
+      "modern",
+      "collaborative",
+      "relaxed"
+    ],
+    "style": [
+      "cinematic",
+      "modern",
+      "sleek"
+    ],
+    "objects": [
+      "car interior",
+      "video call screen",
+      "street",
+      "buildings"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "curious",
+      "uncertain",
+      "watchful",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "soft",
+      "neutral"
+    ],
+    "objects": [
+      "person",
+      "cake stand",
+      "macarons",
+      "barrel"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "annoyed",
+      "frustrated",
+      "skeptical",
+      "dismissive",
+      "unimpressed"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "detailed"
+    ],
+    "objects": [
+      "character",
+      "pastries",
+      "macaron tower",
+      "barrels"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "concerned",
+      "worried",
+      "anxious",
+      "uncertain",
+      "apprehensive"
+    ],
+    "style": [
+      "3d-animated",
+      "medieval",
+      "stylized"
+    ],
+    "objects": [
+      "character",
+      "table",
+      "kitchen",
+      "cake",
+      "interior"
+    ]
+  }
+}

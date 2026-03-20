@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "lively",
+      "urban",
+      "casual",
+      "relaxed",
+      "dynamic"
+    ],
+    "style": [
+      "realistic",
+      "vibrant",
+      "contemporary"
+    ],
+    "objects": [
+      "cafe",
+      "tables",
+      "chairs",
+      "people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "anxious",
+      "restless",
+      "hurried",
+      "serious"
+    ],
+    "style": [
+      "daytime",
+      "candid",
+      "european"
+    ],
+    "objects": [
+      "person",
+      "table",
+      "building",
+      "tree"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "urgent",
+      "dynamic",
+      "intense",
+      "action-packed"
+    ],
+    "style": [
+      "cinematic",
+      "motion-blur",
+      "natural-lighting"
+    ],
+    "objects": [
+      "people",
+      "buildings",
+      "street",
+      "trees",
+      "tables"
+    ]
+  }
+}

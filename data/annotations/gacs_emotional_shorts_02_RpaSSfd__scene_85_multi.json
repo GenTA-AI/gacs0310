@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "confrontational",
+      "dramatic",
+      "serious",
+      "tense"
+    ],
+    "style": [
+      "realistic",
+      "indoor",
+      "conversational"
+    ],
+    "objects": [
+      "man",
+      "text",
+      "chair",
+      "counter"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tense",
+      "confrontational",
+      "unsettling",
+      "serious",
+      "strained"
+    ],
+    "style": [
+      "medium-shot",
+      "naturalistic",
+      "dialogue-driven"
+    ],
+    "objects": [
+      "man",
+      "person"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "frustrated",
+      "condescending",
+      "irritated",
+      "sarcastic",
+      "patronizing"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "hoodie",
+      "kitchen",
+      "text",
+      "logo"
+    ]
+  }
+}

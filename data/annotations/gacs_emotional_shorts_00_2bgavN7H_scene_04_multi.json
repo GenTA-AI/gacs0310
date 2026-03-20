@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "focused",
+      "expressive",
+      "absorbed",
+      "curious"
+    ],
+    "style": [
+      "painterly",
+      "textured",
+      "warm"
+    ],
+    "objects": [
+      "painter",
+      "canvas",
+      "people",
+      "paintbrush"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "inspirational",
+      "nostalgic",
+      "contemplative",
+      "passionate",
+      "expressive"
+    ],
+    "style": [
+      "painterly",
+      "expressive",
+      "textured"
+    ],
+    "objects": [
+      "painter",
+      "canvas",
+      "brush",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "introspective",
+      "nostalgic",
+      "wistful"
+    ],
+    "style": [
+      "painterly",
+      "warm-toned",
+      "dramatic"
+    ],
+    "objects": [
+      "elderly man",
+      "paintbrush",
+      "canvas",
+      "crowd",
+      "painting"
+    ]
+  }
+}

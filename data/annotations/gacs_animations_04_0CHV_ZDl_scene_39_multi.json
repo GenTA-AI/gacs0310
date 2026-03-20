@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "eerie",
+      "trapped",
+      "mechanical",
+      "strange"
+    ],
+    "style": [
+      "flat",
+      "cartoonish",
+      "graphic"
+    ],
+    "objects": [
+      "wires",
+      "arm"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "mechanical",
+      "eerie",
+      "unsettling",
+      "stark"
+    ],
+    "style": [
+      "animated",
+      "simplistic",
+      "mechanical"
+    ],
+    "objects": [
+      "robot hand",
+      "glove"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mechanical",
+      "cold",
+      "artificial",
+      "sterile",
+      "lifeless"
+    ],
+    "style": [
+      "animated",
+      "flat-shaded",
+      "cartoon"
+    ],
+    "objects": [
+      "robotic hand",
+      "metal fingers",
+      "wrist joint",
+      "wooden surface"
+    ]
+  }
+}

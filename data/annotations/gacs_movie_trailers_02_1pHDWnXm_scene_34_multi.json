@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "triumphant",
+      "powerful",
+      "majestic",
+      "inspiring"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "superhero"
+    ],
+    "objects": [
+      "person with wings",
+      "road",
+      "cars",
+      "trees",
+      "birds"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "patriotic",
+      "heroic",
+      "watchful",
+      "focused"
+    ],
+    "style": [
+      "bright",
+      "symmetrical",
+      "saturated"
+    ],
+    "objects": [
+      "falcon",
+      "wings",
+      "drones",
+      "car"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "adventurous",
+      "empowering",
+      "bold",
+      "dynamic"
+    ],
+    "style": [
+      "dynamic",
+      "vibrant",
+      "symmetrical"
+    ],
+    "objects": [
+      "wings",
+      "road",
+      "trees",
+      "sky"
+    ]
+  }
+}

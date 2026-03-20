@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "peaceful",
+      "hopeful",
+      "serene",
+      "content"
+    ],
+    "style": [
+      "naturalistic",
+      "overcast",
+      "documentary"
+    ],
+    "objects": [
+      "woman",
+      "gate",
+      "horse",
+      "grass"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "observant",
+      "relaxed",
+      "content"
+    ],
+    "style": [
+      "natural",
+      "candid",
+      "documentary"
+    ],
+    "objects": [
+      "gate",
+      "person",
+      "horse",
+      "field"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "tender",
+      "heartwarming",
+      "serene"
+    ],
+    "style": [
+      "documentary",
+      "natural-lighting",
+      "wide-shot"
+    ],
+    "objects": [
+      "woman",
+      "gate",
+      "horse",
+      "field",
+      "trees"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "clinical",
+      "serious",
+      "analytical",
+      "sterile",
+      "diagnostic"
+    ],
+    "style": [
+      "clinical",
+      "high-contrast",
+      "sterile"
+    ],
+    "objects": [
+      "x-ray images",
+      "medical monitor",
+      "spine",
+      "ribcage"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "disturbing",
+      "shocking",
+      "anxious",
+      "clinical",
+      "serious"
+    ],
+    "style": [
+      "clinical",
+      "stark",
+      "digital"
+    ],
+    "objects": [
+      "x-ray",
+      "spine",
+      "monitor",
+      "knife"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "alarming",
+      "clinical",
+      "urgent",
+      "unsettling"
+    ],
+    "style": [
+      "clinical",
+      "monochrome",
+      "precise"
+    ],
+    "objects": [
+      "x-ray",
+      "spine",
+      "skull",
+      "arrow"
+    ]
+  }
+}

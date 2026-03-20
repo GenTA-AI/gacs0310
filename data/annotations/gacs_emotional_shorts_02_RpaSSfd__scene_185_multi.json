@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "emotional",
+      "contemplative",
+      "deep"
+    ],
+    "style": [
+      "close-up",
+      "cinematic",
+      "intimate"
+    ],
+    "objects": [
+      "face",
+      "eyes",
+      "lovebuster logo",
+      "subscribe button"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vulnerable",
+      "sad",
+      "pensive",
+      "reflective",
+      "tearful"
+    ],
+    "style": [
+      "close-up",
+      "emotional",
+      "intimate"
+    ],
+    "objects": [
+      "eyes",
+      "face",
+      "logo",
+      "tear"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "vulnerable",
+      "emotional",
+      "intimate",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "eyes",
+      "face",
+      "skin",
+      "tears"
+    ]
+  }
+}

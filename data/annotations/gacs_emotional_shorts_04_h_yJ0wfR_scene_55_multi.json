@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "contemplative",
+      "natural",
+      "grounded",
+      "focused"
+    ],
+    "style": [
+      "naturalistic",
+      "shallow-focus",
+      "warm-toned"
+    ],
+    "objects": [
+      "children",
+      "dirt",
+      "rocks"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "playful",
+      "innocent",
+      "engaged",
+      "exploratory"
+    ],
+    "style": [
+      "natural",
+      "candid",
+      "outdoor"
+    ],
+    "objects": [
+      "children",
+      "school uniform",
+      "ground",
+      "leaves"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "curious",
+      "playful",
+      "innocent",
+      "exploratory",
+      "wonder"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "documentary"
+    ],
+    "objects": [
+      "children",
+      "dirt",
+      "fence",
+      "ground"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "eerie",
+      "mysterious",
+      "somber",
+      "melancholic"
+    ],
+    "style": [
+      "muted",
+      "melancholic",
+      "naturalistic"
+    ],
+    "objects": [
+      "trees",
+      "man",
+      "gravestone"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "serene",
+      "contemplative",
+      "somber",
+      "peaceful"
+    ],
+    "style": [
+      "rustic",
+      "shadowed",
+      "natural"
+    ],
+    "objects": [
+      "trees",
+      "person",
+      "grave",
+      "coat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "solitary",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "forest-atmospheric"
+    ],
+    "objects": [
+      "person",
+      "trees",
+      "forest",
+      "bicycle"
+    ]
+  }
+}

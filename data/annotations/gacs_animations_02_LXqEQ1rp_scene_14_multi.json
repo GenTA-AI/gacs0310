@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "curious",
+      "ominous",
+      "suspenseful",
+      "watchful",
+      "mysterious"
+    ],
+    "style": [
+      "stylized",
+      "dark",
+      "animated"
+    ],
+    "objects": [
+      "building",
+      "barrel",
+      "people",
+      "cloak"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "suspenseful",
+      "fearful",
+      "tense",
+      "ominous"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "medieval"
+    ],
+    "objects": [
+      "hooded figure",
+      "villagers",
+      "medieval buildings",
+      "cobblestone street",
+      "lantern"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "curious",
+      "whimsical",
+      "dark",
+      "intrigued"
+    ],
+    "style": [
+      "animated",
+      "dimly-lit",
+      "medieval"
+    ],
+    "objects": [
+      "character",
+      "cloak",
+      "barrels",
+      "windows",
+      "people"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "tense",
+      "industrial",
+      "ominous",
+      "secretive"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "industrial"
+    ],
+    "objects": [
+      "people",
+      "machinery",
+      "interior space",
+      "equipment"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "action",
+      "intense",
+      "chaotic",
+      "aggressive",
+      "dangerous"
+    ],
+    "style": [
+      "gritty",
+      "action-oriented",
+      "dark"
+    ],
+    "objects": [
+      "soldiers",
+      "truck",
+      "shield"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "action-packed",
+      "intense",
+      "aggressive",
+      "thrilling",
+      "dynamic"
+    ],
+    "style": [
+      "dark",
+      "action-packed",
+      "gritty"
+    ],
+    "objects": [
+      "shield",
+      "truck",
+      "lights",
+      "helmets"
+    ]
+  }
+}

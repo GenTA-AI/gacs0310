@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "tender",
+      "warm",
+      "romantic",
+      "caring"
+    ],
+    "style": [
+      "moody",
+      "warm-lit",
+      "intimate"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "bed",
+      "door",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intimate",
+      "thoughtful",
+      "serious",
+      "quiet",
+      "subdued"
+    ],
+    "style": [
+      "dark",
+      "intimate",
+      "desaturated"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "bed",
+      "clock"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intimate",
+      "warm",
+      "comforting",
+      "reflective",
+      "personal"
+    ],
+    "style": [
+      "warm-toned",
+      "intimate",
+      "moody"
+    ],
+    "objects": [
+      "people",
+      "bed",
+      "table",
+      "lamp"
+    ]
+  }
+}

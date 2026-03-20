@@ -1,0 +1,68 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "mysterious",
+      "somber",
+      "lonely",
+      "brooding"
+    ],
+    "style": [
+      "stylized",
+      "warm-toned",
+      "low-lit"
+    ],
+    "objects": [
+      "table",
+      "chairs",
+      "bottles",
+      "lanterns",
+      "poker cards"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "cozy",
+      "atmospheric",
+      "quiet",
+      "rustic",
+      "secluded"
+    ],
+    "style": [
+      "warm-lit",
+      "rustic",
+      "atmospheric"
+    ],
+    "objects": [
+      "table",
+      "chairs",
+      "lantern",
+      "bar",
+      "bottles"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "rustic",
+      "warm",
+      "intimate",
+      "nostalgic"
+    ],
+    "style": [
+      "atmospheric",
+      "rustic",
+      "lantern-lit"
+    ],
+    "objects": [
+      "table",
+      "chairs",
+      "lanterns",
+      "wooden floor",
+      "bottles"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "anxious",
+      "expectant",
+      "unsettling",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "stylized"
+    ],
+    "objects": [
+      "woman",
+      "road",
+      "trees",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "melancholic",
+      "serene",
+      "introspective",
+      "wistful"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "person",
+      "road",
+      "trees",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "anxious",
+      "intense",
+      "curious",
+      "suspenseful",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "sunset-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "person",
+      "road",
+      "trees",
+      "sunset"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "model": "L3_original (Kushi)",
+    "dim": 384,
+    "best_k": 14,
+    "best_silhouette": 0.061557382345199585,
+    "var_2d": "0.14804411",
+    "var_5d": "0.26559538",
+    "var_10d": "0.39775383"
+  },
+  {
+    "model": "L6_original",
+    "dim": 384,
+    "best_k": 4,
+    "best_silhouette": 0.05002308636903763,
+    "var_2d": "0.12973607",
+    "var_5d": "0.23581341",
+    "var_10d": "0.35221103"
+  },
+  {
+    "model": "L6_normalized",
+    "dim": 384,
+    "best_k": 3,
+    "best_silhouette": 0.07466086000204086,
+    "var_2d": "0.18260714",
+    "var_5d": "0.31332278",
+    "var_10d": "0.44861212"
+  },
+  {
+    "model": "emotion_distil",
+    "dim": 768,
+    "best_k": 3,
+    "best_silhouette": 0.2718724012374878,
+    "var_2d": "0.40743533",
+    "var_5d": "0.6091851",
+    "var_10d": "0.6980301"
+  },
+  {
+    "model": "emotion_distil_norm",
+    "dim": 768,
+    "best_k": 4,
+    "best_silhouette": 0.2925834059715271,
+    "var_2d": "0.4175576",
+    "var_5d": "0.64915305",
+    "var_10d": "0.7623363"
+  }
+]

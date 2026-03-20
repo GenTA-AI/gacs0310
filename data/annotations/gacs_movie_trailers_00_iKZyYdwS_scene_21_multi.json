@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "militaristic",
+      "grim",
+      "ominous",
+      "destructive"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "wide-angle"
+    ],
+    "objects": [
+      "soldiers",
+      "building",
+      "weapons",
+      "uniforms"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "solemn",
+      "serious",
+      "determined",
+      "wary",
+      "guarded"
+    ],
+    "style": [
+      "desaturated",
+      "gritty",
+      "overcast"
+    ],
+    "objects": [
+      "soldiers",
+      "building",
+      "rifles"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "ominous",
+      "militaristic",
+      "dangerous",
+      "foreboding"
+    ],
+    "style": [
+      "gritty",
+      "dramatic",
+      "atmospheric"
+    ],
+    "objects": [
+      "soldiers",
+      "rifles",
+      "building",
+      "doorway"
+    ]
+  }
+}

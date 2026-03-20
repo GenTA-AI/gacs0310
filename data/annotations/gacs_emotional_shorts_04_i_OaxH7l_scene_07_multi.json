@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "happy",
+      "gentle",
+      "serene",
+      "calm"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "windy"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "bushes"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "serene",
+      "celebratory",
+      "natural",
+      "peaceful"
+    ],
+    "style": [
+      "natural",
+      "candid",
+      "colorful"
+    ],
+    "objects": [
+      "woman",
+      "plants",
+      "shrubs",
+      "bushes"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "carefree",
+      "energetic",
+      "playful",
+      "cheerful"
+    ],
+    "style": [
+      "motion-blur",
+      "natural-lighting",
+      "documentary-style"
+    ],
+    "objects": [
+      "woman",
+      "hair",
+      "plants",
+      "garden"
+    ]
+  }
+}

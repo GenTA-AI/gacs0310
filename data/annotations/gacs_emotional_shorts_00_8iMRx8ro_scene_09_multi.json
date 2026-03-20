@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relieved",
+      "hopeful",
+      "supportive",
+      "thankful",
+      "upbeat"
+    ],
+    "style": [
+      "news-style",
+      "candid",
+      "outdoors"
+    ],
+    "objects": [
+      "people",
+      "text",
+      "sky",
+      "sand"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "relieved",
+      "hopeful",
+      "safe",
+      "urgent",
+      "fortunate"
+    ],
+    "style": [
+      "news",
+      "handheld",
+      "bright"
+    ],
+    "objects": [
+      "people",
+      "hillside",
+      "news graphic"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "urgent",
+      "concerned",
+      "hopeful",
+      "tense",
+      "relieved"
+    ],
+    "style": [
+      "news-broadcast",
+      "handheld-camera",
+      "bright-daylight"
+    ],
+    "objects": [
+      "person",
+      "helicopter",
+      "snow",
+      "canyon"
+    ]
+  }
+}

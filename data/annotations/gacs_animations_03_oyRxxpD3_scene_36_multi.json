@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "eerie",
+      "magical",
+      "curious",
+      "dreamy",
+      "fantastical"
+    ],
+    "style": [
+      "stylized",
+      "dark",
+      "dreamlike"
+    ],
+    "objects": [
+      "woman",
+      "tree",
+      "vines"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ethereal",
+      "dreamlike",
+      "tranquil",
+      "enchanting"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "blue-toned"
+    ],
+    "objects": [
+      "rocks",
+      "cave",
+      "water",
+      "stalactites"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "enchanting",
+      "serene",
+      "mystical",
+      "tranquil"
+    ],
+    "style": [
+      "fantastical",
+      "mystical",
+      "dimly-lit"
+    ],
+    "objects": [
+      "person",
+      "trees",
+      "flowers"
+    ]
+  }
+}

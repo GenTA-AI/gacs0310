@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "flirtatious",
+      "casual",
+      "warm",
+      "inviting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "bottles",
+      "bar",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "amused",
+      "relaxed",
+      "confident",
+      "casual"
+    ],
+    "style": [
+      "naturalistic",
+      "bright",
+      "shallow-depth"
+    ],
+    "objects": [
+      "woman",
+      "bottle",
+      "bar"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "relaxed",
+      "cheerful",
+      "casual",
+      "lighthearted",
+      "social"
+    ],
+    "style": [
+      "vibrant",
+      "relaxed",
+      "casual"
+    ],
+    "objects": [
+      "person",
+      "bottle",
+      "bar",
+      "decorations"
+    ]
+  }
+}

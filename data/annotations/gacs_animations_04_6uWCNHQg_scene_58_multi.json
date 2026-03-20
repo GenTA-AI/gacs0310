@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "lost",
+      "disoriented",
+      "surprised",
+      "vulnerable",
+      "isolated"
+    ],
+    "style": [
+      "animated",
+      "space",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "stars"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "urgent",
+      "bewildered",
+      "cosmic",
+      "disoriented"
+    ],
+    "style": [
+      "animated",
+      "surreal",
+      "sci-fi"
+    ],
+    "objects": [
+      "space",
+      "woman",
+      "man",
+      "stars"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "hopeful",
+      "awestruck",
+      "contemplative",
+      "serene",
+      "wonder"
+    ],
+    "style": [
+      "cinematic",
+      "sci-fi",
+      "dramatic"
+    ],
+    "objects": [
+      "woman",
+      "space helmet",
+      "stars",
+      "spacecraft"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "tense",
+      "threatening",
+      "foreboding",
+      "uneasy"
+    ],
+    "style": [
+      "dark",
+      "stylized",
+      "foreboding"
+    ],
+    "objects": [
+      "puss in boots",
+      "wolf",
+      "swords"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "intense"
+    ],
+    "objects": [
+      "creature",
+      "sword",
+      "cat",
+      "hat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "tense",
+      "mysterious",
+      "confrontational",
+      "foreboding"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "lightsaber",
+      "figure",
+      "character",
+      "cave",
+      "glow"
+    ]
+  }
+}

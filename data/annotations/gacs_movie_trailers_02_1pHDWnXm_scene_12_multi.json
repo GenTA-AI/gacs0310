@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "chaotic",
+      "destructive",
+      "intense",
+      "dramatic",
+      "catastrophic"
+    ],
+    "style": [
+      "cinematic",
+      "dark-toned",
+      "debris-filled"
+    ],
+    "objects": [
+      "submarine",
+      "debris",
+      "water",
+      "wreckage",
+      "ocean floor"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "chaotic",
+      "violent",
+      "destructive",
+      "tense",
+      "frightening"
+    ],
+    "style": [
+      "high-contrast",
+      "dynamic",
+      "cold"
+    ],
+    "objects": [
+      "glass",
+      "debris",
+      "light fixture"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "chaotic",
+      "dramatic",
+      "explosive",
+      "urgent"
+    ],
+    "style": [
+      "dynamic",
+      "action-packed",
+      "chaotic"
+    ],
+    "objects": [
+      "glass",
+      "water",
+      "person",
+      "furniture"
+    ]
+  }
+}

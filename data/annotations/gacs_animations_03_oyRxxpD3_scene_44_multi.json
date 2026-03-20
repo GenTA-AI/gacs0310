@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "urgent",
+      "dramatic",
+      "adventurous",
+      "intense"
+    ],
+    "style": [
+      "animated",
+      "blue-toned",
+      "stylized"
+    ],
+    "objects": [
+      "man",
+      "horse",
+      "tower",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "tense",
+      "foreboding",
+      "ominous"
+    ],
+    "style": [
+      "animated",
+      "atmospheric",
+      "blue-toned"
+    ],
+    "objects": [
+      "person",
+      "horse",
+      "trees",
+      "forest"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "adventurous",
+      "urgent",
+      "dramatic",
+      "focused"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "whimsical"
+    ],
+    "objects": [
+      "person",
+      "horse",
+      "trees",
+      "tower"
+    ]
+  }
+}

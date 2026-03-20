@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "tense",
+      "fearful",
+      "dangerous",
+      "looming"
+    ],
+    "style": [
+      "stylized",
+      "high-angle",
+      "cartoonish"
+    ],
+    "objects": [
+      "wolf",
+      "street",
+      "buildings",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "ominous",
+      "threatening",
+      "intense",
+      "suspenseful"
+    ],
+    "style": [
+      "animated",
+      "aerial-view",
+      "stylized"
+    ],
+    "objects": [
+      "buildings",
+      "bull",
+      "people",
+      "cobblestone street",
+      "rooftops"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "fearful",
+      "urgent",
+      "chaotic",
+      "dramatic"
+    ],
+    "style": [
+      "dynamic",
+      "colorful",
+      "animated"
+    ],
+    "objects": [
+      "wolf",
+      "people",
+      "buildings",
+      "street"
+    ]
+  }
+}

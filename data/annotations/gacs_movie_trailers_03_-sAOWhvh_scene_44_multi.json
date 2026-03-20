@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "eerie",
+      "tragic",
+      "desolate",
+      "haunting"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "desaturated"
+    ],
+    "objects": [
+      "coffin",
+      "snow",
+      "blood",
+      "ground"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "bleak",
+      "unsettling",
+      "violent",
+      "grim",
+      "somber"
+    ],
+    "style": [
+      "desaturated",
+      "gritty",
+      "dark"
+    ],
+    "objects": [
+      "book",
+      "debris"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "gritty",
+      "atmospheric",
+      "muted"
+    ],
+    "objects": [
+      "vhs tape",
+      "snow",
+      "blood"
+    ]
+  }
+}

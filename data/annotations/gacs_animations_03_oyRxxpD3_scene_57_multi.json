@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "ethereal",
+      "calming",
+      "wondrous",
+      "celestial"
+    ],
+    "style": [
+      "animated",
+      "blue",
+      "fantastical"
+    ],
+    "objects": [
+      "lights",
+      "building",
+      "architecture"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serene",
+      "enchanting",
+      "magical",
+      "peaceful",
+      "vibrant"
+    ],
+    "style": [
+      "magical",
+      "ethereal",
+      "luminous"
+    ],
+    "objects": [
+      "lights",
+      "staircase",
+      "ceiling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "mystical",
+      "peaceful",
+      "wondrous",
+      "tranquil"
+    ],
+    "style": [
+      "sci-fi",
+      "luminous",
+      "ethereal"
+    ],
+    "objects": [
+      "starfield",
+      "window",
+      "spacecraft interior",
+      "stars",
+      "space"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "stark",
+      "bold",
+      "dramatic",
+      "minimalist",
+      "anticipatory"
+    ],
+    "style": [
+      "minimalist",
+      "bold",
+      "high-contrast"
+    ],
+    "objects": [
+      "text",
+      "letters"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "stark",
+      "ominous",
+      "foreboding",
+      "intense",
+      "dramatic"
+    ],
+    "style": [
+      "high-contrast",
+      "stark",
+      "minimalist"
+    ],
+    "objects": [
+      "text",
+      "february"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "ominous"
+    ],
+    "style": [
+      "bold",
+      "minimalistic",
+      "monochromatic"
+    ],
+    "objects": [
+      "february"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "domestic",
+      "quiet",
+      "peaceful"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "warm-toned"
+    ],
+    "objects": [
+      "person",
+      "kitchen",
+      "stove",
+      "cabinets",
+      "backsplash"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "pensive",
+      "troubled",
+      "somber",
+      "introspective",
+      "subdued"
+    ],
+    "style": [
+      "muted",
+      "realistic",
+      "domestic"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "cabinet",
+      "sink"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "angry",
+      "intense",
+      "hostile",
+      "moody"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "dramatic"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "stove",
+      "light",
+      "counter"
+    ]
+  }
+}

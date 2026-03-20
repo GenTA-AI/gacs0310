@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sad",
+      "reflective",
+      "somber",
+      "subdued",
+      "contemplative"
+    ],
+    "style": [
+      "minimalistic",
+      "monochromatic",
+      "cartoonish"
+    ],
+    "objects": [
+      "mugshot",
+      "phone",
+      "sign",
+      "shadow"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sad",
+      "sheepish",
+      "remorseful",
+      "humorous",
+      "defeated"
+    ],
+    "style": [
+      "flat",
+      "muted",
+      "cartoonish"
+    ],
+    "objects": [
+      "dog",
+      "sign",
+      "telephone",
+      "height chart"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dejected",
+      "defeated",
+      "melancholic",
+      "resigned",
+      "sorrowful"
+    ],
+    "style": [
+      "minimalist",
+      "flat",
+      "muted-colors"
+    ],
+    "objects": [
+      "mugshot",
+      "height chart",
+      "phone",
+      "person"
+    ]
+  }
+}

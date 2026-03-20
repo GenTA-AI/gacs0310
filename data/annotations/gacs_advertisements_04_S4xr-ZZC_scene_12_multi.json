@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "social",
+      "trendy",
+      "exciting",
+      "vibrant"
+    ],
+    "style": [
+      "flat",
+      "blurry",
+      "bright"
+    ],
+    "objects": [
+      "people",
+      "ceiling",
+      "logo",
+      "column"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "crowded",
+      "vibrant",
+      "lively",
+      "bustling"
+    ],
+    "style": [
+      "industrial",
+      "vibrant",
+      "crowded"
+    ],
+    "objects": [
+      "crowd",
+      "lights",
+      "pillars",
+      "screen"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "festive",
+      "vibrant",
+      "social",
+      "celebratory"
+    ],
+    "style": [
+      "atmospheric",
+      "purple-tinted",
+      "event-lighting"
+    ],
+    "objects": [
+      "crowd",
+      "people",
+      "purple lighting",
+      "venue",
+      "screens"
+    ]
+  }
+}

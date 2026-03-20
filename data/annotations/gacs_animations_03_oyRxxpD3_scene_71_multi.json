@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "magical",
+      "eerie",
+      "strange",
+      "intriguing"
+    ],
+    "style": [
+      "cartoonish",
+      "dark",
+      "glowing"
+    ],
+    "objects": [
+      "glowing shape",
+      "shelves",
+      "character"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "magical",
+      "enigmatic",
+      "enchanting",
+      "intriguing"
+    ],
+    "style": [
+      "animated",
+      "mystical",
+      "dimly-lit"
+    ],
+    "objects": [
+      "infinity symbol",
+      "bookshelves",
+      "desk",
+      "statue"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ethereal",
+      "magical",
+      "enchanting",
+      "otherworldly"
+    ],
+    "style": [
+      "cinematic",
+      "sci-fi",
+      "neon-lit"
+    ],
+    "objects": [
+      "infinity symbol",
+      "corridor",
+      "green light",
+      "architecture",
+      "person"
+    ]
+  }
+}

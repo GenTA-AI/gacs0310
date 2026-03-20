@@ -1,0 +1,67 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "peaceful",
+      "curious",
+      "solemn",
+      "expectant",
+      "formal"
+    ],
+    "style": [
+      "stylized",
+      "bright",
+      "animated"
+    ],
+    "objects": [
+      "building",
+      "person",
+      "archway",
+      "banner"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "welcoming",
+      "colorful",
+      "cheerful",
+      "festive"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "detailed"
+    ],
+    "objects": [
+      "archway",
+      "people",
+      "flags",
+      "tent",
+      "buildings"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sacred",
+      "ceremonial",
+      "reverent",
+      "solemn",
+      "mystical"
+    ],
+    "style": [
+      "animated",
+      "classical",
+      "ceremonial"
+    ],
+    "objects": [
+      "people",
+      "building",
+      "arches",
+      "columns",
+      "courtyard"
+    ]
+  }
+}

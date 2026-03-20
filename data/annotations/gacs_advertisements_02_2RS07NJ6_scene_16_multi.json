@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "focused",
+      "serious",
+      "technological",
+      "intense",
+      "analytical"
+    ],
+    "style": [
+      "desaturated",
+      "shallow-focus",
+      "technological"
+    ],
+    "objects": [
+      "laptop",
+      "steering wheel"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "technical",
+      "serious",
+      "concentrated",
+      "intense"
+    ],
+    "style": [
+      "blurred",
+      "close-up",
+      "technical"
+    ],
+    "objects": [
+      "laptop",
+      "steering wheel"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "intense",
+      "productive",
+      "technological",
+      "concentrated"
+    ],
+    "style": [
+      "dark",
+      "blurry",
+      "motion-blur"
+    ],
+    "objects": [
+      "laptop",
+      "hands",
+      "keyboard",
+      "phone"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "committed",
+      "hopeful",
+      "serene",
+      "educational"
+    ],
+    "style": [
+      "vibrant",
+      "minimalistic",
+      "branded"
+    ],
+    "objects": [
+      "pantone swatch",
+      "text",
+      "building",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "serene",
+      "environmental",
+      "hopeful",
+      "corporate"
+    ],
+    "style": [
+      "flat",
+      "vibrant",
+      "corporate"
+    ],
+    "objects": [
+      "advertisement",
+      "building",
+      "ocean"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "tranquil",
+      "refreshing",
+      "peaceful",
+      "calming"
+    ],
+    "style": [
+      "aquatic",
+      "branded",
+      "aerial-view"
+    ],
+    "objects": [
+      "pool",
+      "buildings",
+      "pantone color card",
+      "text",
+      "shadows"
+    ]
+  }
+}

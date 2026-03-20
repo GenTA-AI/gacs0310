@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "vibrant",
+      "energetic",
+      "busy",
+      "lively",
+      "dynamic"
+    ],
+    "style": [
+      "fashionable",
+      "crowded",
+      "vibrant"
+    ],
+    "objects": [
+      "people",
+      "screens",
+      "scaffolding",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "energetic",
+      "crowded",
+      "busy",
+      "exciting",
+      "fashionable"
+    ],
+    "style": [
+      "cool-toned",
+      "crowded",
+      "event"
+    ],
+    "objects": [
+      "people",
+      "screens",
+      "scaffolding",
+      "ceiling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "energetic",
+      "crowded",
+      "vibrant",
+      "celebratory",
+      "bustling"
+    ],
+    "style": [
+      "moody",
+      "purple-tinted",
+      "atmospheric"
+    ],
+    "objects": [
+      "crowd",
+      "screens",
+      "lighting",
+      "stage",
+      "people"
+    ]
+  }
+}

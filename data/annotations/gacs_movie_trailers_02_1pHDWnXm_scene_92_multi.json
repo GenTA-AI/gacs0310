@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "mysterious",
+      "epic",
+      "anticipatory",
+      "cinematic"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "bold-typography"
+    ],
+    "objects": [
+      "text",
+      "title card",
+      "logo",
+      "background"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "serious",
+      "uncertain",
+      "anticipation",
+      "gritty"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "cinematic"
+    ],
+    "objects": [
+      "text",
+      "marvel studios logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "bold",
+      "patriotic",
+      "inspiring",
+      "adventurous"
+    ],
+    "style": [
+      "gritty",
+      "minimalist",
+      "monochromatic"
+    ],
+    "objects": [
+      "marvel studios",
+      "captain america",
+      "brave new world"
+    ]
+  }
+}

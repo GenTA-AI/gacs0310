@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "precise",
+      "controlled",
+      "sleek",
+      "intense"
+    ],
+    "style": [
+      "dynamic",
+      "modern",
+      "minimalistic"
+    ],
+    "objects": [
+      "glove",
+      "car door",
+      "red strap"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "cautious",
+      "focused",
+      "sterile",
+      "clinical"
+    ],
+    "style": [
+      "clean",
+      "muted",
+      "focused"
+    ],
+    "objects": [
+      "glove",
+      "door panel",
+      "car door",
+      "red object"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "focused",
+      "precise",
+      "mechanical",
+      "clinical",
+      "deliberate"
+    ],
+    "style": [
+      "cinematic",
+      "shallow-focus",
+      "desaturated"
+    ],
+    "objects": [
+      "hand",
+      "usb cable",
+      "device",
+      "port"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "worried",
+      "anxious",
+      "surprised",
+      "concerned",
+      "tense"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "expressive"
+    ],
+    "objects": [
+      "woman",
+      "green jacket",
+      "fan",
+      "lamp"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "fearful",
+      "anxious",
+      "concerned",
+      "surprised",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "expressive"
+    ],
+    "objects": [
+      "woman",
+      "fan",
+      "vase",
+      "bookcase"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "anxious",
+      "concerned",
+      "worried",
+      "tense",
+      "distressed"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "stylized"
+    ],
+    "objects": [
+      "character",
+      "shelves",
+      "bottles",
+      "room"
+    ]
+  }
+}

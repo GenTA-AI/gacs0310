@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "amused",
+      "playful",
+      "surprised",
+      "casual",
+      "social"
+    ],
+    "style": [
+      "candid",
+      "warm-toned",
+      "natural"
+    ],
+    "objects": [
+      "man",
+      "suit",
+      "text",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "smug",
+      "jealous",
+      "territorial",
+      "confrontational",
+      "sardonic"
+    ],
+    "style": [
+      "warm",
+      "shallow-focus",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "blazer",
+      "t-shirt",
+      "wall art"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "warm",
+      "friendly",
+      "welcoming",
+      "pleased",
+      "amused"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "suit jacket",
+      "shirt",
+      "bookshelf"
+    ]
+  }
+}

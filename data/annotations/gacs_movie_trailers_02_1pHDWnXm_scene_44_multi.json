@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "ominous",
+      "intense",
+      "cinematic",
+      "suspenseful"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "cloudy"
+    ],
+    "objects": [
+      "helicopter",
+      "clouds",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uncertain",
+      "tense",
+      "precarious",
+      "anxious",
+      "dramatic"
+    ],
+    "style": [
+      "bright",
+      "airy",
+      "overcast"
+    ],
+    "objects": [
+      "sky",
+      "person",
+      "clouds"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "chaotic",
+      "intense",
+      "dramatic",
+      "suspenseful",
+      "alarming"
+    ],
+    "style": [
+      "dramatic",
+      "high-contrast",
+      "dynamic"
+    ],
+    "objects": [
+      "helicopter",
+      "sky",
+      "clouds"
+    ]
+  }
+}

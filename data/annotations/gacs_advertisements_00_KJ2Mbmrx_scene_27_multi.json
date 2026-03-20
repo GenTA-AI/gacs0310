@@ -1,0 +1,62 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "blurred",
+      "dynamic",
+      "intense",
+      "ominous",
+      "dramatic"
+    ],
+    "style": [
+      "blurred",
+      "dramatic",
+      "sepia-toned"
+    ],
+    "objects": [
+      "airplane",
+      "sky",
+      "clouds"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "urgent",
+      "impending",
+      "dangerous",
+      "tense"
+    ],
+    "style": [
+      "blurred",
+      "dramatic",
+      "overcast"
+    ],
+    "objects": [
+      "airplane",
+      "clouds"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dreamy",
+      "ethereal",
+      "peaceful",
+      "serene",
+      "nostalgic"
+    ],
+    "style": [
+      "motion-blurred",
+      "sepia-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "airplane",
+      "clouds",
+      "sky",
+      "landscape"
+    ]
+  }
+}

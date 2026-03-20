@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "domestic",
+      "mundane",
+      "routine",
+      "everyday"
+    ],
+    "style": [
+      "animated",
+      "subdued",
+      "illustrative"
+    ],
+    "objects": [
+      "rice crisp",
+      "bowls",
+      "tray",
+      "hand"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "mundane",
+      "domestic",
+      "casual",
+      "ordinary"
+    ],
+    "style": [
+      "animated",
+      "pastel",
+      "flat"
+    ],
+    "objects": [
+      "cereal box",
+      "bowls",
+      "tray"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "whimsical",
+      "cheerful",
+      "lighthearted",
+      "animated"
+    ],
+    "style": [
+      "animated",
+      "colorful",
+      "domestic"
+    ],
+    "objects": [
+      "milk carton",
+      "muffin cups",
+      "kitchen counter",
+      "storage shelves"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "vibrant",
+      "hopeful",
+      "magical"
+    ],
+    "style": [
+      "vibrant",
+      "animated",
+      "colorful"
+    ],
+    "objects": [
+      "fireworks",
+      "woman",
+      "building",
+      "tree"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "festive",
+      "celebratory",
+      "colorful",
+      "lively"
+    ],
+    "style": [
+      "colorful",
+      "vibrant",
+      "animated"
+    ],
+    "objects": [
+      "fireworks",
+      "girl",
+      "buildings",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "magical",
+      "wonder",
+      "euphoric"
+    ],
+    "style": [
+      "vibrant",
+      "animated",
+      "magical"
+    ],
+    "objects": [
+      "fireworks",
+      "person",
+      "night sky",
+      "buildings",
+      "street lights"
+    ]
+  }
+}

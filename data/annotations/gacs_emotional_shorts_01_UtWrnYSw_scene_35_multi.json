@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "patriotic",
+      "heartwarming",
+      "grateful"
+    ],
+    "style": [
+      "bright",
+      "news",
+      "outdoor"
+    ],
+    "objects": [
+      "balloons",
+      "flag",
+      "man",
+      "woman"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "joyful",
+      "celebratory",
+      "proud",
+      "festive",
+      "respectful"
+    ],
+    "style": [
+      "informal",
+      "documentary",
+      "vibrant"
+    ],
+    "objects": [
+      "balloons",
+      "american flag",
+      "microphone",
+      "banner"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "celebratory",
+      "joyful",
+      "patriotic",
+      "festive",
+      "heartwarming"
+    ],
+    "style": [
+      "bright",
+      "documentary",
+      "celebratory"
+    ],
+    "objects": [
+      "balloons",
+      "flag",
+      "people",
+      "banner"
+    ]
+  }
+}

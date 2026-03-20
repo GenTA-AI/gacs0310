@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "artistic",
+      "nostalgic",
+      "playful",
+      "cheerful",
+      "encouraging"
+    ],
+    "style": [
+      "handwritten",
+      "colorful",
+      "close-up"
+    ],
+    "objects": [
+      "paper",
+      "pen",
+      "handwriting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "creative",
+      "romantic",
+      "sentimental",
+      "intimate",
+      "personal"
+    ],
+    "style": [
+      "close-up",
+      "vibrant",
+      "handwritten"
+    ],
+    "objects": [
+      "paper",
+      "writing",
+      "pen"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "romantic",
+      "intimate",
+      "personal",
+      "affectionate",
+      "tender"
+    ],
+    "style": [
+      "handwritten",
+      "soft-focus",
+      "intimate"
+    ],
+    "objects": [
+      "handwriting",
+      "paper",
+      "pen",
+      "text"
+    ]
+  }
+}

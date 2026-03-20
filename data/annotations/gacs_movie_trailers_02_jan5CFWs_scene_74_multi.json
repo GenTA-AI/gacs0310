@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "peaceful",
+      "contemplative",
+      "serene",
+      "hopeful"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "coastal"
+    ],
+    "objects": [
+      "person",
+      "ocean",
+      "sky",
+      "horizon"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "serious",
+      "determined",
+      "focused",
+      "uncertain",
+      "intrepid"
+    ],
+    "style": [
+      "naturalistic",
+      "overcast",
+      "shallow-depth"
+    ],
+    "objects": [
+      "woman",
+      "ocean",
+      "island"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "determined",
+      "focused",
+      "serious",
+      "intense",
+      "contemplative"
+    ],
+    "style": [
+      "cinematic",
+      "natural",
+      "minimalist"
+    ],
+    "objects": [
+      "person",
+      "ocean",
+      "sky"
+    ]
+  }
+}

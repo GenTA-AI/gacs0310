@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "atmospheric",
+      "dramatic",
+      "intense",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "dark-moody"
+    ],
+    "objects": [
+      "person",
+      "fire",
+      "smoke",
+      "darkness"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "concerned",
+      "watchful",
+      "ominous",
+      "dramatic"
+    ],
+    "style": [
+      "low-key",
+      "dramatic",
+      "vibrant"
+    ],
+    "objects": [
+      "man",
+      "fire",
+      "smoke"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "mysterious",
+      "solitary",
+      "fiery",
+      "atmospheric"
+    ],
+    "style": [
+      "dark",
+      "dramatic",
+      "moody"
+    ],
+    "objects": [
+      "fire",
+      "person",
+      "smoke"
+    ]
+  }
+}

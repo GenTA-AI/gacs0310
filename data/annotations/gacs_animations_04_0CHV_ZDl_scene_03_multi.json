@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "whimsical",
+      "curious",
+      "cartoonish",
+      "sly",
+      "quirky"
+    ],
+    "style": [
+      "cartoonish",
+      "flat",
+      "graphic"
+    ],
+    "objects": [
+      "logo",
+      "dog",
+      "pipe",
+      "bricks"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "cheerful",
+      "quirky",
+      "whimsical",
+      "humorous"
+    ],
+    "style": [
+      "cartoonish",
+      "bold",
+      "simple"
+    ],
+    "objects": [
+      "madman logo",
+      "cartoon dog"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "melancholic",
+      "lonely",
+      "contemplative",
+      "subdued",
+      "introspective"
+    ],
+    "style": [
+      "animated",
+      "minimalist",
+      "flat-design"
+    ],
+    "objects": [
+      "logo",
+      "person",
+      "sauna",
+      "wooden benches"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ethereal",
+      "ominous",
+      "surreal",
+      "haunting"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "reflective"
+    ],
+    "objects": [
+      "helmet",
+      "visor",
+      "reflections",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "enigmatic",
+      "futuristic",
+      "uncertain",
+      "intriguing",
+      "technological"
+    ],
+    "style": [
+      "futuristic",
+      "dark",
+      "blurry"
+    ],
+    "objects": [
+      "sphere",
+      "lights"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "mysterious",
+      "reflective",
+      "enigmatic",
+      "intriguing"
+    ],
+    "style": [
+      "futuristic",
+      "reflective",
+      "colorful"
+    ],
+    "objects": [
+      "helmet",
+      "lights"
+    ]
+  }
+}

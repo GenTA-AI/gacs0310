@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "vibrant",
+      "whimsical",
+      "hopeful",
+      "enchanting"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "vibrant"
+    ],
+    "objects": [
+      "disney",
+      "encanto",
+      "text"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "magical",
+      "enchanting",
+      "colorful",
+      "whimsical",
+      "joyful"
+    ],
+    "style": [
+      "vibrant",
+      "colorful",
+      "magical"
+    ],
+    "objects": [
+      "disney",
+      "encanto"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "magical",
+      "enchanting",
+      "vibrant",
+      "whimsical",
+      "celebratory"
+    ],
+    "style": [
+      "magical",
+      "colorful",
+      "cinematic"
+    ],
+    "objects": [
+      "disney logo",
+      "encanto title text",
+      "sparkles",
+      "dark background"
+    ]
+  }
+}

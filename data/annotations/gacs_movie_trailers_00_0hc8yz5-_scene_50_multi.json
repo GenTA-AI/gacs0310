@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "confrontational",
+      "serious",
+      "ominous"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "man",
+      "coat",
+      "hat",
+      "silhouette",
+      "window"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "suspenseful",
+      "ominous",
+      "anxious",
+      "serious",
+      "uncertain"
+    ],
+    "style": [
+      "low-key",
+      "suspenseful",
+      "formal"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "coat",
+      "flashlight"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dramatic",
+      "investigative",
+      "serious"
+    ],
+    "style": [
+      "dramatic",
+      "warm-toned",
+      "mysterious"
+    ],
+    "objects": [
+      "man",
+      "coat",
+      "hat",
+      "policeman"
+    ]
+  }
+}

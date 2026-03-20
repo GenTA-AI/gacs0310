@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intimate",
+      "vulnerable",
+      "sensual",
+      "contemplative",
+      "melancholic"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "person",
+      "mirror",
+      "bathroom",
+      "reflection"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "urgent",
+      "frantic",
+      "stressed",
+      "worried",
+      "anxious"
+    ],
+    "style": [
+      "grainy",
+      "handheld",
+      "low-key"
+    ],
+    "objects": [
+      "person",
+      "knife",
+      "shelves"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "aggressive",
+      "determined",
+      "energetic"
+    ],
+    "style": [
+      "dynamic",
+      "low-light",
+      "motion-blurred"
+    ],
+    "objects": [
+      "person",
+      "shelves",
+      "boxes",
+      "light"
+    ]
+  }
+}

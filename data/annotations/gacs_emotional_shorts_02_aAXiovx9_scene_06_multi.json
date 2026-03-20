@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "somber",
+      "nostalgic",
+      "mournful",
+      "poignant",
+      "unsettling"
+    ],
+    "style": [
+      "documentary",
+      "naturalistic",
+      "news"
+    ],
+    "objects": [
+      "plants",
+      "photograph",
+      "baby"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "poignant",
+      "nostalgic",
+      "mysterious",
+      "serene"
+    ],
+    "style": [
+      "natural",
+      "documentary",
+      "candid"
+    ],
+    "objects": [
+      "baby photo",
+      "plants",
+      "flowers"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "nostalgic",
+      "tender",
+      "serene",
+      "intimate"
+    ],
+    "style": [
+      "documentary",
+      "handheld",
+      "naturalistic"
+    ],
+    "objects": [
+      "tablet",
+      "plants",
+      "vegetation",
+      "display screen"
+    ]
+  }
+}

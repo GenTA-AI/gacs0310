@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "protective",
+      "tender",
+      "concerned",
+      "emotional",
+      "comforting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "dramatic-lighting"
+    ],
+    "objects": [
+      "man",
+      "child",
+      "boat",
+      "water",
+      "railing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "scared",
+      "protective",
+      "urgent",
+      "anxious"
+    ],
+    "style": [
+      "claustrophobic",
+      "tense",
+      "medium-shot"
+    ],
+    "objects": [
+      "man",
+      "child",
+      "woman",
+      "wall"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "anxious",
+      "protective",
+      "distressed",
+      "urgent"
+    ],
+    "style": [
+      "intense",
+      "dramatic",
+      "dimly-lit"
+    ],
+    "objects": [
+      "man",
+      "child",
+      "helicopter interior"
+    ]
+  }
+}

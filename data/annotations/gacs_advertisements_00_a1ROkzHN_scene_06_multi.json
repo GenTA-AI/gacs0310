@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "cold",
+      "stark",
+      "geometric",
+      "isolated",
+      "impersonal"
+    ],
+    "style": [
+      "abstract",
+      "geometric",
+      "flat"
+    ],
+    "objects": [
+      "design",
+      "stripe",
+      "shape",
+      "color block"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "modern",
+      "cool",
+      "technological"
+    ],
+    "style": [
+      "minimalist",
+      "geometric",
+      "neon-lit"
+    ],
+    "objects": [
+      "speaker",
+      "lights",
+      "circle",
+      "rectangle"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "sleek",
+      "mysterious",
+      "bold",
+      "minimalistic"
+    ],
+    "style": [
+      "minimalistic",
+      "symmetric",
+      "abstract"
+    ],
+    "objects": [
+      "abstract shapes",
+      "lines",
+      "circles"
+    ]
+  }
+}

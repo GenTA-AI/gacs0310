@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "surreal",
+      "intriguing",
+      "minimalistic",
+      "abstract"
+    ],
+    "style": [
+      "futuristic",
+      "minimalistic",
+      "monochromatic"
+    ],
+    "objects": [
+      "people",
+      "harnesses",
+      "wall"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unusual",
+      "surreal",
+      "detached",
+      "sterile",
+      "minimalist"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "desaturated"
+    ],
+    "objects": [
+      "human",
+      "harness",
+      "ceiling"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serene",
+      "ethereal",
+      "graceful",
+      "contemplative",
+      "minimalist"
+    ],
+    "style": [
+      "minimalist",
+      "ethereal",
+      "monochromatic"
+    ],
+    "objects": [
+      "performers",
+      "suspension cables",
+      "ceiling",
+      "wall"
+    ]
+  }
+}

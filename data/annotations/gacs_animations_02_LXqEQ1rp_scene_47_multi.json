@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "mysterious",
+      "urgent",
+      "uneasy",
+      "tense",
+      "hurried"
+    ],
+    "style": [
+      "animated",
+      "warm",
+      "low-angle"
+    ],
+    "objects": [
+      "wall",
+      "street",
+      "hat"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dramatic",
+      "intense",
+      "fiery",
+      "chaotic",
+      "ominous"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "atmospheric"
+    ],
+    "objects": [
+      "character",
+      "cloak",
+      "alleyway",
+      "buildings",
+      "lantern"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "adventurous"
+    ],
+    "style": [
+      "dimly-lit",
+      "dynamic",
+      "warm-hued"
+    ],
+    "objects": [
+      "hat",
+      "alley",
+      "torches",
+      "figure"
+    ]
+  }
+}

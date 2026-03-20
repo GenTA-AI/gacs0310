@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "immersive",
+      "focused",
+      "atmospheric",
+      "modern",
+      "calm"
+    ],
+    "style": [
+      "modern",
+      "moody",
+      "pink-toned"
+    ],
+    "objects": [
+      "television",
+      "lamp",
+      "bookshelf"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "moody",
+      "vibrant",
+      "immersive",
+      "exciting",
+      "energetic"
+    ],
+    "style": [
+      "modern",
+      "ambient",
+      "sleek"
+    ],
+    "objects": [
+      "television",
+      "lamp",
+      "shelves",
+      "wall",
+      "light"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "atmospheric",
+      "contemplative",
+      "serene",
+      "cinematic",
+      "immersive"
+    ],
+    "style": [
+      "moody",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "tv screen",
+      "couch",
+      "room",
+      "gaming setup"
+    ]
+  }
+}

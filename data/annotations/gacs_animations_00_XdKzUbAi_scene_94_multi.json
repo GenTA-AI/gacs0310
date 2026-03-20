@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "cheerful",
+      "vibrant",
+      "energetic",
+      "lighthearted"
+    ],
+    "style": [
+      "playful",
+      "bold",
+      "minimalist"
+    ],
+    "objects": [
+      "disney",
+      "pixar",
+      "turning red",
+      "ears"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "playful",
+      "bold",
+      "animated",
+      "youthful",
+      "energetic"
+    ],
+    "style": [
+      "bold",
+      "graphic",
+      "cartoonish"
+    ],
+    "objects": [
+      "turning red",
+      "disney",
+      "pixar"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "energetic",
+      "bold",
+      "youthful",
+      "vibrant"
+    ],
+    "style": [
+      "bold",
+      "minimalist",
+      "graphic"
+    ],
+    "objects": [
+      "logo",
+      "text",
+      "panda face",
+      "ears"
+    ]
+  }
+}

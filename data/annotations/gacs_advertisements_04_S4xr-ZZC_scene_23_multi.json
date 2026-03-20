@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "playful",
+      "whimsical",
+      "amused",
+      "cheerful",
+      "trendy"
+    ],
+    "style": [
+      "fashion-forward",
+      "playful",
+      "surreal"
+    ],
+    "objects": [
+      "people",
+      "dog",
+      "phone",
+      "foil decoration"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "amused",
+      "whimsical",
+      "lighthearted",
+      "curious",
+      "cheerful"
+    ],
+    "style": [
+      "staged",
+      "studio",
+      "fashion"
+    ],
+    "objects": [
+      "dog",
+      "woman",
+      "phone"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "playful",
+      "whimsical",
+      "lighthearted",
+      "fashionable",
+      "entertaining"
+    ],
+    "style": [
+      "dramatic",
+      "smoky",
+      "editorial"
+    ],
+    "objects": [
+      "woman",
+      "dog",
+      "mirror",
+      "phone",
+      "jacket"
+    ]
+  }
+}

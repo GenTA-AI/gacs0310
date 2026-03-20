@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "magical",
+      "enchanting",
+      "welcoming",
+      "familial",
+      "warm"
+    ],
+    "style": [
+      "colorful",
+      "detailed",
+      "enchanting"
+    ],
+    "objects": [
+      "house",
+      "plants",
+      "people",
+      "mountains"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "calm",
+      "hopeful",
+      "familial",
+      "magical"
+    ],
+    "style": [
+      "animated",
+      "nighttime",
+      "vibrant"
+    ],
+    "objects": [
+      "house",
+      "people",
+      "mountain",
+      "trees"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "enchanting",
+      "peaceful",
+      "magical",
+      "dreamy"
+    ],
+    "style": [
+      "atmospheric",
+      "twilight",
+      "enchanting"
+    ],
+    "objects": [
+      "house",
+      "people",
+      "mountains",
+      "flowers",
+      "tower"
+    ]
+  }
+}

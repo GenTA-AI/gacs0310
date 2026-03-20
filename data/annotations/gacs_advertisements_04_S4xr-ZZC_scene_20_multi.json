@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "avant-garde",
+      "vibrant",
+      "energetic",
+      "chic"
+    ],
+    "style": [
+      "futuristic",
+      "geometric",
+      "monochrome"
+    ],
+    "objects": [
+      "runway",
+      "models",
+      "audience",
+      "lights"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "futuristic",
+      "stylish",
+      "abstract",
+      "sterile",
+      "chic"
+    ],
+    "style": [
+      "stark",
+      "bright",
+      "futuristic"
+    ],
+    "objects": [
+      "models",
+      "audience",
+      "geometric structure"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "futuristic",
+      "sterile",
+      "minimalist",
+      "avant-garde",
+      "surreal"
+    ],
+    "style": [
+      "futuristic",
+      "minimalist",
+      "high-contrast"
+    ],
+    "objects": [
+      "models",
+      "runway",
+      "ceiling",
+      "audience",
+      "geometric structure"
+    ]
+  }
+}

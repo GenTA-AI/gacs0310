@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "underwater",
+      "ethereal",
+      "dreamlike",
+      "surreal"
+    ],
+    "style": [
+      "underwater",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "person",
+      "water",
+      "rocks",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "desperate",
+      "anxious",
+      "claustrophobic",
+      "trapped",
+      "struggling"
+    ],
+    "style": [
+      "underwater",
+      "murky",
+      "cinematic"
+    ],
+    "objects": [
+      "man",
+      "water",
+      "rock"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspenseful",
+      "thrilling",
+      "urgent",
+      "tense",
+      "underwater"
+    ],
+    "style": [
+      "dark",
+      "underwater",
+      "dynamic"
+    ],
+    "objects": [
+      "person",
+      "water",
+      "rock"
+    ]
+  }
+}

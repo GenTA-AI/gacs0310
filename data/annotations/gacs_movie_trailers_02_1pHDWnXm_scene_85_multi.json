@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "heroic",
+      "triumphant",
+      "patriotic",
+      "inspiring",
+      "determined"
+    ],
+    "style": [
+      "cinematic",
+      "motion-blur",
+      "heroic"
+    ],
+    "objects": [
+      "shield",
+      "arm",
+      "crowd",
+      "sky"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "determined",
+      "heroic",
+      "focused",
+      "urgent",
+      "patriotic"
+    ],
+    "style": [
+      "animated",
+      "blurry",
+      "bright"
+    ],
+    "objects": [
+      "shield",
+      "trousers",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "heroic",
+      "patriotic",
+      "determined",
+      "triumphant",
+      "bold"
+    ],
+    "style": [
+      "dynamic",
+      "heroic",
+      "focused"
+    ],
+    "objects": [
+      "shield",
+      "pants",
+      "trees",
+      "sky"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "dark",
+      "mysterious",
+      "ominous",
+      "suspenseful"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "helmet",
+      "hands",
+      "machinery",
+      "cockpit"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "clinical",
+      "unsettling",
+      "futuristic",
+      "cold",
+      "apprehensive"
+    ],
+    "style": [
+      "clinical",
+      "futuristic",
+      "desaturated"
+    ],
+    "objects": [
+      "mechanical arm",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "futuristic",
+      "clinical",
+      "intense",
+      "focused",
+      "precise"
+    ],
+    "style": [
+      "futuristic",
+      "mechanical",
+      "clinical"
+    ],
+    "objects": [
+      "robotic arm",
+      "hand",
+      "device"
+    ]
+  }
+}

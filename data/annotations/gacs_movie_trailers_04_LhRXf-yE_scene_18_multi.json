@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "urgent",
+      "dramatic",
+      "suspenseful",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "natural-lighting",
+      "handheld"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "building",
+      "stairs",
+      "railing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "uneasy",
+      "watchful",
+      "apprehensive",
+      "uncertain"
+    ],
+    "style": [
+      "naturalistic",
+      "muted",
+      "overcast"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "building",
+      "railing"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "cautious",
+      "unexpected",
+      "focused",
+      "inquisitive"
+    ],
+    "style": [
+      "naturalistic",
+      "neutral-toned",
+      "candid"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "phone",
+      "backpack",
+      "building"
+    ]
+  }
+}

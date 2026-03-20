@@ -1,0 +1,65 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "peaceful",
+      "contemplative",
+      "serene",
+      "nostalgic",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "naturalistic"
+    ],
+    "objects": [
+      "person",
+      "corn field",
+      "trees",
+      "farming tool"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intrigued",
+      "exploratory",
+      "uncertain",
+      "isolated",
+      "adventurous"
+    ],
+    "style": [
+      "naturalistic",
+      "desaturated",
+      "hazy"
+    ],
+    "objects": [
+      "man",
+      "vegetation",
+      "sickle",
+      "backpack"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "suspenseful",
+      "adventurous",
+      "alert"
+    ],
+    "style": [
+      "cinematic",
+      "lush",
+      "adventurous"
+    ],
+    "objects": [
+      "man",
+      "plants",
+      "backpack",
+      "jungle"
+    ]
+  }
+}

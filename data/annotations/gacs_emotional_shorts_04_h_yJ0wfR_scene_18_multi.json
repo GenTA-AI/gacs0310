@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "thoughtful",
+      "reflective",
+      "pensive",
+      "hopeful",
+      "calm"
+    ],
+    "style": [
+      "naturalistic",
+      "documentary",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "grass",
+      "pole",
+      "people"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "nostalgic",
+      "serene",
+      "reflective",
+      "hopeful"
+    ],
+    "style": [
+      "cinematic",
+      "soft-focus",
+      "documentary"
+    ],
+    "objects": [
+      "man",
+      "playground",
+      "red posts",
+      "field",
+      "trees"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "reflective",
+      "hopeful",
+      "contemplative",
+      "serene",
+      "nostalgic"
+    ],
+    "style": [
+      "soft-focus",
+      "warm-toned",
+      "naturalistic"
+    ],
+    "objects": [
+      "elderly man",
+      "pole",
+      "people",
+      "field"
+    ]
+  }
+}

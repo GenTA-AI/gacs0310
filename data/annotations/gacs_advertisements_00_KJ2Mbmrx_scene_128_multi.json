@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "informative",
+      "promotional",
+      "anticipation",
+      "modern",
+      "excitement"
+    ],
+    "style": [
+      "digital",
+      "modern",
+      "vibrant"
+    ],
+    "objects": [
+      "pepsi halftime show",
+      "qr code",
+      "app store logo",
+      "google play logo"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "exciting",
+      "energetic",
+      "promotional",
+      "engaging",
+      "vibrant"
+    ],
+    "style": [
+      "black",
+      "modern",
+      "bold"
+    ],
+    "objects": [
+      "app icon",
+      "qr code",
+      "google play logo",
+      "apple app store logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "exciting",
+      "promotional",
+      "energetic",
+      "engaging",
+      "inviting"
+    ],
+    "style": [
+      "modern",
+      "high-contrast",
+      "minimalist"
+    ],
+    "objects": [
+      "app icon",
+      "qr code",
+      "text",
+      "logos"
+    ]
+  }
+}

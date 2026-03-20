@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intense",
+      "excited",
+      "determined",
+      "focused",
+      "driven"
+    ],
+    "style": [
+      "cool-toned",
+      "shallow-focus",
+      "cinematic"
+    ],
+    "objects": [
+      "man",
+      "car interior",
+      "screen"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "happy",
+      "focused",
+      "determined",
+      "energetic",
+      "positive"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "soft-focus"
+    ],
+    "objects": [
+      "car",
+      "person",
+      "screen"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serene",
+      "focused",
+      "peaceful",
+      "introspective"
+    ],
+    "style": [
+      "cinematic",
+      "moody",
+      "low-light"
+    ],
+    "objects": [
+      "man",
+      "car interior",
+      "steering wheel",
+      "windows"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "casual",
+      "relaxed",
+      "social",
+      "warm",
+      "inviting"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "bar",
+      "bartender",
+      "stools",
+      "bottles",
+      "hand"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "nostalgic",
+      "cozy",
+      "inviting",
+      "warm",
+      "relaxed"
+    ],
+    "style": [
+      "dimly-lit",
+      "vintage",
+      "cozy"
+    ],
+    "objects": [
+      "bar",
+      "stools",
+      "bartender",
+      "people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "nostalgic",
+      "dim",
+      "somber",
+      "intimate",
+      "reflective"
+    ],
+    "style": [
+      "grainy",
+      "dimly-lit",
+      "nostalgic"
+    ],
+    "objects": [
+      "bar",
+      "stools",
+      "person",
+      "shelves"
+    ]
+  }
+}

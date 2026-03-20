@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "annoyed",
+      "irritated",
+      "suspicious",
+      "confrontational",
+      "tense"
+    ],
+    "style": [
+      "realistic",
+      "medium-shot",
+      "conversational"
+    ],
+    "objects": [
+      "man",
+      "woman",
+      "countertop",
+      "kitchen appliance"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "intense",
+      "contemplative",
+      "stern",
+      "focused"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "conversational"
+    ],
+    "objects": [
+      "man",
+      "table",
+      "appliance",
+      "cutting board",
+      "candy jar"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "contemplative",
+      "stern",
+      "focused",
+      "intense"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "man",
+      "kitchen",
+      "text",
+      "logo"
+    ]
+  }
+}

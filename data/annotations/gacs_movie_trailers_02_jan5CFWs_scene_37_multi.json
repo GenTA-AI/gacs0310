@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "relaxed",
+      "casual",
+      "friendly",
+      "comfortable",
+      "conversational"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "natural-lighting"
+    ],
+    "objects": [
+      "men",
+      "rocks",
+      "trees",
+      "clothing"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "anxious",
+      "alert",
+      "apprehensive",
+      "uneasy"
+    ],
+    "style": [
+      "realistic",
+      "warm-toned",
+      "adventure"
+    ],
+    "objects": [
+      "men",
+      "foliage",
+      "rocks"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "focused",
+      "concerned",
+      "serious",
+      "engaged"
+    ],
+    "style": [
+      "adventurous",
+      "earthy-toned",
+      "naturalistic"
+    ],
+    "objects": [
+      "men",
+      "rocks",
+      "foliage"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "serious",
+      "curious",
+      "calm",
+      "focused",
+      "neutral"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "subdued"
+    ],
+    "objects": [
+      "man",
+      "newspaper",
+      "bowl of oranges",
+      "chair"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "contemplative",
+      "observant",
+      "serious",
+      "clinical",
+      "neutral"
+    ],
+    "style": [
+      "animated",
+      "muted",
+      "realistic"
+    ],
+    "objects": [
+      "man",
+      "newspaper",
+      "oranges"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "contemplative",
+      "serious",
+      "focused",
+      "introspective",
+      "subdued"
+    ],
+    "style": [
+      "clean",
+      "minimalist",
+      "clinical"
+    ],
+    "objects": [
+      "man",
+      "glasses",
+      "papers",
+      "oranges",
+      "bowl"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "ominous",
+      "stark",
+      "contemplative",
+      "challenging",
+      "defiant"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "typography-focused"
+    ],
+    "objects": [
+      "text",
+      "black background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "difficult",
+      "challenging",
+      "pessimistic",
+      "doubtful",
+      "uncertain"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "stark"
+    ],
+    "objects": [
+      "impossible"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "defiant",
+      "hopeless",
+      "stark",
+      "ominous",
+      "dramatic"
+    ],
+    "style": [
+      "minimalist",
+      "dark",
+      "typographic"
+    ],
+    "objects": [
+      "text",
+      "quotation marks"
+    ]
+  }
+}

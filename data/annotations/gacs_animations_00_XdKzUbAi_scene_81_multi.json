@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "excited",
+      "chaotic",
+      "energetic",
+      "anxious",
+      "frantic"
+    ],
+    "style": [
+      "vibrant",
+      "animated",
+      "energetic"
+    ],
+    "objects": [
+      "red panda",
+      "people",
+      "disco ball"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "energetic",
+      "lively",
+      "playful",
+      "festive",
+      "fun"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "vibrant"
+    ],
+    "objects": [
+      "red panda",
+      "people",
+      "disco ball",
+      "lights",
+      "dance floor"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "joyful",
+      "energetic",
+      "festive",
+      "celebratory",
+      "exuberant"
+    ],
+    "style": [
+      "vibrant",
+      "animated",
+      "disco-lit"
+    ],
+    "objects": [
+      "disco ball",
+      "crowd",
+      "animated character",
+      "stage lights"
+    ]
+  }
+}

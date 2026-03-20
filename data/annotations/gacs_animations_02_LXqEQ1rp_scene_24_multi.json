@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "tender",
+      "watchful",
+      "warm",
+      "nostalgic",
+      "curious"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "soft-focus"
+    ],
+    "objects": [
+      "cat",
+      "kittens",
+      "mug",
+      "puss in boots"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "cozy",
+      "playful",
+      "warm",
+      "content",
+      "whimsical"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "animated"
+    ],
+    "objects": [
+      "cat",
+      "cup",
+      "toy figure",
+      "room"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "warm",
+      "nurturing",
+      "cozy",
+      "gentle",
+      "curious"
+    ],
+    "style": [
+      "animated",
+      "warm-toned",
+      "detailed"
+    ],
+    "objects": [
+      "cat",
+      "kittens",
+      "cup",
+      "milk",
+      "cat with hat"
+    ]
+  }
+}

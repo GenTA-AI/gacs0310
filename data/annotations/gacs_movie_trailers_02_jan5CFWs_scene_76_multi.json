@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "dramatic",
+      "perilous",
+      "thrilling",
+      "chaotic"
+    ],
+    "style": [
+      "aerial",
+      "cinematic",
+      "high-contrast"
+    ],
+    "objects": [
+      "boat",
+      "person",
+      "water",
+      "ropes",
+      "splash"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "frightening",
+      "intense",
+      "dangerous",
+      "suspenseful",
+      "anxious"
+    ],
+    "style": [
+      "action-oriented",
+      "saturated",
+      "high-contrast"
+    ],
+    "objects": [
+      "man",
+      "crocodile",
+      "ladder",
+      "water"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "thrilling",
+      "suspenseful",
+      "dangerous",
+      "urgent"
+    ],
+    "style": [
+      "dynamic",
+      "intense",
+      "action-packed"
+    ],
+    "objects": [
+      "person",
+      "ladder",
+      "shark",
+      "water"
+    ]
+  }
+}

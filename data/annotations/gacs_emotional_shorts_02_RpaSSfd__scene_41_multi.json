@@ -1,0 +1,67 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "awkward",
+      "humorous",
+      "surprised",
+      "playful",
+      "lighthearted"
+    ],
+    "style": [
+      "realistic",
+      "indoor",
+      "casual"
+    ],
+    "objects": [
+      "person",
+      "door",
+      "closet",
+      "robe",
+      "decorations"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "disappointed",
+      "awkward",
+      "surprised",
+      "humorous",
+      "frustrated"
+    ],
+    "style": [
+      "naturalistic",
+      "medium-shot",
+      "indoor"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "robe",
+      "door"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "awkward",
+      "uncomfortable",
+      "disappointed",
+      "explanatory",
+      "defensive"
+    ],
+    "style": [
+      "domestic",
+      "naturalistic",
+      "subdued-lighting"
+    ],
+    "objects": [
+      "woman",
+      "man",
+      "door",
+      "wall",
+      "bathrobe"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "mysterious",
+      "tense",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "atmospheric"
+    ],
+    "objects": [
+      "train car",
+      "figures",
+      "interior lighting",
+      "windows"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "mysterious",
+      "dark",
+      "suspenseful",
+      "eerie"
+    ],
+    "style": [
+      "dark",
+      "cinematic",
+      "tense"
+    ],
+    "objects": [
+      "water",
+      "dinosaur",
+      "vehicle"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "creepy",
+      "eerie",
+      "unsettling",
+      "dark"
+    ],
+    "style": [
+      "low-key",
+      "dark",
+      "mysterious"
+    ],
+    "objects": [
+      "scorpion",
+      "water",
+      "container"
+    ]
+  }
+}

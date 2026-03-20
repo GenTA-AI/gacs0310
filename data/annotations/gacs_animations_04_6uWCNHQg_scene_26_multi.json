@@ -1,0 +1,62 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "unsettling",
+      "bizarre",
+      "eerie",
+      "surreal",
+      "uneasy"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "surreal"
+    ],
+    "objects": [
+      "men",
+      "bowties"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "festive",
+      "cheerful",
+      "celebratory",
+      "jovial",
+      "lighthearted"
+    ],
+    "style": [
+      "animated",
+      "stylized",
+      "clay-motion"
+    ],
+    "objects": [
+      "men",
+      "bow ties",
+      "suits",
+      "masks"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "surreal",
+      "unsettling",
+      "eerie",
+      "distorted",
+      "confused"
+    ],
+    "style": [
+      "surreal",
+      "distorted",
+      "animated"
+    ],
+    "objects": [
+      "animated characters",
+      "bow ties",
+      "party decorations"
+    ]
+  }
+}

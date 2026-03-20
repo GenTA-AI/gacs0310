@@ -1,0 +1,62 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "mysterious",
+      "foreboding",
+      "desolate"
+    ],
+    "style": [
+      "dark",
+      "aerial",
+      "moody"
+    ],
+    "objects": [
+      "buildings",
+      "streets",
+      "rooftops",
+      "urban area"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "gloomy",
+      "ominous",
+      "eerie",
+      "mysterious",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "moody",
+      "aerial"
+    ],
+    "objects": [
+      "buildings",
+      "streets",
+      "rooftops"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "gloomy",
+      "ominous",
+      "oppressive",
+      "bleak",
+      "desaturated"
+    ],
+    "style": [
+      "aerial",
+      "dark",
+      "desaturated"
+    ],
+    "objects": [
+      "cityscape",
+      "buildings"
+    ]
+  }
+}

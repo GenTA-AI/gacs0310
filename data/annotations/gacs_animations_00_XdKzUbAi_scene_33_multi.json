@@ -1,0 +1,59 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dark",
+      "eerie",
+      "mysterious",
+      "ominous",
+      "unsettling"
+    ],
+    "style": [
+      "dark",
+      "obscure",
+      "minimal"
+    ],
+    "objects": [
+      "darkness",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "ominous",
+      "unsettling",
+      "dark",
+      "mysterious",
+      "intense"
+    ],
+    "style": [
+      "dark",
+      "blurry",
+      "low-contrast"
+    ],
+    "objects": [
+      "darkness",
+      "light spots"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "mysterious",
+      "eerie",
+      "foreboding"
+    ],
+    "style": [
+      "dark",
+      "atmospheric",
+      "red-lit"
+    ],
+    "objects": [
+      "red lights",
+      "darkness"
+    ]
+  }
+}

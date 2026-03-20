@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anticipatory",
+      "sleek",
+      "minimalist",
+      "futuristic",
+      "intriguing"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "monochrome"
+    ],
+    "objects": [
+      "text",
+      "symbols"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "futuristic",
+      "minimalistic",
+      "enigmatic",
+      "anticipatory"
+    ],
+    "style": [
+      "minimalist",
+      "monochromatic",
+      "sleek"
+    ],
+    "objects": [
+      "ps6",
+      "playstation logo",
+      "symbols"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "minimal",
+      "sleek",
+      "modern",
+      "anticipatory",
+      "technological"
+    ],
+    "style": [
+      "minimalist",
+      "monochromatic",
+      "sleek"
+    ],
+    "objects": [
+      "ps5 logo",
+      "controller buttons",
+      "text"
+    ]
+  }
+}

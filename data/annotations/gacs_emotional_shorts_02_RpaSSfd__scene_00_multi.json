@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "intriguing",
+      "serious",
+      "watchful",
+      "urban",
+      "anticipatory"
+    ],
+    "style": [
+      "realistic",
+      "neutral",
+      "daytime"
+    ],
+    "objects": [
+      "man",
+      "building",
+      "road sign"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "peaceful",
+      "poised",
+      "serene",
+      "urban",
+      "tranquil"
+    ],
+    "style": [
+      "cinematic",
+      "urban",
+      "natural-light"
+    ],
+    "objects": [
+      "street",
+      "person",
+      "building",
+      "sign",
+      "crosswalk"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "tense",
+      "melancholic",
+      "urban",
+      "contemplative",
+      "somber"
+    ],
+    "style": [
+      "cinematic",
+      "muted-tones",
+      "urban-realism"
+    ],
+    "objects": [
+      "buildings",
+      "people",
+      "street",
+      "cobblestones",
+      "traffic sign"
+    ]
+  }
+}

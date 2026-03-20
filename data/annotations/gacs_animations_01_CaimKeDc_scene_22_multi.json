@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "curious",
+      "surprised",
+      "intrigued",
+      "reflective",
+      "contemplative"
+    ],
+    "style": [
+      "colorful",
+      "animated",
+      "expressive"
+    ],
+    "objects": [
+      "girl",
+      "glasses",
+      "embroidery",
+      "embroidery-\u043f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435",
+      "painting"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "worried",
+      "surprised",
+      "anxious",
+      "concerned",
+      "apprehensive"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "stylized"
+    ],
+    "objects": [
+      "mirabel",
+      "glasses",
+      "mural"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "surprised",
+      "curious",
+      "wonder",
+      "amazed",
+      "captivated"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "magical"
+    ],
+    "objects": [
+      "girl",
+      "glasses",
+      "sun",
+      "flowers"
+    ]
+  }
+}

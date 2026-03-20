@@ -1,0 +1,64 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "apocalyptic",
+      "desolate",
+      "ominous",
+      "devastating",
+      "bleak"
+    ],
+    "style": [
+      "apocalyptic",
+      "sepia-toned",
+      "cinematic"
+    ],
+    "objects": [
+      "buildings",
+      "debris",
+      "smoke",
+      "destruction"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "desolate",
+      "ruined",
+      "bleak",
+      "hopeless",
+      "apocalyptic"
+    ],
+    "style": [
+      "dystopian",
+      "desaturated",
+      "chaotic"
+    ],
+    "objects": [
+      "buildings",
+      "debris",
+      "person"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "devastating",
+      "chaotic",
+      "desolate",
+      "grim",
+      "apocalyptic"
+    ],
+    "style": [
+      "dystopian",
+      "desolate",
+      "expansive"
+    ],
+    "objects": [
+      "rubble",
+      "buildings",
+      "debris",
+      "sunset"
+    ]
+  }
+}

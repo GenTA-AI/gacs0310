@@ -1,0 +1,63 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "sterile",
+      "clinical",
+      "unsettling"
+    ],
+    "style": [
+      "sci-fi",
+      "atmospheric",
+      "golden-lit"
+    ],
+    "objects": [
+      "tank",
+      "figure",
+      "lights",
+      "machinery"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "uneasy",
+      "suspenseful",
+      "artificial",
+      "cautious",
+      "dangerous"
+    ],
+    "style": [
+      "futuristic",
+      "high-key",
+      "amber"
+    ],
+    "objects": [
+      "dinosaur",
+      "chamber",
+      "capsule"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "mysterious",
+      "ominous",
+      "eerie",
+      "sci-fi",
+      "suspenseful"
+    ],
+    "style": [
+      "futuristic",
+      "amber-lit",
+      "dramatic"
+    ],
+    "objects": [
+      "dinosaur",
+      "tank",
+      "platform"
+    ]
+  }
+}

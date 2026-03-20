@@ -1,0 +1,64 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "anxious",
+      "worried",
+      "apprehensive",
+      "strained",
+      "concerned"
+    ],
+    "style": [
+      "animated",
+      "realistic",
+      "stark"
+    ],
+    "objects": [
+      "woman",
+      "hospital bed",
+      "blanket"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "anxious",
+      "dramatic",
+      "concerned",
+      "urgent"
+    ],
+    "style": [
+      "animated",
+      "flat-shaded",
+      "dramatic"
+    ],
+    "objects": [
+      "hospital bed",
+      "woman",
+      "pillow",
+      "blanket"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "anxious",
+      "vulnerable",
+      "concerned",
+      "tense",
+      "distressed"
+    ],
+    "style": [
+      "animated",
+      "rotoscoped",
+      "stylized"
+    ],
+    "objects": [
+      "hospital bed",
+      "woman",
+      "blanket",
+      "medical equipment"
+    ]
+  }
+}

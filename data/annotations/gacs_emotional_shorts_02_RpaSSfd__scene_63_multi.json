@@ -1,0 +1,63 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "angry",
+      "confrontational",
+      "intense",
+      "frustrated",
+      "defiant"
+    ],
+    "style": [
+      "dramatic",
+      "close-up",
+      "natural-light"
+    ],
+    "objects": [
+      "woman",
+      "text",
+      "logo"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "angry",
+      "defiant",
+      "frustrated",
+      "tense",
+      "confrontational"
+    ],
+    "style": [
+      "realistic",
+      "medium-shot",
+      "muted"
+    ],
+    "objects": [
+      "woman",
+      "text"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "angry",
+      "confrontational",
+      "defiant",
+      "intense",
+      "hostile"
+    ],
+    "style": [
+      "cinematic",
+      "warm-toned",
+      "shallow-focus"
+    ],
+    "objects": [
+      "woman",
+      "face",
+      "hair",
+      "clothing",
+      "text"
+    ]
+  }
+}

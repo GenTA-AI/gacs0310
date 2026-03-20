@@ -1,0 +1,65 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "dark",
+      "intense",
+      "mysterious",
+      "gritty",
+      "dangerous"
+    ],
+    "style": [
+      "dark",
+      "gritty",
+      "cinematic"
+    ],
+    "objects": [
+      "sword",
+      "sparks",
+      "stone surface",
+      "wall"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "intense",
+      "dramatic",
+      "fiery",
+      "dangerous",
+      "explosive"
+    ],
+    "style": [
+      "cinematic",
+      "dark",
+      "dramatic"
+    ],
+    "objects": [
+      "sparks",
+      "metal beam",
+      "welding",
+      "industrial surface"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "intense",
+      "industrial",
+      "focused",
+      "dramatic",
+      "gritty"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "detailed"
+    ],
+    "objects": [
+      "sword",
+      "sparks",
+      "grinding wheel",
+      "stone wall"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "dynamic",
+      "thrilling",
+      "exciting",
+      "intense",
+      "focused"
+    ],
+    "style": [
+      "modern",
+      "sleek",
+      "high-contrast"
+    ],
+    "objects": [
+      "car",
+      "screens",
+      "track",
+      "checkered flag"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "sophisticated",
+      "focused",
+      "technological",
+      "aspirational",
+      "sleek"
+    ],
+    "style": [
+      "clean",
+      "modern",
+      "bright"
+    ],
+    "objects": [
+      "car",
+      "monitors",
+      "race track"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "technical",
+      "professional",
+      "sophisticated",
+      "minimalist"
+    ],
+    "style": [
+      "sleek",
+      "high-tech",
+      "automotive"
+    ],
+    "objects": [
+      "car",
+      "screens",
+      "garage",
+      "checkered floor"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "majestic",
+      "inspiring",
+      "ethereal",
+      "uplifting",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "dramatic",
+      "heavenly"
+    ],
+    "objects": [
+      "clouds",
+      "woman",
+      "logo",
+      "sky",
+      "light"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "iconic",
+      "grand",
+      "majestic",
+      "hopeful",
+      "classic"
+    ],
+    "style": [
+      "iconic",
+      "vibrant",
+      "classical"
+    ],
+    "objects": [
+      "statue",
+      "columbia",
+      "clouds"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "majestic",
+      "classical",
+      "iconic",
+      "cinematic",
+      "grand"
+    ],
+    "style": [
+      "iconic",
+      "classic",
+      "vibrant"
+    ],
+    "objects": [
+      "statue",
+      "clouds",
+      "sky",
+      "light",
+      "stairs"
+    ]
+  }
+}

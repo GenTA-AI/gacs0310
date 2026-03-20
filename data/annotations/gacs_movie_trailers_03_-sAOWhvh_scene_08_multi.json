@@ -1,0 +1,66 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "dark",
+      "ominous",
+      "vertigo-inducing",
+      "intimidating",
+      "isolating"
+    ],
+    "style": [
+      "aerial",
+      "dark-toned",
+      "urban"
+    ],
+    "objects": [
+      "buildings",
+      "streets",
+      "rooftops",
+      "city blocks",
+      "roads"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "vertigo",
+      "unsettling",
+      "dangerous",
+      "tense",
+      "ominous"
+    ],
+    "style": [
+      "desaturated",
+      "high-angle",
+      "urban"
+    ],
+    "objects": [
+      "city",
+      "buildings",
+      "skyscrapers",
+      "road"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "dizzying",
+      "intimidating",
+      "suspenseful",
+      "vertiginous"
+    ],
+    "style": [
+      "dramatic",
+      "high-angle",
+      "industrial"
+    ],
+    "objects": [
+      "buildings",
+      "streets",
+      "traffic",
+      "silhouette"
+    ]
+  }
+}

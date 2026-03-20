@@ -1,0 +1,61 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "magical",
+      "enchanting",
+      "hopeful",
+      "grand",
+      "expectant"
+    ],
+    "style": [
+      "stylized",
+      "dark",
+      "luminous"
+    ],
+    "objects": [
+      "text",
+      "logo",
+      "light beams"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "magical",
+      "whimsical",
+      "enchanting",
+      "nostalgic",
+      "inviting"
+    ],
+    "style": [
+      "dark",
+      "vibrant",
+      "branded"
+    ],
+    "objects": [
+      "disney logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "magical",
+      "enchanting",
+      "dreamy",
+      "elegant",
+      "cinematic"
+    ],
+    "style": [
+      "cinematic",
+      "glowing",
+      "dark-toned"
+    ],
+    "objects": [
+      "disney logo",
+      "text",
+      "light rays",
+      "dark background"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "minimalistic",
+      "stark",
+      "futuristic",
+      "corporate",
+      "sleek"
+    ],
+    "style": [
+      "minimalist",
+      "stark",
+      "futuristic"
+    ],
+    "objects": [
+      "tesla text",
+      "black background"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "sleek",
+      "modern",
+      "innovative",
+      "futuristic",
+      "minimalist"
+    ],
+    "style": [
+      "minimalistic",
+      "modern",
+      "monochrome"
+    ],
+    "objects": [
+      "tesla logo"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "sleek",
+      "minimalist",
+      "futuristic",
+      "corporate",
+      "sophisticated"
+    ],
+    "style": [
+      "minimalist",
+      "high-contrast",
+      "corporate"
+    ],
+    "objects": [
+      "tesla logo",
+      "black background"
+    ]
+  }
+}

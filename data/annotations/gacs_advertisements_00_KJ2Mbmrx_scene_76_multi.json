@@ -1,0 +1,66 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "focused",
+      "glamorous",
+      "busy",
+      "professional",
+      "vibrant"
+    ],
+    "style": [
+      "glamorous",
+      "vibrant",
+      "staged"
+    ],
+    "objects": [
+      "woman",
+      "makeup",
+      "phone",
+      "pepsi",
+      "clothes"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "glamorous",
+      "poised",
+      "professional",
+      "luxurious",
+      "confident"
+    ],
+    "style": [
+      "bright",
+      "commercial",
+      "modern"
+    ],
+    "objects": [
+      "mary j blige",
+      "stylist",
+      "car",
+      "clothing rack"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "glamorous",
+      "professional",
+      "focused",
+      "luxurious",
+      "collaborative"
+    ],
+    "style": [
+      "professional",
+      "glamorous",
+      "behind-the-scenes"
+    ],
+    "objects": [
+      "woman",
+      "hair stylist",
+      "clothing rack",
+      "pepsi can"
+    ]
+  }
+}

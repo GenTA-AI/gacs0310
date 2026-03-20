@@ -1,0 +1,67 @@
+{
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "serious",
+      "professional",
+      "focused",
+      "formal",
+      "journalistic"
+    ],
+    "style": [
+      "cinematic",
+      "saturated",
+      "depth-of-field"
+    ],
+    "objects": [
+      "reporters",
+      "microphones",
+      "blue curtain",
+      "cameras",
+      "people"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "concerned",
+      "anxious",
+      "alert",
+      "surprised",
+      "serious"
+    ],
+    "style": [
+      "realistic",
+      "medium-shot",
+      "neutral"
+    ],
+    "objects": [
+      "people",
+      "camera",
+      "stage",
+      "microphone"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "tense",
+      "curious",
+      "focused",
+      "alert",
+      "intense"
+    ],
+    "style": [
+      "naturalistic",
+      "documentary-like",
+      "medium-focus"
+    ],
+    "objects": [
+      "photographers",
+      "cameras",
+      "notepad",
+      "curtains",
+      "people"
+    ]
+  }
+}

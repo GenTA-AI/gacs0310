@@ -1,0 +1,63 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "neutral",
+      "proud",
+      "confident",
+      "casual",
+      "mundane"
+    ],
+    "style": [
+      "daytime",
+      "neutral",
+      "documentary"
+    ],
+    "objects": [
+      "truck",
+      "man"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "proud",
+      "casual",
+      "relaxed",
+      "confident",
+      "neutral"
+    ],
+    "style": [
+      "documentary",
+      "news-style",
+      "candid"
+    ],
+    "objects": [
+      "truck",
+      "person",
+      "dirt",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "proud",
+      "confident",
+      "accomplished",
+      "satisfied",
+      "cheerful"
+    ],
+    "style": [
+      "news-style",
+      "blue-framed",
+      "broadcast-graphics"
+    ],
+    "objects": [
+      "truck",
+      "man",
+      "person",
+      "vehicle"
+    ]
+  }
+}

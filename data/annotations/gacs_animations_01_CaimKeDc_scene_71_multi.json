@@ -1,0 +1,66 @@
+{
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "precarious",
+      "tense",
+      "urgent",
+      "fearful",
+      "dramatic"
+    ],
+    "style": [
+      "animated",
+      "bright",
+      "saturated"
+    ],
+    "objects": [
+      "cliff",
+      "people",
+      "mountains",
+      "sky"
+    ]
+  },
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "suspenseful",
+      "tense",
+      "dramatic",
+      "perilous",
+      "gripping"
+    ],
+    "style": [
+      "animated",
+      "vibrant",
+      "dramatic"
+    ],
+    "objects": [
+      "cliff",
+      "snow",
+      "people",
+      "sky"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "adventurous",
+      "exhilarating",
+      "dangerous",
+      "thrilling",
+      "precarious"
+    ],
+    "style": [
+      "cinematic",
+      "atmospheric",
+      "dramatic"
+    ],
+    "objects": [
+      "rock cliff",
+      "person",
+      "mountains",
+      "sky",
+      "clouds"
+    ]
+  }
+}

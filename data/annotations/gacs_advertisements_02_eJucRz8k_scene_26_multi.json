@@ -1,0 +1,65 @@
+{
+  "gpt4o": {
+    "model": "gpt4o",
+    "mood": [
+      "calm",
+      "focused",
+      "urban",
+      "straightforward",
+      "ordinary"
+    ],
+    "style": [
+      "backlit",
+      "urban",
+      "silhouette"
+    ],
+    "objects": [
+      "bridge",
+      "city skyline",
+      "steering wheel",
+      "road"
+    ]
+  },
+  "gemini": {
+    "model": "gemini",
+    "mood": [
+      "calm",
+      "contemplative",
+      "observant",
+      "neutral",
+      "hopeful"
+    ],
+    "style": [
+      "candid",
+      "point-of-view",
+      "overcast"
+    ],
+    "objects": [
+      "car",
+      "bridge",
+      "buildings",
+      "road"
+    ]
+  },
+  "claude": {
+    "model": "claude",
+    "mood": [
+      "calm",
+      "contemplative",
+      "urban",
+      "peaceful",
+      "reflective"
+    ],
+    "style": [
+      "cinematic",
+      "desaturated",
+      "wide-angle"
+    ],
+    "objects": [
+      "car interior",
+      "bridge",
+      "city skyline",
+      "steering wheel"
+    ]
+  }
+}
