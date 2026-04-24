@@ -59,7 +59,19 @@ export async function handleWebhook(req, res) {
 
   console.log(`[${Date.now()}] webhook:in eventId=${eventId} type=${eventType}`);
 
-  // 4. Event Routing
+  // 4. Check Idempotency
+  const { isDuplicate, redisAvailable } = await (await import('./idempotency.js')).checkIdempotency(eventId);
+  console.log(`[webhook] eventId=${eventId} duplicate=${isDuplicate} redisAvailable=${redisAvailable}`);
+
+  if (isDuplicate) {
+    return res.status(200).json({
+      status: 'duplicate',
+      eventId,
+      reason: 'Event already processed within 24 hours'
+    });
+  }
+
+  // 5. Event Routing
   try {
     let handler;
     switch (eventType) {
