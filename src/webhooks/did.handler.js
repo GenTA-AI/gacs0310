@@ -1,4 +1,10 @@
 import crypto from 'crypto';
+import db from '../db/client.js';
+import queues from '../queue/bullmq.client.js';
+import { runWithFallback } from './fallback.js';
+import { checkIdempotency } from './idempotency.js';
+
+const HANDLER_TIMEOUT_MS = 180;
 
 /**
  * Startup validation for DID_WEBHOOK_SECRET
@@ -11,6 +17,7 @@ export function validateEnv() {
 
 /**
  * Main webhook handler for POST /webhooks/did
+ * Includes HMAC validation, Idempotency, Timeout Guard, and Fallback Chain.
  */
 export async function handleWebhook(req, res) {
   const startTime = Date.now();
@@ -47,23 +54,18 @@ export async function handleWebhook(req, res) {
     return res.status(400).json({ error: 'Invalid payload', details: 'JSON parse failed' });
   }
 
-  const { eventId, eventType, occurredAt, data } = payload;
+  const { eventId, eventType, data } = payload;
 
   // 3. Payload Validation
-  const requiredFields = ['eventId', 'eventType', 'occurredAt', 'data'];
-  const missing = requiredFields.filter(f => !payload[f]);
-  if (missing.length > 0) {
-    console.error(`[${Date.now()}] webhook:validation_error Missing fields: ${missing.join(', ')}`);
-    return res.status(400).json({ error: 'Invalid payload', missing });
+  if (!eventId || !eventType || !data) {
+    console.error(`[${Date.now()}] webhook:validation_error Missing fields`);
+    return res.status(400).json({ error: 'Invalid payload', details: 'Missing eventId, eventType, or data' });
   }
 
-  console.log(`[${Date.now()}] webhook:in eventId=${eventId} type=${eventType}`);
-
   // 4. Check Idempotency
-  const { isDuplicate, redisAvailable } = await (await import('./idempotency.js')).checkIdempotency(eventId);
-  console.log(`[webhook] eventId=${eventId} duplicate=${isDuplicate} redisAvailable=${redisAvailable}`);
-
+  const { isDuplicate } = await checkIdempotency(eventId);
   if (isDuplicate) {
+    console.log(`[webhook] eventId=${eventId} status=duplicate`);
     return res.status(200).json({
       status: 'duplicate',
       eventId,
@@ -71,9 +73,9 @@ export async function handleWebhook(req, res) {
     });
   }
 
-  // 5. Event Routing
+  // 5. Get Handler for event type
+  let handler;
   try {
-    let handler;
     switch (eventType) {
       case 'video.requested':
         handler = (await import('./events/video.requested.js')).handle;
@@ -94,33 +96,40 @@ export async function handleWebhook(req, res) {
         console.warn(`[${Date.now()}] webhook:ignored Unknown eventType: ${eventType}`);
         return res.status(200).json({ status: 'ignored', eventId });
     }
+  } catch (err) {
+    console.error(`[webhook] Failed to load handler for ${eventType}:`, err.message);
+    return res.status(200).json({ status: 'error_logged', eventId });
+  }
 
-    // NOTE: Handlers for Prompt D-F will be implemented later.
-    // For now, we wrap the call in a try/catch.
-    // In Prompt G, we will add the runWithFallback wrapper.
+  // 6. Run Handler with Timeout + Fallback
+  try {
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('Handler timeout')), HANDLER_TIMEOUT_MS)
+    );
     
-    // Placeholder for db and queue which will be passed in Prompt G
-    const db = {}; 
-    const queue = {};
-
-    const result = await handler(payload, db, queue);
+    const result = await Promise.race([
+      runWithFallback(eventType, handler, payload, db, queues),
+      timeoutPromise
+    ]);
     
     const durationMs = Date.now() - startTime;
-    console.log(`[${Date.now()}] webhook:out eventId=${eventId} status=${result.status} durationMs=${durationMs}`);
-    
-    if (durationMs > 150) {
-      console.warn(`[WARN] SLOW webhook ${eventId} took ${durationMs}ms (approaching 200ms limit)`);
-    }
-
     return res.status(200).json({
-      status: result.status || 'ok',
+      ...result,
       eventId,
       durationMs
     });
-
   } catch (err) {
     const durationMs = Date.now() - startTime;
-    console.error(`[${Date.now()}] webhook:error eventId=${eventId} error=${err.message} durationMs=${durationMs}`);
-    return res.status(200).json({ status: 'error_logged', eventId });
+    if (err.message === 'Handler timeout') {
+      console.warn(`[Timeout] ${eventType} exceeded ${HANDLER_TIMEOUT_MS}ms`);
+      return res.status(200).json({
+        status: 'timeout_logged',
+        eventId,
+        durationMs
+      });
+    } else {
+      console.error(`[${Date.now()}] webhook:error eventId=${eventId} error=${err.message} durationMs=${durationMs}`);
+      return res.status(200).json({ status: 'error_logged', eventId, durationMs });
+    }
   }
 }
