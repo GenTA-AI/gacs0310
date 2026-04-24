@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import webhookRouter from './webhooks/index.js';
 import { validateEnv } from './webhooks/did.handler.js';
+import { scheduleDidIncrementalSync } from './sync/did/incremental-sync.scheduler.js';
 
 // 1. Startup validation
 try {
@@ -27,10 +28,23 @@ app.get('/health', (req, res) => {
 // 3. Routes
 app.use('/webhooks', webhookRouter);
 
-// 4. Start Server
+// 4. Optional background scheduler
+async function startBackgroundJobs() {
+  if (process.env.NODE_ENV === 'test') return;
+
+  try {
+    const result = await scheduleDidIncrementalSync();
+    console.log('[Startup] DID incremental sync scheduler:', result);
+  } catch (err) {
+    console.error('[Startup] Failed to schedule DID incremental sync:', err.message);
+  }
+}
+
+// 5. Start Server
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(port, () => {
+  app.listen(port, async () => {
     console.log(`[Server] Webhook receiver listening on port ${port}`);
+    await startBackgroundJobs();
   });
 }
 

@@ -1,48 +1,144 @@
 /**
- * Handle video.expired event
+ * Handle video.expired event.
+ *
+ * Expiry is a Smart DID playback-state signal.
+ * It should trigger refresh/regeneration work without changing canonical book metadata.
  */
 export async function handle(payload, db, queue) {
-  const { bookId: externalBookId, expiresAt } = payload.data;
-  
+  const {
+    bookId: externalBookId,
+    status = 'expired',
+    expiresAt = null,
+    retryCount = 0,
+    errorMessage = null,
+  } = payload.data || {};
+
+  const eventId = payload.eventId;
+
   try {
-    // 1. Resolve GACS book_id
+    if (!externalBookId) {
+      return { status: 'skipped', reason: 'missing_book_id' };
+    }
+
     const refResult = await db.query(
-      'SELECT book_id FROM book_external_refs WHERE source_system = $1 AND external_book_id = $2',
-      ['smart_did', externalBookId]
+      `SELECT book_id
+         FROM book_external_refs
+        WHERE source_system = 'smart_did'
+          AND external_book_id = $1
+        ORDER BY first_seen_at ASC
+        LIMIT 1`,
+      [externalBookId],
     );
+
     if (refResult.rows.length === 0) {
-      return { status: 'skipped', reason: 'unknown_book_id' };
-    }
-    
-    const gacsBookId = refResult.rows[0].book_id;
-    
-    // 2. Log expiration to did_sync_log
-    await db.query(
-      `INSERT INTO did_sync_log 
-       (sync_timestamp, videos_synced, videos_changed, sync_status, synced_by, created_at)
-       VALUES (NOW(), 0, 1, 'partial', 'webhook:video.expired', NOW())`
-    );
-    
-    // 3. Check if book has completed video_jobs that need refresh
-    const jobResult = await db.query(
-      `SELECT COUNT(*) as count FROM video_jobs 
-       WHERE book_id = $1 AND status = 'completed'`,
-      [gacsBookId]
-    );
-    
-    let refreshQueued = false;
-    if (jobResult.rows[0].count > 0) {
-      await queue.add('video-refresh', {
-        bookId: gacsBookId,
-        reason: 'smart_did_expiry',
-        expiresAt
+      await enqueue(queue, 'reconciliation', {
+        bookId: externalBookId,
+        eventId,
+        occurredAt: payload.occurredAt,
+        reason: 'unknown_book_id',
       });
-      refreshQueued = true;
+
+      return {
+        status: 'skipped',
+        reason: 'unknown_book_id_sent_to_reconciliation',
+        enqueued: ['reconciliation'],
+      };
     }
-    
-    return { status: 'ok', bookId: gacsBookId, refreshQueued };
+
+    const gacsBookId = refResult.rows[0].book_id;
+
+    const tableCheck = await db.query(
+      `SELECT EXISTS (
+         SELECT 1
+           FROM information_schema.tables
+          WHERE table_schema = 'public'
+            AND table_name = 'smart_did_video_state'
+       )`,
+    );
+
+    if (tableCheck.rows[0].exists) {
+      await db.query(
+        `INSERT INTO smart_did_video_state (
+           book_id,
+           status,
+           expires_at,
+           retry_count,
+           error_message,
+           updated_at
+         )
+         VALUES ($1, $2, $3, $4, $5, NOW())
+         ON CONFLICT (book_id)
+         DO UPDATE SET
+           status = EXCLUDED.status,
+           expires_at = EXCLUDED.expires_at,
+           retry_count = EXCLUDED.retry_count,
+           error_message = EXCLUDED.error_message,
+           updated_at = NOW()
+         WHERE smart_did_video_state.status IS DISTINCT FROM EXCLUDED.status
+            OR smart_did_video_state.expires_at IS DISTINCT FROM EXCLUDED.expires_at
+            OR smart_did_video_state.retry_count IS DISTINCT FROM EXCLUDED.retry_count
+            OR smart_did_video_state.error_message IS DISTINCT FROM EXCLUDED.error_message`,
+        [gacsBookId, status, expiresAt, retryCount, errorMessage],
+      );
+    }
+
+    await db.query(
+      `UPDATE video_jobs
+          SET did_reported_status = $2,
+              expires_at = $3,
+              did_status_synced_at = NOW()
+        WHERE job_id = (
+          SELECT job_id
+            FROM video_jobs
+           WHERE book_id = $1
+           ORDER BY created_at DESC
+           LIMIT 1
+        )
+        AND (
+          did_reported_status IS DISTINCT FROM $2
+          OR expires_at IS DISTINCT FROM $3
+        )`,
+      [gacsBookId, status, expiresAt],
+    );
+
+    await enqueue(queue, 'video-refresh', {
+      bookId: gacsBookId,
+      externalBookId,
+      eventId,
+      expiresAt,
+      reason: 'smart_did_video_expired',
+    });
+
+    return {
+      status: 'ok',
+      bookId: gacsBookId,
+      enqueued: ['video-refresh'],
+    };
   } catch (err) {
     console.error(`[video.expired] error: ${err.message}`);
     return { status: 'error_logged' };
   }
+}
+
+async function enqueue(queue, jobName, data) {
+  const target = resolveQueue(queue, jobName);
+  if (!target || typeof target.add !== 'function') return false;
+
+  await target.add(jobName, data);
+  return true;
+}
+
+function resolveQueue(queue, jobName) {
+  if (!queue) return null;
+  if (typeof queue.add === 'function') return queue;
+
+  const queueByJob = {
+    reconciliation: 'reconciliationQueue',
+    'video-refresh': 'videoRefreshQueue',
+    'video-regeneration': 'videoRegenerationQueue',
+    'sync-alert': 'syncAlertQueue',
+    'dead-letter': 'deadLetterQueue',
+  };
+
+  return queue[queueByJob[jobName]];
 }

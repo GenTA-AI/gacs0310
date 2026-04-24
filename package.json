@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "start": "node src/app.js",
+    "test": "jest",
+    "test:sync": "jest tests/sync",
+    "sync:did": "node scripts/run-did-incremental-sync.js",
+    "worker:did-sync": "node src/sync/did/incremental-sync.worker.js",
+    "priority:refresh": "node scripts/run-refresh-priority-scores.js"
   },
   "dependencies": {
     "bullmq": "^5.76.1",
