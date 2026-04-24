@@ -43,3 +43,70 @@
 - User: gacs_user
 - Port: 5432
 - Existing tables: books, video_jobs, video_queue
+
+---
+
+## Webhook Standards (Task 1.2)
+
+### Core Principle
+**Canonical metadata (book titles, authors, descriptions) lives in GACS and is NEVER overwritten by Smart DID signals.**
+Smart DID contributions are time-series signals (engagement, popularity, recommendations), not metadata corrections.
+
+### Stack
+- Runtime: Node.js (Express or Fastify, match existing project)
+- Queue: BullMQ (async job processing, installed early in Prompt A)
+- Cache: Redis (ioredis client, fail-open policy)
+- DB: PostgreSQL (pg or existing ORM)
+
+### File Naming
+- src/webhooks/did.handler.js        — main route + HMAC validation
+- src/webhooks/idempotency.js        — Redis idempotency middleware
+- src/webhooks/fallback.js           — error handling + timeout guard
+- src/queue/bullmq.client.js         — queue instances (dead-letter, reconciliation, etc.)
+- src/webhooks/events/               — one file per event type
+  - video.requested.js
+  - video.updated.js
+  - video.deleted.js
+  - video.expired.js
+  - sync.completed.js
+- tests/webhooks/                    — comprehensive test suite
+  - master.test.js                   — 40 tests: happy path + concurrency + chaos
+
+### HMAC Validation
+- Header: X-DID-Signature
+- Algorithm: HMAC-SHA256
+- Secret: process.env.DID_WEBHOOK_SECRET (validated at startup, non-empty required)
+- Timing-safe comparison: crypto.timingSafeEqual()
+- Reject with 401 if invalid signature or missing secret env var
+
+### Idempotency Strategy
+- Key format: webhook:did:{eventId}
+- TTL: 86400 seconds (24 hours)
+- On duplicate: return 200 { status: 'duplicate' } (silent dedup)
+- On Redis down: return isDuplicate: false, allow through (fail-open)
+- Use Redis SET NX (atomic check-and-set)
+
+### Event Handler Contract
+Each handler must export:
+  async function handle(payload, db, queue) { ... }
+  Returns: { status: 'ok' | 'skipped', reason?: string, enqueued?: array }
+  Never throws — all errors caught and logged
+
+### Critical Latency Rules
+- Total webhook response time: < 200ms (hard limit)
+- Critical path (HMAC + idempotency + handler dispatch): < 100ms
+- Non-critical writes (engagement snapshots, did_sync_log): defer to async BullMQ after response
+- Never chain sequential DB queries in handler — use SELECT + batch or defer to queue job
+- Measure: start timer before HMAC, stop timer after response.json()
+
+### Data Ownership
+- GACS: canonical book metadata, generation workflows, AI analysis
+- Smart DID: engagement signals, recommendation context, playback state, URLs
+- Intersection: DO NOT OVERWRITE canonical fields. Append engagement signals to time-series tables only.
+
+### Fallback Policy
+- Handler timeout (> 180ms): return 200 { status: 'timeout_logged' }, send to dead-letter queue
+- Handler crash: catch, return 200 { status: 'error_logged' }, send to dead-letter queue
+- Dead-letter queue down: log to console only, still return 200
+- Never return 5xx to Smart DID — always 2xx (except 401 for auth, 400 for malformed payload)
+- Idempotency takes precedence: always check Redis before handler execution
