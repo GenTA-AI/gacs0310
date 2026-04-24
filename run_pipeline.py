@@ -14,7 +14,6 @@ Usage:
     python run_pipeline.py upload           # Upload to YouTube
     python run_pipeline.py metrics          # Collect experiment metrics
     python run_pipeline.py analyze          # Statistical analysis + report
-    python run_pipeline.py sync             # Smart DID → GACS incremental sync
 
     # Quick test (1 video, limited processing)
     python run_pipeline.py all --quick-test
@@ -23,7 +22,6 @@ Usage:
     python run_pipeline.py info
 """
 
-import os
 import sys
 import argparse
 import time
@@ -93,6 +91,7 @@ def run_dataset(args):
     logger.info("=== Stage 1: Dataset Builder ===")
     from src.dataset_builder import main as dataset_main
 
+    # Build args namespace for dataset_builder
     ns = argparse.Namespace(
         input=args.manifest if hasattr(args, 'manifest') else "video_manifest.csv",
         output="gacs_dataset.csv",
@@ -110,6 +109,7 @@ def run_generate(args):
     from src.video_generator import run_pipeline as generator_run
 
     if getattr(args, 'quick_test', False):
+        import os
         os.environ['GACS_QUICK_TEST'] = '1'
 
     results = generator_run(
@@ -163,21 +163,6 @@ def run_analyze(args):
     logger.info("Analysis and reporting complete.")
 
 
-def run_sync(args):
-    """Run the Smart DID → GACS incremental engagement sync."""
-    logger.info("=== Smart DID Incremental Sync ===")
-    from src.smart_did_sync import IncrementalSyncJob, _get_db_connection, _get_client
-
-    conn = _get_db_connection()
-    client = _get_client(use_mock=args.mock)
-    try:
-        job = IncrementalSyncJob(conn=conn, client=client, dry_run=args.dry_run)
-        result = job.run()
-        logger.info(f"Sync complete: {result}")
-    finally:
-        conn.close()
-
-
 def run_all(args):
     """Run the full pipeline end-to-end."""
     start = time.time()
@@ -204,14 +189,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python run_pipeline.py info                      # Show system info
-  python run_pipeline.py all --quick-test          # Quick test full pipeline
-  python run_pipeline.py dataset                   # Build dataset only
-  python run_pipeline.py generate --clusters 3    # Generate with 3 clusters
-  python run_pipeline.py all --skip-upload         # Pipeline without YouTube
-  python run_pipeline.py sync                      # Smart DID sync (mock)
-  python run_pipeline.py sync --dry-run            # Diff without committing
-  python run_pipeline.py sync --no-mock            # Real API (needs env vars)
+  python run_pipeline.py info                 # Show system info
+  python run_pipeline.py all --quick-test     # Quick test full pipeline
+  python run_pipeline.py dataset              # Build dataset only
+  python run_pipeline.py generate --clusters 3 # Generate with 3 clusters
+  python run_pipeline.py all --skip-upload    # Pipeline without YouTube
         """,
     )
 
@@ -255,16 +237,6 @@ Examples:
     p_all.add_argument("--no-viz", action="store_true", help="Skip visualizations")
     p_all.add_argument("--quick-test", action="store_true", help="Quick test mode")
 
-    # sync
-    p_sync = subparsers.add_parser("sync", help="Smart DID → GACS incremental engagement sync")
-    p_sync.add_argument("--dry-run", action="store_true", help="Diff without committing to DB")
-    p_sync.add_argument(
-        "--mock",
-        action="store_true",
-        default=os.environ.get("SMART_DID_USE_MOCK", "true").lower() == "true",
-        help="Use mock API client (default until sandbox access confirmed)",
-    )
-
     args = parser.parse_args()
 
     if not args.command:
@@ -279,7 +251,6 @@ Examples:
         "metrics": run_metrics,
         "analyze": run_analyze,
         "all": run_all,
-        "sync": run_sync,
     }
 
     handlers[args.command](args)
