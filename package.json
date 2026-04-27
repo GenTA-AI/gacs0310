@@ -1,0 +1,27 @@
+{
+  "name": "gacs0310-webhooks",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest",
+    "test:sync": "jest tests/sync",
+    "sync:did": "node scripts/run-did-incremental-sync.js",
+    "worker:did-sync": "node src/sync/did/incremental-sync.worker.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.76.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.3.0",
+    "@types/node": "^25.6.0",
+    "ioredis-mock": "^8.13.1",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
