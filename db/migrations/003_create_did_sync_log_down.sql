@@ -1,1 +1,0 @@
-DROP TABLE IF EXISTS did_sync_log CASCADE;
