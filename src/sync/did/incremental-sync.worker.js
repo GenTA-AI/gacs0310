@@ -1,14 +1,10 @@
-'use strict';
+import { Worker } from 'bullmq';
+import redis from '../../queue/redis.client.js';
+import { DidIncrementalSyncService } from './incremental-sync.service.js';
 
-const { Worker } = require('bullmq');
-const redisModule = require('../../queue/redis.client');
-const { DidIncrementalSyncService } = require('./incremental-sync.service');
+export const QUEUE_NAME = process.env.DID_SYNC_QUEUE_NAME || 'did-incremental-sync';
 
-const QUEUE_NAME = process.env.DID_SYNC_QUEUE_NAME || 'did-incremental-sync';
-
-function buildDidIncrementalSyncWorker() {
-  const connection = redisModule.connection || redisModule.redis || redisModule.client || redisModule;
-
+export function buildDidIncrementalSyncWorker() {
   return new Worker(
     QUEUE_NAME,
     async () => {
@@ -16,14 +12,14 @@ function buildDidIncrementalSyncWorker() {
       return service.runOnce();
     },
     {
-      connection,
-      concurrency: 1,
+      connection: redis,
+      concurrency: Number(process.env.DID_SYNC_WORKER_CONCURRENCY || 1),
       lockDuration: Number(process.env.DID_SYNC_LOCK_TTL_MS || 840000),
     },
   );
 }
 
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   const worker = buildDidIncrementalSyncWorker();
 
   worker.on('completed', (_job, result) => {
@@ -37,8 +33,3 @@ if (require.main === module) {
     });
   });
 }
-
-module.exports = {
-  QUEUE_NAME,
-  buildDidIncrementalSyncWorker,
-};
