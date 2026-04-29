@@ -1,13 +1,10 @@
-'use strict';
+import db from '../../db/client.js';
 
-const dbModule = require('../../db/client');
-
-const pool = dbModule.pool || dbModule;
 const SYNC_NAME = 'smart_did.video_records';
 
-class DidSyncRepository {
-  constructor({ db = pool } = {}) {
-    this.db = db;
+export class DidSyncRepository {
+  constructor({ database = db } = {}) {
+    this.db = database;
   }
 
   async getCursor() {
@@ -24,9 +21,9 @@ class DidSyncRepository {
   async markStarted() {
     await this.db.query(
       `INSERT INTO did_sync_state (sync_name, last_started_at, updated_at)
-       VALUES ($1, now(), now())
+       VALUES ($1, NOW(), NOW())
        ON CONFLICT (sync_name)
-       DO UPDATE SET last_started_at = now(), updated_at = now()`,
+       DO UPDATE SET last_started_at = NOW(), updated_at = NOW()`,
       [SYNC_NAME],
     );
   }
@@ -34,9 +31,9 @@ class DidSyncRepository {
   async markFailed(error) {
     await this.db.query(
       `INSERT INTO did_sync_state (sync_name, last_error, updated_at)
-       VALUES ($1, $2, now())
+       VALUES ($1, $2, NOW())
        ON CONFLICT (sync_name)
-       DO UPDATE SET last_error = $2, updated_at = now()`,
+       DO UPDATE SET last_error = $2, updated_at = NOW()`,
       [SYNC_NAME, error.message],
     );
   }
@@ -55,36 +52,45 @@ class DidSyncRepository {
       };
 
       for (const record of records) {
-        const bookId = await this.resolveBookId(client, record.externalBookId);
+        try {
+          const bookId = await this.resolveBookId(client, record.externalBookId);
 
-        if (!bookId) {
-          summary.skipped += 1;
-          await this.insertSyncLog(client, record, 'skipped', null, 'No matching GACS book');
-          continue;
+          if (!bookId) {
+            summary.skipped += 1;
+            await this.insertSyncLog(client, record, 'skipped', null, 'No matching GACS book');
+            continue;
+          }
+
+          const changed = await this.upsertEngagement(client, bookId, record);
+          await this.updateVideoJobState(client, bookId, record);
+          await this.insertSyncLog(client, record, 'success', bookId);
+
+          if (changed) summary.insertedOrUpdated += 1;
+          else summary.unchanged += 1;
+        } catch (err) {
+          summary.failed += 1;
+          await this.insertSyncLog(client, record, 'failed', null, err.message);
         }
-
-        const changed = await this.upsertEngagement(client, bookId, record);
-        await this.updateVideoJobState(client, bookId, record);
-        await this.insertSyncLog(client, record, 'success', bookId);
-
-        if (changed) summary.insertedOrUpdated += 1;
-        else summary.unchanged += 1;
       }
 
       if (nextCursor) {
         await client.query(
           `INSERT INTO did_sync_state (
-             sync_name, cursor_updated_at, cursor_external_id,
-             last_success_at, last_error, updated_at
+             sync_name,
+             cursor_updated_at,
+             cursor_external_id,
+             last_success_at,
+             last_error,
+             updated_at
            )
-           VALUES ($1, $2, $3, now(), NULL, now())
+           VALUES ($1, $2, $3, NOW(), NULL, NOW())
            ON CONFLICT (sync_name)
            DO UPDATE SET
              cursor_updated_at = $2,
              cursor_external_id = $3,
-             last_success_at = now(),
+             last_success_at = NOW(),
              last_error = NULL,
-             updated_at = now()`,
+             updated_at = NOW()`,
           [SYNC_NAME, nextCursor.cursorUpdatedAt, nextCursor.cursorExternalId],
         );
       }
@@ -100,7 +106,21 @@ class DidSyncRepository {
   }
 
   async resolveBookId(client, externalBookId) {
-    const result = await client.query(
+    const refResult = await client.query(
+      `SELECT book_id
+       FROM book_external_refs
+       WHERE source_system = 'smart_did'
+         AND external_book_id = $1
+       ORDER BY first_seen_at ASC
+       LIMIT 1`,
+      [externalBookId],
+    );
+
+    if (refResult.rows[0]?.book_id) {
+      return refResult.rows[0].book_id;
+    }
+
+    const jobResult = await client.query(
       `SELECT book_id
        FROM video_jobs
        WHERE external_ref_id = $1
@@ -109,23 +129,30 @@ class DidSyncRepository {
       [externalBookId],
     );
 
-    return result.rows[0]?.book_id || null;
+    return jobResult.rows[0]?.book_id || null;
   }
 
   async upsertEngagement(client, bookId, record) {
     const result = await client.query(
       `INSERT INTO book_engagement (
-         book_id, source_system, request_count, ranking_score,
-         last_requested_at, synced_at, updated_at
+         book_id,
+         source_system,
+         request_count,
+         ranking_score,
+         last_requested_at,
+         synced_at,
+         created_at,
+         updated_at
        )
-       VALUES ($1, 'smart_did', $2, $3, $4, now(), now())
+       VALUES ($1, 'smart_did', $2, $3, $4, NOW(), NOW(), NOW())
        ON CONFLICT (book_id)
        DO UPDATE SET
+         source_system = EXCLUDED.source_system,
          request_count = EXCLUDED.request_count,
          ranking_score = EXCLUDED.ranking_score,
          last_requested_at = EXCLUDED.last_requested_at,
-         synced_at = now(),
-         updated_at = now()
+         synced_at = NOW(),
+         updated_at = NOW()
        WHERE book_engagement.request_count IS DISTINCT FROM EXCLUDED.request_count
           OR book_engagement.ranking_score IS DISTINCT FROM EXCLUDED.ranking_score
           OR book_engagement.last_requested_at IS DISTINCT FROM EXCLUDED.last_requested_at
@@ -142,7 +169,7 @@ class DidSyncRepository {
        SET did_reported_status = $2,
            did_request_retries = $3,
            expires_at = $4,
-           did_status_synced_at = now()
+           did_status_synced_at = NOW()
        WHERE job_id = (
          SELECT job_id
          FROM video_jobs
@@ -170,13 +197,26 @@ class DidSyncRepository {
 
     await client.query(
       `INSERT INTO did_sync_log (
-         source_system, sync_type, status, book_id,
-         external_book_id, payload_json, error_message,
-         idempotency_key, synced_at
+         source_system,
+         sync_type,
+         status,
+         book_id,
+         external_book_id,
+         payload_json,
+         error_message,
+         idempotency_key,
+         synced_at
        )
        VALUES (
-         'smart_did', 'incremental_sync', $1, $2,
-         $3, $4::jsonb, $5, $6, now()
+         'smart_did',
+         'incremental_sync',
+         $1,
+         $2,
+         $3,
+         $4::jsonb,
+         $5,
+         $6,
+         NOW()
        )
        ON CONFLICT (idempotency_key) DO NOTHING`,
       [
@@ -190,5 +230,3 @@ class DidSyncRepository {
     );
   }
 }
-
-module.exports = { DidSyncRepository };
