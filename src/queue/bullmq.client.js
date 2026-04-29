@@ -3,7 +3,7 @@ import redis from './redis.client.js';
 
 /**
  * BullMQ Queue instances
- * Reuses the singleton Redis connection.
+ * Reuses the singleton Redis connection
  */
 
 const queueOptions = { connection: redis };
