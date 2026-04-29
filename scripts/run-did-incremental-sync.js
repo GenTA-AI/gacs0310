@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-'use strict';
 
-const {
-  DidIncrementalSyncService,
-} = require('../src/sync/did/incremental-sync.service');
+import 'dotenv/config';
+import { DidIncrementalSyncService } from '../src/sync/did/incremental-sync.service.js';
 
 async function main() {
   const service = new DidIncrementalSyncService();
