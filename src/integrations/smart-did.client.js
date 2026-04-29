@@ -1,16 +1,19 @@
-'use strict';
+const DEFAULT_RECORDS_PATH = '/api/video-records';
 
-class SmartDIDClient {
+export class SmartDIDClient {
   constructor({
     baseUrl = process.env.SMART_DID_API_BASE_URL,
     apiToken = process.env.SMART_DID_API_TOKEN,
+    recordsPath = process.env.SMART_DID_VIDEO_RECORDS_PATH || DEFAULT_RECORDS_PATH,
     fetchImpl = globalThis.fetch,
     timeoutMs = Number(process.env.DID_SYNC_REQUEST_TIMEOUT_MS || 10000),
   } = {}) {
     if (!baseUrl) throw new Error('SMART_DID_API_BASE_URL is required');
+    if (typeof fetchImpl !== 'function') throw new Error('fetch is required');
 
     this.baseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
     this.apiToken = apiToken;
+    this.recordsPath = recordsPath;
     this.fetchImpl = fetchImpl;
     this.timeoutMs = timeoutMs;
   }
@@ -21,13 +24,10 @@ class SmartDIDClient {
     pageToken,
     limit = Number(process.env.DID_SYNC_BATCH_SIZE || 500),
   } = {}) {
-    const url = new URL('/api/video-records', this.baseUrl);
+    const url = new URL(this.recordsPath, this.baseUrl);
     url.searchParams.set('limit', String(limit));
 
-    if (updatedAfter) {
-      url.searchParams.set('updatedAfter', new Date(updatedAfter).toISOString());
-    }
-
+    if (updatedAfter) url.searchParams.set('updatedAfter', new Date(updatedAfter).toISOString());
     if (afterBookId) url.searchParams.set('afterBookId', afterBookId);
     if (pageToken) url.searchParams.set('pageToken', pageToken);
 
@@ -51,14 +51,12 @@ class SmartDIDClient {
       }
 
       return {
-        records: body.records || body.items || body.data || [],
-        nextPageToken: body.nextPageToken || body.nextCursor || null,
-        hasMore: Boolean(body.hasMore || body.nextPageToken || body.nextCursor),
+        records: body.records || body.items || body.data || body.videoRecords || [],
+        nextPageToken: body.nextPageToken || body.nextCursor || body.cursor || null,
+        hasMore: Boolean(body.hasMore || body.nextPageToken || body.nextCursor || body.cursor),
       };
     } finally {
       clearTimeout(timer);
     }
   }
 }
-
-module.exports = { SmartDIDClient };
