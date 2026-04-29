@@ -1,6 +1,4 @@
-'use strict';
-
-function mapSmartDIDVideoRecord(raw) {
+export function mapSmartDIDVideoRecord(raw) {
   const externalBookId = raw.bookId || raw.book_id;
   const updatedAt = parseDate(raw.updatedAt || raw.updated_at);
 
@@ -20,16 +18,15 @@ function mapSmartDIDVideoRecord(raw) {
   };
 }
 
-function mapSmartDIDVideoRecords(records) {
+export function mapSmartDIDVideoRecords(records) {
   return records.map(mapSmartDIDVideoRecord);
 }
 
-function buildCursorFromRecords(records) {
+export function buildCursorFromRecords(records) {
   if (!records.length) return null;
 
   const latest = records.reduce((best, record) => {
     if (!best) return record;
-
     if (record.updatedAt > best.updatedAt) return record;
 
     if (
@@ -53,9 +50,3 @@ function parseDate(value) {
   const date = value instanceof Date ? value : new Date(value);
   return Number.isNaN(date.getTime()) ? null : date;
 }
-
-module.exports = {
-  mapSmartDIDVideoRecord,
-  mapSmartDIDVideoRecords,
-  buildCursorFromRecords,
-};
