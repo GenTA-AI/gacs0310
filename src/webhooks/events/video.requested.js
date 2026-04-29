@@ -1,9 +1,6 @@
 /**
  * Handle video.requested event
- * Optimized for < 100ms critical path.
- *
- * Smart DID owns engagement signals.
- * GACS canonical metadata must not be overwritten here.
+ * Optimized for < 100ms critical path
  */
 export async function handle(payload, db, queue) {
   const {
@@ -24,20 +21,19 @@ export async function handle(payload, db, queue) {
 
     const refResult = await db.query(
       `SELECT book_id
-         FROM book_external_refs
-        WHERE source_system = 'smart_did'
-          AND external_book_id = $1
-        ORDER BY first_seen_at ASC
-        LIMIT 1`,
+       FROM book_external_refs
+       WHERE source_system = 'smart_did'
+         AND external_book_id = $1
+       ORDER BY first_seen_at ASC
+       LIMIT 1`,
       [externalBookId],
     );
 
     if (refResult.rows.length === 0) {
-      await enqueue(queue, 'reconciliation', {
+      await queue.add('reconciliation', {
         bookId: externalBookId,
         eventId,
         occurredAt: payload.occurredAt,
-        reason: 'unknown_book_id',
       });
 
       return {
@@ -61,8 +57,9 @@ export async function handle(payload, db, queue) {
          updated_at
        )
        VALUES ($1, 'smart_did', $2, $3, $4, NOW(), NOW(), NOW())
-       ON CONFLICT (book_id, source_system)
+       ON CONFLICT (book_id)
        DO UPDATE SET
+         source_system = EXCLUDED.source_system,
          request_count = EXCLUDED.request_count,
          ranking_score = EXCLUDED.ranking_score,
          last_requested_at = EXCLUDED.last_requested_at,
@@ -76,14 +73,14 @@ export async function handle(payload, db, queue) {
 
     await db.query(
       `UPDATE video_jobs
-          SET priority_score = $1,
-              requested_at = NOW()
-        WHERE book_id = $2
-          AND status NOT IN ('completed', 'cancelled')`,
+       SET priority_score = $1,
+           requested_at = NOW()
+       WHERE book_id = $2
+         AND status NOT IN ('completed', 'cancelled')`,
       [rankingScore, gacsBookId],
     );
 
-    enqueue(queue, 'async-engagement', {
+    queue.add('async-engagement', {
       type: 'snapshot',
       data: {
         bookId: gacsBookId,
@@ -91,58 +88,32 @@ export async function handle(payload, db, queue) {
         requestCount,
         rankingScore,
         lastRequestedAt,
-        eventId,
       },
     }).catch((err) => {
-      console.error('[video.requested] Snapshot enqueue failed:', err.message);
+      console.error('[video.requested] Async snapshot job failed:', err.message);
     });
 
     if (ageGroup) {
-      enqueue(queue, 'async-engagement', {
+      queue.add('async-engagement', {
         type: 'recommendation',
         data: {
           bookId: gacsBookId,
           sourceSystem: 'smart_did',
           ageGroup,
           sortOrder,
-          eventId,
         },
       }).catch((err) => {
-        console.error('[video.requested] Recommendation enqueue failed:', err.message);
+        console.error('[video.requested] Async recommendation job failed:', err.message);
       });
     }
 
     return {
       status: 'ok',
       bookId: gacsBookId,
-      enqueued: ageGroup ? ['async-engagement'] : ['async-engagement'],
+      enqueued: ['async-engagement'],
     };
   } catch (err) {
     console.error(`[video.requested] error: ${err.message}`);
     return { status: 'error_logged' };
   }
-}
-
-async function enqueue(queue, jobName, data) {
-  const target = resolveQueue(queue, jobName);
-  if (!target || typeof target.add !== 'function') return false;
-
-  await target.add(jobName, data);
-  return true;
-}
-
-function resolveQueue(queue, jobName) {
-  if (!queue) return null;
-  if (typeof queue.add === 'function') return queue;
-
-  const queueByJob = {
-    reconciliation: 'reconciliationQueue',
-    'async-engagement': 'asyncEngagementQueue',
-    'video-regeneration': 'videoRegenerationQueue',
-    'video-refresh': 'videoRefreshQueue',
-    'sync-alert': 'syncAlertQueue',
-    'dead-letter': 'deadLetterQueue',
-  };
-
-  return queue[queueByJob[jobName]];
 }
