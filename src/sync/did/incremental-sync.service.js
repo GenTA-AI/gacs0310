@@ -1,13 +1,11 @@
-'use strict';
-
-const { SmartDIDClient } = require('../../integrations/smart-did.client');
-const {
+import { SmartDIDClient } from '../../integrations/smart-did.client.js';
+import {
   mapSmartDIDVideoRecords,
   buildCursorFromRecords,
-} = require('./did-sync.mapper');
-const { DidSyncRepository } = require('./did-sync.repository');
+} from './did-sync.mapper.js';
+import { DidSyncRepository } from './did-sync.repository.js';
 
-class DidIncrementalSyncService {
+export class DidIncrementalSyncService {
   constructor({
     client = new SmartDIDClient(),
     repository = new DidSyncRepository(),
@@ -72,7 +70,10 @@ class DidIncrementalSyncService {
         hasMore = Boolean(page.hasMore && records.length > 0);
       }
 
-      if (hasMore) total.status = 'partial';
+      if (hasMore) {
+        total.status = 'partial';
+        total.reason = 'max_pages_reached';
+      }
 
       return total;
     } catch (error) {
@@ -81,5 +82,3 @@ class DidIncrementalSyncService {
     }
   }
 }
-
-module.exports = { DidIncrementalSyncService };
