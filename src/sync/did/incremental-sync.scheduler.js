@@ -1,23 +1,19 @@
-'use strict';
+import { didIncrementalSyncQueue } from '../../queue/bullmq.client.js';
 
-const { Queue } = require('bullmq');
-const redisModule = require('../../queue/redis.client');
-const { QUEUE_NAME } = require('./incremental-sync.worker');
+export const REPEATABLE_JOB_NAME = 'did.incremental-sync.every-15-minutes';
 
-const REPEATABLE_JOB_NAME = 'did.incremental-sync.every-15-minutes';
-
-async function scheduleDidIncrementalSync({
+export async function scheduleDidIncrementalSync({
   enabled = String(process.env.DID_SYNC_ENABLED || 'false') === 'true',
   intervalMs = Number(process.env.DID_SYNC_INTERVAL_MS || 900000),
 } = {}) {
   if (!enabled) {
-    return { status: 'disabled', queueName: QUEUE_NAME };
+    return {
+      status: 'disabled',
+      queueName: process.env.DID_SYNC_QUEUE_NAME || 'did-incremental-sync',
+    };
   }
 
-  const connection = redisModule.connection || redisModule.redis || redisModule.client || redisModule;
-  const queue = new Queue(QUEUE_NAME, { connection });
-
-  await queue.add(
+  await didIncrementalSyncQueue.add(
     REPEATABLE_JOB_NAME,
     {},
     {
@@ -35,12 +31,7 @@ async function scheduleDidIncrementalSync({
 
   return {
     status: 'scheduled',
-    queueName: QUEUE_NAME,
+    queueName: process.env.DID_SYNC_QUEUE_NAME || 'did-incremental-sync',
     every: intervalMs,
   };
 }
-
-module.exports = {
-  REPEATABLE_JOB_NAME,
-  scheduleDidIncrementalSync,
-};
