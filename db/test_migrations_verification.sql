@@ -3,37 +3,22 @@
 Database Migration Verification Script
 ================================================================================
 
-Instructions for running this script against the staging database:
-
-Use the psql command-line tool to execute this script against the gacs_staging
-database. The connection details as per AGENTS.md are:
-- Host: staging.gacs.internal
-- User: gacs_user
-- Port: 5432
-- Database: gacs_staging
-
-Run the following command from the project root:
+Run:
 psql -h staging.gacs.internal -p 5432 -U gacs_user -d gacs_staging -f db/test_migrations_verification.sql
 
 ================================================================================
 */
 
--- 1. List all tables created
--- Verify: book_engagement, audience_validation, did_sync_log, did_sync_state exist
 \echo '>>> 1. Listing all tables...'
 \dt
 
--- 2. Verify column additions to existing tables
 \echo '>>> 2. Verifying column additions to books and video_jobs tables...'
 
 SELECT column_name, data_type, column_default
 FROM information_schema.columns
 WHERE table_schema = 'public'
   AND table_name = 'books'
-  AND column_name IN (
-    'engagement_count',
-    'last_engagement_at'
-  )
+  AND column_name IN ('engagement_count', 'last_engagement_at')
 ORDER BY ordinal_position;
 
 SELECT column_name, data_type, column_default
@@ -52,7 +37,6 @@ WHERE table_schema = 'public'
   )
 ORDER BY ordinal_position;
 
--- 3. Show table structure for each new table
 \echo '>>> 3. Showing table structures for new tables...'
 
 \echo 'Table: book_engagement'
@@ -67,7 +51,9 @@ ORDER BY ordinal_position;
 \echo 'Table: did_sync_state'
 \d did_sync_state
 
--- 4. List all indexes
+\echo 'Table: book_external_refs'
+\d book_external_refs
+
 \echo '>>> 4. Listing all public indexes...'
 
 SELECT tablename, indexname
@@ -75,7 +61,6 @@ FROM pg_indexes
 WHERE schemaname = 'public'
 ORDER BY tablename, indexname;
 
--- 5. Show constraints on new tables
 \echo '>>> 5. Showing constraints on new tables...'
 
 SELECT table_name, constraint_name, constraint_type
@@ -85,11 +70,11 @@ WHERE table_schema = 'public'
     'book_engagement',
     'audience_validation',
     'did_sync_log',
-    'did_sync_state'
+    'did_sync_state',
+    'book_external_refs'
   )
 ORDER BY table_name, constraint_type, constraint_name;
 
--- 6. Verify permissions
 \echo '>>> 6. Verifying permissions for gacs_user...'
 
 SELECT table_name, privilege_type
@@ -100,11 +85,11 @@ WHERE grantee = 'gacs_user'
     'book_engagement',
     'audience_validation',
     'did_sync_log',
-    'did_sync_state'
+    'did_sync_state',
+    'book_external_refs'
   )
 ORDER BY table_name, privilege_type;
 
--- 7. Verify Smart DID sync cursor table is usable
 \echo '>>> 7. Verifying did_sync_state cursor upsert...'
 
 INSERT INTO did_sync_state (
@@ -142,7 +127,6 @@ WHERE sync_name = 'verification.smart_did.video_records';
 DELETE FROM did_sync_state
 WHERE sync_name = 'verification.smart_did.video_records';
 
--- 8. Verify changed-only UPSERT syntax used by incremental sync
 \echo '>>> 8. Verifying book_engagement changed-only UPSERT syntax...'
 
 PREPARE verify_book_engagement_upsert (
@@ -171,8 +155,9 @@ VALUES (
   NOW(),
   NOW()
 )
-ON CONFLICT (book_id, source_system)
+ON CONFLICT (book_id)
 DO UPDATE SET
+  source_system = EXCLUDED.source_system,
   request_count = EXCLUDED.request_count,
   ranking_score = EXCLUDED.ranking_score,
   last_requested_at = EXCLUDED.last_requested_at,
