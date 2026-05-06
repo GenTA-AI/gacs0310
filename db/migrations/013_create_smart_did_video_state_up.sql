@@ -7,7 +7,7 @@ separately from canonical GACS video_jobs.
 
 CREATE TABLE IF NOT EXISTS smart_did_video_state (
     id BIGSERIAL PRIMARY KEY,
-    book_id BIGINT NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    book_id UUID NOT NULL REFERENCES books(id) ON DELETE CASCADE,
     status VARCHAR(50),
     video_url TEXT,
     subtitle_url TEXT,

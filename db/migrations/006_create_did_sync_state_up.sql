@@ -1,3 +1,4 @@
+/* Incremental sync cursor state for DID engagement sync */
 CREATE TABLE IF NOT EXISTS did_sync_state (
     sync_name TEXT PRIMARY KEY,
     cursor_updated_at TIMESTAMPTZ,
