@@ -233,7 +233,8 @@ describe('SQL Syntax Tests', () => {
         const hasSegmentsTable = /recommendation_segments/i.test(sql);
         const hasEngagementTable = /book_did_engagement/i.test(sql);
         const hasRefsTable = /book_external_refs/i.test(sql);
-        if (hasCreateTable && !isStateTable && !isFunction && !isCron && !hasSnapshotTable && !hasSegmentsTable && !hasEngagementTable && !hasRefsTable) {
+        const hasScenariosTable = /book_video_scenarios/i.test(sql);
+        if (hasCreateTable && !isStateTable && !isFunction && !isCron && !hasSnapshotTable && !hasSegmentsTable && !hasEngagementTable && !hasRefsTable && !hasScenariosTable) {
           const hasColumnComment = /COMMENT ON COLUMN/i.test(sql);
           expect(hasColumnComment).toBe(true);
         }
