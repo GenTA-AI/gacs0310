@@ -1,7 +1,7 @@
 /* Table description: tracks audience consensus/agreement on video labels */
 CREATE TABLE audience_validation (
     id BIGSERIAL PRIMARY KEY,
-    video_id UUID NOT NULL REFERENCES video_queue(id) ON DELETE CASCADE,
+    video_id UUID NOT NULL REFERENCES video_jobs(job_id) ON DELETE CASCADE,
     label_key VARCHAR(100) NOT NULL,
     agreement_score DECIMAL(3, 2) DEFAULT 0,
     validator_count INT DEFAULT 0,
@@ -19,7 +19,7 @@ CREATE INDEX idx_audience_validation_last_validated ON audience_validation(last_
 GRANT SELECT, INSERT, UPDATE, DELETE ON audience_validation TO gacs_user;
 
 COMMENT ON TABLE audience_validation IS 'Tracks audience consensus/agreement on video labels';
-COMMENT ON COLUMN audience_validation.video_id IS 'Foreign key to video_queue table';
+COMMENT ON COLUMN audience_validation.video_id IS 'Foreign key to video_jobs table';
 COMMENT ON COLUMN audience_validation.label_key IS 'Key for the label being validated';
 COMMENT ON COLUMN audience_validation.agreement_score IS 'Consensus score between 0.00 and 1.00';
 COMMENT ON COLUMN audience_validation.validator_count IS 'Number of validators who contributed to the score';

@@ -13,11 +13,6 @@ Signals used:
 - video_jobs.created_at
 */
 
-ALTER TABLE book_did_engagement
-    ADD COLUMN IF NOT EXISTS request_count_decayed NUMERIC(12, 4) DEFAULT 0,
-    ADD COLUMN IF NOT EXISTS generation_priority_score NUMERIC(12, 4) DEFAULT 0,
-    ADD COLUMN IF NOT EXISTS score_last_refreshed_at TIMESTAMPTZ;
-
 CREATE OR REPLACE FUNCTION refresh_priority_scores()
 RETURNS TABLE(rows_updated INT)
 LANGUAGE SQL
