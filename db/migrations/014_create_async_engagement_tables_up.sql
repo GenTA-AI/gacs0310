@@ -8,7 +8,7 @@ These tables are targets for deferred BullMQ jobs from webhook handlers:
 
 CREATE TABLE IF NOT EXISTS book_engagement_snapshots (
     id BIGSERIAL PRIMARY KEY,
-    book_id UUID NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    book_id UUID NOT NULL REFERENCES books(book_id) ON DELETE CASCADE,
     source_system VARCHAR(50) NOT NULL,
     request_count INT NOT NULL DEFAULT 0,
     ranking_score NUMERIC(8,4),
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS book_engagement_snapshots (
 
 CREATE TABLE IF NOT EXISTS book_recommendation_segments (
     id BIGSERIAL PRIMARY KEY,
-    book_id UUID NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    book_id UUID NOT NULL REFERENCES books(book_id) ON DELETE CASCADE,
     source_system VARCHAR(50) NOT NULL,
     age_group VARCHAR(50),
     sort_order VARCHAR(50),

@@ -112,13 +112,13 @@ describe('SQL Syntax Tests', () => {
       }
     });
 
-    it('3.2 book_id foreign keys reference books(id)', () => {
+    it('3.2 book_id foreign keys reference books(book_id)', () => {
       for (const file of files) {
         const sql = readSql(file.path);
         const bookIdRefs = sql.match(/book_id\s+[^,]*REFERENCES\s+(\w+\s*\(\w+\))/gi);
         if (bookIdRefs) {
           for (const ref of bookIdRefs) {
-            expect(ref.toLowerCase()).toContain('books(id)');
+            expect(ref.toLowerCase()).toContain('books(book_id)');
           }
         }
       }

@@ -7,7 +7,7 @@ separately from the original book_engagement table which tracks user engagement.
 
 CREATE TABLE book_did_engagement (
     id BIGSERIAL PRIMARY KEY,
-    book_id UUID NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    book_id UUID NOT NULL REFERENCES books(book_id) ON DELETE CASCADE,
     source_system VARCHAR(50) NOT NULL DEFAULT 'smart_did',
     request_count INT NOT NULL DEFAULT 0,
     ranking_score NUMERIC(8,4) NOT NULL DEFAULT 0,

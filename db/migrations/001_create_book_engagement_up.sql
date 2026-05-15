@@ -1,7 +1,7 @@
 /* Table description: tracks user engagement with books */
 CREATE TABLE book_engagement (
     id BIGSERIAL PRIMARY KEY,
-    book_id UUID NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    book_id UUID NOT NULL REFERENCES books(book_id) ON DELETE CASCADE,
     user_id VARCHAR(255) NOT NULL,
     engagement_type VARCHAR(50) NOT NULL,
     engagement_count INT DEFAULT 0,
