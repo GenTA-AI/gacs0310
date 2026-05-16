@@ -1,21 +1,11 @@
-const DEFAULT_RECORDS_PATH = '/api/video-records';
+import { DidApiBase } from './did-api-base.js';
 
-export class SmartDIDClient {
-  constructor({
-    baseUrl = process.env.SMART_DID_API_BASE_URL,
-    apiToken = process.env.SMART_DID_API_TOKEN,
-    recordsPath = process.env.SMART_DID_VIDEO_RECORDS_PATH || DEFAULT_RECORDS_PATH,
-    fetchImpl = globalThis.fetch,
-    timeoutMs = Number(process.env.DID_SYNC_REQUEST_TIMEOUT_MS || 10000),
-  } = {}) {
-    if (!baseUrl) throw new Error('SMART_DID_API_BASE_URL is required');
-    if (typeof fetchImpl !== 'function') throw new Error('fetch is required');
-
-    this.baseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-    this.apiToken = apiToken;
-    this.recordsPath = recordsPath;
-    this.fetchImpl = fetchImpl;
-    this.timeoutMs = timeoutMs;
+export class SmartDIDClient extends DidApiBase {
+  constructor(options = {}) {
+    super(options);
+    this.recordsPath = options.recordsPath
+      || process.env.SMART_DID_VIDEO_RECORDS_PATH
+      || '/api/video-records';
   }
 
   async fetchUpdatedVideoRecords({
@@ -24,39 +14,17 @@ export class SmartDIDClient {
     pageToken,
     limit = Number(process.env.DID_SYNC_BATCH_SIZE || 500),
   } = {}) {
-    const url = new URL(this.recordsPath, this.baseUrl);
-    url.searchParams.set('limit', String(limit));
+    const params = { limit: String(limit) };
+    if (updatedAfter) params.updatedAfter = new Date(updatedAfter).toISOString();
+    if (afterBookId) params.afterBookId = afterBookId;
+    if (pageToken) params.pageToken = pageToken;
 
-    if (updatedAfter) url.searchParams.set('updatedAfter', new Date(updatedAfter).toISOString());
-    if (afterBookId) url.searchParams.set('afterBookId', afterBookId);
-    if (pageToken) url.searchParams.set('pageToken', pageToken);
+    const body = await this._get(this.recordsPath, params);
 
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), this.timeoutMs);
-
-    try {
-      const response = await this.fetchImpl(url, {
-        method: 'GET',
-        signal: controller.signal,
-        headers: {
-          Accept: 'application/json',
-          ...(this.apiToken ? { Authorization: `Bearer ${this.apiToken}` } : {}),
-        },
-      });
-
-      const body = await response.json();
-
-      if (!response.ok) {
-        throw new Error(`Smart DID API failed with status ${response.status}`);
-      }
-
-      return {
-        records: body.records || body.items || body.data || body.videoRecords || [],
-        nextPageToken: body.nextPageToken || body.nextCursor || body.cursor || null,
-        hasMore: Boolean(body.hasMore || body.nextPageToken || body.nextCursor || body.cursor),
-      };
-    } finally {
-      clearTimeout(timer);
-    }
+    return {
+      records: body.records || body.items || body.data || body.videoRecords || [],
+      nextPageToken: body.nextPageToken || body.nextCursor || body.cursor || null,
+      hasMore: Boolean(body.hasMore || body.nextPageToken || body.nextCursor || body.cursor),
+    };
   }
 }
