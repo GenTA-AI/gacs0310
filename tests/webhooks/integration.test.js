@@ -21,8 +21,9 @@ jest.unstable_mockModule('../../src/queue/bullmq.client.js', () => {
   };
 });
 
+const mockDb = { query: jest.fn(), end: jest.fn(), on: jest.fn() };
 jest.unstable_mockModule('../../src/db/client.js', () => ({
-  default: { query: jest.fn(), end: jest.fn(), on: jest.fn() }
+  default: mockDb
 }));
 
 const mockCheckIdempotency = jest.fn().mockResolvedValue({ isDuplicate: false, redisAvailable: true });
@@ -55,8 +56,7 @@ describe('Webhook Integration Test Suite - Multi-Event Lifecycle', () => {
 
   describe('SECTION 1: Complete Book Lifecycle', () => {
     it('1.1 Book lifecycle: requested -> updated -> expired -> deleted', async () => {
-      const db = (await import('../../src/db/client.js')).default;
-      db.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
+      mockDb.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
 
       // Step 1: Book is requested
       const requestedRes = await postWebhook(makePayload({
@@ -89,23 +89,21 @@ describe('Webhook Integration Test Suite - Multi-Event Lifecycle', () => {
     });
 
     it('1.2 Each lifecycle event hits the database', async () => {
-      const db = (await import('../../src/db/client.js')).default;
-      db.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
+      mockDb.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
 
       await postWebhook(makePayload({ eventType: 'video.requested', data: { bookId: TEST_EXT_ID, requestCount: 1, rankingScore: 0.5 } }));
       await postWebhook(makePayload({ eventType: 'video.updated', data: { bookId: TEST_EXT_ID, status: 'completed' } }));
       await postWebhook(makePayload({ eventType: 'video.expired', data: { bookId: TEST_EXT_ID } }));
 
-      expect(db.query).toHaveBeenCalled();
-      const bookDidCalls = db.query.mock.calls.filter(c => c[0] && c[0].includes('book_did_engagement'));
-      expect(bookDidCalls.length).toBeGreaterThanOrEqual(1);
+      expect(mockDb.query).toHaveBeenCalled();
+      const syncEventCalls = mockDb.query.mock.calls.filter(c => c[0] && c[0].includes('smart_did_sync_events'));
+      expect(syncEventCalls.length).toBeGreaterThanOrEqual(1);
     });
   });
 
   describe('SECTION 2: Error Recovery Lifecycle', () => {
     it('2.1 Failed video triggers regeneration after 3 retries', async () => {
-      const db = (await import('../../src/db/client.js')).default;
-      db.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
+      mockDb.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
 
       // Third failure (retryCount: 3) - should trigger regeneration
       const res = await postWebhook(makePayload({
@@ -119,8 +117,7 @@ describe('Webhook Integration Test Suite - Multi-Event Lifecycle', () => {
 
   describe('SECTION 3: Unknown Book Reconciliation', () => {
     it('3.1 Unknown book sends to reconciliation queue', async () => {
-      const db = (await import('../../src/db/client.js')).default;
-      db.query.mockResolvedValue({ rows: [] });
+      mockDb.query.mockResolvedValue({ rows: [] });
 
       const res = await postWebhook(makePayload({
         eventType: 'video.requested',
@@ -128,37 +125,35 @@ describe('Webhook Integration Test Suite - Multi-Event Lifecycle', () => {
       }));
       expect(res.status).toBe(200);
       expect(res.body.status).toBe('skipped');
-      expect(res.body.reason).toBe('unknown_book_id_sent_to_reconciliation');
+      expect(res.body.reason).toBe('unknown_book');
     });
   });
 
   describe('SECTION 4: Data Ownership Verification', () => {
     it('4.1 Webhook events do NOT update books.title or books.author', async () => {
-      const db = (await import('../../src/db/client.js')).default;
-      db.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
+      mockDb.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
 
       await postWebhook(makePayload({
         eventType: 'video.requested',
         data: { bookId: TEST_EXT_ID, requestCount: 1, rankingScore: 0.5 }
       }));
 
-      const booksUpdate = db.query.mock.calls.find(c =>
+      const booksUpdate = mockDb.query.mock.calls.find(c =>
         c[0] && c[0].includes('UPDATE books') && (c[0].includes('title') || c[0].includes('author'))
       );
       expect(booksUpdate).toBeUndefined();
     });
 
-    it('4.2 Engagement signals go to book_did_engagement (not book_engagement)', async () => {
-      const db = (await import('../../src/db/client.js')).default;
-      db.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
+    it('4.2 Engagement signals go to smart_did_sync_events (not book_engagement)', async () => {
+      mockDb.query.mockResolvedValue({ rows: [{ book_id: TEST_BOOK_ID }] });
 
       await postWebhook(makePayload({
         eventType: 'video.requested',
         data: { bookId: TEST_EXT_ID, requestCount: 1, rankingScore: 0.5 }
       }));
 
-      const wrongTableCall = db.query.mock.calls.find(c =>
-        c[0] && c[0].includes('INSERT INTO book_engagement') && !c[0].includes('book_did_engagement')
+      const wrongTableCall = mockDb.query.mock.calls.find(c =>
+        c[0] && c[0].includes('INSERT INTO book_engagement')
       );
       expect(wrongTableCall).toBeUndefined();
     });

@@ -177,44 +177,41 @@ describe('Phase B: Book Video Scenarios', () => {
       expect(result.reason).toBe('missing_book_id');
     });
 
-    it('3.2 sends to reconciliation for unknown book', async () => {
+    it('3.2 skips unknown book gracefully', async () => {
       mockDb.query.mockResolvedValue({ rows: [] });
       const result = await videoDoneHandler({ eventId: 'evt-1', data: { bookId: 'unknown-book' } }, mockDb, mockQueue);
       expect(result.status).toBe('skipped');
-      expect(result.reason).toContain('reconciliation');
-      expect(mockQueue.add).toHaveBeenCalledWith('reconciliation', expect.any(Object));
+      expect(result.reason).toBe('unknown_book');
     });
 
-    it('3.3 updates scenario state and video_jobs on completion', async () => {
+    it('3.3 inserts sync event on completion', async () => {
       mockDb.query
         .mockResolvedValueOnce({ rows: [{ book_id: 'gacs-book-1' }] })
-        .mockResolvedValueOnce({ rows: [] })
         .mockResolvedValueOnce({ rows: [] });
       const payload = { eventId: 'evt-1', data: { bookId: 'ext-1', scenarioType: 'mood', status: 'completed', videoUrl: 'https://cdn.example.com/video.mp4' } };
       const result = await videoDoneHandler(payload, mockDb, mockQueue);
       expect(result.status).toBe('ok');
-      expect(result.videoStatus).toBe('completed');
+      expect(result.queuedForSync).toBe(true);
     });
 
-    it('3.4 updates scenario state to failed on error', async () => {
+    it('3.4 inserts sync event on failure', async () => {
       mockDb.query
         .mockResolvedValueOnce({ rows: [{ book_id: 'gacs-book-1' }] })
-        .mockResolvedValueOnce({ rows: [] })
         .mockResolvedValueOnce({ rows: [] });
       const payload = { eventId: 'evt-1', data: { bookId: 'ext-1', scenarioType: 'mood', status: 'failed', errorMessage: 'Generation timeout', videoUrl: null } };
       const result = await videoDoneHandler(payload, mockDb, mockQueue);
       expect(result.status).toBe('ok');
-      expect(result.videoStatus).toBe('failed');
+      expect(result.queuedForSync).toBe(true);
     });
 
-    it('3.5 updates video_jobs even without scenarioType', async () => {
+    it('3.5 inserts sync event without scenarioType', async () => {
       mockDb.query
         .mockResolvedValueOnce({ rows: [{ book_id: 'gacs-book-1' }] })
         .mockResolvedValueOnce({ rows: [] });
       const payload = { eventId: 'evt-1', data: { bookId: 'ext-1', videoUrl: 'https://cdn.example.com/video.mp4' } };
       const result = await videoDoneHandler(payload, mockDb, mockQueue);
       expect(result.status).toBe('ok');
-      expect(result.videoStatus).toBe('completed');
+      expect(result.queuedForSync).toBe(true);
     });
 
     it('3.6 returns error_logged on exception', async () => {
