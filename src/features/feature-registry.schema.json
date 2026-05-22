@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GACS ML Feature Registry",
+  "description": "Defines all available ML features derived from existing GACS source tables. Features are computed by the feature computation service and stored in ml_book_features.",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the registry"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last update timestamp"
+    },
+    "features": {
+      "type": "array",
+      "description": "Array of feature definitions",
+      "items": {
+        "$ref": "#/definitions/FeatureDefinition"
+      }
+    }
+  },
+  "required": ["version", "features"],
+  "additionalProperties": false,
+  "definitions": {
+    "FeatureDefinition": {
+      "type": "object",
+      "properties": {
+        "feature_name": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]+$",
+          "description": "Unique snake_case feature identifier"
+        },
+        "feature_type": {
+          "type": "string",
+          "enum": ["numeric", "categorical", "boolean", "timestamp", "text_embedding"],
+          "description": "Data type of the feature"
+        },
+        "source_table": {
+          "type": "string",
+          "description": "Existing GACS table name"
+        },
+        "source_column": {
+          "type": "string",
+          "description": "Column name in source_table"
+        },
+        "description": {
+          "type": "string",
+          "description": "Human-readable description of what this feature represents"
+        },
+        "nullable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether null values are expected in the source"
+        },
+        "feature_group": {
+          "type": "string",
+          "enum": ["engagement", "video_state", "recommendation", "scenario", "sync_quality", "job_priority", "audience", "drift"],
+          "description": "Logical grouping for feature organization"
+        },
+        "aggregation": {
+          "type": "object",
+          "properties": {
+            "window": {
+              "type": "string",
+              "enum": ["point_in_time", "7d", "30d", "90d", "all_time"],
+              "description": "Lookback window for aggregation"
+            },
+            "function": {
+              "type": "string",
+              "enum": ["latest", "sum", "avg", "count", "max", "min", "decay"],
+              "description": "Aggregation function"
+            }
+          },
+          "additionalProperties": false
+        },
+        "freshness_sla": {
+          "type": "string",
+          "pattern": "^\\d+[mhd]$",
+          "description": "Maximum age of source data (e.g. 15m, 1h, 1d)"
+        },
+        "computation": {
+          "type": "string",
+          "description": "SQL expression to compute the feature from source"
+        },
+        "transforms": {
+          "type": "array",
+          "description": "Optional transformations applied after extraction",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["log", "normalize", "clip", "one_hot", "label_encode", "z_score", "min_max"],
+                "description": "Transformation type"
+              },
+              "params": {
+                "type": "object",
+                "description": "Transformation parameters (e.g. { min: 0, max: 1 } for min_max)"
+              }
+            },
+            "required": ["type"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["feature_name", "feature_type", "source_table", "source_column", "description"],
+      "additionalProperties": false
+    }
+  }
+}

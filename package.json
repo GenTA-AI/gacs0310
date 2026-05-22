@@ -9,11 +9,13 @@
     "test:sync": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/sync",
     "sync:did": "node scripts/run-did-incremental-sync.js",
     "worker:did-sync": "node src/sync/did/incremental-sync.worker.js",
-    "priority:refresh": "node scripts/run-refresh-priority-scores.js"
+    "priority:refresh": "node scripts/run-refresh-priority-scores.js",
+    "feature:compute": "echo 'TODO: ML feature computation worker' && exit 0",
+    "worker:features": "echo 'TODO: ML feature worker' && exit 0",
+    "worker:inference": "echo 'TODO: ML inference worker' && exit 0"
   },
   "dependencies": {
     "bullmq": "^5.76.1",
-    "crypto": "^1.0.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "ioredis": "^5.10.1",

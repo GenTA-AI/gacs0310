@@ -68,6 +68,7 @@ Smart DID contributions are time-series signals (engagement, popularity, recomme
   - video.updated.js
   - video.deleted.js
   - video.expired.js
+  - video.done.js
   - sync.completed.js
 - tests/webhooks/                    — comprehensive test suite
   - master.test.js                   — 40 tests: happy path + concurrency + chaos
@@ -157,3 +158,32 @@ Default:
 ```env
 DID_SYNC_LOOKBACK_SECONDS=120
 ```
+
+---
+
+## ML Feature Store Standards (Sprint 1+)
+
+### File Naming
+- `src/features/feature-registry.schema.json` — JSON Schema defining feature definitions
+- `src/features/feature-computation.service.js` — computes feature vectors from source tables
+- `src/features/feature-computation.worker.js` — BullMQ worker
+- `src/features/feature-validator.js` — null/range/distribution validation
+- `src/ml/inference.worker.js` — loads model, scores books
+- `src/ml/train_pipeline.py` — Python training pipeline
+- `src/ml/evaluate.py` — evaluation against baseline
+- `src/ml/model_registry.py` — versioned model artifact storage
+
+### npm Scripts
+- `npm run feature:compute` — one-shot feature computation
+- `npm run worker:features` — BullMQ feature worker
+- `npm run worker:inference` — BullMQ inference worker
+
+### Feature Registry
+- Schema: `src/features/feature-registry.schema.json`
+- Defines all available features from source tables
+- Each feature has: `feature_name`, `feature_type`, `source_table`, `source_column`, `aggregation`, `freshness_sla`, `computation`, `transforms`
+
+### Data Ownership (ML Intersection)
+- ML features are derived from existing tables — never introduce new source-of-truth via ML
+- `ml_book_features` materializes computed features for serving, but source tables remain canonical
+- Predictions stored in `ml_prediction_log` are audit records, not operational data

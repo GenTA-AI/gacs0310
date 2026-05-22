@@ -254,6 +254,48 @@ LIMIT 10;
 
 ---
 
+---
+
+## ML Feature Store (Planned)
+
+The ML Feature Store is the next major phase. Feature definitions are documented in
+`src/features/feature-registry.schema.json` and validated against that schema.
+
+### Available Feature Sources
+
+| Source Table | Feature Group | Key Columns | Aggregation Windows | Freshness SLA |
+|---|---|---|---|---|
+| `book_did_engagement` | Engagement | `request_count`, `ranking_score`, `request_count_decayed`, `generation_priority_score` | point_in_time, 7d, 30d, 90d | 1h |
+| `book_engagement_snapshots` | Engagement (time-series) | `request_count`, `ranking_score`, `captured_at` | 7d, 30d, 90d, all_time | 1h |
+| `smart_did_video_state` | Video State | `status`, `retry_count`, `error_message` | point_in_time | 15m |
+| `book_recommendation_segments` | Recommendation | `age_group`, `sort_order` | point_in_time | 1d |
+| `book_video_scenarios` | Scenario | `scenario_type`, `state`, `priority` | point_in_time | 1h |
+| `video_jobs` | Job Priority | `priority_score`, `did_request_retries`, `expires_at`, `status` | point_in_time | 1h |
+| `audience_validation` | Audience | `agreement_score`, `validator_count` | point_in_time, 7d | 1d |
+| `did_sync_log` | Sync Quality | `status`, `record_count`, `error_details` | 7d, 30d | 1h (aggregated) |
+| `book_sync_fingerprints` | Drift Detection | `payload_hash`, `last_synced_at` | point_in_time | 15m |
+
+### Planned Tables (Sprint 1)
+
+| Table | Purpose | Owner |
+|---|---|---|
+| `ml_book_features` | Materialized feature vector per book per snapshot | Feature computation service |
+| `ml_prediction_log` | Model predictions per book for audit and feedback | Inference worker |
+
+### Data Ownership (ML)
+
+- ML features are **derived** from existing tables — no new source-of-truth via ML
+- `ml_book_features` caches computed features for serving; source tables remain canonical
+- Predictions in `ml_prediction_log` are audit records, not operational data
+
+### Feature Registry
+
+See `src/features/feature-registry.schema.json` for the complete feature catalog.
+Each entry includes: `feature_name`, `feature_type`, `source_table`, `source_column`,
+`aggregation`, `freshness_sla`, `computation`, `transforms`.
+
+---
+
 ## Related Files
 
 - **Sync stack**: `src/sync/did/incremental-sync.service.js`, `did-sync.repository.js`, `did-sync.mapper.js`

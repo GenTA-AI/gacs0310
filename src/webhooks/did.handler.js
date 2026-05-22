@@ -92,6 +92,9 @@ export async function handleWebhook(req, res) {
       case 'sync.completed':
         handler = (await import('./events/sync.completed.js')).handle;
         break;
+      case 'video.done':
+        handler = (await import('./events/video.done.js')).handle;
+        break;
       default:
         console.warn(`[${Date.now()}] webhook:ignored Unknown eventType: ${eventType}`);
         return res.status(200).json({ status: 'ignored', eventId });

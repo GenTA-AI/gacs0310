@@ -80,10 +80,14 @@ AS $$
             ) AS starvation_signal
 
         FROM book_did_engagement be
-        JOIN video_jobs vj
-          ON vj.book_id = be.book_id
-        WHERE vj.status NOT IN ('completed', 'cancelled')
-          AND (
+        JOIN (
+            SELECT DISTINCT ON (vj_inner.book_id)
+                vj_inner.*
+            FROM video_jobs vj_inner
+            WHERE vj_inner.status NOT IN ('completed', 'cancelled')
+            ORDER BY vj_inner.book_id, vj_inner.priority_score DESC NULLS LAST
+        ) vj ON vj.book_id = be.book_id
+        WHERE (
               be.score_last_refreshed_at IS NULL
               OR be.score_last_refreshed_at < NOW() - INTERVAL '1 hour'
           )
