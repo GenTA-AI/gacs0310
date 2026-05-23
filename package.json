@@ -10,16 +10,23 @@
     "sync:did": "node scripts/run-did-incremental-sync.js",
     "worker:did-sync": "node src/sync/did/incremental-sync.worker.js",
     "priority:refresh": "node scripts/run-refresh-priority-scores.js",
-    "feature:compute": "echo 'TODO: ML feature computation worker' && exit 0",
-    "worker:features": "echo 'TODO: ML feature worker' && exit 0",
-    "worker:inference": "echo 'TODO: ML inference worker' && exit 0"
+    "feature:compute": "node scripts/run-feature-compute.js",
+    "worker:features": "FEATURE_WORKER_ENABLED=true node src/app.js",
+    "worker:inference": "node src/ml/inference.worker.js",
+    "ml:export": "node scripts/export-ml-training-data.js",
+    "ml:train": "python src/ml/train_pipeline.py",
+    "ml:evaluate": "python src/ml/evaluate.py",
+    "ml:retrain": "node src/ml/retrain.trigger.js",
+    "ml:retrain:watch": "nodemon --watch data/training_data.csv --exec 'npm run ml:retrain'",
+    "ml:feedback": "node src/ml/feedback-tracker.service.js"
   },
   "dependencies": {
     "bullmq": "^5.76.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "ioredis": "^5.10.1",
-    "pg": "^8.20.0"
+    "pg": "^8.20.0",
+    "onnxruntime-node": "^1.17.0"
   },
   "devDependencies": {
     "@jest/globals": "^30.3.0",
