@@ -20,6 +20,16 @@ export const didIncrementalSyncQueue = new Queue(
   queueOptions,
 );
 
+export const featureComputationQueue = new Queue(
+  process.env.FEATURE_COMPUTATION_QUEUE_NAME || 'feature-computation',
+  queueOptions,
+);
+
+export const inferenceQueue = new Queue(
+  process.env.INFERENCE_QUEUE_NAME || 'ml-inference',
+  queueOptions,
+);
+
 const queues = {
   deadLetterQueue,
   reconciliationQueue,
@@ -28,6 +38,8 @@ const queues = {
   syncAlertQueue,
   asyncEngagementQueue,
   didIncrementalSyncQueue,
+  featureComputationQueue,
+  inferenceQueue,
 };
 
 for (const [name, queue] of Object.entries(queues)) {

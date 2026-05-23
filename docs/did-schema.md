@@ -213,6 +213,13 @@ PostgreSQL function that recomputes `generation_priority_score` and `request_cou
 012: smart_did video columns on video_jobs
 013: smart_did_video_state (UUID FK)
 014: async engagement tables (UUID FKs)
+015: book_video_scenarios
+016: smart_did_sync_events
+017: book_sync_fingerprints
+018: extend_did_sync_log
+019: annotate_ml_features (COMMENT ON annotations)
+020: ml_book_features (ML feature vectors)
+021: ml_prediction_log (ML prediction audit log)
 ```
 
 ---
@@ -275,12 +282,12 @@ The ML Feature Store is the next major phase. Feature definitions are documented
 | `did_sync_log` | Sync Quality | `status`, `record_count`, `error_details` | 7d, 30d | 1h (aggregated) |
 | `book_sync_fingerprints` | Drift Detection | `payload_hash`, `last_synced_at` | point_in_time | 15m |
 
-### Planned Tables (Sprint 1)
+### ML Tables (Sprint 1)
 
-| Table | Purpose | Owner |
-|---|---|---|
-| `ml_book_features` | Materialized feature vector per book per snapshot | Feature computation service |
-| `ml_prediction_log` | Model predictions per book for audit and feedback | Inference worker |
+| Table | Migration | Purpose | Owner |
+|---|---|---|---|
+| `ml_book_features` | 020 | Materialized feature vector per book per snapshot | Feature computation service |
+| `ml_prediction_log` | 021 | Model predictions per book for audit and feedback | Inference worker |
 
 ### Data Ownership (ML)
 

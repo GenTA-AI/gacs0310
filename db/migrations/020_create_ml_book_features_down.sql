@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS ml_book_features CASCADE;

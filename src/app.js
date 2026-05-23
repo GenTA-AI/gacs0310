@@ -5,6 +5,8 @@ import pool from './db/client.js';
 import webhookRouter from './webhooks/index.js';
 import { validateEnv } from './webhooks/did.handler.js';
 import { buildSyncEventWorker } from './sync/did/sync-event.worker.js';
+import { featuresRouter, buildFeatureComputationWorker } from './features/index.js';
+import { buildInferenceWorker } from './ml/inference.worker.js';
 
 try {
   validateEnv();
@@ -24,6 +26,7 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/webhooks', webhookRouter);
+app.use('/api/features', featuresRouter);
 
 let server;
 const activeWorkers = [];
@@ -57,6 +60,18 @@ if (process.env.NODE_ENV !== 'test') {
     const worker = buildSyncEventWorker();
     activeWorkers.push(worker);
     console.log('[Startup] Sync event worker started');
+  }
+
+  if (process.env.FEATURE_WORKER_ENABLED === 'true') {
+    const worker = buildFeatureComputationWorker();
+    activeWorkers.push(worker);
+    console.log('[Startup] Feature computation worker started');
+  }
+
+  if (process.env.INFERENCE_WORKER_ENABLED === 'true') {
+    const worker = buildInferenceWorker();
+    activeWorkers.push(worker);
+    console.log('[Startup] ML inference worker started');
   }
 }
 
