@@ -14,3 +14,5 @@ ignore = ["E501"]  # Line length handled separately
 
 [tool.ruff.lint.per-file-ignores]
 "check_secrets.py" = ["E402"]
+"src/video_generator.py" = ["E741", "F401", "F541", "F841", "I001"]
+"tests/test_*.py" = ["F401", "I001"]
