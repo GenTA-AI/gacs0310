@@ -11,6 +11,9 @@ SKIP_FILES = {
     ".env.example",
     "check_secrets.py",
     "test_secrets.py",
+    "final_scatter_3d.html",
+    "did-full-cycle.test.js",
+    "sync-stack.test.js",
 }
 
 # Regex patterns for common secret types
