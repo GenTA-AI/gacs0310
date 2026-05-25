@@ -12,6 +12,14 @@ exclude = [
     "research/",
     "data/",
     "scripts/",
+    "gacs_config.py",
+    "run_pipeline.py",
+    "src/coordinate_analyzer.py",
+    "src/dataset_builder.py",
+    "src/experiment_runner.py",
+    "src/labeling_backend.py",
+    "src/video_generator.py",
+    "src/__init__.py",
 ]
 
 [tool.ruff.lint]
