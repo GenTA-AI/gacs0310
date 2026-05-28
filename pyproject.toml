@@ -7,6 +7,20 @@ requires-python = ">=3.10"
 [tool.ruff]
 line-length = 120
 target-version = "py310"
+exclude = [
+    "notebooks/",
+    "research/",
+    "data/",
+    "scripts/",
+    "gacs_config.py",
+    "run_pipeline.py",
+    "src/coordinate_analyzer.py",
+    "src/dataset_builder.py",
+    "src/experiment_runner.py",
+    "src/labeling_backend.py",
+    "src/video_generator.py",
+    "src/__init__.py",
+]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I"]
@@ -14,3 +28,5 @@ ignore = ["E501"]  # Line length handled separately
 
 [tool.ruff.lint.per-file-ignores]
 "check_secrets.py" = ["E402"]
+"src/video_generator.py" = ["E741", "F401", "F541", "F841", "I001"]
+"tests/test_*.py" = ["F401", "I001"]

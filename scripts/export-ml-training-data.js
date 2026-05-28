@@ -24,17 +24,26 @@ function parseArgs(argv) {
 function csvValue(value) {
   if (value === null || value === undefined) return '';
   const text = String(value);
+
   if (/[",\n\r]/.test(text)) {
     return `"${text.replaceAll('"', '""')}"`;
   }
+
   return text;
 }
 
 function encodeFeatureVector(featureVector) {
-  return Buffer.from(JSON.stringify(featureVector || {}), 'utf8').toString('base64');
+  return Buffer.from(
+    JSON.stringify(featureVector || {}),
+    'utf8'
+  ).toString('base64');
 }
 
-async function exportTrainingData({ startDate, endDate, output }) {
+async function exportTrainingData({
+  startDate,
+  endDate,
+  output,
+}) {
   const { rows } = await pool.query(
     `WITH latest_features AS (
        SELECT DISTINCT ON (book_id, feature_version)
@@ -53,10 +62,15 @@ async function exportTrainingData({ startDate, endDate, output }) {
        lf.feature_version,
        lf.computed_at,
        lf.feature_vector,
-       COALESCE(feedback.actual_priority_score, bde.generation_priority_score) AS label,
+       COALESCE(
+         feedback.actual_priority_score,
+         bde.generation_priority_score
+       ) AS label,
        CASE
-         WHEN feedback.actual_priority_score IS NOT NULL THEN 'actual_priority_score'
-         WHEN bde.generation_priority_score IS NOT NULL THEN 'generation_priority_score'
+         WHEN feedback.actual_priority_score IS NOT NULL
+           THEN 'actual_priority_score'
+         WHEN bde.generation_priority_score IS NOT NULL
+           THEN 'generation_priority_score'
          ELSE NULL
        END AS label_source
      FROM latest_features lf
@@ -70,7 +84,10 @@ async function exportTrainingData({ startDate, endDate, output }) {
         ORDER BY pl.inferred_at DESC
         LIMIT 1
      ) feedback ON TRUE
-     WHERE COALESCE(feedback.actual_priority_score, bde.generation_priority_score) IS NOT NULL
+     WHERE COALESCE(
+       feedback.actual_priority_score,
+       bde.generation_priority_score
+     ) IS NOT NULL
      ORDER BY lf.computed_at DESC`,
     [startDate, endDate],
   );
@@ -86,19 +103,31 @@ async function exportTrainingData({ startDate, endDate, output }) {
 
   const csvRows = [
     header.join(','),
-    ...rows.map((row) => [
-      row.book_id,
-      row.feature_version,
-      row.computed_at?.toISOString?.() || row.computed_at,
-      encodeFeatureVector(row.feature_vector),
-      row.label,
-      row.label_source,
-    ].map(csvValue).join(',')),
+    ...rows.map((row) =>
+      [
+        row.book_id,
+        row.feature_version,
+        row.computed_at?.toISOString?.() || row.computed_at,
+        encodeFeatureVector(row.feature_vector),
+        row.label,
+        row.label_source,
+      ]
+        .map(csvValue)
+        .join(',')
+    ),
   ];
 
   const outputPath = path.resolve(output);
-  await fs.mkdir(path.dirname(outputPath), { recursive: true });
-  await fs.writeFile(outputPath, `${csvRows.join('\n')}\n`, 'utf8');
+
+  await fs.mkdir(path.dirname(outputPath), {
+    recursive: true,
+  });
+
+  await fs.writeFile(
+    outputPath,
+    `${csvRows.join('\n')}\n`,
+    'utf8'
+  );
 
   return {
     status: 'ok',
@@ -113,7 +142,11 @@ const args = parseArgs(process.argv.slice(2));
 
 try {
   const result = await exportTrainingData(args);
-  console.log('[ml:export]', JSON.stringify(result, null, 2));
+
+  console.log(
+    '[ml:export]',
+    JSON.stringify(result, null, 2)
+  );
 } catch (err) {
   console.error('[ml:export] failed:', err.message);
   process.exitCode = 1;
