@@ -8,12 +8,39 @@ import pool from '../db/client.js';
 export const QUEUE_NAME = process.env.INFERENCE_QUEUE_NAME || 'ml-inference';
 
 const MODEL_PATH = process.env.MODEL_PATH || 'data/models/ml';
-const MODEL_FILE = 'model.onnx';
+const MODEL_FILE = process.env.MODEL_FILE || 'latest.onnx';
+const FEATURE_ORDER_FILE = process.env.FEATURE_ORDER_FILE || 'latest.features.json';
 
 function resolveModelPath() {
-  const full = path.resolve(MODEL_PATH, MODEL_FILE);
-  if (!fs.existsSync(full)) return null;
-  return full;
+  const fullPath = path.resolve(MODEL_PATH, MODEL_FILE);
+  if (!fs.existsSync(fullPath)) return null;
+  return fullPath;
+}
+
+function resolveFeatureOrderPath() {
+  const fullPath = path.resolve(MODEL_PATH, FEATURE_ORDER_FILE);
+  if (!fs.existsSync(fullPath)) return null;
+  return fullPath;
+}
+
+function getModelVersion() {
+  if (process.env.MODEL_VERSION) return process.env.MODEL_VERSION;
+
+  const metadataPath = path.resolve(MODEL_PATH, 'latest.metadata.json');
+  if (!fs.existsSync(metadataPath)) return 'unknown';
+
+  const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
+  return metadata.model_version || 'unknown';
+}
+
+function loadFeatureOrder() {
+  const featureOrderPath = resolveFeatureOrderPath();
+
+  if (!featureOrderPath) {
+    throw new Error(`Feature order file not found: ${path.resolve(MODEL_PATH, FEATURE_ORDER_FILE)}`);
+  }
+
+  return JSON.parse(fs.readFileSync(featureOrderPath, 'utf8'));
 }
 
 async function loadModel() {
@@ -22,45 +49,36 @@ async function loadModel() {
   return ort.InferenceSession.create(modelPath);
 }
 
-function extractFeatureVector(row) {
-  const f = row.features;
-  return [
-    f.request_count ?? 0,
-    f.ranking_score ?? 0,
-    f.request_count_decayed ?? 0,
-    f.generation_priority_score ?? 0,
-    f.score_freshness_hours ?? 0,
-    f.snapshot_request_count_7d ?? 0,
-    f.snapshot_request_count_30d ?? 0,
-    f.snapshot_ranking_avg_30d ?? 0,
-    f.snapshot_count_90d ?? 0,
-    f.last_snapshot_hours_ago ?? 0,
-    f.video_retry_count ?? 0,
-    f.video_has_error ? 1 : 0,
-    f.video_expires_hours ?? 0,
-    f.scenario_priority ?? 0,
-    f.scenario_has_error ? 1 : 0,
-    f.scenario_count ?? 0,
-    f.video_job_priority_score ?? 0,
-    f.job_did_request_retries ?? 0,
-    f.job_expires_hours ?? 0,
-    f.job_retry_count ?? 0,
-    f.job_starvation_days ?? 0,
-    f.agreement_score ?? 0,
-    f.validator_count ?? 0,
-    f.sync_success_rate_7d ?? 0,
-    f.sync_record_count_30d ?? 0,
-    f.sync_total_errors_7d ?? 0,
-    f.sync_source_webhook_ratio ?? 0,
-    f.hours_since_last_sync ?? 0,
-    f.payload_hash_changed ? 1 : 0,
-    f.engagement_type_count ?? 0,
-    f.distinct_engagement_users ?? 0,
-  ];
+function coerceFeatureValue(value) {
+  if (value === null || value === undefined) return 0;
+  if (typeof value === 'boolean') return value ? 1 : 0;
+  if (typeof value === 'number' && Number.isFinite(value)) return value;
+
+  const number = Number(value);
+  return Number.isFinite(number) ? number : 0;
+}
+
+function extractFeatureVector(row, featureOrder) {
+  const featureVector = row.feature_vector || {};
+  return featureOrder.map((featureName) => coerceFeatureValue(featureVector[featureName]));
+}
+
+function readPredictionScore(results) {
+  if (results.score?.data?.length > 0) {
+    return Number(results.score.data[0]);
+  }
+
+  const firstOutputName = Object.keys(results)[0];
+  if (!firstOutputName || !results[firstOutputName]?.data?.length) {
+    throw new Error('ONNX model returned no prediction output');
+  }
+
+  return Number(results[firstOutputName].data[0]);
 }
 
 async function runInference() {
   const modelPath = resolveModelPath();
+
   if (!modelPath) {
     return { status: 'skipped', reason: 'model_not_found', path: MODEL_PATH };
   }
@@ -70,47 +88,64 @@ async function runInference() {
     return { status: 'skipped', reason: 'model_load_failed' };
   }
 
+  const featureOrder = loadFeatureOrder();
+  const modelVersion = getModelVersion();
+
   const { rows } = await pool.query(
-    `SELECT mf.id AS feature_id, mf.book_id, mf.features
+    `SELECT mf.id AS feature_id,
+            mf.book_id,
+            mf.feature_vector
        FROM ml_book_features mf
        JOIN video_jobs vj ON vj.book_id = mf.book_id
        LEFT JOIN LATERAL (
-         SELECT id FROM ml_prediction_log
+         SELECT id
+           FROM ml_prediction_log
           WHERE book_id = mf.book_id
             AND model_version = $1
-          ORDER BY inference_timestamp DESC
+          ORDER BY inferred_at DESC
           LIMIT 1
        ) pl ON TRUE
       WHERE vj.status IN ('pending', 'active')
         AND pl.id IS NULL
       ORDER BY mf.book_id`,
-    [process.env.MODEL_VERSION || '0.1.0'],
+    [modelVersion],
   );
 
   if (rows.length === 0) {
     return { status: 'ok', reason: 'no_unscheduled_books' };
   }
 
-  const modelVersion = process.env.MODEL_VERSION || '0.1.0';
   const client = await pool.connect();
   let predicted = 0;
 
   try {
     for (const row of rows) {
-      const inputTensor = new ort.Tensor('float32', new Float32Array(extractFeatureVector(row)), [1, 31]);
+      const inputValues = extractFeatureVector(row, featureOrder);
+      const inputTensor = new ort.Tensor('float32', new Float32Array(inputValues), [1, inputValues.length]);
       const results = await session.run({ input: inputTensor });
-      const score = results.score.data[0];
+      const predictionScore = readPredictionScore(results);
 
       await client.query(
         `INSERT INTO ml_prediction_log
-           (book_id, model_version, predicted_priority_score, feature_vector_id, inference_timestamp)
-         VALUES ($1, $2, $3, $4, CURRENT_TIMESTAMP)`,
-        [row.book_id, modelVersion, score, row.feature_id],
+           (book_id, model_version, prediction_score, confidence, features_snapshot, inferred_at)
+         VALUES
+           ($1, $2, $3, $4, $5::jsonb, CURRENT_TIMESTAMP)`,
+        [
+          row.book_id,
+          modelVersion,
+          predictionScore,
+          1.0,
+          JSON.stringify(row.feature_vector),
+        ],
       );
+
       predicted++;
     }
 
     return { status: 'ok', predicted, modelVersion };
+  } catch (err) {
+    console.error('[inference] run error:', err.message);
+    return { status: 'error_logged', error: err.message, predicted };
   } finally {
     client.release();
   }

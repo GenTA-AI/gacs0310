@@ -1,14 +1,21 @@
-/* Materialized ML feature vector table — single JSONB column per book_id per computation run */
-/* Features are derived from source tables (book_did_engagement, smart_did_video_state, etc.) via FeatureComputationService */
+/*
+Create materialized ML feature vector table.
+
+One row stores the latest computed feature vector for a book and feature version.
+Feature vectors are computed from Smart DID + GACS source tables by FeatureComputationService.
+*/
 
 CREATE TABLE ml_book_features (
   id BIGSERIAL PRIMARY KEY,
   book_id UUID NOT NULL REFERENCES books(book_id) ON DELETE CASCADE,
-  features JSONB NOT NULL,
+  feature_vector JSONB NOT NULL,
   feature_version VARCHAR(32) NOT NULL DEFAULT '0.1.0',
-  computed_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+  computed_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+  CONSTRAINT uq_ml_book_features_book_version UNIQUE(book_id, feature_version),
+  CONSTRAINT chk_ml_book_features_vector_object CHECK (jsonb_typeof(feature_vector) = 'object')
 );
 
 CREATE INDEX idx_ml_book_features_book_id ON ml_book_features(book_id);

@@ -147,6 +147,17 @@ python scripts/generation/coordinate_video_generator.py --mode traverse --axis P
 python scripts/generation/coordinate_video_generator.py --mode target --pc1 10 --pc2 -5
 ```
 
+## ML Feature Store & Inference
+
+```bash
+npm run feature:compute
+npm run ml:export
+npm run ml:train
+npm run ml:evaluate
+npm run ml:retrain
+npm run ml:feedback
+npm run worker:inference
+
 ---
 
 ## License

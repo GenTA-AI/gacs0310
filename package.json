@@ -6,7 +6,11 @@
     "start": "node src/app.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:e2e": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/e2e",
+    "test:e2e:ml": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/e2e/ml-full-cycle.test.js",
     "test:sync": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/sync",
+    "test:features": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/features",
+    "test:ml": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/ml",
+    "test:ml:pipeline": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/ml",
     "sync:did": "node scripts/run-did-incremental-sync.js",
     "worker:did-sync": "node src/sync/did/incremental-sync.worker.js",
     "priority:refresh": "node scripts/run-refresh-priority-scores.js",
@@ -16,8 +20,9 @@
     "ml:export": "node scripts/export-ml-training-data.js",
     "ml:train": "python src/ml/train_pipeline.py",
     "ml:evaluate": "python src/ml/evaluate.py",
+    "ml:registry": "python src/ml/model_registry.py",
     "ml:retrain": "node src/ml/retrain.trigger.js",
-    "ml:retrain:watch": "nodemon --watch data/training_data.csv --exec 'npm run ml:retrain'",
+    "ml:retrain:watch": "nodemon --watch data/training_data.csv --exec \"npm run ml:retrain\"",
     "ml:feedback": "node src/ml/feedback-tracker.service.js"
   },
   "dependencies": {
@@ -33,6 +38,7 @@
     "@types/node": "^25.6.0",
     "ioredis-mock": "^8.13.1",
     "jest": "^30.3.0",
+    "nodemon": "^3.1.10",
     "supertest": "^7.2.2"
   }
 }
